@@ -1,0 +1,326 @@
+uname -a: Linux ubuntu 4.4.0-186-generic #216-Ubuntu SMP Wed Jul 1 05:34:05 UTC 2020 x86_64 GNU/Linux
+lspci -knn: 00:00.0 Host bridge [0600]: Intel Corporation 440FX - 82441FX PMC [Natoma] [8086:1237] (rev 02)
+lspci -knn: 00:01.0 ISA bridge [0601]: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II] [8086:7000]
+lspci -knn: 00:01.1 IDE interface [0101]: Intel Corporation 82371AB/EB/MB PIIX4 IDE [8086:7111] (rev 01)
+lspci -knn: 	Kernel driver in use: ata_piix
+lspci -knn: 00:02.0 VGA compatible controller [0300]: VMware SVGA II Adapter [15ad:0405]
+lspci -knn: 	Subsystem: VMware SVGA II Adapter [15ad:0405]
+lspci -knn: 00:03.0 Ethernet controller [0200]: Intel Corporation 82540EM Gigabit Ethernet Controller [8086:100e] (rev 02)
+lspci -knn: 	Subsystem: Intel Corporation Device [8086:001e]
+lspci -knn: 	Kernel driver in use: e1000
+lspci -knn: 	Kernel modules: e1000
+lspci -knn: 00:04.0 System peripheral [0880]: InnoTek Systemberatung GmbH VirtualBox Guest Service [80ee:cafe]
+lspci -knn: 00:05.0 Multimedia audio controller [0401]: Intel Corporation 82801AA AC'97 Audio Controller [8086:2415] (rev 01)
+lspci -knn: 	Subsystem: Dell Device [1028:0177]
+lspci -knn: 00:06.0 USB controller [0c03]: Apple Inc. KeyLargo/Intrepid USB [106b:003f]
+lspci -knn: 	Kernel driver in use: ohci-pci
+lspci -knn: 00:07.0 Bridge [0680]: Intel Corporation 82371AB/EB/MB PIIX4 ACPI [8086:7113] (rev 08)
+lspci -knn: 00:0d.0 SATA controller [0106]: Intel Corporation 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode] [8086:2829] (rev 02)
+lspci -knn: 	Kernel driver in use: ahci
+lspci -knn: 	Kernel modules: ahci
+usb-list: 
+usb-list: Bus 01 Device 01: OHCI PCI host controller [1d6b:0001]
+usb-list:    Level 00 Parent 00 Port 00  Class 09(hub  ) Subclass 00 Protocol 00
+usb-list:    Manufacturer: Linux 4.4.0-186-generic ohci_hcd
+usb-list:    Interface 00: Class 09(hub  ) Subclass 00 Protocol 00 Driver hub
+usb-list: 
+usb-list: Bus 01 Device 02: USB Tablet [80ee:0021]
+usb-list:    Level 01 Parent 01 Port 00  Class 00(>ifc ) Subclass 00 Protocol 00
+usb-list:    Manufacturer: VirtualBox
+usb-list:    Interface 00: Class 03(HID  ) Subclass 00 Protocol 00 Driver usbhid
+lsmod: Module                  Size  Used by
+lsmod: ufs                    73728  0
+lsmod: qnx4                   16384  0
+lsmod: minix                  36864  0
+lsmod: msdos                  20480  0
+lsmod: hfsplus               106496  0
+lsmod: hfs                    57344  0
+lsmod: ntfs                   98304  0
+lsmod: ib_iser                49152  0
+lsmod: rdma_cm                49152  1 ib_iser
+lsmod: iw_cm                  45056  1 rdma_cm
+lsmod: ib_cm                  49152  1 rdma_cm
+lsmod: ib_sa                  36864  2 rdma_cm,ib_cm
+lsmod: ib_mad                 49152  2 ib_cm,ib_sa
+lsmod: ib_core               106496  6 rdma_cm,ib_cm,ib_sa,iw_cm,ib_mad,ib_iser
+lsmod: ib_addr                20480  2 rdma_cm,ib_core
+lsmod: iscsi_tcp              20480  0
+lsmod: libiscsi_tcp           24576  1 iscsi_tcp
+lsmod: libiscsi               53248  3 libiscsi_tcp,iscsi_tcp,ib_iser
+lsmod: scsi_transport_iscsi   102400  3 iscsi_tcp,ib_iser,libiscsi
+lsmod: xfs                   974848  0
+lsmod: jfs                   184320  0
+lsmod: btrfs                 995328  0
+lsmod: raid10                 49152  0
+lsmod: raid456               106496  0
+lsmod: async_raid6_recov      20480  1 raid456
+lsmod: async_memcpy           16384  2 raid456,async_raid6_recov
+lsmod: async_pq               16384  2 raid456,async_raid6_recov
+lsmod: async_xor              16384  3 async_pq,raid456,async_raid6_recov
+lsmod: async_tx               16384  5 async_pq,raid456,async_xor,async_memcpy,async_raid6_recov
+lsmod: xor                    24576  2 btrfs,async_xor
+lsmod: raid6_pq              102400  4 async_pq,raid456,btrfs,async_raid6_recov
+lsmod: libcrc32c              16384  2 xfs,raid456
+lsmod: raid1                  40960  0
+lsmod: raid0                  20480  0
+lsmod: multipath              16384  0
+lsmod: linear                 16384  0
+lsmod: scsi_dh_hp_sw          16384  0
+lsmod: scsi_dh_alua           20480  0
+lsmod: scsi_dh_emc            16384  0
+lsmod: scsi_dh_rdac           16384  0
+lsmod: ghash_clmulni_intel    16384  0
+lsmod: aesni_intel           167936  0
+lsmod: aes_x86_64             20480  1 aesni_intel
+lsmod: ablk_helper            16384  1 aesni_intel
+lsmod: cryptd                 20480  3 ghash_clmulni_intel,aesni_intel,ablk_helper
+lsmod: lrw                    16384  1 aesni_intel
+lsmod: gf128mul               16384  1 lrw
+lsmod: glue_helper            16384  1 aesni_intel
+lsmod: e1000                 135168  0
+lsmod: nls_utf8               16384  0
+lsmod: isofs                  40960  0
+lsmod: usb_storage            73728  0
+lsmod: hid_generic            16384  0
+lsmod: usbhid                 53248  0
+lsmod: hid                   118784  2 hid_generic,usbhid
+lsmod: ahci                   40960  2
+lsmod: libahci                32768  1 ahci
+df: Filesystem           1K-blocks      Used Available Use% Mounted on
+df: none                    101588        92    101496   0% /run
+df: devtmpfs                499304         0    499304   0% /dev
+df: /dev/sda1              9204224   1600416   7113212  18% /target
+df: devtmpfs                499304         0    499304   0% /target/dev
+free:              total         used         free       shared      buffers
+free: Mem:       1015852       876632       139220       162588        60984
+free: -/+ buffers:             815648       200204
+free: Swap:       998396        19136       979260
+dmraid -s: no raid disks
+dmraid -r: no raid disks
+dmsetup table: No devices found
+/proc/cmdline: file=/cdrom/preseed/ubuntu-server.seed vga=788 initrd=/install/initrd.gz quiet ---
+/proc/cpuinfo: processor	: 0
+/proc/cpuinfo: vendor_id	: AuthenticAMD
+/proc/cpuinfo: cpu family	: 23
+/proc/cpuinfo: model		: 8
+/proc/cpuinfo: model name	: AMD Ryzen 5 2600 Six-Core Processor
+/proc/cpuinfo: stepping	: 2
+/proc/cpuinfo: microcode	: 0x6000626
+/proc/cpuinfo: cpu MHz		: 3393.624
+/proc/cpuinfo: cache size	: 512 KB
+/proc/cpuinfo: physical id	: 0
+/proc/cpuinfo: siblings	: 1
+/proc/cpuinfo: core id		: 0
+/proc/cpuinfo: cpu cores	: 1
+/proc/cpuinfo: apicid		: 0
+/proc/cpuinfo: initial apicid	: 0
+/proc/cpuinfo: fpu		: yes
+/proc/cpuinfo: fpu_exception	: yes
+/proc/cpuinfo: cpuid level	: 13
+/proc/cpuinfo: wp		: yes
+/proc/cpuinfo: flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid tsc_known_freq pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse 3dnowprefetch ssbd vmmcall fsgsbase avx2 rdseed clflushopt arat
+/proc/cpuinfo: bugs		: fxsave_leak sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass
+/proc/cpuinfo: bogomips	: 6787.24
+/proc/cpuinfo: TLB size	: 2560 4K pages
+/proc/cpuinfo: clflush size	: 64
+/proc/cpuinfo: cache_alignment	: 64
+/proc/cpuinfo: address sizes	: 48 bits physical, 48 bits virtual
+/proc/cpuinfo: power management:
+/proc/cpuinfo: 
+/proc/ioports: 0000-0cf7 : PCI Bus 0000:00
+/proc/ioports:   0000-001f : dma1
+/proc/ioports:   0020-0021 : pic1
+/proc/ioports:   0040-0043 : timer0
+/proc/ioports:   0050-0053 : timer1
+/proc/ioports:   0060-0060 : keyboard
+/proc/ioports:   0064-0064 : keyboard
+/proc/ioports:   0070-0071 : rtc_cmos
+/proc/ioports:     0070-0071 : rtc0
+/proc/ioports:   0080-008f : dma page reg
+/proc/ioports:   00a0-00a1 : pic2
+/proc/ioports:   00c0-00df : dma2
+/proc/ioports:   00f0-00ff : fpu
+/proc/ioports:   0170-0177 : 0000:00:01.1
+/proc/ioports:     0170-0177 : ata_piix
+/proc/ioports:   01f0-01f7 : 0000:00:01.1
+/proc/ioports:     01f0-01f7 : ata_piix
+/proc/ioports:   0376-0376 : 0000:00:01.1
+/proc/ioports:     0376-0376 : ata_piix
+/proc/ioports:   03c0-03df : vesafb
+/proc/ioports:   03f6-03f6 : 0000:00:01.1
+/proc/ioports:     03f6-03f6 : ata_piix
+/proc/ioports: 0cf8-0cff : PCI conf1
+/proc/ioports: 0d00-ffff : PCI Bus 0000:00
+/proc/ioports:   4000-403f : 0000:00:07.0
+/proc/ioports:     4000-4003 : ACPI PM1a_EVT_BLK
+/proc/ioports:     4004-4005 : ACPI PM1a_CNT_BLK
+/proc/ioports:     4008-400b : ACPI PM_TMR
+/proc/ioports:     4020-4021 : ACPI GPE0_BLK
+/proc/ioports:   4100-410f : 0000:00:07.0
+/proc/ioports:   d000-d00f : 0000:00:01.1
+/proc/ioports:     d000-d00f : ata_piix
+/proc/ioports:   d010-d01f : 0000:00:02.0
+/proc/ioports:   d020-d027 : 0000:00:03.0
+/proc/ioports:     d020-d027 : e1000
+/proc/ioports:   d040-d05f : 0000:00:04.0
+/proc/ioports:   d100-d1ff : 0000:00:05.0
+/proc/ioports:   d200-d23f : 0000:00:05.0
+/proc/ioports:   d240-d247 : 0000:00:0d.0
+/proc/ioports:     d240-d247 : ahci
+/proc/ioports:   d248-d24b : 0000:00:0d.0
+/proc/ioports:     d248-d24b : ahci
+/proc/ioports:   d250-d257 : 0000:00:0d.0
+/proc/ioports:     d250-d257 : ahci
+/proc/ioports:   d258-d25b : 0000:00:0d.0
+/proc/ioports:     d258-d25b : ahci
+/proc/ioports:   d260-d26f : 0000:00:0d.0
+/proc/ioports:     d260-d26f : ahci
+/proc/iomem: 00000000-00000fff : reserved
+/proc/iomem: 00001000-0009fbff : System RAM
+/proc/iomem: 0009fc00-0009ffff : reserved
+/proc/iomem: 000a0000-000bffff : PCI Bus 0000:00
+/proc/iomem: 000c0000-000c7fff : Video ROM
+/proc/iomem: 000e2000-000ef3ff : Adapter ROM
+/proc/iomem: 000f0000-000fffff : reserved
+/proc/iomem:   000f0000-000fffff : System ROM
+/proc/iomem: 00100000-3ffeffff : System RAM
+/proc/iomem:   01000000-0186f3a0 : Kernel code
+/proc/iomem:   0186f3a1-01f4e47f : Kernel data
+/proc/iomem:   020cf000-02212fff : Kernel bss
+/proc/iomem: 3fff0000-3fffffff : ACPI Tables
+/proc/iomem: 40000000-fdffffff : PCI Bus 0000:00
+/proc/iomem:   e0000000-e0ffffff : 0000:00:02.0
+/proc/iomem:     e0000000-e0ffffff : vesafb
+/proc/iomem:   f0000000-f01fffff : 0000:00:02.0
+/proc/iomem:   f0200000-f021ffff : 0000:00:03.0
+/proc/iomem:     f0200000-f021ffff : e1000
+/proc/iomem:   f0400000-f07fffff : 0000:00:04.0
+/proc/iomem:   f0800000-f0803fff : 0000:00:04.0
+/proc/iomem:   f0804000-f0804fff : 0000:00:06.0
+/proc/iomem:     f0804000-f0804fff : ohci_hcd
+/proc/iomem:   f0806000-f0807fff : 0000:00:0d.0
+/proc/iomem:     f0806000-f0807fff : ahci
+/proc/iomem: fec00000-fec00fff : reserved
+/proc/iomem:   fec00000-fec003ff : IOAPIC 0
+/proc/iomem: fee00000-fee00fff : Local APIC
+/proc/iomem:   fee00000-fee00fff : reserved
+/proc/iomem: fffc0000-ffffffff : reserved
+/proc/interrupts:            CPU0       
+/proc/interrupts:   0:         43   IO-APIC   2-edge      timer
+/proc/interrupts:   1:        924   IO-APIC   1-edge      i8042
+/proc/interrupts:   8:          0   IO-APIC   8-edge      rtc0
+/proc/interrupts:   9:          0   IO-APIC   9-fasteoi   acpi
+/proc/interrupts:  12:          3   IO-APIC  12-edge      i8042
+/proc/interrupts:  14:          0   IO-APIC  14-edge      ata_piix
+/proc/interrupts:  15:       6951   IO-APIC  15-edge      ata_piix
+/proc/interrupts:  19:      33274   IO-APIC  19-fasteoi   enp0s3
+/proc/interrupts:  21:      97391   IO-APIC  21-fasteoi   0000:00:0d.0
+/proc/interrupts:  22:         34   IO-APIC  22-fasteoi   ohci_hcd:usb1
+/proc/interrupts: NMI:          0   Non-maskable interrupts
+/proc/interrupts: LOC:     116486   Local timer interrupts
+/proc/interrupts: SPU:          0   Spurious interrupts
+/proc/interrupts: PMI:          0   Performance monitoring interrupts
+/proc/interrupts: IWI:          1   IRQ work interrupts
+/proc/interrupts: RTR:          0   APIC ICR read retries
+/proc/interrupts: RES:          0   Rescheduling interrupts
+/proc/interrupts: CAL:          0   Function call interrupts
+/proc/interrupts: TLB:          0   TLB shootdowns
+/proc/interrupts: TRM:          0   Thermal event interrupts
+/proc/interrupts: THR:          0   Threshold APIC interrupts
+/proc/interrupts: DFR:          0   Deferred Error APIC interrupts
+/proc/interrupts: MCE:          0   Machine check exceptions
+/proc/interrupts: MCP:          3   Machine check polls
+/proc/interrupts: ERR:          0
+/proc/interrupts: MIS:          0
+/proc/interrupts: PIN:          0   Posted-interrupt notification event
+/proc/interrupts: PIW:          0   Posted-interrupt wakeup event
+/proc/meminfo: MemTotal:        1015852 kB
+/proc/meminfo: MemFree:          139272 kB
+/proc/meminfo: MemAvailable:     633940 kB
+/proc/meminfo: Buffers:           60984 kB
+/proc/meminfo: Cached:           687184 kB
+/proc/meminfo: SwapCached:         1060 kB
+/proc/meminfo: Active:           318564 kB
+/proc/meminfo: Inactive:         454784 kB
+/proc/meminfo: Active(anon):      62220 kB
+/proc/meminfo: Inactive(anon):   125548 kB
+/proc/meminfo: Active(file):     256344 kB
+/proc/meminfo: Inactive(file):   329236 kB
+/proc/meminfo: Unevictable:           0 kB
+/proc/meminfo: Mlocked:               0 kB
+/proc/meminfo: SwapTotal:        998396 kB
+/proc/meminfo: SwapFree:         979264 kB
+/proc/meminfo: Dirty:             40120 kB
+/proc/meminfo: Writeback:             0 kB
+/proc/meminfo: AnonPages:         24156 kB
+/proc/meminfo: Mapped:             4812 kB
+/proc/meminfo: Shmem:            162588 kB
+/proc/meminfo: Slab:              84360 kB
+/proc/meminfo: SReclaimable:      73620 kB
+/proc/meminfo: SUnreclaim:        10740 kB
+/proc/meminfo: KernelStack:        1696 kB
+/proc/meminfo: PageTables:          704 kB
+/proc/meminfo: NFS_Unstable:          0 kB
+/proc/meminfo: Bounce:                0 kB
+/proc/meminfo: WritebackTmp:          0 kB
+/proc/meminfo: CommitLimit:     1506320 kB
+/proc/meminfo: Committed_AS:     209252 kB
+/proc/meminfo: VmallocTotal:   34359738367 kB
+/proc/meminfo: VmallocUsed:           0 kB
+/proc/meminfo: VmallocChunk:          0 kB
+/proc/meminfo: HardwareCorrupted:     0 kB
+/proc/meminfo: AnonHugePages:         0 kB
+/proc/meminfo: CmaTotal:              0 kB
+/proc/meminfo: CmaFree:               0 kB
+/proc/meminfo: HugePages_Total:       0
+/proc/meminfo: HugePages_Free:        0
+/proc/meminfo: HugePages_Rsvd:        0
+/proc/meminfo: HugePages_Surp:        0
+/proc/meminfo: Hugepagesize:       2048 kB
+/proc/meminfo: DirectMap4k:       42944 kB
+/proc/meminfo: DirectMap2M:     1005568 kB
+/proc/bus/input/devices: I: Bus=0019 Vendor=0000 Product=0001 Version=0000
+/proc/bus/input/devices: N: Name="Power Button"
+/proc/bus/input/devices: P: Phys=LNXPWRBN/button/input0
+/proc/bus/input/devices: S: Sysfs=/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+/proc/bus/input/devices: U: Uniq=
+/proc/bus/input/devices: H: Handlers=kbd event0 
+/proc/bus/input/devices: B: PROP=0
+/proc/bus/input/devices: B: EV=3
+/proc/bus/input/devices: B: KEY=10000000000000 0
+/proc/bus/input/devices: 
+/proc/bus/input/devices: I: Bus=0019 Vendor=0000 Product=0003 Version=0000
+/proc/bus/input/devices: N: Name="Sleep Button"
+/proc/bus/input/devices: P: Phys=LNXSLPBN/button/input0
+/proc/bus/input/devices: S: Sysfs=/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+/proc/bus/input/devices: U: Uniq=
+/proc/bus/input/devices: H: Handlers=kbd event1 
+/proc/bus/input/devices: B: PROP=0
+/proc/bus/input/devices: B: EV=3
+/proc/bus/input/devices: B: KEY=4000 0 0
+/proc/bus/input/devices: 
+/proc/bus/input/devices: I: Bus=0011 Vendor=0001 Product=0001 Version=ab41
+/proc/bus/input/devices: N: Name="AT Translated Set 2 keyboard"
+/proc/bus/input/devices: P: Phys=isa0060/serio0/input0
+/proc/bus/input/devices: S: Sysfs=/devices/platform/i8042/serio0/input/input2
+/proc/bus/input/devices: U: Uniq=
+/proc/bus/input/devices: H: Handlers=sysrq kbd event2 
+/proc/bus/input/devices: B: PROP=0
+/proc/bus/input/devices: B: EV=120013
+/proc/bus/input/devices: B: KEY=402000000 3803078f800d001 feffffdfffefffff fffffffffffffffe
+/proc/bus/input/devices: B: MSC=10
+/proc/bus/input/devices: B: LED=7
+/proc/bus/input/devices: 
+/proc/bus/input/devices: I: Bus=0003 Vendor=80ee Product=0021 Version=0110
+/proc/bus/input/devices: N: Name="VirtualBox USB Tablet"
+/proc/bus/input/devices: P: Phys=usb-0000:00:06.0-1/input0
+/proc/bus/input/devices: S: Sysfs=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input4
+/proc/bus/input/devices: U: Uniq=
+/proc/bus/input/devices: H: Handlers=mouse0 event3 
+/proc/bus/input/devices: B: PROP=0
+/proc/bus/input/devices: B: EV=1f
+/proc/bus/input/devices: B: KEY=1f0000 0 0 0 0
+/proc/bus/input/devices: B: REL=140
+/proc/bus/input/devices: B: ABS=3
+/proc/bus/input/devices: B: MSC=10
+/proc/bus/input/devices: 

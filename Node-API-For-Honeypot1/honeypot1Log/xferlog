@@ -1,0 +1,8 @@
+Sun Feb 26 09:17:47 2023 0 10.0.2.7 109 /var/www/html/files/CALL.html b _ o a anonymous ftp 0 * c
+Sun Feb 26 09:24:09 2023 0 10.0.2.7 5490 /var/www/html/files/php-reverse-shell.php b _ i a anonymous ftp 0 * c
+Sun Feb 26 12:38:39 2023 0 10.0.2.7 109 /var/www/html/files/CALL.html b _ o a anonymous ftp 0 * c
+Sat Mar 04 22:03:45 2023 0 10.0.2.7 6 /var/www/html/files/selam.txt b _ i a  ftp 0 * c
+Sat Mar 04 22:04:19 2023 0 10.0.2.7 6 /var/www/html/files/selam.txt a _ d a  ftp 0 * c
+Mon Mar 06 14:21:49 2023 0 10.0.2.7 1488 /var/www/html/files/trophy.txt b _ i a , ftp 0 * c
+Mon Mar 06 14:22:29 2023 0 10.0.2.7 1488 /var/www/html/files/trophy.txt a _ d a  ftp 0 * c
+Fri Mar 31 17:04:07 2023 0 10.0.2.7 0 /var/www/html/files/selma.txt b _ i a  ftp 0 * c

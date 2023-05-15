@@ -1,0 +1,130 @@
+sudo -l
+exit
+cat /etc/passwd
+cat /etc/shadow
+su root
+exit
+su
+exit
+whoami
+cd 
+ls -la
+cd /root
+ls -la
+cat root.txt 
+exit
+whoami
+ls -l
+cd ..
+ls -la
+sudo -l
+sudo /usr/bin/python3.5 -c 'import pty;pty.spawn("/bin/bash")'
+exit
+su root
+cd
+ls -l
+pwd
+ld
+ls
+unzip Node.zip 
+apt install zip
+sudo apt install zip
+su
+exit
+su root
+sudo apt install npm
+su root
+sudo apt install npm
+cat auth.log 
+su
+apt install npm
+sudo apt install npm
+cat auth.log 
+sudo python3.5 
+cat auth.log 
+su toor
+su
+exit
+cd 
+ls -la
+ssh-keygen 
+ls -la
+rmdir .ssh
+rmdir .ssh -r
+rmdir .ssh -R
+rm .ssh -r
+su root
+exit
+cat /au
+cat /var/log/auth.log 
+su
+exit
+cd apache2/
+su
+exit
+ls -l
+cd ..
+ls -l
+chmod 755 apache2/*
+su
+exit
+ls -l
+cat auth.loh
+cat auth.log
+clear
+ls -l
+su 
+exit
+ls -l
+cd ..
+ls -l
+cat important.txt 
+cat /etc/passwd
+cd 
+ls -l
+cd ..
+ls -l
+cat important.txt
+/.runme.sh 
+cat /etc/sudoers
+exit
+ls -l
+cat hello.txt 
+ls -l
+cd ..
+ls -l
+cd tech/
+ls -l
+exit
+wwwdata
+su wwwdata
+sudo -l
+ls -la
+pwd
+cd ..
+ls -l
+cat important.txt 
+/.runme.sh
+onion
+sudo -l
+uname -a
+exit
+cat /etc/lsb-release 
+cd /etc/apache2/
+ls -l
+cd ..
+ll
+cd /var/
+ll
+cd log
+ll
+cd apache2/
+ll
+vim access.log 
+vim access.log
+su 
+cat /var/log/apache2/access.log 
+cat /var/log/apache2/access.log  -n
+cat -n /var/log/apache2/access.log 
+su
+exit

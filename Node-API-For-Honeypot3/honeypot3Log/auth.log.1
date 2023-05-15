@@ -1,0 +1,745 @@
+Jun 24 19:29:37 funbox10 systemd-logind[810]: New seat seat0.
+Jun 24 19:29:37 funbox10 systemd-logind[810]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 24 19:29:37 funbox10 systemd-logind[810]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 24 19:29:37 funbox10 systemd-logind[810]: Watching system buttons on /dev/input/event3 (Video Bus)
+Jun 24 19:29:39 funbox10 sshd[1138]: Server listening on 0.0.0.0 port 22.
+Jun 24 19:29:39 funbox10 sshd[1138]: Server listening on :: port 22.
+Jun 24 19:30:41 funbox10 sshd[1460]: Accepted password for joe from 192.168.178.37 port 47534 ssh2
+Jun 24 19:30:41 funbox10 sshd[1460]: pam_unix(sshd:session): session opened for user joe by (uid=0)
+Jun 24 19:30:41 funbox10 systemd: pam_unix(systemd-user:session): session opened for user joe by (uid=0)
+Jun 24 19:30:41 funbox10 systemd-logind[810]: New session 1 of user joe.
+Jun 24 19:30:52 funbox10 su[1564]: pam_unix(su:auth): authentication failure; logname=joe uid=1000 euid=0 tty=/dev/pts/0 ruser=joe rhost=  user=root
+Jun 24 19:30:54 funbox10 su[1564]: pam_authenticate: Authentication failure
+Jun 24 19:30:54 funbox10 su[1564]: FAILED su for root by joe
+Jun 24 19:30:54 funbox10 su[1564]: - /dev/pts/0 joe:root
+Jun 24 19:31:07 funbox10 su[1565]: pam_unix(su:auth): authentication failure; logname=joe uid=1000 euid=0 tty=/dev/pts/0 ruser=joe rhost=  user=root
+Jun 24 19:31:09 funbox10 su[1565]: pam_authenticate: Authentication failure
+Jun 24 19:31:09 funbox10 su[1565]: FAILED su for root by joe
+Jun 24 19:31:09 funbox10 su[1565]: - /dev/pts/0 joe:root
+Jun 24 19:31:23 funbox10 sudo:      joe : TTY=pts/0 ; PWD=/home/joe ; USER=root ; COMMAND=/usr/bin/passwd root
+Jun 24 19:31:23 funbox10 sudo: pam_unix(sudo:session): session opened for user root by joe(uid=0)
+Jun 24 19:31:34 funbox10 passwd[1567]: pam_unix(passwd:chauthtok): password changed for root
+Jun 24 19:31:34 funbox10 sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 19:31:44 funbox10 su[1568]: pam_unix(su:auth): authentication failure; logname=joe uid=1000 euid=0 tty=/dev/pts/0 ruser=joe rhost=  user=root
+Jun 24 19:31:46 funbox10 su[1568]: pam_authenticate: Authentication failure
+Jun 24 19:31:46 funbox10 su[1568]: FAILED su for root by joe
+Jun 24 19:31:46 funbox10 su[1568]: - /dev/pts/0 joe:root
+Jun 24 19:31:52 funbox10 su[1569]: Successful su for root by joe
+Jun 24 19:31:52 funbox10 su[1569]: + /dev/pts/0 joe:root
+Jun 24 19:31:52 funbox10 su[1569]: pam_unix(su:session): session opened for user root by joe(uid=1000)
+Jun 24 19:31:52 funbox10 su[1569]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 19:33:12 funbox10 groupadd[1592]: group added to /etc/group: name=jack, GID=1001
+Jun 24 19:33:12 funbox10 groupadd[1592]: group added to /etc/gshadow: name=jack
+Jun 24 19:33:12 funbox10 groupadd[1592]: new group: name=jack, GID=1001
+Jun 24 19:33:12 funbox10 useradd[1596]: new user: name=jack, UID=1001, GID=1001, home=/home/jack, shell=/bin/bash
+Jun 24 19:35:13 funbox10 passwd[1603]: pam_unix(passwd:chauthtok): password changed for jack
+Jun 24 19:35:15 funbox10 chfn[1604]: changed user 'jack' information
+Jun 24 19:35:43 funbox10 groupadd[1609]: group added to /etc/group: name=chuck, GID=1002
+Jun 24 19:35:43 funbox10 groupadd[1609]: group added to /etc/gshadow: name=chuck
+Jun 24 19:35:43 funbox10 groupadd[1609]: new group: name=chuck, GID=1002
+Jun 24 19:35:43 funbox10 useradd[1613]: new user: name=chuck, UID=1002, GID=1002, home=/home/chuck, shell=/bin/bash
+Jun 24 19:35:59 funbox10 passwd[1620]: pam_unix(passwd:chauthtok): password changed for chuck
+Jun 24 19:36:01 funbox10 chfn[1622]: changed user 'chuck' information
+Jun 24 19:36:32 funbox10 passwd[1626]: pam_unix(passwd:chauthtok): password changed for chuck
+Jun 24 19:36:59 funbox10 groupadd[1628]: group added to /etc/group: name=susan, GID=1003
+Jun 24 19:36:59 funbox10 groupadd[1628]: group added to /etc/gshadow: name=susan
+Jun 24 19:36:59 funbox10 groupadd[1628]: new group: name=susan, GID=1003
+Jun 24 19:36:59 funbox10 useradd[1632]: new user: name=susan, UID=1003, GID=1003, home=/home/susan, shell=/bin/bash
+Jun 24 19:37:05 funbox10 passwd[1639]: pam_unix(passwd:chauthtok): password changed for susan
+Jun 24 19:37:06 funbox10 chfn[1640]: changed user 'susan' information
+Jun 24 19:39:02 funbox10 CRON[1645]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 19:39:02 funbox10 CRON[1645]: pam_unix(cron:session): session closed for user root
+Jun 24 19:41:21 funbox10 sudo:     root : TTY=pts/0 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/apt install unzip
+Jun 24 19:41:21 funbox10 sudo: pam_unix(sudo:session): session opened for user root by joe(uid=0)
+Jun 24 19:41:25 funbox10 sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 20:09:01 funbox10 CRON[2060]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 20:09:01 funbox10 CRON[2060]: pam_unix(cron:session): session closed for user root
+Jun 24 20:17:01 funbox10 CRON[2106]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 20:17:01 funbox10 CRON[2106]: pam_unix(cron:session): session closed for user root
+Jun 24 20:39:01 funbox10 CRON[2170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 20:39:01 funbox10 CRON[2170]: pam_unix(cron:session): session closed for user root
+Jun 24 20:54:41 funbox10 sshd[1543]: Received disconnect from 192.168.178.37 port 47534:11: disconnected by user
+Jun 24 20:54:41 funbox10 sshd[1543]: Disconnected from 192.168.178.37 port 47534
+Jun 24 20:54:41 funbox10 sshd[1460]: pam_unix(sshd:session): session closed for user joe
+Jun 24 20:54:41 funbox10 su[1569]: pam_unix(su:session): session closed for user root
+Jun 24 20:54:41 funbox10 systemd-logind[810]: Removed session 1.
+Jun 24 20:54:42 funbox10 systemd: pam_unix(systemd-user:session): session closed for user joe
+Jun 25 00:24:10 funbox10 systemd-logind[835]: New seat seat0.
+Jun 25 00:24:10 funbox10 systemd-logind[835]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 25 00:24:10 funbox10 systemd-logind[835]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 25 00:24:10 funbox10 systemd-logind[835]: Watching system buttons on /dev/input/event3 (Video Bus)
+Jun 25 00:24:13 funbox10 sshd[1153]: Server listening on 0.0.0.0 port 22.
+Jun 25 00:24:13 funbox10 sshd[1153]: Server listening on :: port 22.
+Jun 25 00:25:18 funbox10 sshd[1465]: Connection closed by 192.168.178.150 port 61429 [preauth]
+Jun 25 00:26:05 funbox10 sshd[1468]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.178.150  user=joe
+Jun 25 00:26:07 funbox10 sshd[1468]: Failed password for joe from 192.168.178.150 port 61499 ssh2
+Jun 25 00:26:17 funbox10 sshd[1468]: Accepted password for joe from 192.168.178.150 port 61499 ssh2
+Jun 25 00:26:17 funbox10 sshd[1468]: pam_unix(sshd:session): session opened for user joe by (uid=0)
+Jun 25 00:26:17 funbox10 systemd-logind[835]: New session 1 of user joe.
+Jun 25 00:26:17 funbox10 systemd: pam_unix(systemd-user:session): session opened for user joe by (uid=0)
+Jun 25 00:26:43 funbox10 su[1569]: Successful su for root by joe
+Jun 25 00:26:43 funbox10 su[1569]: + /dev/pts/0 joe:root
+Jun 25 00:26:43 funbox10 su[1569]: pam_unix(su:session): session opened for user root by joe(uid=1000)
+Jun 25 00:26:43 funbox10 su[1569]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 25 00:39:01 funbox10 CRON[23495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 00:39:01 funbox10 CRON[23495]: pam_unix(cron:session): session closed for user root
+Jun 25 00:43:30 funbox10 systemd-logind[835]: Creating /run/nologin, blocking further logins...
+Jun 25 00:44:30 funbox10 sshd[1468]: pam_unix(sshd:session): session closed for user joe
+Jun 25 00:44:30 funbox10 su[1569]: pam_unix(su:session): session closed for user root
+Jun 25 00:44:30 funbox10 sshd[1468]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Jun 25 00:44:30 funbox10 sshd[1153]: Received signal 15; terminating.
+Jun 25 19:41:59 funbox10 systemd-logind[829]: New seat seat0.
+Jun 25 19:41:59 funbox10 systemd-logind[829]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 25 19:41:59 funbox10 systemd-logind[829]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 25 19:41:59 funbox10 systemd-logind[829]: Watching system buttons on /dev/input/event3 (Video Bus)
+Jun 25 19:42:02 funbox10 sshd[1155]: Server listening on 0.0.0.0 port 22.
+Jun 25 19:42:02 funbox10 sshd[1155]: Server listening on :: port 22.
+Jun 25 19:42:21 funbox10 sshd[1823]: Accepted password for joe from 192.168.178.150 port 54682 ssh2
+Jun 25 19:42:21 funbox10 sshd[1823]: pam_unix(sshd:session): session opened for user joe by (uid=0)
+Jun 25 19:42:21 funbox10 systemd: pam_unix(systemd-user:session): session opened for user joe by (uid=0)
+Jun 25 19:42:21 funbox10 systemd-logind[829]: New session 1 of user joe.
+Jun 25 19:42:32 funbox10 su[2019]: Successful su for root by joe
+Jun 25 19:42:32 funbox10 su[2019]: + /dev/pts/0 joe:root
+Jun 25 19:42:32 funbox10 su[2019]: pam_unix(su:session): session opened for user root by joe(uid=1000)
+Jun 25 19:42:32 funbox10 su[2019]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 25 20:09:01 funbox10 CRON[2381]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 20:09:01 funbox10 CRON[2381]: pam_unix(cron:session): session closed for user root
+Jun 25 20:17:01 funbox10 CRON[2428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 20:17:01 funbox10 CRON[2428]: pam_unix(cron:session): session closed for user root
+Jun 25 20:39:01 funbox10 CRON[2449]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 20:39:01 funbox10 CRON[2449]: pam_unix(cron:session): session closed for user root
+Jun 25 21:09:02 funbox10 CRON[2499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 21:09:02 funbox10 CRON[2499]: pam_unix(cron:session): session closed for user root
+Jun 25 21:17:01 funbox10 CRON[2545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 21:17:01 funbox10 CRON[2545]: pam_unix(cron:session): session closed for user root
+Jun 25 21:39:01 funbox10 CRON[2554]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 21:39:01 funbox10 CRON[2554]: pam_unix(cron:session): session closed for user root
+Jun 25 22:09:01 funbox10 CRON[2607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 22:09:01 funbox10 CRON[2607]: pam_unix(cron:session): session closed for user root
+Jun 25 22:17:01 funbox10 CRON[2652]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 22:17:01 funbox10 CRON[2652]: pam_unix(cron:session): session closed for user root
+Jun 25 22:29:01 funbox10 CRON[2659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 22:29:01 funbox10 CRON[2659]: pam_unix(cron:session): session closed for user root
+Jun 25 22:39:01 funbox10 CRON[2664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 22:39:01 funbox10 CRON[2664]: pam_unix(cron:session): session closed for user root
+Jun 25 23:09:01 funbox10 CRON[2745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 23:09:01 funbox10 CRON[2745]: pam_unix(cron:session): session closed for user root
+Jun 25 23:17:01 funbox10 CRON[2792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 23:17:01 funbox10 CRON[2792]: pam_unix(cron:session): session closed for user root
+Jun 25 23:39:01 funbox10 CRON[2803]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 23:39:01 funbox10 CRON[2803]: pam_unix(cron:session): session closed for user root
+Jun 26 00:09:01 funbox10 CRON[2853]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 00:09:01 funbox10 CRON[2853]: pam_unix(cron:session): session closed for user root
+Jun 26 00:17:01 funbox10 CRON[2900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 00:17:01 funbox10 CRON[2900]: pam_unix(cron:session): session closed for user root
+Jun 26 00:39:01 funbox10 CRON[2909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 00:39:01 funbox10 CRON[2909]: pam_unix(cron:session): session closed for user root
+Jun 26 01:09:01 funbox10 CRON[2992]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 01:09:01 funbox10 CRON[2992]: pam_unix(cron:session): session closed for user root
+Jun 26 01:17:01 funbox10 CRON[3038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 01:17:01 funbox10 CRON[3038]: pam_unix(cron:session): session closed for user root
+Jun 26 01:39:01 funbox10 CRON[3046]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 01:39:01 funbox10 CRON[3046]: pam_unix(cron:session): session closed for user root
+Jun 26 02:09:01 funbox10 CRON[3096]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 02:09:01 funbox10 CRON[3096]: pam_unix(cron:session): session closed for user root
+Jun 26 02:17:01 funbox10 CRON[3142]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 02:17:01 funbox10 CRON[3142]: pam_unix(cron:session): session closed for user root
+Jun 26 02:39:01 funbox10 CRON[3151]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 02:39:01 funbox10 CRON[3151]: pam_unix(cron:session): session closed for user root
+Jun 26 03:09:01 funbox10 CRON[3201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 03:09:01 funbox10 CRON[3201]: pam_unix(cron:session): session closed for user root
+Jun 26 03:17:01 funbox10 CRON[3259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 03:17:01 funbox10 CRON[3259]: pam_unix(cron:session): session closed for user root
+Jun 26 03:39:01 funbox10 CRON[3269]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 03:39:01 funbox10 CRON[3269]: pam_unix(cron:session): session closed for user root
+Jun 26 04:09:01 funbox10 CRON[3335]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 04:09:01 funbox10 CRON[3335]: pam_unix(cron:session): session closed for user root
+Jun 26 04:17:01 funbox10 CRON[3381]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 04:17:01 funbox10 CRON[3381]: pam_unix(cron:session): session closed for user root
+Jun 26 04:39:01 funbox10 CRON[3390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 04:39:01 funbox10 CRON[3390]: pam_unix(cron:session): session closed for user root
+Jun 26 05:09:01 funbox10 CRON[3440]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 05:09:01 funbox10 CRON[3440]: pam_unix(cron:session): session closed for user root
+Jun 26 05:17:01 funbox10 CRON[3487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 05:17:01 funbox10 CRON[3487]: pam_unix(cron:session): session closed for user root
+Jun 26 05:39:01 funbox10 CRON[3494]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 05:39:01 funbox10 CRON[3494]: pam_unix(cron:session): session closed for user root
+Jun 26 06:09:01 funbox10 CRON[3546]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 06:09:01 funbox10 CRON[3546]: pam_unix(cron:session): session closed for user root
+Jun 26 06:17:01 funbox10 CRON[3591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 06:17:01 funbox10 CRON[3591]: pam_unix(cron:session): session closed for user root
+Jun 26 06:25:01 funbox10 CRON[3596]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 06:25:07 funbox10 CRON[3596]: pam_unix(cron:session): session closed for user root
+Jun 26 06:39:01 funbox10 CRON[3774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 06:39:01 funbox10 CRON[3774]: pam_unix(cron:session): session closed for user root
+Jun 26 07:09:01 funbox10 CRON[3825]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 07:09:01 funbox10 CRON[3825]: pam_unix(cron:session): session closed for user root
+Jun 26 07:17:01 funbox10 CRON[3871]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 07:17:01 funbox10 CRON[3871]: pam_unix(cron:session): session closed for user root
+Jun 26 07:39:01 funbox10 CRON[3880]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 07:39:01 funbox10 CRON[3880]: pam_unix(cron:session): session closed for user root
+Jun 26 08:09:01 funbox10 CRON[3931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 08:09:01 funbox10 CRON[3931]: pam_unix(cron:session): session closed for user root
+Jun 26 08:17:01 funbox10 CRON[3977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 08:17:01 funbox10 CRON[3977]: pam_unix(cron:session): session closed for user root
+Jun 26 08:39:01 funbox10 CRON[3984]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 08:39:01 funbox10 CRON[3984]: pam_unix(cron:session): session closed for user root
+Jun 26 09:09:01 funbox10 CRON[4036]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 09:09:01 funbox10 CRON[4036]: pam_unix(cron:session): session closed for user root
+Jun 26 09:17:01 funbox10 CRON[4081]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 09:17:01 funbox10 CRON[4081]: pam_unix(cron:session): session closed for user root
+Jun 26 09:39:01 funbox10 CRON[4089]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 09:39:01 funbox10 CRON[4089]: pam_unix(cron:session): session closed for user root
+Jun 26 10:09:01 funbox10 CRON[4139]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 10:09:01 funbox10 CRON[4139]: pam_unix(cron:session): session closed for user root
+Jun 26 10:17:01 funbox10 CRON[4185]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 10:17:01 funbox10 CRON[4185]: pam_unix(cron:session): session closed for user root
+Jun 26 10:39:01 funbox10 CRON[4192]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 10:39:01 funbox10 CRON[4192]: pam_unix(cron:session): session closed for user root
+Jun 26 11:09:01 funbox10 CRON[4245]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 11:09:01 funbox10 CRON[4245]: pam_unix(cron:session): session closed for user root
+Jun 26 11:17:01 funbox10 CRON[4290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 11:17:01 funbox10 CRON[4290]: pam_unix(cron:session): session closed for user root
+Jun 26 11:39:01 funbox10 CRON[4298]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 11:39:01 funbox10 CRON[4298]: pam_unix(cron:session): session closed for user root
+Jun 26 12:09:01 funbox10 CRON[4349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 12:09:01 funbox10 CRON[4349]: pam_unix(cron:session): session closed for user root
+Jun 26 12:17:01 funbox10 CRON[4395]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 12:17:01 funbox10 CRON[4395]: pam_unix(cron:session): session closed for user root
+Jun 26 12:39:01 funbox10 CRON[4404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 12:39:01 funbox10 CRON[4404]: pam_unix(cron:session): session closed for user root
+Jun 26 13:09:01 funbox10 CRON[4454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 13:09:01 funbox10 CRON[4454]: pam_unix(cron:session): session closed for user root
+Jun 26 13:17:01 funbox10 CRON[4500]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 13:17:01 funbox10 CRON[4500]: pam_unix(cron:session): session closed for user root
+Jun 26 13:39:01 funbox10 CRON[4507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 13:39:01 funbox10 CRON[4507]: pam_unix(cron:session): session closed for user root
+Jun 26 14:09:01 funbox10 CRON[4560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 26 14:09:01 funbox10 CRON[4560]: pam_unix(cron:session): session closed for user root
+Jun 26 14:11:01 funbox10 su[2019]: pam_unix(su:session): session closed for user root
+Jun 26 14:11:04 funbox10 sshd[1823]: pam_unix(sshd:session): session closed for user joe
+Jun 26 14:11:04 funbox10 systemd-logind[829]: Removed session 1.
+Jun 26 14:11:04 funbox10 systemd: pam_unix(systemd-user:session): session closed for user joe
+Jul 17 17:19:53 funbox10 systemd-logind[790]: New seat seat0.
+Jul 17 17:19:53 funbox10 systemd-logind[790]: Watching system buttons on /dev/input/event0 (Power Button)
+Jul 17 17:19:53 funbox10 systemd-logind[790]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jul 17 17:19:53 funbox10 systemd-logind[790]: Watching system buttons on /dev/input/event3 (Video Bus)
+Jul 17 17:19:57 funbox10 sshd[1149]: Server listening on 0.0.0.0 port 22.
+Jul 17 17:19:57 funbox10 sshd[1149]: Server listening on :: port 22.
+Jul 17 17:20:23 funbox10 sshd[1923]: Connection closed by 192.168.178.143 port 46606 [preauth]
+Jul 17 17:20:59 funbox10 sshd[1926]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.178.143  user=root
+Jul 17 17:21:01 funbox10 sshd[1926]: Failed password for root from 192.168.178.143 port 46608 ssh2
+Jul 17 17:21:03 funbox10 sshd[1926]: Connection closed by 192.168.178.143 port 46608 [preauth]
+Jul 17 17:21:15 funbox10 sshd[1929]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.178.143  user=joe
+Jul 17 17:21:16 funbox10 sshd[1929]: Failed password for joe from 192.168.178.143 port 46610 ssh2
+Jul 17 17:21:32 funbox10 sshd[1929]: Accepted password for joe from 192.168.178.143 port 46610 ssh2
+Jul 17 17:21:32 funbox10 sshd[1929]: pam_unix(sshd:session): session opened for user joe by (uid=0)
+Jul 17 17:21:32 funbox10 systemd-logind[790]: New session 1 of user joe.
+Jul 17 17:21:32 funbox10 systemd: pam_unix(systemd-user:session): session opened for user joe by (uid=0)
+Jul 17 17:21:41 funbox10 su[2036]: Successful su for root by joe
+Jul 17 17:21:41 funbox10 su[2036]: + /dev/pts/0 joe:root
+Jul 17 17:21:41 funbox10 su[2036]: pam_unix(su:session): session opened for user root by joe(uid=1000)
+Jul 17 17:21:41 funbox10 su[2036]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jul 17 17:39:01 funbox10 CRON[2098]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 17:39:01 funbox10 CRON[2098]: pam_unix(cron:session): session closed for user root
+Jul 17 17:53:15 funbox10 su[2036]: pam_unix(su:session): session closed for user root
+Jul 17 17:53:17 funbox10 sshd[2016]: Received disconnect from 192.168.178.143 port 46610:11: disconnected by user
+Jul 17 17:53:17 funbox10 sshd[2016]: Disconnected from 192.168.178.143 port 46610
+Jul 17 17:53:17 funbox10 sshd[1929]: pam_unix(sshd:session): session closed for user joe
+Jul 17 17:53:17 funbox10 systemd-logind[790]: Removed session 1.
+Jul 17 17:53:17 funbox10 systemd: pam_unix(systemd-user:session): session closed for user joe
+Jul 17 17:54:37 funbox10 sshd[14374]: Accepted password for joe from 192.168.178.37 port 50168 ssh2
+Jul 17 17:54:37 funbox10 sshd[14374]: pam_unix(sshd:session): session opened for user joe by (uid=0)
+Jul 17 17:54:37 funbox10 systemd: pam_unix(systemd-user:session): session opened for user joe by (uid=0)
+Jul 17 17:54:37 funbox10 systemd-logind[790]: New session 3 of user joe.
+Jul 17 17:54:46 funbox10 su[14433]: Successful su for root by joe
+Jul 17 17:54:46 funbox10 su[14433]: + /dev/pts/0 joe:root
+Jul 17 17:54:46 funbox10 su[14433]: pam_unix(su:session): session opened for user root by joe(uid=1000)
+Jul 17 17:54:46 funbox10 su[14433]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jul 17 18:09:01 funbox10 CRON[14481]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 18:09:01 funbox10 CRON[14481]: pam_unix(cron:session): session closed for user root
+Jul 17 18:09:52 funbox10 sshd[14523]: Accepted password for jack from 192.168.178.37 port 50270 ssh2
+Jul 17 18:09:52 funbox10 sshd[14523]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Jul 17 18:09:52 funbox10 systemd: pam_unix(systemd-user:session): session opened for user jack by (uid=0)
+Jul 17 18:09:52 funbox10 systemd-logind[790]: New session 5 of user jack.
+Jul 17 18:17:01 funbox10 CRON[14588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 18:17:01 funbox10 CRON[14588]: pam_unix(cron:session): session closed for user root
+Jul 17 18:31:38 funbox10 sshd[14571]: Received disconnect from 192.168.178.37 port 50270:11: disconnected by user
+Jul 17 18:31:38 funbox10 sshd[14571]: Disconnected from 192.168.178.37 port 50270
+Jul 17 18:31:38 funbox10 sshd[14523]: pam_unix(sshd:session): session closed for user jack
+Jul 17 18:31:38 funbox10 systemd-logind[790]: Removed session 5.
+Jul 17 18:32:10 funbox10 sshd[14620]: Accepted password for jack from 192.168.178.37 port 51666 ssh2
+Jul 17 18:32:10 funbox10 sshd[14620]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Jul 17 18:32:10 funbox10 systemd: pam_unix(systemd-user:session): session opened for user jack by (uid=0)
+Jul 17 18:32:10 funbox10 systemd-logind[790]: New session 7 of user jack.
+Jul 17 18:33:58 funbox10 sshd[14707]: Received disconnect from 192.168.178.37 port 51666:11: disconnected by user
+Jul 17 18:33:58 funbox10 sshd[14707]: Disconnected from 192.168.178.37 port 51666
+Jul 17 18:33:58 funbox10 sshd[14620]: pam_unix(sshd:session): session closed for user jack
+Jul 17 18:33:58 funbox10 systemd-logind[790]: Removed session 7.
+Jul 17 18:34:02 funbox10 sshd[14731]: Accepted password for jack from 192.168.178.37 port 51668 ssh2
+Jul 17 18:34:02 funbox10 sshd[14731]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Jul 17 18:34:02 funbox10 systemd: pam_unix(systemd-user:session): session opened for user jack by (uid=0)
+Jul 17 18:34:02 funbox10 systemd-logind[790]: New session 8 of user jack.
+Jul 17 18:37:13 funbox10 sshd[14777]: Received disconnect from 192.168.178.37 port 51668:11: disconnected by user
+Jul 17 18:37:13 funbox10 sshd[14777]: Disconnected from 192.168.178.37 port 51668
+Jul 17 18:37:13 funbox10 sshd[14731]: pam_unix(sshd:session): session closed for user jack
+Jul 17 18:37:13 funbox10 systemd-logind[790]: Removed session 8.
+Jul 17 18:37:17 funbox10 sshd[14805]: Accepted password for jack from 192.168.178.37 port 52166 ssh2
+Jul 17 18:37:17 funbox10 sshd[14805]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Jul 17 18:37:17 funbox10 systemd: pam_unix(systemd-user:session): session opened for user jack by (uid=0)
+Jul 17 18:37:17 funbox10 systemd-logind[790]: New session 9 of user jack.
+Jul 17 18:39:01 funbox10 CRON[14871]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 18:39:01 funbox10 CRON[14871]: pam_unix(cron:session): session closed for user root
+Jul 17 18:39:27 funbox10 sshd[1149]: Received signal 15; terminating.
+Jul 17 18:39:27 funbox10 sshd[14931]: Server listening on 0.0.0.0 port 22.
+Jul 17 18:39:27 funbox10 sshd[14931]: Server listening on :: port 22.
+Jul 17 18:39:31 funbox10 sshd[14851]: Received disconnect from 192.168.178.37 port 52166:11: disconnected by user
+Jul 17 18:39:31 funbox10 sshd[14851]: Disconnected from 192.168.178.37 port 52166
+Jul 17 18:39:31 funbox10 sshd[14805]: pam_unix(sshd:session): session closed for user jack
+Jul 17 18:39:31 funbox10 systemd-logind[790]: Removed session 9.
+Jul 17 18:40:16 funbox10 sshd[14959]: Connection closed by 192.168.178.37 port 52232 [preauth]
+Jul 17 18:56:21 funbox10 sshd[15002]: Accepted password for jack from 192.168.178.37 port 53314 ssh2
+Jul 17 18:56:21 funbox10 sshd[15002]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Jul 17 18:56:21 funbox10 systemd: pam_unix(systemd-user:session): session opened for user jack by (uid=0)
+Jul 17 18:56:21 funbox10 systemd-logind[790]: New session 11 of user jack.
+Jul 17 19:05:01 funbox10 CRON[15151]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:05:01 funbox10 CRON[15151]: pam_unix(cron:session): session closed for user root
+Jul 17 19:07:01 funbox10 CRON[15182]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:07:01 funbox10 CRON[15182]: pam_unix(cron:session): session closed for user root
+Jul 17 19:08:01 funbox10 CRON[15213]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:08:01 funbox10 CRON[15213]: pam_unix(cron:session): session closed for user root
+Jul 17 19:09:01 funbox10 CRON[15231]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:09:01 funbox10 CRON[15232]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:09:01 funbox10 CRON[15232]: pam_unix(cron:session): session closed for user root
+Jul 17 19:09:01 funbox10 CRON[15231]: pam_unix(cron:session): session closed for user root
+Jul 17 19:10:01 funbox10 CRON[15280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:10:01 funbox10 CRON[15280]: pam_unix(cron:session): session closed for user root
+Jul 17 19:11:01 funbox10 CRON[15289]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:11:01 funbox10 CRON[15289]: pam_unix(cron:session): session closed for user root
+Jul 17 19:12:01 funbox10 CRON[15309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:12:01 funbox10 CRON[15309]: pam_unix(cron:session): session closed for user root
+Jul 17 19:13:01 funbox10 CRON[15328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:13:01 funbox10 CRON[15328]: pam_unix(cron:session): session closed for user root
+Jul 17 19:14:01 funbox10 CRON[15355]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:14:01 funbox10 CRON[15355]: pam_unix(cron:session): session closed for user root
+Jul 17 19:15:01 funbox10 CRON[15373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:15:01 funbox10 CRON[15373]: pam_unix(cron:session): session closed for user root
+Jul 17 19:16:01 funbox10 CRON[15390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:16:01 funbox10 CRON[15390]: pam_unix(cron:session): session closed for user root
+Jul 17 19:17:01 funbox10 CRON[15409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:17:01 funbox10 CRON[15408]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:17:01 funbox10 CRON[15408]: pam_unix(cron:session): session closed for user root
+Jul 17 19:17:01 funbox10 CRON[15409]: pam_unix(cron:session): session closed for user root
+Jul 17 19:23:01 funbox10 CRON[15499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:23:01 funbox10 CRON[15499]: pam_unix(cron:session): session closed for user root
+Jul 17 19:24:01 funbox10 CRON[15509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:24:01 funbox10 CRON[15509]: pam_unix(cron:session): session closed for user root
+Jul 17 19:25:01 funbox10 CRON[15516]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:25:01 funbox10 CRON[15516]: pam_unix(cron:session): session closed for user root
+Jul 17 19:26:01 funbox10 CRON[15527]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:26:01 funbox10 CRON[15527]: pam_unix(cron:session): session closed for user root
+Jul 17 19:27:01 funbox10 CRON[15567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:27:01 funbox10 CRON[15567]: pam_unix(cron:session): session closed for user root
+Jul 17 19:28:01 funbox10 CRON[15583]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:28:01 funbox10 CRON[15583]: pam_unix(cron:session): session closed for user root
+Jul 17 19:29:02 funbox10 CRON[15598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:29:02 funbox10 CRON[15598]: pam_unix(cron:session): session closed for user root
+Jul 17 19:30:01 funbox10 CRON[15613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:30:01 funbox10 CRON[15613]: pam_unix(cron:session): session closed for user root
+Jul 17 19:31:01 funbox10 CRON[15629]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:31:01 funbox10 CRON[15629]: pam_unix(cron:session): session closed for user root
+Jul 17 19:32:01 funbox10 CRON[15643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:32:01 funbox10 CRON[15643]: pam_unix(cron:session): session closed for user root
+Jul 17 19:33:01 funbox10 CRON[15653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:33:01 funbox10 CRON[15653]: pam_unix(cron:session): session closed for user root
+Jul 17 19:34:01 funbox10 CRON[15666]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:34:01 funbox10 CRON[15666]: pam_unix(cron:session): session closed for user root
+Jul 17 19:35:01 funbox10 CRON[15690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:35:01 funbox10 CRON[15690]: pam_unix(cron:session): session closed for user root
+Jul 17 19:36:01 funbox10 CRON[15708]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:36:01 funbox10 CRON[15708]: pam_unix(cron:session): session closed for user root
+Jul 17 19:39:01 funbox10 CRON[15723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:39:01 funbox10 CRON[15723]: pam_unix(cron:session): session closed for user root
+Jul 17 19:40:01 funbox10 CRON[15765]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:40:01 funbox10 CRON[15765]: pam_unix(cron:session): session closed for user root
+Jul 17 19:42:27 funbox10 sshd[15048]: Received disconnect from 192.168.178.37 port 53314:11: disconnected by user
+Jul 17 19:42:27 funbox10 sshd[15048]: Disconnected from 192.168.178.37 port 53314
+Jul 17 19:42:27 funbox10 sshd[15002]: pam_unix(sshd:session): session closed for user jack
+Jul 17 19:42:27 funbox10 systemd-logind[790]: Removed session 11.
+Jul 17 19:42:27 funbox10 systemd: pam_unix(systemd-user:session): session closed for user jack
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Jul 17 19:46:21 funbox10 systemd-logind[817]: New seat seat0.
+Jul 17 19:46:21 funbox10 systemd-logind[817]: Watching system buttons on /dev/input/event0 (Power Button)
+Jul 17 19:46:21 funbox10 systemd-logind[817]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jul 17 19:46:21 funbox10 systemd-logind[817]: Watching system buttons on /dev/input/event3 (Video Bus)
+Jul 17 19:46:24 funbox10 sshd[1146]: Server listening on 0.0.0.0 port 22.
+Jul 17 19:46:24 funbox10 sshd[1146]: Server listening on :: port 22.
+Jul 17 19:50:01 funbox10 CRON[1518]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:50:01 funbox10 CRON[1518]: pam_unix(cron:session): session closed for user root
+Jul 17 19:55:01 funbox10 CRON[1528]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 19:55:01 funbox10 CRON[1528]: pam_unix(cron:session): session closed for user root
+Jul 17 19:56:43 funbox10 sshd[1531]: Accepted password for susan from 192.168.178.37 port 56464 ssh2
+Jul 17 19:56:43 funbox10 sshd[1531]: pam_unix(sshd:session): session opened for user susan by (uid=0)
+Jul 17 19:56:43 funbox10 systemd-logind[817]: New session 3 of user susan.
+Jul 17 19:56:43 funbox10 systemd: pam_unix(systemd-user:session): session opened for user susan by (uid=0)
+Jul 17 19:58:27 funbox10 sshd[1634]: Accepted password for joe from 192.168.178.37 port 56566 ssh2
+Jul 17 19:58:27 funbox10 sshd[1634]: pam_unix(sshd:session): session opened for user joe by (uid=0)
+Jul 17 19:58:27 funbox10 systemd: pam_unix(systemd-user:session): session opened for user joe by (uid=0)
+Jul 17 19:58:27 funbox10 systemd-logind[817]: New session 4 of user joe.
+Jul 17 19:58:35 funbox10 su[1694]: Successful su for root by joe
+Jul 17 19:58:35 funbox10 su[1694]: + /dev/pts/1 joe:root
+Jul 17 19:58:35 funbox10 su[1694]: pam_unix(su:session): session opened for user root by joe(uid=1000)
+Jul 17 19:58:35 funbox10 su[1694]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jul 17 20:00:01 funbox10 CRON[1707]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:00:01 funbox10 CRON[1707]: pam_unix(cron:session): session closed for user root
+Jul 17 20:00:29 funbox10 sshd[1146]: Received signal 15; terminating.
+Jul 17 20:00:29 funbox10 sshd[1730]: Server listening on 0.0.0.0 port 22.
+Jul 17 20:00:29 funbox10 sshd[1730]: Server listening on :: port 22.
+Jul 17 20:00:34 funbox10 sshd[1618]: Received disconnect from 192.168.178.37 port 56464:11: disconnected by user
+Jul 17 20:00:34 funbox10 sshd[1618]: Disconnected from 192.168.178.37 port 56464
+Jul 17 20:00:34 funbox10 sshd[1531]: pam_unix(sshd:session): session closed for user susan
+Jul 17 20:00:34 funbox10 systemd-logind[817]: Removed session 3.
+Jul 17 20:00:42 funbox10 sshd[1757]: Accepted password for susan from 192.168.178.37 port 56568 ssh2
+Jul 17 20:00:42 funbox10 sshd[1757]: pam_unix(sshd:session): session opened for user susan by (uid=0)
+Jul 17 20:00:42 funbox10 systemd: pam_unix(systemd-user:session): session opened for user susan by (uid=0)
+Jul 17 20:00:42 funbox10 systemd-logind[817]: New session 6 of user susan.
+Jul 17 20:00:51 funbox10 sshd[1804]: Received disconnect from 192.168.178.37 port 56568:11: disconnected by user
+Jul 17 20:00:51 funbox10 sshd[1804]: Disconnected from 192.168.178.37 port 56568
+Jul 17 20:00:51 funbox10 sshd[1757]: pam_unix(sshd:session): session closed for user susan
+Jul 17 20:00:51 funbox10 systemd-logind[817]: Removed session 6.
+Jul 17 20:01:14 funbox10 sshd[1827]: User jack from 192.168.178.37 not allowed because not listed in AllowUsers
+Jul 17 20:01:14 funbox10 sshd[1827]: input_userauth_request: invalid user jack [preauth]
+Jul 17 20:01:17 funbox10 sshd[1827]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.178.37  user=jack
+Jul 17 20:01:18 funbox10 sshd[1827]: Failed password for invalid user jack from 192.168.178.37 port 56570 ssh2
+Jul 17 20:03:13 funbox10 sshd[1827]: Connection closed by 192.168.178.37 port 56570 [preauth]
+Jul 17 20:03:40 funbox10 su[1694]: pam_unix(su:session): session closed for user root
+                                                                                                                                                                                                                                                                                                                                                            Jul 17 20:06:43 funbox10 systemd-logind[825]: New seat seat0.
+Jul 17 20:06:43 funbox10 systemd-logind[825]: Watching system buttons on /dev/input/event0 (Power Button)
+Jul 17 20:06:43 funbox10 systemd-logind[825]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jul 17 20:06:43 funbox10 systemd-logind[825]: Watching system buttons on /dev/input/event3 (Video Bus)
+Jul 17 20:06:46 funbox10 sshd[1137]: Server listening on 0.0.0.0 port 22.
+Jul 17 20:06:46 funbox10 sshd[1137]: Server listening on :: port 22.
+Jul 17 20:09:01 funbox10 CRON[1451]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:09:01 funbox10 CRON[1451]: pam_unix(cron:session): session closed for user root
+Jul 17 20:09:49 funbox10 sshd[1493]: Accepted password for joe from 192.168.178.37 port 56576 ssh2
+Jul 17 20:09:49 funbox10 sshd[1493]: pam_unix(sshd:session): session opened for user joe by (uid=0)
+Jul 17 20:09:49 funbox10 systemd: pam_unix(systemd-user:session): session opened for user joe by (uid=0)
+Jul 17 20:09:49 funbox10 systemd-logind[825]: New session 2 of user joe.
+Jul 17 20:09:57 funbox10 su[1592]: Successful su for root by joe
+Jul 17 20:09:57 funbox10 su[1592]: + /dev/pts/0 joe:root
+Jul 17 20:09:57 funbox10 su[1592]: pam_unix(su:session): session opened for user root by joe(uid=1000)
+Jul 17 20:09:57 funbox10 su[1592]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jul 17 20:10:01 funbox10 CRON[1603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:10:01 funbox10 CRON[1603]: pam_unix(cron:session): session closed for user root
+Jul 17 20:15:01 funbox10 CRON[1610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:15:01 funbox10 CRON[1610]: pam_unix(cron:session): session closed for user root
+Jul 17 20:17:01 funbox10 CRON[1613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:17:01 funbox10 CRON[1613]: pam_unix(cron:session): session closed for user root
+Jul 17 20:20:01 funbox10 CRON[1618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:20:01 funbox10 CRON[1618]: pam_unix(cron:session): session closed for user root
+Jul 17 20:25:01 funbox10 CRON[1628]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:25:01 funbox10 CRON[1628]: pam_unix(cron:session): session closed for user root
+Jul 17 20:30:01 funbox10 CRON[1634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:30:01 funbox10 CRON[1634]: pam_unix(cron:session): session closed for user root
+Jul 17 20:35:01 funbox10 CRON[1639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:35:01 funbox10 CRON[1639]: pam_unix(cron:session): session closed for user root
+Jul 17 20:39:01 funbox10 CRON[1645]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:39:01 funbox10 CRON[1645]: pam_unix(cron:session): session closed for user root
+Jul 17 20:40:01 funbox10 CRON[1687]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:40:01 funbox10 CRON[1687]: pam_unix(cron:session): session closed for user root
+Jul 17 20:45:01 funbox10 CRON[1703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:45:01 funbox10 CRON[1703]: pam_unix(cron:session): session closed for user root
+Jul 17 20:50:01 funbox10 CRON[1707]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:50:01 funbox10 CRON[1707]: pam_unix(cron:session): session closed for user root
+Jul 17 20:55:01 funbox10 CRON[1713]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 20:55:01 funbox10 CRON[1713]: pam_unix(cron:session): session closed for user root
+Jul 17 21:00:01 funbox10 CRON[1717]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:00:01 funbox10 CRON[1717]: pam_unix(cron:session): session closed for user root
+Jul 17 21:05:01 funbox10 CRON[1720]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:05:01 funbox10 CRON[1720]: pam_unix(cron:session): session closed for user root
+Jul 17 21:09:01 funbox10 CRON[1726]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:09:01 funbox10 CRON[1726]: pam_unix(cron:session): session closed for user root
+Jul 17 21:10:01 funbox10 CRON[1768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:10:01 funbox10 CRON[1768]: pam_unix(cron:session): session closed for user root
+Jul 17 21:15:01 funbox10 CRON[1773]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:15:01 funbox10 CRON[1773]: pam_unix(cron:session): session closed for user root
+Jul 17 21:17:01 funbox10 CRON[1776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:17:01 funbox10 CRON[1776]: pam_unix(cron:session): session closed for user root
+Jul 17 21:20:01 funbox10 CRON[1779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:20:01 funbox10 CRON[1779]: pam_unix(cron:session): session closed for user root
+Jul 17 21:25:01 funbox10 CRON[1787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:25:01 funbox10 CRON[1787]: pam_unix(cron:session): session closed for user root
+Jul 17 21:30:02 funbox10 CRON[1790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:30:02 funbox10 CRON[1790]: pam_unix(cron:session): session closed for user root
+Jul 17 21:35:01 funbox10 CRON[1794]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:35:01 funbox10 CRON[1794]: pam_unix(cron:session): session closed for user root
+Jul 17 21:39:01 funbox10 CRON[1801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:39:01 funbox10 CRON[1801]: pam_unix(cron:session): session closed for user root
+Jul 17 21:40:01 funbox10 CRON[1843]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:40:01 funbox10 CRON[1843]: pam_unix(cron:session): session closed for user root
+Jul 17 21:45:01 funbox10 CRON[1846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:45:01 funbox10 CRON[1846]: pam_unix(cron:session): session closed for user root
+Jul 17 21:50:01 funbox10 CRON[1850]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:50:01 funbox10 CRON[1850]: pam_unix(cron:session): session closed for user root
+Jul 17 21:55:01 funbox10 CRON[1857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 21:55:01 funbox10 CRON[1857]: pam_unix(cron:session): session closed for user root
+Jul 17 22:00:01 funbox10 CRON[1860]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:00:01 funbox10 CRON[1860]: pam_unix(cron:session): session closed for user root
+Jul 17 22:05:01 funbox10 CRON[1864]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:05:01 funbox10 CRON[1864]: pam_unix(cron:session): session closed for user root
+Jul 17 22:09:01 funbox10 CRON[1900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:09:01 funbox10 CRON[1900]: pam_unix(cron:session): session closed for user root
+Jul 17 22:10:01 funbox10 CRON[1942]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:10:01 funbox10 CRON[1942]: pam_unix(cron:session): session closed for user root
+Jul 17 22:15:01 funbox10 CRON[1945]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:15:01 funbox10 CRON[1945]: pam_unix(cron:session): session closed for user root
+Jul 17 22:17:01 funbox10 CRON[1949]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:17:01 funbox10 CRON[1949]: pam_unix(cron:session): session closed for user root
+Jul 17 22:20:01 funbox10 CRON[1952]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:20:01 funbox10 CRON[1952]: pam_unix(cron:session): session closed for user root
+Jul 17 22:25:01 funbox10 CRON[1958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:25:01 funbox10 CRON[1958]: pam_unix(cron:session): session closed for user root
+Jul 17 22:29:01 funbox10 CRON[1962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:29:01 funbox10 CRON[1962]: pam_unix(cron:session): session closed for user root
+Jul 17 22:30:01 funbox10 CRON[1966]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:30:01 funbox10 CRON[1966]: pam_unix(cron:session): session closed for user root
+Jul 17 22:35:01 funbox10 CRON[1969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:35:01 funbox10 CRON[1969]: pam_unix(cron:session): session closed for user root
+Jul 17 22:39:01 funbox10 CRON[1975]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:39:01 funbox10 CRON[1975]: pam_unix(cron:session): session closed for user root
+Jul 17 22:40:01 funbox10 CRON[2017]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:40:01 funbox10 CRON[2017]: pam_unix(cron:session): session closed for user root
+Jul 17 22:45:01 funbox10 CRON[2021]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:45:01 funbox10 CRON[2021]: pam_unix(cron:session): session closed for user root
+Jul 17 22:50:01 funbox10 CRON[2025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:50:01 funbox10 CRON[2025]: pam_unix(cron:session): session closed for user root
+Jul 17 22:55:01 funbox10 CRON[2031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 22:55:01 funbox10 CRON[2031]: pam_unix(cron:session): session closed for user root
+Jul 17 23:00:01 funbox10 CRON[2035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:00:01 funbox10 CRON[2035]: pam_unix(cron:session): session closed for user root
+Jul 17 23:05:01 funbox10 CRON[2038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:05:01 funbox10 CRON[2038]: pam_unix(cron:session): session closed for user root
+Jul 17 23:09:01 funbox10 CRON[2045]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:09:01 funbox10 CRON[2045]: pam_unix(cron:session): session closed for user root
+Jul 17 23:10:01 funbox10 CRON[2087]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:10:01 funbox10 CRON[2087]: pam_unix(cron:session): session closed for user root
+Jul 17 23:15:01 funbox10 CRON[2090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:15:01 funbox10 CRON[2090]: pam_unix(cron:session): session closed for user root
+Jul 17 23:17:01 funbox10 CRON[2093]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:17:01 funbox10 CRON[2093]: pam_unix(cron:session): session closed for user root
+Jul 17 23:20:01 funbox10 CRON[2096]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:20:01 funbox10 CRON[2096]: pam_unix(cron:session): session closed for user root
+Jul 17 23:25:01 funbox10 CRON[2103]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:25:01 funbox10 CRON[2103]: pam_unix(cron:session): session closed for user root
+Jul 17 23:30:01 funbox10 CRON[2107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:30:01 funbox10 CRON[2107]: pam_unix(cron:session): session closed for user root
+Jul 17 23:35:01 funbox10 CRON[2111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:35:01 funbox10 CRON[2111]: pam_unix(cron:session): session closed for user root
+Jul 17 23:39:01 funbox10 CRON[2117]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:39:01 funbox10 CRON[2117]: pam_unix(cron:session): session closed for user root
+Jul 17 23:40:01 funbox10 CRON[2160]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:40:01 funbox10 CRON[2160]: pam_unix(cron:session): session closed for user root
+Jul 17 23:45:01 funbox10 CRON[2163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:45:01 funbox10 CRON[2163]: pam_unix(cron:session): session closed for user root
+Jul 17 23:50:01 funbox10 CRON[2167]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:50:01 funbox10 CRON[2167]: pam_unix(cron:session): session closed for user root
+Jul 17 23:55:01 funbox10 CRON[2173]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 23:55:01 funbox10 CRON[2173]: pam_unix(cron:session): session closed for user root
+Jul 18 00:00:01 funbox10 CRON[2176]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:00:01 funbox10 CRON[2176]: pam_unix(cron:session): session closed for user root
+Jul 18 00:05:01 funbox10 CRON[2180]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:05:01 funbox10 CRON[2180]: pam_unix(cron:session): session closed for user root
+Jul 18 00:09:01 funbox10 CRON[2186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:09:01 funbox10 CRON[2186]: pam_unix(cron:session): session closed for user root
+Jul 18 00:10:01 funbox10 CRON[2228]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:10:01 funbox10 CRON[2228]: pam_unix(cron:session): session closed for user root
+Jul 18 00:15:01 funbox10 CRON[2232]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:15:01 funbox10 CRON[2232]: pam_unix(cron:session): session closed for user root
+Jul 18 00:17:01 funbox10 CRON[2235]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:17:01 funbox10 CRON[2235]: pam_unix(cron:session): session closed for user root
+Jul 18 00:20:01 funbox10 CRON[2238]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:20:01 funbox10 CRON[2238]: pam_unix(cron:session): session closed for user root
+Jul 18 00:25:01 funbox10 CRON[2244]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:25:01 funbox10 CRON[2244]: pam_unix(cron:session): session closed for user root
+Jul 18 00:30:01 funbox10 CRON[2248]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:30:01 funbox10 CRON[2248]: pam_unix(cron:session): session closed for user root
+Jul 18 00:35:01 funbox10 CRON[2251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:35:01 funbox10 CRON[2251]: pam_unix(cron:session): session closed for user root
+Jul 18 00:39:01 funbox10 CRON[2257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:39:01 funbox10 CRON[2257]: pam_unix(cron:session): session closed for user root
+Jul 18 00:40:01 funbox10 CRON[2299]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:40:01 funbox10 CRON[2299]: pam_unix(cron:session): session closed for user root
+Jul 18 00:45:01 funbox10 CRON[2303]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:45:01 funbox10 CRON[2303]: pam_unix(cron:session): session closed for user root
+Jul 18 00:50:01 funbox10 CRON[2306]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:50:01 funbox10 CRON[2306]: pam_unix(cron:session): session closed for user root
+Jul 18 00:55:01 funbox10 CRON[2313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:55:01 funbox10 CRON[2313]: pam_unix(cron:session): session closed for user root
+Jul 18 00:57:01 funbox10 CRON[2316]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 00:57:01 funbox10 CRON[2316]: pam_unix(cron:session): session closed for user root
+Jul 18 01:00:01 funbox10 CRON[2319]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:00:01 funbox10 CRON[2319]: pam_unix(cron:session): session closed for user root
+Jul 18 01:05:01 funbox10 CRON[2322]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:05:01 funbox10 CRON[2322]: pam_unix(cron:session): session closed for user root
+Jul 18 01:09:02 funbox10 CRON[2330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:09:02 funbox10 CRON[2330]: pam_unix(cron:session): session closed for user root
+Jul 18 01:10:01 funbox10 CRON[2372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:10:01 funbox10 CRON[2372]: pam_unix(cron:session): session closed for user root
+Jul 18 01:15:01 funbox10 CRON[2375]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:15:01 funbox10 CRON[2375]: pam_unix(cron:session): session closed for user root
+Jul 18 01:17:01 funbox10 CRON[2378]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:17:01 funbox10 CRON[2378]: pam_unix(cron:session): session closed for user root
+Jul 18 01:20:01 funbox10 CRON[2382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:20:01 funbox10 CRON[2382]: pam_unix(cron:session): session closed for user root
+Jul 18 01:25:01 funbox10 CRON[2389]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:25:01 funbox10 CRON[2389]: pam_unix(cron:session): session closed for user root
+Jul 18 01:30:01 funbox10 CRON[2393]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:30:01 funbox10 CRON[2393]: pam_unix(cron:session): session closed for user root
+Jul 18 01:35:01 funbox10 CRON[2397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:35:01 funbox10 CRON[2397]: pam_unix(cron:session): session closed for user root
+Jul 18 01:39:01 funbox10 CRON[2403]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:39:01 funbox10 CRON[2403]: pam_unix(cron:session): session closed for user root
+Jul 18 01:40:01 funbox10 CRON[2445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:40:01 funbox10 CRON[2445]: pam_unix(cron:session): session closed for user root
+Jul 18 01:45:01 funbox10 CRON[2448]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:45:01 funbox10 CRON[2448]: pam_unix(cron:session): session closed for user root
+Jul 18 01:50:01 funbox10 CRON[2453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:50:01 funbox10 CRON[2453]: pam_unix(cron:session): session closed for user root
+Jul 18 01:55:01 funbox10 CRON[2459]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 01:55:01 funbox10 CRON[2459]: pam_unix(cron:session): session closed for user root
+Jul 18 02:00:01 funbox10 CRON[2463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:00:01 funbox10 CRON[2463]: pam_unix(cron:session): session closed for user root
+Jul 18 02:05:01 funbox10 CRON[2467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:05:01 funbox10 CRON[2467]: pam_unix(cron:session): session closed for user root
+Jul 18 02:09:01 funbox10 CRON[2473]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:09:01 funbox10 CRON[2473]: pam_unix(cron:session): session closed for user root
+Jul 18 02:10:01 funbox10 CRON[2515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:10:01 funbox10 CRON[2515]: pam_unix(cron:session): session closed for user root
+Jul 18 02:15:01 funbox10 CRON[2519]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:15:01 funbox10 CRON[2519]: pam_unix(cron:session): session closed for user root
+Jul 18 02:17:01 funbox10 CRON[2523]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:17:01 funbox10 CRON[2523]: pam_unix(cron:session): session closed for user root
+Jul 18 02:20:01 funbox10 CRON[2526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:20:01 funbox10 CRON[2526]: pam_unix(cron:session): session closed for user root
+Jul 18 02:25:01 funbox10 CRON[2533]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:25:01 funbox10 CRON[2533]: pam_unix(cron:session): session closed for user root
+Jul 18 02:30:01 funbox10 CRON[2536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:30:01 funbox10 CRON[2536]: pam_unix(cron:session): session closed for user root
+Jul 18 02:35:01 funbox10 CRON[2539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:35:01 funbox10 CRON[2539]: pam_unix(cron:session): session closed for user root
+Jul 18 02:39:01 funbox10 CRON[2546]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:39:01 funbox10 CRON[2546]: pam_unix(cron:session): session closed for user root
+Jul 18 02:40:01 funbox10 CRON[2588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:40:01 funbox10 CRON[2588]: pam_unix(cron:session): session closed for user root
+Jul 18 02:45:01 funbox10 CRON[2591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:45:01 funbox10 CRON[2591]: pam_unix(cron:session): session closed for user root
+Jul 18 02:50:01 funbox10 CRON[2595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:50:01 funbox10 CRON[2595]: pam_unix(cron:session): session closed for user root
+Jul 18 02:55:01 funbox10 CRON[2602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 02:55:01 funbox10 CRON[2602]: pam_unix(cron:session): session closed for user root
+Jul 18 03:00:01 funbox10 CRON[2605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:00:01 funbox10 CRON[2605]: pam_unix(cron:session): session closed for user root
+Jul 18 03:05:01 funbox10 CRON[2609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:05:01 funbox10 CRON[2609]: pam_unix(cron:session): session closed for user root
+Jul 18 03:09:01 funbox10 CRON[2615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:09:01 funbox10 CRON[2615]: pam_unix(cron:session): session closed for user root
+Jul 18 03:10:01 funbox10 CRON[2657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:10:01 funbox10 CRON[2657]: pam_unix(cron:session): session closed for user root
+Jul 18 03:15:01 funbox10 CRON[2660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:15:01 funbox10 CRON[2660]: pam_unix(cron:session): session closed for user root
+Jul 18 03:17:01 funbox10 CRON[2664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:17:01 funbox10 CRON[2664]: pam_unix(cron:session): session closed for user root
+Jul 18 03:20:01 funbox10 CRON[2667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:20:01 funbox10 CRON[2667]: pam_unix(cron:session): session closed for user root
+Jul 18 03:25:01 funbox10 CRON[2673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:25:01 funbox10 CRON[2673]: pam_unix(cron:session): session closed for user root
+Jul 18 03:30:01 funbox10 CRON[2677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:30:01 funbox10 CRON[2677]: pam_unix(cron:session): session closed for user root
+Jul 18 03:35:01 funbox10 CRON[2680]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:35:01 funbox10 CRON[2680]: pam_unix(cron:session): session closed for user root
+Jul 18 03:39:01 funbox10 CRON[2686]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:39:01 funbox10 CRON[2686]: pam_unix(cron:session): session closed for user root
+Jul 18 03:40:01 funbox10 CRON[2728]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:40:01 funbox10 CRON[2728]: pam_unix(cron:session): session closed for user root
+Jul 18 03:45:01 funbox10 CRON[2732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:45:01 funbox10 CRON[2732]: pam_unix(cron:session): session closed for user root
+Jul 18 03:50:01 funbox10 CRON[2735]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:50:01 funbox10 CRON[2735]: pam_unix(cron:session): session closed for user root
+Jul 18 03:55:01 funbox10 CRON[2741]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 03:55:01 funbox10 CRON[2741]: pam_unix(cron:session): session closed for user root
+Jul 18 04:00:01 funbox10 CRON[2759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:00:01 funbox10 CRON[2759]: pam_unix(cron:session): session closed for user root
+Jul 18 04:05:01 funbox10 CRON[2762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:05:01 funbox10 CRON[2762]: pam_unix(cron:session): session closed for user root
+Jul 18 04:09:01 funbox10 CRON[2769]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:09:01 funbox10 CRON[2769]: pam_unix(cron:session): session closed for user root
+Jul 18 04:10:01 funbox10 CRON[2811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:10:01 funbox10 CRON[2811]: pam_unix(cron:session): session closed for user root
+Jul 18 04:15:01 funbox10 CRON[2814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:15:01 funbox10 CRON[2814]: pam_unix(cron:session): session closed for user root
+Jul 18 04:17:01 funbox10 CRON[2817]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:17:01 funbox10 CRON[2817]: pam_unix(cron:session): session closed for user root
+Jul 18 04:20:01 funbox10 CRON[2820]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:20:01 funbox10 CRON[2820]: pam_unix(cron:session): session closed for user root
+Jul 18 04:25:01 funbox10 CRON[2827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:25:01 funbox10 CRON[2827]: pam_unix(cron:session): session closed for user root
+Jul 18 04:30:01 funbox10 CRON[2831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:30:01 funbox10 CRON[2831]: pam_unix(cron:session): session closed for user root
+Jul 18 04:35:01 funbox10 CRON[2835]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:35:01 funbox10 CRON[2835]: pam_unix(cron:session): session closed for user root
+Jul 18 04:39:01 funbox10 CRON[2842]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:39:01 funbox10 CRON[2842]: pam_unix(cron:session): session closed for user root
+Jul 18 04:40:01 funbox10 CRON[2884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:40:01 funbox10 CRON[2884]: pam_unix(cron:session): session closed for user root
+Jul 18 04:45:01 funbox10 CRON[2887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:45:01 funbox10 CRON[2887]: pam_unix(cron:session): session closed for user root
+Jul 18 04:50:01 funbox10 CRON[2892]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:50:01 funbox10 CRON[2892]: pam_unix(cron:session): session closed for user root
+Jul 18 04:55:01 funbox10 CRON[2898]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 04:55:01 funbox10 CRON[2898]: pam_unix(cron:session): session closed for user root
+Jul 18 05:00:01 funbox10 CRON[2901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:00:01 funbox10 CRON[2901]: pam_unix(cron:session): session closed for user root
+Jul 18 05:05:01 funbox10 CRON[2905]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:05:01 funbox10 CRON[2905]: pam_unix(cron:session): session closed for user root
+Jul 18 05:09:01 funbox10 CRON[2911]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:09:01 funbox10 CRON[2911]: pam_unix(cron:session): session closed for user root
+Jul 18 05:10:01 funbox10 CRON[2953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:10:01 funbox10 CRON[2953]: pam_unix(cron:session): session closed for user root
+Jul 18 05:15:01 funbox10 CRON[2957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:15:01 funbox10 CRON[2957]: pam_unix(cron:session): session closed for user root
+Jul 18 05:17:01 funbox10 CRON[2960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:17:01 funbox10 CRON[2960]: pam_unix(cron:session): session closed for user root
+Jul 18 05:20:01 funbox10 CRON[2963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:20:01 funbox10 CRON[2963]: pam_unix(cron:session): session closed for user root
+Jul 18 05:25:01 funbox10 CRON[2969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:25:01 funbox10 CRON[2969]: pam_unix(cron:session): session closed for user root
+Jul 18 05:30:01 funbox10 CRON[2973]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:30:01 funbox10 CRON[2973]: pam_unix(cron:session): session closed for user root
+Jul 18 05:35:01 funbox10 CRON[2977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:35:01 funbox10 CRON[2977]: pam_unix(cron:session): session closed for user root
+Jul 18 05:39:01 funbox10 CRON[2983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:39:01 funbox10 CRON[2983]: pam_unix(cron:session): session closed for user root
+Jul 18 05:40:01 funbox10 CRON[3026]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:40:01 funbox10 CRON[3026]: pam_unix(cron:session): session closed for user root
+Jul 18 05:45:01 funbox10 CRON[3029]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:45:01 funbox10 CRON[3029]: pam_unix(cron:session): session closed for user root
+Jul 18 05:50:01 funbox10 CRON[3032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:50:01 funbox10 CRON[3032]: pam_unix(cron:session): session closed for user root
+Jul 18 05:55:01 funbox10 CRON[3039]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 05:55:02 funbox10 CRON[3039]: pam_unix(cron:session): session closed for user root
+Jul 18 06:00:01 funbox10 CRON[3042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:00:01 funbox10 CRON[3042]: pam_unix(cron:session): session closed for user root
+Jul 18 06:05:01 funbox10 CRON[3045]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:05:01 funbox10 CRON[3045]: pam_unix(cron:session): session closed for user root
+Jul 18 06:09:01 funbox10 CRON[3053]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:09:01 funbox10 CRON[3053]: pam_unix(cron:session): session closed for user root
+Jul 18 06:10:01 funbox10 CRON[3095]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:10:01 funbox10 CRON[3095]: pam_unix(cron:session): session closed for user root
+Jul 18 06:15:01 funbox10 CRON[3098]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:15:01 funbox10 CRON[3098]: pam_unix(cron:session): session closed for user root
+Jul 18 06:17:01 funbox10 CRON[3101]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:17:01 funbox10 CRON[3101]: pam_unix(cron:session): session closed for user root
+Jul 18 06:20:01 funbox10 CRON[3105]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:20:01 funbox10 CRON[3105]: pam_unix(cron:session): session closed for user root
+Jul 18 06:25:01 funbox10 CRON[3111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:25:01 funbox10 CRON[3112]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 06:25:01 funbox10 CRON[3112]: pam_unix(cron:session): session closed for user root

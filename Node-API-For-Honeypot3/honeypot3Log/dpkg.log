@@ -1,0 +1,22 @@
+2021-07-18 08:26:01 startup packages remove
+2021-07-18 08:26:01 status installed winbind:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34
+2021-07-18 08:26:02 remove winbind:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34 <none>
+2021-07-18 08:26:02 status triggers-pending libc-bin:amd64 2.23-0ubuntu11.3
+2021-07-18 08:26:02 status half-configured winbind:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34
+2021-07-18 08:26:02 status half-installed winbind:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34
+2021-07-18 08:26:02 status triggers-pending man-db:amd64 2.7.5-1
+2021-07-18 08:26:02 status config-files winbind:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34
+2021-07-18 08:26:02 status config-files winbind:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34
+2021-07-18 08:26:02 status installed samba:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34
+2021-07-18 08:26:02 remove samba:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34 <none>
+2021-07-18 08:26:02 status half-configured samba:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34
+2021-07-18 08:26:06 status half-installed samba:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34
+2021-07-18 08:26:06 status config-files samba:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34
+2021-07-18 08:26:06 status config-files samba:amd64 2:4.3.11+dfsg-0ubuntu0.16.04.34
+2021-07-18 08:26:06 trigproc libc-bin:amd64 2.23-0ubuntu11.3 <none>
+2021-07-18 08:26:06 status half-configured libc-bin:amd64 2.23-0ubuntu11.3
+2021-07-18 08:26:06 status installed libc-bin:amd64 2.23-0ubuntu11.3
+2021-07-18 08:26:06 trigproc man-db:amd64 2.7.5-1 <none>
+2021-07-18 08:26:06 status half-configured man-db:amd64 2.7.5-1
+2021-07-18 08:26:06 status installed man-db:amd64 2.7.5-1
+2021-07-18 08:26:06 startup packages configure

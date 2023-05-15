@@ -1,0 +1,103 @@
+Cloud-init v. 20.2-45-g5f7825e2-0ubuntu1~18.04.1 running 'init-local' at Sun, 15 Aug 2021 16:56:28 +0000. Up 9.03 seconds.
+Cloud-init v. 20.2-45-g5f7825e2-0ubuntu1~18.04.1 running 'init' at Sun, 15 Aug 2021 16:56:30 +0000. Up 10.74 seconds.
+ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 | True |         192.168.1.26        | 255.255.255.0 | global | 08:00:27:39:9b:32 |
+ci-info: | enp0s3 | True | fe80::a00:27ff:fe39:9b32/64 |       .       |  link  | 08:00:27:39:9b:32 |
+ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 192.168.1.1 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   | 192.168.1.0 |   0.0.0.0   |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   | 192.168.1.1 |   0.0.0.0   | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |   ff00::/8  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+The key fingerprint is:
+SHA256:UZyHwN2dNzGYGLO9zWRDKEPrzQNRZxAjifvysVJNKjw root@miletus
+The key's randomart image is:
++---[RSA 2048]----+
+|       ..++X=**B.|
+|        .o==X+B.o|
+|        . .=o. =.|
+|         o. +.* .|
+|        S ..+= o |
+|         E = ..  |
+|          * o    |
+|         . o     |
+|          .      |
++----[SHA256]-----+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+The key fingerprint is:
+SHA256:UJuSLSlpuRt/O0kipYzx4jzOIcH1USDZAJOzAJ7DF6Y root@miletus
+The key's randomart image is:
++---[DSA 1024]----+
+|ooo=+....        |
+|+o=.o+.= o       |
+|.Eoo=.* +        |
+|..=..oo+         |
+|.. =o+  S        |
+| .o =+. .        |
+|.o.....o..       |
+| o+.   .o.       |
+| .o.    ..       |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+The key fingerprint is:
+SHA256:QVqALZ3vwJhwdQbj2gci5mnELpIKBjnpEdGnk7PyqVg root@miletus
+The key's randomart image is:
++---[ECDSA 256]---+
+| oo  ==+=        |
+| +o.+o+B         |
+|=.=o==+..        |
+|oB.Bo+o...       |
+|=o= = .oS        |
+|=+ .   ..        |
+|. E .            |
+|.. o             |
+|...              |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+The key fingerprint is:
+SHA256:/oYiS8GEqdiC3TtzLk8dXI7HihfzcX0aHGyd0nHJGnw root@miletus
+The key's randomart image is:
++--[ED25519 256]--+
+|            . ..o|
+|   o         +.E+|
+|  o .     .  .Bo.|
+|o+ +   . =   =.. |
+|= o +   S = . + .|
+| .   o + B o   + |
+|    = + =..   .  |
+|   .o*.....      |
+|    .=o. ..      |
++----[SHA256]-----+
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
+Cloud-init v. 20.2-45-g5f7825e2-0ubuntu1~18.04.1 running 'modules:config' at Sun, 15 Aug 2021 16:56:36 +0000. Up 17.27 seconds.
+Cloud-init v. 20.2-45-g5f7825e2-0ubuntu1~18.04.1 running 'modules:final' at Sun, 15 Aug 2021 16:56:38 +0000. Up 18.80 seconds.
+ci-info: no authorized SSH keys fingerprints found for user thales.
+Cloud-init v. 20.2-45-g5f7825e2-0ubuntu1~18.04.1 finished at Sun, 15 Aug 2021 16:56:38 +0000. Datasource DataSourceNone.  Up 18.93 seconds
+2021-08-15 16:56:38,550 - cc_final_message.py[WARNING]: Used fallback datasource

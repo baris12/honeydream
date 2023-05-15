@@ -1,0 +1,27 @@
+2021-07-18 06:27:42,287 INFO Initial blacklisted packages: 
+2021-07-18 06:27:42,287 INFO Initial whitelisted packages: 
+2021-07-18 06:27:42,287 INFO Starting unattended upgrades script
+2021-07-18 06:27:42,287 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESMApps,a=xenial-apps-security, o=UbuntuESM,a=xenial-infra-security
+2021-07-18 06:27:45,690 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2021-07-18 08:20:51,600 INFO Initial blacklisted packages: 
+2021-07-18 08:20:51,601 INFO Initial whitelisted packages: 
+2021-07-18 08:20:51,601 INFO Starting unattended upgrades script
+2021-07-18 08:20:51,601 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESMApps,a=xenial-apps-security, o=UbuntuESM,a=xenial-infra-security
+2021-07-19 12:16:08,507 INFO Initial blacklisted packages: 
+2021-07-19 12:16:08,508 INFO Initial whitelisted packages: 
+2021-07-19 12:16:08,508 INFO Starting unattended upgrades script
+2021-07-19 12:16:08,509 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESMApps,a=xenial-apps-security, o=UbuntuESM,a=xenial-infra-security
+2021-07-19 12:16:12,006 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2021-07-19 12:16:22,056 INFO Initial blacklisted packages: 
+2021-07-19 12:16:22,057 INFO Initial whitelisted packages: 
+2021-07-19 12:16:22,057 INFO Starting unattended upgrades script
+2021-07-19 12:16:22,057 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESMApps,a=xenial-apps-security, o=UbuntuESM,a=xenial-infra-security
+2023-04-29 09:47:40,845 INFO Initial blacklisted packages: 
+2023-04-29 09:47:40,847 INFO Initial whitelisted packages: 
+2023-04-29 09:47:40,848 INFO Starting unattended upgrades script
+2023-04-29 09:47:40,848 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESMApps,a=xenial-apps-security, o=UbuntuESM,a=xenial-infra-security
+2023-04-29 09:47:43,705 INFO Initial blacklisted packages: 
+2023-04-29 09:47:43,706 INFO Initial whitelisted packages: 
+2023-04-29 09:47:43,706 INFO Starting unattended upgrades script
+2023-04-29 09:47:43,706 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESMApps,a=xenial-apps-security, o=UbuntuESM,a=xenial-infra-security
+2023-04-29 09:47:45,633 INFO No packages found that can be upgraded unattended and no pending auto-removals

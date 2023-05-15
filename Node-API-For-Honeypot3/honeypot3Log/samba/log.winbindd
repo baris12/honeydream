@@ -1,0 +1,2 @@
+[2021/07/18 08:26:02.457925,  0] ../source3/winbindd/winbindd.c:271(winbindd_sig_term_handler)
+  Got sig[15] terminate (is_parent=1)

@@ -1,0 +1,76 @@
+Jul 18 06:47:02 funbox10 postfix/pickup[3052]: 1694C2B2: uid=0 from=<root>
+Jul 18 06:47:02 funbox10 postfix/cleanup[3468]: 1694C2B2: message-id=<20210718044702.1694C2B2@funbox10>
+Jul 18 06:47:02 funbox10 postfix/qmgr[1441]: 1694C2B2: from=<root@funbox10.box>, size=751, nrcpt=1 (queue active)
+Jul 18 06:47:02 funbox10 postfix/local[3470]: 1694C2B2: to=<root@funbox10.box>, orig_to=<root>, relay=local, delay=0.05, delays=0.02/0.02/0/0.01, dsn=2.0.0, status=sent (delivered to command: procmail -a "$EXTENSION")
+Jul 18 06:47:02 funbox10 postfix/qmgr[1441]: 1694C2B2: removed
+Jul 18 08:22:09 funbox10 dovecot: imap-login: Disconnected (disconnected before auth was ready, waited 0 secs): user=<>, rip=192.168.178.37, lip=192.168.178.25, session=<Tnkz11/HVufAqLIl>
+Jul 18 08:22:09 funbox10 dovecot: pop3-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.178.37, lip=192.168.178.25, session=<vagz11/HLIjAqLIl>
+Jul 18 08:22:09 funbox10 postfix/smtpd[4065]: connect from unknown[unknown]
+Jul 18 08:22:09 funbox10 postfix/smtpd[4065]: lost connection after CONNECT from unknown[unknown]
+Jul 18 08:22:09 funbox10 postfix/smtpd[4065]: disconnect from unknown[unknown] commands=0/0
+Jul 18 08:25:29 funbox10 postfix/anvil[4073]: statistics: max connection rate 1/60s for (smtp:unknown) at Jul 18 08:22:09
+Jul 18 08:25:29 funbox10 postfix/anvil[4073]: statistics: max connection count 1 for (smtp:unknown) at Jul 18 08:22:09
+Jul 18 08:25:29 funbox10 postfix/anvil[4073]: statistics: max cache size 1 at Jul 18 08:22:09
+Jul 18 08:26:23 funbox10 postfix/smtpd[5354]: connect from unknown[unknown]
+Jul 18 08:26:23 funbox10 dovecot: imap-login: Disconnected (disconnected before auth was ready, waited 0 secs): user=<>, rip=192.168.178.37, lip=192.168.178.25, session=<TgBQ5l/HgoPAqLIl>
+Jul 18 08:26:23 funbox10 dovecot: pop3-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.178.37, lip=192.168.178.25, session=<SQdQ5l/HlpLAqLIl>
+Jul 18 08:26:23 funbox10 postfix/smtpd[5354]: lost connection after CONNECT from unknown[unknown]
+Jul 18 08:26:23 funbox10 postfix/smtpd[5354]: disconnect from unknown[unknown] commands=0/0
+Jul 18 08:34:41 funbox10 dovecot: master: Dovecot v2.2.22 (fe789d2) starting up for imap, pop3 (core dumps disabled)
+Jul 18 08:34:43 funbox10 postfix[1372]: Postfix is running with backwards-compatible default settings
+Jul 18 08:34:43 funbox10 postfix[1372]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+Jul 18 08:34:43 funbox10 postfix[1372]: To disable backwards compatibility use "postconf compatibility_level=2" and "postfix reload"
+Jul 18 08:34:44 funbox10 postfix/master[1409]: daemon started -- version 3.1.0, configuration /etc/postfix
+Jul 18 08:35:04 funbox10 dovecot: imap-login: Disconnected (disconnected before auth was ready, waited 0 secs): user=<>, rip=192.168.178.37, lip=192.168.178.25, session=<bLZiBWDHZIvAqLIl>
+Jul 18 08:35:04 funbox10 dovecot: pop3-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.178.37, lip=192.168.178.25, session=<68NiBWDHfprAqLIl>
+Jul 18 08:35:04 funbox10 postfix/smtpd[1426]: connect from unknown[unknown]
+Jul 18 08:35:04 funbox10 postfix/smtpd[1426]: lost connection after CONNECT from unknown[unknown]
+Jul 18 08:35:04 funbox10 postfix/smtpd[1426]: disconnect from unknown[unknown] commands=0/0
+Jul 18 08:38:24 funbox10 postfix/anvil[1431]: statistics: max connection rate 1/60s for (smtp:unknown) at Jul 18 08:35:04
+Jul 18 08:38:24 funbox10 postfix/anvil[1431]: statistics: max connection count 1 for (smtp:unknown) at Jul 18 08:35:04
+Jul 18 08:38:24 funbox10 postfix/anvil[1431]: statistics: max cache size 1 at Jul 18 08:35:04
+Jul 18 09:49:39 funbox10 dovecot: pop3-login: Aborted login (tried to use disallowed plaintext auth): user=<jack>, rip=192.168.178.37, lip=192.168.178.25, session=</gAeEGHHlKLAqLIl>
+Jul 18 19:38:09 funbox10 postfix/smtpd[2971]: connect from unknown[unknown]
+Jul 18 19:38:09 funbox10 postfix/smtpd[2971]: lost connection after CONNECT from unknown[unknown]
+Jul 18 19:38:09 funbox10 postfix/smtpd[2971]: disconnect from unknown[unknown] commands=0/0
+Jul 18 19:38:09 funbox10 dovecot: imap-login: Disconnected (disconnected before auth was ready, waited 0 secs): user=<>, rip=192.168.178.37, lip=192.168.178.25, session=<arW7SGnHnprAqLIl>
+Jul 18 19:38:09 funbox10 dovecot: pop3-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=192.168.178.37, lip=192.168.178.25, session=<DcK7SGnH3KnAqLIl>
+Jul 18 19:41:29 funbox10 postfix/anvil[2975]: statistics: max connection rate 1/60s for (smtp:unknown) at Jul 18 19:38:09
+Jul 18 19:41:29 funbox10 postfix/anvil[2975]: statistics: max connection count 1 for (smtp:unknown) at Jul 18 19:38:09
+Jul 18 19:41:29 funbox10 postfix/anvil[2975]: statistics: max cache size 1 at Jul 18 19:38:09
+Jul 19 12:16:07 funbox10 dovecot: master: Dovecot v2.2.22 (fe789d2) starting up for imap, pop3 (core dumps disabled)
+Jul 19 12:16:09 funbox10 postfix[1449]: Postfix is running with backwards-compatible default settings
+Jul 19 12:16:09 funbox10 postfix[1449]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+Jul 19 12:16:09 funbox10 postfix[1449]: To disable backwards compatibility use "postconf compatibility_level=2" and "postfix reload"
+Jul 19 12:16:09 funbox10 postfix/master[1486]: daemon started -- version 3.1.0, configuration /etc/postfix
+Apr 29 09:42:20 funbox10 dovecot: master: Dovecot v2.2.22 (fe789d2) starting up for imap, pop3 (core dumps disabled)
+Apr 29 09:42:24 funbox10 postfix[1462]: Postfix is running with backwards-compatible default settings
+Apr 29 09:42:24 funbox10 postfix[1462]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+Apr 29 09:42:24 funbox10 postfix[1462]: To disable backwards compatibility use "postconf compatibility_level=2" and "postfix reload"
+Apr 29 09:42:24 funbox10 postfix/master[1499]: daemon started -- version 3.1.0, configuration /etc/postfix
+Apr 29 09:52:59 funbox10 dovecot: master: Dovecot v2.2.22 (fe789d2) starting up for imap, pop3 (core dumps disabled)
+Apr 29 09:53:01 funbox10 postfix[1376]: Postfix is running with backwards-compatible default settings
+Apr 29 09:53:01 funbox10 postfix[1376]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+Apr 29 09:53:01 funbox10 postfix[1376]: To disable backwards compatibility use "postconf compatibility_level=2" and "postfix reload"
+Apr 29 09:53:01 funbox10 postfix/master[1416]: daemon started -- version 3.1.0, configuration /etc/postfix
+Apr 29 10:01:22 funbox10 dovecot: master: Dovecot v2.2.22 (fe789d2) starting up for imap, pop3 (core dumps disabled)
+Apr 29 10:01:24 funbox10 postfix[1394]: Postfix is running with backwards-compatible default settings
+Apr 29 10:01:24 funbox10 postfix[1394]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+Apr 29 10:01:24 funbox10 postfix[1394]: To disable backwards compatibility use "postconf compatibility_level=2" and "postfix reload"
+Apr 29 10:01:25 funbox10 postfix/master[1431]: daemon started -- version 3.1.0, configuration /etc/postfix
+Apr 29 10:12:00 funbox10 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=10.0.2.7, lip=10.0.2.15, session=<AMHdJHX6wOAKAAIH>
+Apr 29 10:12:00 funbox10 dovecot: pop3-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=10.0.2.7, lip=10.0.2.15, session=<hsHdJHX6dLgKAAIH>
+Apr 29 10:12:00 funbox10 postfix/smtpd[1731]: connect from unknown[10.0.2.7]
+Apr 29 10:12:00 funbox10 postfix/smtpd[1731]: lost connection after CONNECT from unknown[10.0.2.7]
+Apr 29 10:12:00 funbox10 postfix/smtpd[1731]: disconnect from unknown[10.0.2.7] commands=0/0
+Apr 29 10:15:20 funbox10 postfix/anvil[1737]: statistics: max connection rate 1/60s for (smtp:10.0.2.7) at Apr 29 10:12:00
+Apr 29 10:15:20 funbox10 postfix/anvil[1737]: statistics: max connection count 1 for (smtp:10.0.2.7) at Apr 29 10:12:00
+Apr 29 10:15:20 funbox10 postfix/anvil[1737]: statistics: max cache size 1 at Apr 29 10:12:00
+Apr 29 10:21:53 funbox10 dovecot: pop3-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=10.0.2.7, lip=10.0.2.15, session=<wZ9BSHX6bL0KAAIH>
+Apr 29 10:21:53 funbox10 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=10.0.2.7, lip=10.0.2.15, session=<XrBBSHX6/N0KAAIH>
+Apr 29 10:21:53 funbox10 postfix/smtpd[2154]: connect from unknown[10.0.2.7]
+Apr 29 10:21:54 funbox10 postfix/smtpd[2154]: lost connection after CONNECT from unknown[10.0.2.7]
+Apr 29 10:21:54 funbox10 postfix/smtpd[2154]: disconnect from unknown[10.0.2.7] commands=0/0
+Apr 29 10:25:13 funbox10 postfix/anvil[2159]: statistics: max connection rate 1/60s for (smtp:10.0.2.7) at Apr 29 10:21:53
+Apr 29 10:25:13 funbox10 postfix/anvil[2159]: statistics: max connection count 1 for (smtp:10.0.2.7) at Apr 29 10:21:53
+Apr 29 10:25:13 funbox10 postfix/anvil[2159]: statistics: max cache size 1 at Apr 29 10:21:53
