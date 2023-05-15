@@ -1,0 +1,38 @@
+2021-08-15 16:44:16,146 INFO Initial blacklisted packages: 
+2021-08-15 16:44:16,147 INFO Initial whitelisted packages: 
+2021-08-15 16:44:16,148 INFO Starting unattended upgrades script
+2021-08-15 16:44:16,148 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2021-08-15 16:49:05,860 INFO Packages that will be upgraded: accountsservice apport apt apt-utils bind9-host bsdutils busybox-initramfs busybox-static ca-certificates curl dirmngr distro-info-data dnsmasq-base dnsutils fdisk git git-man gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm gpgv isc-dhcp-client isc-dhcp-common krb5-locales libaccountsservice0 libapt-inst2.0 libapt-pkg5.0 libbind9-160 libblkid1 libcurl3-gnutls libcurl4 libdns-export1100 libdns1100 libfdisk1 libglib2.0-0 libglib2.0-data libgssapi-krb5-2 libhogweed4 libirs160 libisc-export169 libisc169 libisccc160 libisccfg160 libk5crypto3 libkrb5-3 libkrb5support0 libldap-2.4-2 libldap-common liblwres160 liblz4-1 libmount1 libnettle6 libnss-systemd libp11-kit0 libpam-systemd libperl5.26 libpython3.6 libpython3.6-minimal libpython3.6-stdlib libsasl2-2 libsasl2-modules libsasl2-modules-db libsmartcols1 libssl1.0.0 libssl1.1 libsystemd0 libudev1 libuuid1 libx11-6 libx11-data libxml2 libzstd1 mount openssl perl perl-base perl-modules-5.26 python-apt-common python3-apport python3-apt python3-cryptography python3-problem-report python3-software-properties python3-urllib3 python3.6 python3.6-minimal screen snapd software-properties-common sudo systemd systemd-sysv tar tzdata udev util-linux uuid-runtime vim vim-common vim-runtime vim-tiny xxd
+2021-08-15 16:49:05,861 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2021-08-15 16:54:34,601 INFO All upgrades installed
+2021-08-16 07:29:44,415 INFO Initial blacklisted packages: 
+2021-08-16 07:29:44,417 INFO Initial whitelisted packages: 
+2021-08-16 07:29:44,417 INFO Starting unattended upgrades script
+2021-08-16 07:29:44,417 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2021-08-16 07:29:47,343 INFO Initial blacklisted packages: 
+2021-08-16 07:29:47,343 INFO Initial whitelisted packages: 
+2021-08-16 07:29:47,344 INFO Starting unattended upgrades script
+2021-08-16 07:29:47,344 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2021-08-16 07:29:48,798 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2021-10-14 09:28:11,861 INFO Initial blacklisted packages: 
+2021-10-14 09:28:11,870 INFO Initial whitelisted packages: 
+2021-10-14 09:28:11,870 INFO Starting unattended upgrades script
+2021-10-14 09:28:11,870 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2021-10-14 09:36:41,892 INFO Initial blacklisted packages: 
+2021-10-14 09:36:41,893 INFO Initial whitelisted packages: 
+2021-10-14 09:36:41,893 INFO Starting unattended upgrades script
+2021-10-14 09:36:41,893 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2021-10-14 09:37:51,604 INFO Packages that will be upgraded: apport ca-certificates cpio curl distro-info-data git git-man libcurl3-gnutls libcurl4 libgcrypt20 libntfs-3g88 libssl1.0.0 libssl1.1 linux-generic linux-headers-generic linux-image-generic ntfs-3g openssl python3-apport python3-problem-report squashfs-tools tzdata vim vim-common vim-runtime vim-tiny wireless-regdb xxd
+2021-10-14 09:37:51,604 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2021-10-14 09:39:42,964 INFO All upgrades installed
+2023-04-16 10:29:57,219 INFO Initial blacklisted packages: 
+2023-04-16 10:29:57,222 INFO Initial whitelisted packages: 
+2023-04-16 10:29:57,222 INFO Starting unattended upgrades script
+2023-04-16 10:29:57,223 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2023-04-16 10:35:53,053 INFO Initial blacklisted packages: 
+2023-04-16 10:35:53,054 INFO Initial whitelisted packages: 
+2023-04-16 10:35:53,054 INFO Starting unattended upgrades script
+2023-04-16 10:35:53,054 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2023-04-16 10:37:04,904 INFO Packages that will be upgraded: apport bash bind9-host busybox-initramfs busybox-static ca-certificates cron curl dbus dirmngr distro-info-data dnsmasq-base dnsutils dpkg e2fsprogs git git-man gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm gpgv grub-common grub-pc grub-pc-bin grub2-common gzip intel-microcode isc-dhcp-client isc-dhcp-common klibc-utils krb5-locales libasn1-8-heimdal libbind9-160 libc-bin libc6 libcom-err2 libcups2 libcurl3-gnutls libcurl4 libdbus-1-3 libdns-export1100 libdns1100 libexpat1 libext2fs2 libfreetype6 libfribidi0 libglib2.0-0 libglib2.0-data libgmp10 libgnutls30 libgssapi-krb5-2 libgssapi3-heimdal libhcrypto4-heimdal libheimbase1-heimdal libheimntlm0-heimdal libhx509-5-heimdal libice-dev libice6 libicu60 libirs160 libisc-export169 libisc169 libisccc160 libisccfg160 libjpeg-turbo8 libk5crypto3 libklibc libkrb5-26-heimdal libkrb5-3 libkrb5support0 libksba8 libldap-2.4-2 libldap-common liblwres160 liblzma5 libnss-systemd libnss3 libntfs-3g88 libpam-modules libpam-modules-bin libpam-runtime libpam-systemd libpam0g libpcre3 libperl5.26 libpolkit-agent-1-0 libpolkit-backend-1-0 libpolkit-gobject-1-0 libpython3.6 libpython3.6-minimal libpython3.6-stdlib libroken18-heimdal libsasl2-2 libsasl2-modules libsasl2-modules-db libseccomp2 libsepol1 libsqlite3-0 libss2 libssl1.0.0 libssl1.1 libsystemd0 libudev1 libwind0-heimdal libxml2 libxpm4 libxslt1.1 linux-generic linux-headers-generic linux-image-generic locales login multiarch-support networkd-dispatcher ntfs-3g open-vm-tools openjdk-11-jdk openjdk-11-jdk-headless openjdk-11-jre openjdk-11-jre-headless openssl passwd perl perl-base perl-modules-5.26 policykit-1 python3-apport python3-jwt python3-pkg-resources python3-problem-report python3-twisted python3-twisted-bin python3.6 python3.6-minimal rsync rsyslog snapd sosreport sudo systemd systemd-sysv tar tcpdump tmux tzdata udev uidmap vim vim-common vim-runtime vim-tiny wireless-regdb xxd xz-utils zlib1g
+2023-04-16 10:37:04,905 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2023-04-16 10:49:53,390 INFO All upgrades installed

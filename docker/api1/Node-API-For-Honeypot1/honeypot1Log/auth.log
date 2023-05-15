@@ -1,0 +1,1043 @@
+Nov 25 15:10:15 ubuntu systemd-logind[823]: New seat seat0.
+Nov 25 15:10:15 ubuntu systemd-logind[823]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 15:10:15 ubuntu systemd-logind[823]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 15:10:15 ubuntu systemd-logind[823]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 15:10:32 ubuntu login[1006]: pam_unix(login:session): session opened for user shrek by LOGIN(uid=0)
+Nov 25 15:10:32 ubuntu systemd-logind[823]: New session 1 of user shrek.
+Nov 25 15:10:32 ubuntu systemd: pam_unix(systemd-user:session): session opened for user shrek by (uid=0)
+Nov 25 15:10:40 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:10:40 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:10:40 ubuntu su[1164]: Successful su for root by root
+Nov 25 15:10:40 ubuntu su[1164]: + /dev/tty1 root:root
+Nov 25 15:10:40 ubuntu su[1164]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:10:40 ubuntu su[1164]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:10:50 ubuntu su[1164]: pam_unix(su:session): session closed for user root
+Nov 25 15:10:50 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:14:47 ubuntu systemd-logind[768]: New seat seat0.
+Nov 25 15:14:47 ubuntu systemd-logind[768]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 15:14:47 ubuntu systemd-logind[768]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 15:14:47 ubuntu systemd-logind[768]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 15:16:05 ubuntu login[1023]: pam_unix(login:session): session opened for user shrek by LOGIN(uid=0)
+Nov 25 15:16:05 ubuntu systemd-logind[768]: New session 1 of user shrek.
+Nov 25 15:16:05 ubuntu systemd: pam_unix(systemd-user:session): session opened for user shrek by (uid=0)
+Nov 25 15:16:13 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:16:13 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:16:13 ubuntu su[1170]: Successful su for root by root
+Nov 25 15:16:13 ubuntu su[1170]: + /dev/tty1 root:root
+Nov 25 15:16:13 ubuntu su[1170]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:16:13 ubuntu su[1170]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:16:15 ubuntu su[1170]: pam_unix(su:session): session closed for user root
+Nov 25 15:16:15 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:17:01 ubuntu CRON[1181]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 25 15:17:01 ubuntu CRON[1181]: pam_unix(cron:session): session closed for user root
+Nov 25 15:19:11 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/usr/bin/passwd root
+Nov 25 15:19:11 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:19:22 ubuntu passwd[1192]: pam_unix(passwd:chauthtok): password changed for root
+Nov 25 15:19:22 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:19:26 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:19:26 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:19:26 ubuntu su[1194]: Successful su for root by root
+Nov 25 15:19:26 ubuntu su[1194]: + /dev/tty1 root:root
+Nov 25 15:19:26 ubuntu su[1194]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:19:26 ubuntu su[1194]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:19:29 ubuntu su[1194]: pam_unix(su:session): session closed for user root
+Nov 25 15:19:29 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:19:36 ubuntu sudo: pam_unix(sudo:auth): authentication failure; logname=shrek uid=1000 euid=0 tty=/dev/tty1 ruser=shrek rhost=  user=shrek
+Nov 25 15:19:56 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:19:56 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:19:56 ubuntu su[1208]: Successful su for root by root
+Nov 25 15:19:56 ubuntu su[1208]: + /dev/tty1 root:root
+Nov 25 15:19:56 ubuntu su[1208]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:19:56 ubuntu su[1208]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:20:14 ubuntu su[1208]: pam_unix(su:session): session closed for user root
+Nov 25 15:20:14 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:20:24 ubuntu su[1219]: Successful su for root by shrek
+Nov 25 15:20:24 ubuntu su[1219]: + /dev/tty1 shrek:root
+Nov 25 15:20:24 ubuntu su[1219]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 25 15:20:24 ubuntu su[1219]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:22:18 ubuntu su[1219]: pam_unix(su:session): session closed for user root
+Nov 25 15:22:25 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:22:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:22:25 ubuntu su[1232]: Successful su for root by root
+Nov 25 15:22:25 ubuntu su[1232]: + /dev/tty1 root:root
+Nov 25 15:22:25 ubuntu su[1232]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:22:25 ubuntu su[1232]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:22:28 ubuntu su[1232]: pam_unix(su:session): session closed for user root
+Nov 25 15:22:28 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:22:30 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=list
+Nov 25 15:24:42 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/cat /etc/group
+Nov 25 15:24:42 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:24:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:26:47 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/nano /etc/group
+Nov 25 15:26:47 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:27:17 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:27:23 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/nano /etc/group
+Nov 25 15:27:23 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:27:28 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:27:32 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:27:32 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:27:32 ubuntu su[1269]: Successful su for root by root
+Nov 25 15:27:32 ubuntu su[1269]: + /dev/tty1 root:root
+Nov 25 15:27:32 ubuntu su[1269]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:27:32 ubuntu su[1269]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:27:36 ubuntu su[1269]: pam_unix(su:session): session closed for user root
+Nov 25 15:27:36 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:27:38 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/nano /etc/group
+Nov 25 15:27:38 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:27:48 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:29:37 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/usr/sbin/usermod -g shrek
+Nov 25 15:29:37 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:29:37 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:30:12 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/usr/sbin/usermod -g 1000 shrek
+Nov 25 15:30:12 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:30:12 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:30:33 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/usr/sbin/usermod -G shrek shrek
+Nov 25 15:30:33 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from group 'adm'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from group 'cdrom'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from group 'sudo'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from group 'dip'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from group 'plugdev'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from group 'lxd'
+Nov 25 15:30:33 ubuntu usermod[1300]: add 'shrek' to group 'shrek'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from group 'lpadmin'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from group 'sambashare'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from shadow group 'adm'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from shadow group 'cdrom'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from shadow group 'sudo'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from shadow group 'dip'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from shadow group 'plugdev'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from shadow group 'lxd'
+Nov 25 15:30:33 ubuntu usermod[1300]: add 'shrek' to shadow group 'shrek'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from shadow group 'lpadmin'
+Nov 25 15:30:33 ubuntu usermod[1300]: delete 'shrek' from shadow group 'sambashare'
+Nov 25 15:30:33 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:32:33 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/nano /etc/sudoers
+Nov 25 15:32:33 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:37:06 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:37:08 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:37:08 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:37:08 ubuntu su[1324]: Successful su for root by root
+Nov 25 15:37:08 ubuntu su[1324]: + /dev/tty1 root:root
+Nov 25 15:37:08 ubuntu su[1324]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:37:08 ubuntu su[1324]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:37:11 ubuntu su[1324]: pam_unix(su:session): session closed for user root
+Nov 25 15:37:11 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:37:19 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:37:19 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:37:19 ubuntu su[1337]: Successful su for root by root
+Nov 25 15:37:19 ubuntu su[1337]: + /dev/tty1 root:root
+Nov 25 15:37:19 ubuntu su[1337]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:37:19 ubuntu su[1337]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:37:21 ubuntu su[1337]: pam_unix(su:session): session closed for user root
+Nov 25 15:37:21 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:37:30 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/nano /etc/sudoers
+Nov 25 15:37:30 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:38:01 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:38:03 ubuntu sudo:    shrek : parse error in /etc/sudoers near line 23 ; TTY=tty1 ; PWD=/home/shrek ;
+Nov 25 15:38:10 ubuntu sudo:    shrek : parse error in /etc/sudoers near line 23 ; TTY=tty1 ; PWD=/home/shrek ;
+Nov 25 15:38:29 ubuntu su[1354]: Successful su for root by shrek
+Nov 25 15:38:29 ubuntu su[1354]: + /dev/tty1 shrek:root
+Nov 25 15:38:29 ubuntu su[1354]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 25 15:38:29 ubuntu su[1354]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:38:49 ubuntu su[1354]: pam_unix(su:session): session closed for user root
+Nov 25 15:38:51 ubuntu sudo:    shrek : parse error in /etc/sudoers near line 23 ; TTY=tty1 ; PWD=/home/shrek ;
+Nov 25 15:38:54 ubuntu su[1367]: Successful su for root by shrek
+Nov 25 15:38:54 ubuntu su[1367]: + /dev/tty1 shrek:root
+Nov 25 15:38:54 ubuntu su[1367]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 25 15:38:54 ubuntu su[1367]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:39:04 ubuntu su[1367]: pam_unix(su:session): session closed for user root
+Nov 25 15:39:06 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:39:06 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:39:06 ubuntu su[1380]: Successful su for root by root
+Nov 25 15:39:06 ubuntu su[1380]: + /dev/tty1 root:root
+Nov 25 15:39:06 ubuntu su[1380]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:39:06 ubuntu su[1380]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:39:10 ubuntu su[1380]: pam_unix(su:session): session closed for user root
+Nov 25 15:39:10 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:39:40 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:39:40 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:39:40 ubuntu su[1393]: Successful su for root by root
+Nov 25 15:39:40 ubuntu su[1393]: + /dev/tty1 root:root
+Nov 25 15:39:40 ubuntu su[1393]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:39:40 ubuntu su[1393]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:39:43 ubuntu su[1393]: pam_unix(su:session): session closed for user root
+Nov 25 15:39:43 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:39:55 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=list
+Nov 25 15:40:23 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/nano /etc/sudoers
+Nov 25 15:40:23 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:41:07 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:41:09 ubuntu sudo:    shrek : parse error in /etc/sudoers near line 26 ; TTY=tty1 ; PWD=/home/shrek ;
+Nov 25 15:41:17 ubuntu su[1410]: Successful su for root by shrek
+Nov 25 15:41:17 ubuntu su[1410]: + /dev/tty1 shrek:root
+Nov 25 15:41:17 ubuntu su[1410]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 25 15:41:17 ubuntu su[1410]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:41:29 ubuntu sudo:     root : parse error in /etc/sudoers near line 26 ; TTY=tty1 ; PWD=/home/shrek ;
+Nov 25 15:41:51 ubuntu sudo:     root : parse error in /etc/sudoers near line 26 ; TTY=tty1 ; PWD=/home/shrek ;
+Nov 25 15:42:11 ubuntu su[1410]: pam_unix(su:session): session closed for user root
+Nov 25 15:42:14 ubuntu sudo:    shrek : command not allowed ; TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:42:36 ubuntu sudo:    shrek : command not allowed ; TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/nano
+Nov 25 15:42:45 ubuntu su[1429]: Successful su for root by shrek
+Nov 25 15:42:45 ubuntu su[1429]: + /dev/tty1 shrek:root
+Nov 25 15:42:45 ubuntu su[1429]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 25 15:42:45 ubuntu su[1429]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:42:47 ubuntu su[1429]: pam_unix(su:session): session closed for user root
+Nov 25 15:43:07 ubuntu su[1444]: Successful su for root by shrek
+Nov 25 15:43:07 ubuntu su[1444]: + /dev/tty1 shrek:root
+Nov 25 15:43:07 ubuntu su[1444]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 25 15:43:07 ubuntu su[1444]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:43:31 ubuntu su[1444]: pam_unix(su:session): session closed for user root
+Nov 25 15:43:52 ubuntu su[1458]: Successful su for root by shrek
+Nov 25 15:43:52 ubuntu su[1458]: + /dev/tty1 shrek:root
+Nov 25 15:43:52 ubuntu su[1458]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 25 15:43:52 ubuntu su[1458]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:44:09 ubuntu sudo:     root : parse error in /etc/sudoers near line 26 ; TTY=tty1 ; PWD=/home/shrek ;
+Nov 25 15:44:19 ubuntu su[1458]: pam_unix(su:session): session closed for user root
+Nov 25 15:44:21 ubuntu sudo:    shrek : command not allowed ; TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:44:24 ubuntu su[1474]: Successful su for root by shrek
+Nov 25 15:44:24 ubuntu su[1474]: + /dev/tty1 shrek:root
+Nov 25 15:44:24 ubuntu su[1474]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 25 15:44:24 ubuntu su[1474]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:44:36 ubuntu sudo:     root : parse error in /etc/sudoers near line 26 ; TTY=tty1 ; PWD=/home/shrek ;
+Nov 25 15:46:34 ubuntu su[1474]: pam_unix(su:session): session closed for user root
+Nov 25 15:46:36 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:46:36 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:46:36 ubuntu su[1490]: Successful su for root by root
+Nov 25 15:46:36 ubuntu su[1490]: + /dev/tty1 root:root
+Nov 25 15:46:36 ubuntu su[1490]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:46:36 ubuntu su[1490]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:46:44 ubuntu su[1490]: pam_unix(su:session): session closed for user root
+Nov 25 15:46:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:46:49 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:46:49 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:46:49 ubuntu su[1504]: Successful su for root by root
+Nov 25 15:46:49 ubuntu su[1504]: + /dev/tty1 root:root
+Nov 25 15:46:49 ubuntu su[1504]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:46:49 ubuntu su[1504]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:47:10 ubuntu su[1504]: pam_unix(su:session): session closed for user root
+Nov 25 15:47:10 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:47:18 ubuntu su[1515]: Successful su for root by shrek
+Nov 25 15:47:18 ubuntu su[1515]: + /dev/tty1 shrek:root
+Nov 25 15:47:18 ubuntu su[1515]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 25 15:47:18 ubuntu su[1515]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:47:34 ubuntu su[1515]: pam_unix(su:session): session closed for user root
+Nov 25 15:47:43 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:47:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:47:43 ubuntu su[1530]: Successful su for root by root
+Nov 25 15:47:43 ubuntu su[1530]: + /dev/tty1 root:root
+Nov 25 15:47:43 ubuntu su[1530]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:47:43 ubuntu su[1530]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:48:44 ubuntu su[1530]: pam_unix(su:session): session closed for user root
+Nov 25 15:48:44 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 25 15:48:47 ubuntu sudo:    shrek : command not allowed ; TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:49:05 ubuntu sudo:    shrek : command not allowed ; TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/nano
+Nov 25 15:49:14 ubuntu su[1548]: Successful su for root by shrek
+Nov 25 15:49:14 ubuntu su[1548]: + /dev/tty1 shrek:root
+Nov 25 15:49:14 ubuntu su[1548]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 25 15:49:14 ubuntu su[1548]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:51:28 ubuntu su[1548]: pam_unix(su:session): session closed for user root
+Nov 25 15:51:30 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=list
+Nov 25 15:51:40 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=list
+Nov 25 15:51:43 ubuntu sudo:    shrek : command not allowed ; TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:53:05 ubuntu sudo:    shrek : command not allowed ; TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:53:08 ubuntu su[1570]: Successful su for root by shrek
+Nov 25 15:53:08 ubuntu su[1570]: + /dev/tty1 shrek:root
+Nov 25 15:53:08 ubuntu su[1570]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 25 15:53:08 ubuntu su[1570]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 15:53:58 ubuntu sudo:     root : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 25 15:53:58 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Nov 25 15:53:58 ubuntu su[1583]: Successful su for root by root
+Nov 25 15:53:58 ubuntu su[1583]: + /dev/tty1 root:root
+Nov 25 15:53:58 ubuntu su[1583]: pam_unix(su:session): session opened for user root by shrek(uid=0)
+Nov 25 15:53:58 ubuntu su[1583]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 25 16:10:50 ubuntu groupadd[14871]: group added to /etc/group: name=ssl-cert, GID=117
+Nov 25 16:10:50 ubuntu groupadd[14871]: group added to /etc/gshadow: name=ssl-cert
+Nov 25 16:10:50 ubuntu groupadd[14871]: new group: name=ssl-cert, GID=117
+Nov 25 16:17:02 ubuntu CRON[14982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 25 16:17:02 ubuntu CRON[14982]: pam_unix(cron:session): session closed for user root
+Nov 25 16:25:51 ubuntu groupadd[15056]: group added to /etc/group: name=ftp, GID=1001
+Nov 25 16:25:51 ubuntu groupadd[15056]: group added to /etc/gshadow: name=ftp
+Nov 25 16:25:51 ubuntu groupadd[15056]: new group: name=ftp, GID=1001
+Nov 25 16:25:51 ubuntu useradd[15060]: new user: name=ftp, UID=1001, GID=1001, home=/home/ftp, shell=/bin/bash
+Nov 25 16:25:59 ubuntu passwd[15067]: pam_unix(passwd:chauthtok): password changed for ftp
+Nov 25 16:26:03 ubuntu chfn[15068]: changed user 'ftp' information
+Nov 25 16:38:36 ubuntu proftpd[15134]: ubuntu (localhost[127.0.0.1]) - USER Anonymous: no such user found from localhost [127.0.0.1] to 127.0.0.1:21
+Nov 25 16:51:22 ubuntu groupadd[18129]: group added to /etc/group: name=scanner, GID=118
+Nov 25 16:51:22 ubuntu groupadd[18129]: group added to /etc/gshadow: name=scanner
+Nov 25 16:51:22 ubuntu groupadd[18129]: new group: name=scanner, GID=118
+Nov 25 16:51:22 ubuntu groupadd[18139]: group added to /etc/group: name=colord, GID=119
+Nov 25 16:51:22 ubuntu groupadd[18139]: group added to /etc/gshadow: name=colord
+Nov 25 16:51:22 ubuntu groupadd[18139]: new group: name=colord, GID=119
+Nov 25 16:51:22 ubuntu useradd[18143]: new user: name=colord, UID=110, GID=119, home=/var/lib/colord, shell=/bin/false
+Nov 25 16:51:22 ubuntu usermod[18148]: change user 'colord' password
+Nov 25 16:51:22 ubuntu chage[18153]: changed password expiry for colord
+Nov 25 16:51:23 ubuntu chfn[18156]: changed user 'colord' information
+Nov 25 16:51:23 ubuntu groupadd[18261]: group added to /etc/group: name=vboxsf, GID=120
+Nov 25 16:51:23 ubuntu groupadd[18261]: group added to /etc/gshadow: name=vboxsf
+Nov 25 16:51:23 ubuntu groupadd[18261]: new group: name=vboxsf, GID=120
+Nov 25 16:55:02 ubuntu systemd-logind[783]: New seat seat0.
+Nov 25 16:55:02 ubuntu systemd-logind[783]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 16:55:02 ubuntu systemd-logind[783]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 16:55:02 ubuntu systemd-logind[783]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 16:55:29 ubuntu login[1062]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 25 16:55:29 ubuntu systemd-logind[783]: New session 1 of user root.
+Nov 25 16:55:29 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 25 16:55:29 ubuntu login[1259]: ROOT LOGIN  on '/dev/tty1'
+Nov 25 17:17:01 ubuntu CRON[1677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 25 17:17:01 ubuntu CRON[1677]: pam_unix(cron:session): session closed for user root
+Nov 25 17:28:45 ubuntu systemd-logind[849]: New seat seat0.
+Nov 25 17:28:45 ubuntu systemd-logind[849]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 17:28:45 ubuntu systemd-logind[849]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 17:28:45 ubuntu systemd-logind[849]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 17:30:15 ubuntu login[1031]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 25 17:30:15 ubuntu systemd-logind[849]: New session 1 of user root.
+Nov 25 17:30:15 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 25 17:30:15 ubuntu login[1246]: ROOT LOGIN  on '/dev/tty1'
+Nov 25 17:31:35 ubuntu systemd-logind[876]: New seat seat0.
+Nov 25 17:31:35 ubuntu systemd-logind[876]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 17:31:35 ubuntu systemd-logind[876]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 17:31:35 ubuntu systemd-logind[876]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 17:31:57 ubuntu login[1030]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 25 17:31:57 ubuntu systemd-logind[876]: New session 1 of user root.
+Nov 25 17:31:57 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 25 17:31:57 ubuntu login[1261]: ROOT LOGIN  on '/dev/tty1'
+Nov 25 17:32:45 ubuntu systemd-logind[777]: New seat seat0.
+Nov 25 17:32:45 ubuntu systemd-logind[777]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 17:32:45 ubuntu systemd-logind[777]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 17:32:45 ubuntu systemd-logind[777]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 17:33:04 ubuntu login[1047]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 25 17:33:04 ubuntu systemd-logind[777]: New session 1 of user root.
+Nov 25 17:33:04 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 25 17:33:04 ubuntu login[1253]: ROOT LOGIN  on '/dev/tty1'
+Nov 25 17:34:46 ubuntu systemd-logind[770]: New seat seat0.
+Nov 25 17:34:46 ubuntu systemd-logind[770]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 17:34:46 ubuntu systemd-logind[770]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 17:34:46 ubuntu systemd-logind[770]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 17:35:03 ubuntu login[1043]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 25 17:35:03 ubuntu systemd-logind[770]: New session 1 of user root.
+Nov 25 17:35:03 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 25 17:35:03 ubuntu login[1248]: ROOT LOGIN  on '/dev/tty1'
+Nov 25 17:36:19 ubuntu systemd-logind[816]: New seat seat0.
+Nov 25 17:36:19 ubuntu systemd-logind[816]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 17:36:19 ubuntu systemd-logind[816]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 17:36:19 ubuntu systemd-logind[816]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 17:36:35 ubuntu login[1061]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 25 17:36:35 ubuntu systemd-logind[816]: New session 1 of user root.
+Nov 25 17:36:35 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 25 17:36:35 ubuntu login[1268]: ROOT LOGIN  on '/dev/tty1'
+Nov 25 17:39:24 ubuntu systemd-logind[858]: New seat seat0.
+Nov 25 17:39:24 ubuntu systemd-logind[858]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 17:39:24 ubuntu systemd-logind[858]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 17:39:24 ubuntu systemd-logind[858]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 17:40:04 ubuntu login[1018]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 25 17:40:04 ubuntu systemd-logind[858]: New session 1 of user root.
+Nov 25 17:40:04 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 25 17:40:04 ubuntu login[1239]: ROOT LOGIN  on '/dev/tty1'
+Nov 25 17:41:02 ubuntu systemd-logind[769]: New seat seat0.
+Nov 25 17:41:02 ubuntu systemd-logind[769]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 17:41:02 ubuntu systemd-logind[769]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 17:41:02 ubuntu systemd-logind[769]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 17:41:27 ubuntu login[1035]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 25 17:41:27 ubuntu systemd-logind[769]: New session 1 of user root.
+Nov 25 17:41:27 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 25 17:41:28 ubuntu login[1242]: ROOT LOGIN  on '/dev/tty1'
+Nov 25 17:46:19 ubuntu systemd-logind[819]: New seat seat0.
+Nov 25 17:46:19 ubuntu systemd-logind[819]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 17:46:19 ubuntu systemd-logind[819]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 17:46:19 ubuntu systemd-logind[819]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 17:46:41 ubuntu login[1031]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 25 17:46:41 ubuntu systemd-logind[819]: New session 1 of user root.
+Nov 25 17:46:41 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 25 17:46:41 ubuntu login[1263]: ROOT LOGIN  on '/dev/tty1'
+Nov 25 17:48:04 ubuntu systemd-logind[872]: New seat seat0.
+Nov 25 17:48:04 ubuntu systemd-logind[872]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 25 17:48:04 ubuntu systemd-logind[872]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 25 17:48:04 ubuntu systemd-logind[872]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 25 17:48:55 ubuntu systemd-logind[872]: Power key pressed.
+Nov 25 17:48:55 ubuntu systemd-logind[872]: Powering Off...
+Nov 25 17:48:55 ubuntu systemd-logind[872]: System is powering down.
+Nov 26 11:17:50 ubuntu systemd-logind[844]: New seat seat0.
+Nov 26 11:17:50 ubuntu systemd-logind[844]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 26 11:17:50 ubuntu systemd-logind[844]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 26 11:17:50 ubuntu systemd-logind[844]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 26 11:19:18 ubuntu login[1016]: pam_unix(login:session): session opened for user shrek by LOGIN(uid=0)
+Nov 26 11:19:18 ubuntu systemd-logind[844]: New session 1 of user shrek.
+Nov 26 11:19:18 ubuntu systemd: pam_unix(systemd-user:session): session opened for user shrek by (uid=0)
+Nov 26 11:19:31 ubuntu sudo:    shrek : user NOT in sudoers ; TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 26 11:19:44 ubuntu su[1612]: Successful su for root by shrek
+Nov 26 11:19:44 ubuntu su[1612]: + /dev/tty1 shrek:root
+Nov 26 11:19:44 ubuntu su[1612]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 26 11:19:44 ubuntu su[1612]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 26 11:20:13 ubuntu su[1612]: pam_unix(su:session): session closed for user root
+Nov 26 11:20:18 ubuntu sudo:    shrek : user NOT in sudoers ; TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/bin/su
+Nov 26 11:20:24 ubuntu su[1625]: Successful su for root by shrek
+Nov 26 11:20:24 ubuntu su[1625]: + /dev/tty1 shrek:root
+Nov 26 11:20:24 ubuntu su[1625]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 26 11:20:24 ubuntu su[1625]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 26 11:36:31 ubuntu systemd-logind[770]: New seat seat0.
+Nov 26 11:36:31 ubuntu systemd-logind[770]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 26 11:36:31 ubuntu systemd-logind[770]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 26 11:36:31 ubuntu systemd-logind[770]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 26 11:37:41 ubuntu login[1027]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 26 11:37:41 ubuntu systemd-logind[770]: New session 1 of user root.
+Nov 26 11:37:41 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 26 11:37:41 ubuntu login[1273]: ROOT LOGIN  on '/dev/tty1'
+Nov 26 11:39:01 ubuntu CRON[1298]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 11:39:01 ubuntu CRON[1298]: pam_unix(cron:session): session closed for user root
+Nov 26 11:51:14 ubuntu systemd-logind[871]: New seat seat0.
+Nov 26 11:51:14 ubuntu systemd-logind[871]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 26 11:51:14 ubuntu systemd-logind[871]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 26 11:51:14 ubuntu systemd-logind[871]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 26 11:53:05 ubuntu login[1013]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 26 11:53:05 ubuntu systemd-logind[871]: New session 1 of user root.
+Nov 26 11:53:05 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 26 11:53:05 ubuntu login[1273]: ROOT LOGIN  on '/dev/tty1'
+Nov 26 12:09:01 ubuntu CRON[1382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 12:09:02 ubuntu CRON[1382]: pam_unix(cron:session): session closed for user root
+Nov 26 12:17:01 ubuntu CRON[1441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 12:17:01 ubuntu CRON[1441]: pam_unix(cron:session): session closed for user root
+Nov 26 12:27:41 ubuntu systemd-logind[893]: New seat seat0.
+Nov 26 12:27:41 ubuntu systemd-logind[893]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 26 12:27:41 ubuntu systemd-logind[893]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 26 12:27:41 ubuntu systemd-logind[893]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 26 12:28:32 ubuntu login[1039]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 26 12:28:32 ubuntu systemd-logind[893]: New session 1 of user root.
+Nov 26 12:28:32 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 26 12:28:32 ubuntu login[1215]: ROOT LOGIN  on '/dev/tty1'
+Nov 26 12:31:00 ubuntu systemd-logind[859]: New seat seat0.
+Nov 26 12:31:00 ubuntu systemd-logind[859]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 26 12:31:00 ubuntu systemd-logind[859]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 26 12:31:00 ubuntu systemd-logind[859]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 26 12:31:31 ubuntu login[1031]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 26 12:31:31 ubuntu systemd-logind[859]: New session 1 of user root.
+Nov 26 12:31:31 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 26 12:31:31 ubuntu login[1269]: ROOT LOGIN  on '/dev/tty1'
+Nov 26 12:36:04 ubuntu sudo:     root : TTY=tty1 ; PWD=/etc/apache2/conf-available ; USER=root ; COMMAND=/usr/sbin/a2enmod proxy_fcgi setenvif
+Nov 26 12:36:04 ubuntu sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 26 12:36:05 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 26 12:36:49 ubuntu sudo:     root : TTY=tty1 ; PWD=/etc/apache2/conf-available ; USER=root ; COMMAND=/usr/sbin/a2enconf php7.0-fpm
+Nov 26 12:36:49 ubuntu sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 26 12:36:49 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 26 12:39:01 ubuntu CRON[1741]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 12:39:01 ubuntu CRON[1741]: pam_unix(cron:session): session closed for user root
+Nov 26 13:08:39 ubuntu login[1031]: pam_unix(login:session): session closed for user root
+Nov 26 13:08:39 ubuntu systemd-logind[859]: Removed session 1.
+Nov 26 13:08:44 ubuntu login[1955]: pam_unix(login:auth): check pass; user unknown
+Nov 26 13:08:44 ubuntu login[1955]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Nov 26 13:08:48 ubuntu login[1955]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Nov 26 13:09:00 ubuntu login[1970]: pam_unix(login:session): session opened for user shrek by LOGIN(uid=0)
+Nov 26 13:09:00 ubuntu systemd: pam_unix(systemd-user:session): session opened for user shrek by (uid=0)
+Nov 26 13:09:00 ubuntu systemd-logind[859]: New session 3 of user shrek.
+Nov 26 13:09:01 ubuntu CRON[2031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 13:09:02 ubuntu CRON[2031]: pam_unix(cron:session): session closed for user root
+Nov 26 13:10:18 ubuntu sudo:    shrek : user NOT in sudoers ; TTY=tty1 ; PWD=/home ; USER=root ; COMMAND=/bin/chmod 600 ../runme.sh
+Nov 26 13:10:23 ubuntu su[2102]: pam_unix(su:auth): authentication failure; logname=shrek uid=1000 euid=0 tty=/dev/tty1 ruser=shrek rhost=  user=root
+Nov 26 13:10:25 ubuntu su[2102]: pam_authenticate: Authentication failure
+Nov 26 13:10:25 ubuntu su[2102]: FAILED su for root by shrek
+Nov 26 13:10:25 ubuntu su[2102]: - /dev/tty1 shrek:root
+Nov 26 13:10:32 ubuntu su[2103]: Successful su for root by shrek
+Nov 26 13:10:32 ubuntu su[2103]: + /dev/tty1 shrek:root
+Nov 26 13:10:32 ubuntu su[2103]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 26 13:10:32 ubuntu su[2103]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 26 13:12:51 ubuntu su[2103]: pam_unix(su:session): session closed for user root
+Nov 26 13:14:57 ubuntu su[2132]: Successful su for root by shrek
+Nov 26 13:14:57 ubuntu su[2132]: + /dev/tty1 shrek:root
+Nov 26 13:14:57 ubuntu su[2132]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 26 13:14:57 ubuntu su[2132]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 26 13:17:01 ubuntu CRON[2150]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 13:17:01 ubuntu CRON[2150]: pam_unix(cron:session): session closed for user root
+Nov 26 13:18:45 ubuntu su[2132]: pam_unix(su:session): session closed for user root
+Nov 26 13:19:56 ubuntu su[2156]: Successful su for root by shrek
+Nov 26 13:19:56 ubuntu su[2156]: + /dev/tty1 shrek:root
+Nov 26 13:19:56 ubuntu su[2156]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Nov 26 13:19:56 ubuntu su[2156]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 26 13:21:16 ubuntu su[2156]: pam_unix(su:session): session closed for user root
+Nov 26 13:21:25 ubuntu login[1970]: pam_unix(login:session): session closed for user shrek
+Nov 26 13:21:25 ubuntu systemd-logind[859]: Removed session 3.
+Nov 26 13:21:39 ubuntu login[2176]: pam_unix(login:session): session opened for user shrek by LOGIN(uid=0)
+Nov 26 13:21:39 ubuntu systemd: pam_unix(systemd-user:session): session opened for user shrek by (uid=0)
+Nov 26 13:21:39 ubuntu systemd-logind[859]: New session 6 of user shrek.
+Nov 26 13:22:25 ubuntu systemd-logind[917]: New seat seat0.
+Nov 26 13:22:25 ubuntu systemd-logind[917]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 26 13:22:25 ubuntu systemd-logind[917]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 26 13:22:25 ubuntu systemd-logind[917]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 26 13:39:01 ubuntu CRON[1216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 13:39:01 ubuntu CRON[1216]: pam_unix(cron:session): session closed for user root
+Nov 26 13:46:43 ubuntu login[1014]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Nov 26 13:46:46 ubuntu login[1014]: FAILED LOGIN (1) on '/dev/tty1' FOR 'root', Authentication failure
+Nov 26 13:46:56 ubuntu login[1271]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 26 13:46:56 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 26 13:46:56 ubuntu systemd-logind[917]: New session 2 of user root.
+Nov 26 13:46:56 ubuntu login[1343]: ROOT LOGIN  on '/dev/tty1'
+Nov 26 14:09:01 ubuntu CRON[1356]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 14:09:01 ubuntu CRON[1356]: pam_unix(cron:session): session closed for user root
+Nov 26 14:15:14 ubuntu useradd[2155]: new user: name=sshd, UID=111, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Nov 26 14:15:14 ubuntu usermod[2160]: change user 'sshd' password
+Nov 26 14:15:14 ubuntu chage[2165]: changed password expiry for sshd
+Nov 26 14:15:15 ubuntu sshd[2258]: Server listening on 0.0.0.0 port 22.
+Nov 26 14:15:15 ubuntu sshd[2258]: Server listening on :: port 22.
+Nov 26 14:17:01 ubuntu CRON[2356]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 14:17:01 ubuntu CRON[2356]: pam_unix(cron:session): session closed for user root
+Nov 26 14:24:30 ubuntu sshd[2258]: Received signal 15; terminating.
+Nov 26 14:24:55 ubuntu systemd-logind[833]: New seat seat0.
+Nov 26 14:24:55 ubuntu systemd-logind[833]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 26 14:24:55 ubuntu systemd-logind[833]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 26 14:24:55 ubuntu systemd-logind[833]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 26 14:24:58 ubuntu sshd[1063]: Server listening on 0.0.0.0 port 22.
+Nov 26 14:24:58 ubuntu sshd[1063]: Server listening on :: port 22.
+Nov 26 14:25:17 ubuntu sshd[1226]: Did not receive identification string from 10.0.0.4
+Nov 26 14:25:28 ubuntu sshd[1229]: Protocol major versions differ for 10.0.0.4: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10 vs. SSH-1.5-NmapNSE_1.0
+Nov 26 14:25:28 ubuntu sshd[1230]: Protocol major versions differ for 10.0.0.4: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Nov 26 14:25:28 ubuntu sshd[1235]: fatal: Unable to negotiate with 10.0.0.4 port 50412: no matching host key type found. Their offer: ssh-dss [preauth]
+Nov 26 14:25:28 ubuntu sshd[1237]: Connection closed by 10.0.0.4 port 50418 [preauth]
+Nov 26 14:25:28 ubuntu sshd[1239]: Connection closed by 10.0.0.4 port 50426 [preauth]
+Nov 26 14:25:28 ubuntu sshd[1241]: fatal: Unable to negotiate with 10.0.0.4 port 50432: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+Nov 26 14:25:28 ubuntu sshd[1243]: fatal: Unable to negotiate with 10.0.0.4 port 50436: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Nov 26 14:25:28 ubuntu sshd[1245]: Connection closed by 10.0.0.4 port 50438 [preauth]
+Nov 26 14:25:49 ubuntu sshd[1250]: Invalid user anonymous from 10.0.0.4
+Nov 26 14:25:49 ubuntu sshd[1250]: input_userauth_request: invalid user anonymous [preauth]
+Nov 26 14:25:51 ubuntu sshd[1250]: Failed none for invalid user anonymous from 10.0.0.4 port 50454 ssh2
+Nov 26 14:25:55 ubuntu sshd[1250]: pam_unix(sshd:auth): check pass; user unknown
+Nov 26 14:25:55 ubuntu sshd[1250]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.4
+Nov 26 14:25:57 ubuntu sshd[1250]: Failed password for invalid user anonymous from 10.0.0.4 port 50454 ssh2
+Nov 26 14:26:02 ubuntu sshd[1250]: pam_unix(sshd:auth): check pass; user unknown
+Nov 26 14:26:05 ubuntu sshd[1250]: Failed password for invalid user anonymous from 10.0.0.4 port 50454 ssh2
+Nov 26 14:26:05 ubuntu sshd[1250]: Connection closed by 10.0.0.4 port 50454 [preauth]
+Nov 26 14:26:05 ubuntu sshd[1250]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.4
+Nov 26 14:26:14 ubuntu sshd[1253]: Accepted password for shrek from 10.0.0.4 port 50456 ssh2
+Nov 26 14:26:14 ubuntu sshd[1253]: pam_unix(sshd:session): session opened for user shrek by (uid=0)
+Nov 26 14:26:14 ubuntu systemd: pam_unix(systemd-user:session): session opened for user shrek by (uid=0)
+Nov 26 14:26:14 ubuntu systemd-logind[833]: New session 1 of user shrek.
+Nov 26 14:26:19 ubuntu sshd[1322]: Received disconnect from 10.0.0.4 port 50456:11: disconnected by user
+Nov 26 14:26:19 ubuntu sshd[1322]: Disconnected from 10.0.0.4 port 50456
+Nov 26 14:26:19 ubuntu sshd[1253]: pam_unix(sshd:session): session closed for user shrek
+Nov 26 14:26:19 ubuntu systemd-logind[833]: Removed session 1.
+Nov 26 14:26:27 ubuntu sshd[1343]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.4  user=root
+Nov 26 14:26:29 ubuntu sshd[1343]: Failed password for root from 10.0.0.4 port 50458 ssh2
+Nov 26 14:26:32 ubuntu sshd[1343]: Connection closed by 10.0.0.4 port 50458 [preauth]
+Nov 26 14:26:45 ubuntu login[1347]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 26 14:26:45 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 26 14:26:45 ubuntu systemd-logind[833]: New session 2 of user root.
+Nov 26 14:26:45 ubuntu login[1397]: ROOT LOGIN  on '/dev/tty1'
+Nov 26 14:34:51 ubuntu login[1347]: pam_unix(login:session): session closed for user root
+Nov 26 14:34:51 ubuntu systemd-logind[833]: Removed session 2.
+Nov 26 14:34:51 ubuntu systemd: pam_unix(systemd-user:session): session closed for user root
+Nov 26 14:34:56 ubuntu login[1611]: pam_unix(login:session): session opened for user shrek by LOGIN(uid=0)
+Nov 26 14:34:56 ubuntu systemd: pam_unix(systemd-user:session): session opened for user shrek by (uid=0)
+Nov 26 14:34:56 ubuntu systemd-logind[833]: New session 3 of user shrek.
+Nov 26 14:35:16 ubuntu login[1611]: pam_unix(login:session): session closed for user shrek
+Nov 26 14:35:16 ubuntu systemd-logind[833]: Removed session 3.
+Nov 26 14:35:26 ubuntu systemd-logind[833]: Power key pressed.
+Nov 26 14:35:26 ubuntu systemd-logind[833]: Powering Off...
+Nov 26 14:35:26 ubuntu systemd-logind[833]: System is powering down.
+Nov 26 15:35:03 ubuntu systemd-logind[847]: New seat seat0.
+Nov 26 15:35:03 ubuntu systemd-logind[847]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 26 15:35:03 ubuntu systemd-logind[847]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 26 15:35:03 ubuntu systemd-logind[847]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 26 15:35:06 ubuntu sshd[1056]: Server listening on 0.0.0.0 port 22.
+Nov 26 15:35:06 ubuntu sshd[1056]: Server listening on :: port 22.
+Nov 26 15:36:01 ubuntu login[1026]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Nov 26 15:36:04 ubuntu login[1026]: FAILED LOGIN (1) on '/dev/tty1' FOR 'root', Authentication failure
+Nov 26 15:36:12 ubuntu login[1026]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 26 15:36:12 ubuntu systemd-logind[847]: New session 1 of user root.
+Nov 26 15:36:12 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 26 15:36:12 ubuntu login[1275]: ROOT LOGIN  on '/dev/tty1'
+Nov 26 15:39:01 ubuntu CRON[1315]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 26 15:39:01 ubuntu CRON[1315]: pam_unix(cron:session): session closed for user root
+Nov 26 15:40:59 ubuntu login[1026]: pam_unix(login:session): session closed for user root
+Nov 26 15:40:59 ubuntu systemd-logind[847]: Removed session 1.
+Nov 26 15:41:13 ubuntu sshd[1386]: Did not receive identification string from 10.0.0.4
+Nov 26 15:41:24 ubuntu sshd[1389]: Protocol major versions differ for 10.0.0.4: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Nov 26 15:41:24 ubuntu sshd[1390]: Protocol major versions differ for 10.0.0.4: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10 vs. SSH-1.5-NmapNSE_1.0
+Nov 26 15:41:24 ubuntu sshd[1395]: fatal: Unable to negotiate with 10.0.0.4 port 37510: no matching host key type found. Their offer: ssh-dss [preauth]
+Nov 26 15:41:24 ubuntu sshd[1397]: Connection closed by 10.0.0.4 port 37520 [preauth]
+Nov 26 15:41:24 ubuntu sshd[1399]: Connection closed by 10.0.0.4 port 37528 [preauth]
+Nov 26 15:41:24 ubuntu sshd[1401]: fatal: Unable to negotiate with 10.0.0.4 port 37534: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+Nov 26 15:41:24 ubuntu sshd[1403]: fatal: Unable to negotiate with 10.0.0.4 port 37538: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Nov 26 15:41:24 ubuntu sshd[1405]: Connection closed by 10.0.0.4 port 37540 [preauth]
+Nov 26 15:41:31 ubuntu systemd-logind[847]: Power key pressed.
+Nov 26 15:41:31 ubuntu systemd-logind[847]: Powering Off...
+Nov 26 15:41:31 ubuntu systemd-logind[847]: System is powering down.
+Nov 26 16:55:42 ubuntu systemd-logind[778]: New seat seat0.
+Nov 26 16:55:42 ubuntu systemd-logind[778]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 26 16:55:42 ubuntu systemd-logind[778]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 26 16:55:42 ubuntu systemd-logind[778]: Watching system buttons on /dev/input/event3 (Video Bus)
+Nov 26 16:55:45 ubuntu sshd[1065]: Server listening on 0.0.0.0 port 22.
+Nov 26 16:55:45 ubuntu sshd[1065]: Server listening on :: port 22.
+Nov 26 16:56:14 ubuntu login[1031]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov 26 16:56:14 ubuntu systemd-logind[778]: New session 1 of user root.
+Nov 26 16:56:14 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 26 16:56:14 ubuntu login[1287]: ROOT LOGIN  on '/dev/tty1'
+Jun 15 13:03:59 ubuntu systemd-logind[766]: New seat seat0.
+Jun 15 13:03:59 ubuntu systemd-logind[766]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 15 13:03:59 ubuntu systemd-logind[766]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 15 13:03:59 ubuntu systemd-logind[766]: Watching system buttons on /dev/input/event3 (Video Bus)
+Jun 15 13:04:02 ubuntu sshd[1086]: Server listening on 0.0.0.0 port 22.
+Jun 15 13:04:02 ubuntu sshd[1086]: Server listening on :: port 22.
+Jun 15 13:04:22 ubuntu login[1042]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Jun 15 13:04:25 ubuntu login[1042]: FAILED LOGIN (1) on '/dev/tty1' FOR 'root', Authentication failure
+Jun 15 13:05:07 ubuntu login[1042]: FAILED LOGIN (2) on '/dev/tty1' FOR 'root', Authentication failure
+Jun 15 13:06:03 ubuntu login[1560]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Jun 15 13:06:06 ubuntu login[1560]: FAILED LOGIN (1) on '/dev/tty1' FOR 'root', Authentication failure
+Jun 15 13:06:29 ubuntu login[1560]: FAILED LOGIN (2) on '/dev/tty1' FOR 'root', Authentication failure
+Jun 15 13:06:37 ubuntu login[1560]: pam_unix(login:auth): check pass; user unknown
+Jun 15 13:06:37 ubuntu login[1560]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 15 13:06:40 ubuntu login[1560]: FAILED LOGIN (3) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 15 13:06:49 ubuntu login[1560]: pam_unix(login:session): session opened for user shrek by LOGIN(uid=0)
+Jun 15 13:06:49 ubuntu systemd-logind[766]: New session 1 of user shrek.
+Jun 15 13:06:49 ubuntu systemd: pam_unix(systemd-user:session): session opened for user shrek by (uid=0)
+Jun 15 13:07:13 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=list
+Jun 15 13:07:22 ubuntu su[1652]: pam_unix(su:auth): authentication failure; logname=shrek uid=1000 euid=0 tty=/dev/tty1 ruser=shrek rhost=  user=root
+Jun 15 13:07:24 ubuntu su[1652]: pam_authenticate: Authentication failure
+Jun 15 13:07:24 ubuntu su[1652]: FAILED su for root by shrek
+Jun 15 13:07:24 ubuntu su[1652]: - /dev/tty1 shrek:root
+Jun 15 13:08:17 ubuntu su[1653]: pam_unix(su:auth): authentication failure; logname=shrek uid=1000 euid=0 tty=/dev/tty1 ruser=shrek rhost=  user=root
+Jun 15 13:08:18 ubuntu su[1653]: pam_authenticate: Authentication failure
+Jun 15 13:08:18 ubuntu su[1653]: FAILED su for root by shrek
+Jun 15 13:08:18 ubuntu su[1653]: - /dev/tty1 shrek:root
+Jun 15 13:08:24 ubuntu su[1654]: pam_unix(su:auth): authentication failure; logname=shrek uid=1000 euid=0 tty=/dev/tty1 ruser=shrek rhost=  user=root
+Jun 15 13:08:26 ubuntu su[1654]: pam_authenticate: Authentication failure
+Jun 15 13:08:26 ubuntu su[1654]: FAILED su for root by shrek
+Jun 15 13:08:26 ubuntu su[1654]: - /dev/tty1 shrek:root
+Jun 15 13:08:50 ubuntu su[1655]: pam_unix(su:auth): authentication failure; logname=shrek uid=1000 euid=0 tty=/dev/tty1 ruser=shrek rhost=  user=root
+Jun 15 13:08:52 ubuntu su[1655]: pam_authenticate: Authentication failure
+Jun 15 13:08:52 ubuntu su[1655]: FAILED su for root by shrek
+Jun 15 13:08:52 ubuntu su[1655]: - /dev/tty1 shrek:root
+Jun 15 13:09:01 ubuntu CRON[1657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 15 13:09:02 ubuntu CRON[1657]: pam_unix(cron:session): session closed for user root
+Jun 15 13:09:05 ubuntu su[1656]: pam_unix(su:auth): authentication failure; logname=shrek uid=1000 euid=0 tty=/dev/tty1 ruser=shrek rhost=  user=root
+Jun 15 13:09:07 ubuntu su[1656]: pam_authenticate: Authentication failure
+Jun 15 13:09:07 ubuntu su[1656]: FAILED su for root by shrek
+Jun 15 13:09:07 ubuntu su[1656]: - /dev/tty1 shrek:root
+Jun 15 13:10:05 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/usr/bin/python3.5 -c import os; os.system("/bin/sh")
+Jun 15 13:10:05 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Jun 15 13:10:41 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jun 15 13:10:47 ubuntu su[1709]: pam_unix(su:auth): authentication failure; logname=shrek uid=1000 euid=0 tty=/dev/tty1 ruser=shrek rhost=  user=root
+Jun 15 13:10:49 ubuntu su[1709]: pam_authenticate: Authentication failure
+Jun 15 13:10:49 ubuntu su[1709]: FAILED su for root by shrek
+Jun 15 13:10:49 ubuntu su[1709]: - /dev/tty1 shrek:root
+Jun 15 13:11:11 ubuntu su[1710]: pam_unix(su:auth): authentication failure; logname=shrek uid=1000 euid=0 tty=/dev/tty1 ruser=shrek rhost=  user=root
+Jun 15 13:11:13 ubuntu su[1710]: pam_authenticate: Authentication failure
+Jun 15 13:11:13 ubuntu su[1710]: FAILED su for root by shrek
+Jun 15 13:11:13 ubuntu su[1710]: - /dev/tty1 shrek:root
+Jun 15 13:11:22 ubuntu su[1711]: pam_unix(su:auth): authentication failure; logname=shrek uid=1000 euid=0 tty=/dev/tty1 ruser=shrek rhost=  user=root
+Jun 15 13:11:23 ubuntu su[1711]: pam_authenticate: Authentication failure
+Jun 15 13:11:23 ubuntu su[1711]: FAILED su for root by shrek
+Jun 15 13:11:23 ubuntu su[1711]: - /dev/tty1 shrek:root
+Jun 15 13:11:28 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/usr/bin/python3.5 -c import os; os.system("/bin/sh")
+Jun 15 13:11:28 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Jun 15 13:11:43 ubuntu passwd[1716]: pam_unix(passwd:chauthtok): password changed for root
+Jun 15 13:11:45 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jun 15 13:11:49 ubuntu su[1717]: Successful su for root by shrek
+Jun 15 13:11:49 ubuntu su[1717]: + /dev/tty1 shrek:root
+Jun 15 13:11:49 ubuntu su[1717]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Jun 15 13:11:49 ubuntu su[1717]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 15 13:11:54 ubuntu su[1717]: pam_unix(su:session): session closed for user root
+Jun 15 13:11:57 ubuntu sudo:    shrek : TTY=tty1 ; PWD=/home/shrek ; USER=root ; COMMAND=/usr/bin/python3.5 -c import os; os.system("/bin/sh")
+Jun 15 13:11:57 ubuntu sudo: pam_unix(sudo:session): session opened for user root by shrek(uid=0)
+Jun 15 13:12:10 ubuntu passwd[1732]: pam_unix(passwd:chauthtok): password changed for root
+Jun 15 13:12:12 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jun 15 13:12:17 ubuntu su[1733]: Successful su for root by shrek
+Jun 15 13:12:17 ubuntu su[1733]: + /dev/tty1 shrek:root
+Jun 15 13:12:17 ubuntu su[1733]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Jun 15 13:12:17 ubuntu su[1733]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 15 13:12:34 ubuntu su[1733]: pam_unix(su:session): session closed for user root
+Jun 15 13:12:35 ubuntu login[1560]: pam_unix(login:session): session closed for user shrek
+Jun 15 13:12:35 ubuntu login[1560]: PAM 1 more authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Jun 15 13:12:35 ubuntu systemd-logind[766]: Removed session 1.
+Jun 15 13:12:40 ubuntu login[1749]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun 15 13:12:40 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 15 13:12:40 ubuntu systemd-logind[766]: New session 3 of user root.
+Jun 15 13:12:40 ubuntu login[1806]: ROOT LOGIN  on '/dev/tty1'
+Jun 15 13:17:01 ubuntu CRON[1823]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 15 13:17:03 ubuntu CRON[1823]: pam_unix(cron:session): session closed for user root
+Jun 15 13:39:01 ubuntu CRON[1897]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 15 13:39:01 ubuntu CRON[1897]: pam_unix(cron:session): session closed for user root
+Jun 15 13:40:38 ubuntu systemd-logind[766]: Creating /run/nologin, blocking further logins...
+Jun 15 13:41:39 ubuntu systemd: pam_unix(systemd-user:session): session closed for user root
+Jun 15 15:58:25 ubuntu systemd-logind[866]: New seat seat0.
+Jun 15 15:58:25 ubuntu systemd-logind[866]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 15 15:58:25 ubuntu systemd-logind[866]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 15 15:58:25 ubuntu systemd-logind[866]: Watching system buttons on /dev/input/event3 (Video Bus)
+Jun 15 15:58:28 ubuntu sshd[1068]: Server listening on 0.0.0.0 port 22.
+Jun 15 15:58:28 ubuntu sshd[1068]: Server listening on :: port 22.
+Jun 15 15:58:46 ubuntu login[1039]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun 15 15:58:46 ubuntu systemd-logind[866]: New session 1 of user root.
+Jun 15 15:58:46 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 15 15:58:46 ubuntu login[1285]: ROOT LOGIN  on '/dev/tty1'
+Feb 26 08:53:00 ubuntu systemd-logind[786]: New seat seat0.
+Feb 26 08:53:00 ubuntu systemd-logind[786]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 26 08:53:00 ubuntu systemd-logind[786]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 26 08:53:00 ubuntu systemd-logind[786]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 26 08:53:01 ubuntu sshd[1017]: Server listening on 0.0.0.0 port 22.
+Feb 26 08:53:01 ubuntu sshd[1017]: Server listening on :: port 22.
+Feb 26 09:01:51 ubuntu systemd-logind[841]: New seat seat0.
+Feb 26 09:01:51 ubuntu systemd-logind[841]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 26 09:01:51 ubuntu systemd-logind[841]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 26 09:01:51 ubuntu systemd-logind[841]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 26 09:01:52 ubuntu sshd[1050]: Server listening on 0.0.0.0 port 22.
+Feb 26 09:01:52 ubuntu sshd[1050]: Server listening on :: port 22.
+Feb 26 09:08:50 ubuntu login[1013]: pam_unix(login:auth): check pass; user unknown
+Feb 26 09:08:50 ubuntu login[1013]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Feb 26 09:08:54 ubuntu login[1013]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Feb 26 09:08:56 ubuntu login[1013]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Feb 26 09:09:00 ubuntu login[1013]: FAILED LOGIN (2) on '/dev/tty1' FOR 'root', Authentication failure
+Feb 26 09:09:01 ubuntu CRON[1199]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 09:09:01 ubuntu CRON[1199]: pam_unix(cron:session): session closed for user root
+Feb 26 09:13:12 ubuntu systemd-logind[826]: New seat seat0.
+Feb 26 09:13:12 ubuntu systemd-logind[826]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 26 09:13:12 ubuntu systemd-logind[826]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 26 09:13:12 ubuntu systemd-logind[826]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 26 09:13:14 ubuntu sshd[1020]: Server listening on 0.0.0.0 port 22.
+Feb 26 09:13:14 ubuntu sshd[1020]: Server listening on :: port 22.
+Feb 26 09:16:54 ubuntu sshd[1178]: Did not receive identification string from 10.0.2.7
+Feb 26 09:17:01 ubuntu CRON[1179]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 09:17:01 ubuntu CRON[1179]: pam_unix(cron:session): session closed for user root
+Feb 26 09:17:26 ubuntu proftpd[1183]: ubuntu (10.0.2.7[10.0.2.7]) - SECURITY VIOLATION: Root login attempted
+Feb 26 09:24:47 ubuntu sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+Feb 26 09:24:47 ubuntu sudo: www-data : command not allowed ; TTY=unknown ; PWD=/ ; USER=root ; COMMAND=list
+Feb 26 09:27:13 ubuntu sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+Feb 26 09:27:13 ubuntu sudo: www-data : user NOT in sudoers ; TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su shrek
+Feb 26 09:27:23 ubuntu sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+Feb 26 09:27:23 ubuntu sudo: www-data : user NOT in sudoers ; TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/vim
+Feb 26 09:34:35 ubuntu sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+Feb 26 09:34:35 ubuntu sudo: www-data : command not allowed ; TTY=unknown ; PWD=/ ; USER=root ; COMMAND=list
+Feb 26 09:37:02 ubuntu su[1307]: pam_unix(su:auth): authentication failure; logname= uid=33 euid=0 tty=/dev/pts/0 ruser=www-data rhost=  user=root
+Feb 26 09:37:04 ubuntu su[1307]: pam_authenticate: Authentication failure
+Feb 26 09:37:04 ubuntu su[1307]: FAILED su for root by www-data
+Feb 26 09:37:04 ubuntu su[1307]: - /dev/pts/0 www-data:root
+Feb 26 09:37:27 ubuntu su[1309]: pam_unix(su:auth): authentication failure; logname= uid=33 euid=0 tty=/dev/pts/0 ruser=www-data rhost=  user=shrek
+Feb 26 09:37:29 ubuntu su[1309]: pam_authenticate: Authentication failure
+Feb 26 09:37:29 ubuntu su[1309]: FAILED su for shrek by www-data
+Feb 26 09:37:29 ubuntu su[1309]: - /dev/pts/0 www-data:shrek
+Feb 26 09:37:31 ubuntu su[1310]: pam_unix(su:auth): authentication failure; logname= uid=33 euid=0 tty=/dev/pts/0 ruser=www-data rhost=  user=shrek
+Feb 26 09:37:33 ubuntu su[1310]: pam_authenticate: Authentication failure
+Feb 26 09:37:33 ubuntu su[1310]: FAILED su for shrek by www-data
+Feb 26 09:37:33 ubuntu su[1310]: - /dev/pts/0 www-data:shrek
+Feb 26 09:37:42 ubuntu sudo: pam_unix(sudo:auth): authentication failure; logname= uid=33 euid=0 tty=/dev/pts/0 ruser=www-data rhost=  user=www-data
+Feb 26 09:37:50 ubuntu sudo: www-data : command not allowed ; TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=list
+Feb 26 09:39:01 ubuntu CRON[1329]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 09:39:01 ubuntu CRON[1329]: pam_unix(cron:session): session closed for user root
+Feb 26 09:41:48 ubuntu su[1412]: pam_unix(su:auth): authentication failure; logname= uid=33 euid=0 tty=/dev/pts/0 ruser=www-data rhost=  user=root
+Feb 26 09:41:50 ubuntu su[1412]: pam_authenticate: Authentication failure
+Feb 26 09:41:50 ubuntu su[1412]: FAILED su for root by www-data
+Feb 26 09:41:50 ubuntu su[1412]: - /dev/pts/0 www-data:root
+Feb 26 09:47:15 ubuntu su[1449]: Successful su for shrek by www-data
+Feb 26 09:47:15 ubuntu su[1449]: + /dev/pts/0 www-data:shrek
+Feb 26 09:47:15 ubuntu su[1449]: pam_unix(su:session): session opened for user shrek by (uid=33)
+Feb 26 09:47:15 ubuntu systemd: pam_unix(systemd-user:session): session opened for user shrek by (uid=0)
+Feb 26 09:47:15 ubuntu systemd-logind[826]: New session c1 of user shrek.
+Feb 26 09:47:19 ubuntu sudo:    shrek : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=list
+Feb 26 09:48:50 ubuntu sudo:    shrek : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/python3.5 -c import os;os.system("/bin/sh")
+Feb 26 09:48:50 ubuntu sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 09:49:06 ubuntu passwd[1489]: pam_unix(passwd:chauthtok): password changed for root
+Feb 26 09:49:46 ubuntu login[999]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Feb 26 09:49:46 ubuntu systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 26 09:49:46 ubuntu systemd-logind[826]: New session 3 of user root.
+Feb 26 09:49:46 ubuntu login[1560]: ROOT LOGIN  on '/dev/tty1'
+Feb 26 10:05:34 ubuntu sshd[8729]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.7  user=root
+Feb 26 10:05:36 ubuntu sshd[8729]: Failed password for root from 10.0.2.7 port 35132 ssh2
+Feb 26 10:05:55 ubuntu sshd[8729]: message repeated 2 times: [ Failed password for root from 10.0.2.7 port 35132 ssh2]
+Feb 26 10:05:55 ubuntu sshd[8729]: Connection closed by 10.0.2.7 port 35132 [preauth]
+Feb 26 10:05:55 ubuntu sshd[8729]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.7  user=root
+Feb 26 10:06:27 ubuntu sshd[8732]: Accepted password for shrek from 10.0.2.7 port 34828 ssh2
+Feb 26 10:06:27 ubuntu sshd[8732]: pam_unix(sshd:session): session opened for user shrek by (uid=0)
+Feb 26 10:06:27 ubuntu systemd-logind[826]: New session 4 of user shrek.
+Feb 26 10:06:32 ubuntu su[8787]: Successful su for root by shrek
+Feb 26 10:06:32 ubuntu su[8787]: + /dev/pts/1 shrek:root
+Feb 26 10:06:32 ubuntu su[8787]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Feb 26 10:06:32 ubuntu su[8787]: pam_systemd(su:session): Cannot create session: Already running in a session
+Feb 26 10:09:01 ubuntu CRON[8800]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 10:09:02 ubuntu CRON[8800]: pam_unix(cron:session): session closed for user root
+Feb 26 10:17:01 ubuntu CRON[8865]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 10:17:01 ubuntu CRON[8865]: pam_unix(cron:session): session closed for user root
+Feb 26 10:34:01 ubuntu su[23134]: Successful su for shrek by root
+Feb 26 10:34:01 ubuntu su[23134]: + /dev/pts/1 root:shrek
+Feb 26 10:34:01 ubuntu su[23134]: pam_unix(su:session): session opened for user shrek by shrek(uid=0)
+Feb 26 10:34:01 ubuntu su[23134]: pam_systemd(su:session): Cannot create session: Already running in a session
+Feb 26 10:34:09 ubuntu su[23145]: Successful su for root by shrek
+Feb 26 10:34:09 ubuntu su[23145]: + /dev/pts/1 shrek:root
+Feb 26 10:34:09 ubuntu su[23145]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Feb 26 10:34:09 ubuntu su[23145]: pam_systemd(su:session): Cannot create session: Already running in a session
+Feb 26 10:39:01 ubuntu CRON[23181]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 10:39:01 ubuntu CRON[23181]: pam_unix(cron:session): session closed for user root
+Feb 26 11:09:01 ubuntu CRON[23312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 11:09:01 ubuntu CRON[23312]: pam_unix(cron:session): session closed for user root
+Feb 26 11:12:50 ubuntu sshd[23366]: Accepted password for shrek from 10.0.2.7 port 58304 ssh2
+Feb 26 11:12:50 ubuntu sshd[23366]: pam_unix(sshd:session): session opened for user shrek by (uid=0)
+Feb 26 11:12:50 ubuntu systemd-logind[826]: New session 9 of user shrek.
+Feb 26 11:13:06 ubuntu su[23444]: Successful su for root by shrek
+Feb 26 11:13:06 ubuntu su[23444]: + /dev/pts/2 shrek:root
+Feb 26 11:13:06 ubuntu su[23444]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Feb 26 11:13:06 ubuntu su[23444]: pam_systemd(su:session): Cannot create session: Already running in a session
+Feb 26 11:13:44 ubuntu useradd[23455]: new group: name=tech, GID=1002
+Feb 26 11:13:44 ubuntu useradd[23455]: new user: name=tech, UID=1002, GID=1002, home=/home/tech, shell=
+Feb 26 11:13:53 ubuntu passwd[23460]: pam_unix(passwd:chauthtok): password changed for tech
+Feb 26 11:17:01 ubuntu CRON[23475]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 11:17:01 ubuntu CRON[23475]: pam_unix(cron:session): session closed for user root
+Feb 26 11:32:07 ubuntu su[23623]: No passwd entry for user 'tech/'
+Feb 26 11:32:07 ubuntu su[23623]: FAILED su for tech/ by root
+Feb 26 11:32:07 ubuntu su[23623]: - /dev/pts/2 root:tech/
+Feb 26 11:32:21 ubuntu sudo:     root : TTY=pts/2 ; PWD=/home ; USER=root ; COMMAND=list
+Feb 26 11:32:25 ubuntu su[23444]: pam_unix(su:session): session closed for user root
+Feb 26 11:32:35 ubuntu su[23626]: Successful su for root by shrek
+Feb 26 11:32:35 ubuntu su[23626]: + /dev/pts/2 shrek:root
+Feb 26 11:32:35 ubuntu su[23626]: pam_unix(su:session): session opened for user root by shrek(uid=1000)
+Feb 26 11:32:35 ubuntu su[23626]: pam_systemd(su:session): Cannot create session: Already running in a session
+Feb 26 11:32:50 ubuntu passwd[23637]: pam_unix(passwd:chauthtok): password changed for tech
+Feb 26 11:32:55 ubuntu su[23638]: Successful su for tech by root
+Feb 26 11:32:55 ubuntu su[23638]: + /dev/pts/2 root:tech
+Feb 26 11:32:55 ubuntu su[23638]: pam_unix(su:session): session opened for user tech by shrek(uid=0)
+Feb 26 11:32:55 ubuntu su[23638]: pam_systemd(su:session): Cannot create session: Already running in a session
+Feb 26 11:32:57 ubuntu sudo:     tech : TTY=pts/2 ; PWD=/home/shrek ; USER=root ; COMMAND=list
+Feb 26 11:33:04 ubuntu su[23638]: pam_unix(su:session): session closed for user tech
+Feb 26 11:33:06 ubuntu su[23626]: pam_unix(su:session): session closed for user root
+Feb 26 11:33:07 ubuntu sshd[23430]: Received disconnect from 10.0.2.7 port 58304:11: disconnected by user
+Feb 26 11:33:07 ubuntu sshd[23430]: Disconnected from 10.0.2.7 port 58304
+Feb 26 11:33:07 ubuntu sshd[23366]: pam_unix(sshd:session): session closed for user shrek
+Feb 26 11:33:07 ubuntu systemd-logind[826]: Removed session 9.
+Feb 26 11:33:17 ubuntu sshd[23654]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.7  user=tech
+Feb 26 11:33:19 ubuntu sshd[23654]: Failed password for tech from 10.0.2.7 port 59236 ssh2
+Feb 26 11:33:21 ubuntu sshd[23654]: Accepted password for tech from 10.0.2.7 port 59236 ssh2
+Feb 26 11:33:21 ubuntu sshd[23654]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Feb 26 11:33:21 ubuntu systemd: pam_unix(systemd-user:session): session opened for user tech by (uid=0)
+Feb 26 11:33:21 ubuntu systemd-logind[826]: New session 11 of user tech.
+Feb 26 11:33:32 ubuntu su[23716]: Successful su for root by tech
+Feb 26 11:33:32 ubuntu su[23716]: + /dev/pts/2 tech:root
+Feb 26 11:33:32 ubuntu su[23716]: pam_unix(su:session): session opened for user root by tech(uid=1002)
+Feb 26 11:33:32 ubuntu su[23716]: pam_systemd(su:session): Cannot create session: Already running in a session
+Feb 26 11:35:00 ubuntu sshd[8732]: pam_unix(sshd:session): session closed for user shrek
+Feb 26 11:35:00 ubuntu su[23145]: pam_unix(su:session): session closed for user root
+Feb 26 11:35:00 ubuntu su[23134]: pam_unix(su:session): session closed for user shrek
+Feb 26 11:35:00 ubuntu su[8787]: pam_unix(su:session): session closed for user root
+Feb 26 11:35:00 ubuntu systemd-logind[826]: Removed session 4.
+Feb 26 11:35:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Feb 26 11:35:00 ubuntu su[1449]: pam_unix(su:session): session closed for user shrek
+Feb 26 11:35:00 ubuntu systemd-logind[826]: Removed session c1.
+Feb 26 11:35:04 ubuntu userdel[23751]: delete user 'shrek'
+Feb 26 11:35:04 ubuntu userdel[23751]: delete 'shrek' from group 'shrek'
+Feb 26 11:35:04 ubuntu userdel[23751]: removed group 'shrek' owned by 'shrek'
+Feb 26 11:35:04 ubuntu userdel[23751]: removed shadow group 'shrek' owned by 'shrek'
+Feb 26 11:39:01 ubuntu CRON[23772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 11:39:01 ubuntu CRON[23772]: pam_unix(cron:session): session closed for user root
+Feb 26 11:53:26 ubuntu su[23858]: Successful su for tech by root
+Feb 26 11:53:26 ubuntu su[23858]: + /dev/pts/2 root:tech
+Feb 26 11:53:26 ubuntu su[23858]: pam_unix(su:session): session opened for user tech by tech(uid=0)
+Feb 26 11:53:26 ubuntu su[23858]: pam_systemd(su:session): Cannot create session: Already running in a session
+Feb 26 11:53:43 ubuntu su[23879]: Successful su for root by tech
+Feb 26 11:53:43 ubuntu su[23879]: + /dev/pts/2 tech:root
+Feb 26 11:53:43 ubuntu su[23879]: pam_unix(su:session): session opened for user root by tech(uid=1002)
+Feb 26 11:53:43 ubuntu su[23879]: pam_systemd(su:session): Cannot create session: Already running in a session
+Feb 26 11:54:55 ubuntu su[23879]: pam_unix(su:session): session closed for user root
+Feb 26 11:54:55 ubuntu su[23858]: pam_unix(su:session): session closed for user tech
+Feb 26 11:54:56 ubuntu su[23716]: pam_unix(su:session): session closed for user root
+Feb 26 11:54:59 ubuntu sshd[23701]: Received disconnect from 10.0.2.7 port 59236:11: disconnected by user
+Feb 26 11:54:59 ubuntu sshd[23701]: Disconnected from 10.0.2.7 port 59236
+Feb 26 11:54:59 ubuntu sshd[23654]: pam_unix(sshd:session): session closed for user tech
+Feb 26 11:54:59 ubuntu systemd-logind[826]: Removed session 11.
+Feb 26 11:55:04 ubuntu sshd[23913]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.7  user=tech
+Feb 26 11:55:06 ubuntu sshd[23913]: Failed password for tech from 10.0.2.7 port 41444 ssh2
+Feb 26 11:55:09 ubuntu sshd[23913]: Failed password for tech from 10.0.2.7 port 41444 ssh2
+Feb 26 11:55:13 ubuntu sshd[23913]: Accepted password for tech from 10.0.2.7 port 41444 ssh2
+Feb 26 11:55:13 ubuntu sshd[23913]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Feb 26 11:55:13 ubuntu systemd: pam_unix(systemd-user:session): session opened for user tech by (uid=0)
+Feb 26 11:55:13 ubuntu systemd-logind[826]: New session 13 of user tech.
+Feb 26 11:55:24 ubuntu su[23975]: Successful su for root by tech
+Feb 26 11:55:24 ubuntu su[23975]: + /dev/pts/0 tech:root
+Feb 26 11:55:24 ubuntu su[23975]: pam_unix(su:session): session opened for user root by tech(uid=1002)
+Feb 26 11:55:24 ubuntu su[23975]: pam_systemd(su:session): Cannot create session: Already running in a session
+Feb 26 11:57:20 ubuntu sshd[23987]: Accepted password for tech from 10.0.2.7 port 59966 ssh2
+Feb 26 11:57:20 ubuntu sshd[23987]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Feb 26 11:57:20 ubuntu systemd-logind[826]: New session 14 of user tech.
+Feb 26 11:57:20 ubuntu sshd[24027]: Received disconnect from 10.0.2.7 port 59966:11: disconnected by user
+Feb 26 11:57:20 ubuntu sshd[24027]: Disconnected from 10.0.2.7 port 59966
+Feb 26 11:57:20 ubuntu sshd[23987]: pam_unix(sshd:session): session closed for user tech
+Feb 26 11:57:20 ubuntu systemd-logind[826]: Removed session 14.
+Feb 26 12:09:01 ubuntu CRON[24064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 12:09:01 ubuntu CRON[24064]: pam_unix(cron:session): session closed for user root
+Feb 26 12:17:01 ubuntu CRON[24117]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 12:17:01 ubuntu CRON[24117]: pam_unix(cron:session): session closed for user root
+Feb 26 12:39:01 ubuntu CRON[24177]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 12:39:01 ubuntu CRON[24177]: pam_unix(cron:session): session closed for user root
+Feb 26 12:47:04 ubuntu sudo: www-data : unable to resolve host honeypotHost1
+Feb 26 12:47:04 ubuntu sudo: pam_unix(sudo:auth): auth could not identify password for [www-data]
+Feb 26 12:47:04 ubuntu sudo: www-data : command not allowed ; TTY=unknown ; PWD=/ ; USER=root ; COMMAND=list
+Feb 26 12:53:11 ubuntu sshd[24272]: Accepted password for tech from 10.0.2.7 port 44716 ssh2
+Feb 26 12:53:11 ubuntu sshd[24272]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Feb 26 12:53:11 ubuntu systemd-logind[826]: New session 18 of user tech.
+Feb 26 12:53:44 ubuntu sudo:     tech : unable to resolve host honeypotHost1
+Feb 26 12:53:44 ubuntu sudo:     tech : TTY=pts/1 ; PWD=/home ; USER=root ; COMMAND=list
+Feb 26 12:55:28 ubuntu sudo:     tech : unable to resolve host honeypotHost1
+Feb 26 12:55:28 ubuntu sudo:     tech : TTY=pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/python3.5 -c import pty;pty.spawn("/bin/bash")
+Feb 26 12:55:28 ubuntu sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Feb 26 12:57:35 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Feb 26 12:57:37 ubuntu sshd[24336]: Received disconnect from 10.0.2.7 port 44716:11: disconnected by user
+Feb 26 12:57:37 ubuntu sshd[24336]: Disconnected from 10.0.2.7 port 44716
+Feb 26 12:57:37 ubuntu sshd[24272]: pam_unix(sshd:session): session closed for user tech
+Feb 26 12:57:37 ubuntu systemd-logind[826]: Removed session 18.
+Feb 26 13:02:48 ubuntu sshd[23960]: Received disconnect from 10.0.2.7 port 41444:11: disconnected by user
+Feb 26 13:02:48 ubuntu sshd[23960]: Disconnected from 10.0.2.7 port 41444
+Feb 26 13:02:48 ubuntu sshd[23913]: pam_unix(sshd:session): session closed for user tech
+Feb 26 13:02:48 ubuntu su[23975]: pam_unix(su:session): session closed for user root
+Feb 26 13:02:48 ubuntu systemd-logind[826]: Removed session 13.
+Feb 26 13:02:58 ubuntu sshd[24412]: Accepted password for tech from 10.0.2.7 port 52802 ssh2
+Feb 26 13:02:58 ubuntu sshd[24412]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Feb 26 13:02:58 ubuntu systemd: pam_unix(systemd-user:session): session opened for user tech by (uid=0)
+Feb 26 13:02:58 ubuntu systemd-logind[826]: New session 19 of user tech.
+Feb 26 13:03:02 ubuntu su[24461]: Successful su for root by tech
+Feb 26 13:03:02 ubuntu su[24461]: + /dev/pts/0 tech:root
+Feb 26 13:03:02 ubuntu su[24461]: pam_unix(su:session): session opened for user root by tech(uid=1002)
+Feb 26 13:03:02 ubuntu su[24461]: pam_systemd(su:session): Cannot create session: Already running in a session
+Feb 26 13:09:01 ubuntu CRON[24494]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 13:09:01 ubuntu CRON[24494]: pam_unix(cron:session): session closed for user root
+Feb 26 13:17:01 ubuntu CRON[24547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 13:17:01 ubuntu CRON[24547]: pam_unix(cron:session): session closed for user root
+Feb 26 13:32:28 ubuntu sshd[24458]: Received disconnect from 10.0.2.7 port 52802:11: disconnected by user
+Feb 26 13:32:28 ubuntu sshd[24458]: Disconnected from 10.0.2.7 port 52802
+Feb 26 13:32:28 ubuntu sshd[24412]: pam_unix(sshd:session): session closed for user tech
+Feb 26 13:32:28 ubuntu su[24461]: pam_unix(su:session): session closed for user root
+Feb 26 13:32:28 ubuntu systemd-logind[826]: Removed session 19.
+Feb 26 13:39:01 ubuntu CRON[24615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 13:39:01 ubuntu CRON[24615]: pam_unix(cron:session): session closed for user root
+Mar  4 05:57:57 ubuntu systemd-logind[848]: New seat seat0.
+Mar  4 05:57:57 ubuntu systemd-logind[848]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  4 05:57:57 ubuntu systemd-logind[848]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  4 05:57:57 ubuntu systemd-logind[848]: Watching system buttons on /dev/input/event3 (Video Bus)
+Mar  4 05:57:58 ubuntu sshd[1040]: Server listening on 0.0.0.0 port 22.
+Mar  4 05:57:58 ubuntu sshd[1040]: Server listening on :: port 22.
+Mar  4 06:09:01 ubuntu CRON[1533]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 06:09:01 ubuntu CRON[1533]: pam_unix(cron:session): session closed for user root
+Mar  4 06:17:01 ubuntu CRON[1655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 06:17:01 ubuntu CRON[1655]: pam_unix(cron:session): session closed for user root
+Mar  4 06:17:44 ubuntu sshd[1658]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.7  user=tech
+Mar  4 06:17:45 ubuntu sshd[1658]: Failed password for tech from 10.0.2.7 port 42640 ssh2
+Mar  4 06:17:47 ubuntu sshd[1658]: Accepted password for tech from 10.0.2.7 port 42640 ssh2
+Mar  4 06:17:47 ubuntu sshd[1658]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Mar  4 06:17:47 ubuntu systemd: pam_unix(systemd-user:session): session opened for user tech by (uid=0)
+Mar  4 06:17:47 ubuntu systemd-logind[848]: New session 3 of user tech.
+Mar  4 06:25:01 ubuntu CRON[1772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 06:25:17 ubuntu CRON[1772]: pam_unix(cron:session): session closed for user root
+Mar  4 06:39:01 ubuntu CRON[1925]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 06:39:01 ubuntu CRON[1925]: pam_unix(cron:session): session closed for user root
+Mar  4 06:52:01 ubuntu su[2001]: Successful su for root by tech
+Mar  4 06:52:01 ubuntu su[2001]: + /dev/pts/0 tech:root
+Mar  4 06:52:01 ubuntu su[2001]: pam_unix(su:session): session opened for user root by tech(uid=1002)
+Mar  4 06:52:01 ubuntu su[2001]: pam_systemd(su:session): Cannot create session: Already running in a session
+Mar  4 07:09:01 ubuntu CRON[2057]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 07:09:01 ubuntu CRON[2057]: pam_unix(cron:session): session closed for user root
+Mar  4 07:17:01 ubuntu CRON[2110]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 07:17:01 ubuntu CRON[2110]: pam_unix(cron:session): session closed for user root
+Mar  4 07:39:01 ubuntu CRON[2168]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 07:39:01 ubuntu CRON[2168]: pam_unix(cron:session): session closed for user root
+Mar  4 08:09:01 ubuntu CRON[2288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 08:09:01 ubuntu CRON[2288]: pam_unix(cron:session): session closed for user root
+Mar  4 08:17:01 ubuntu CRON[2353]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 08:17:01 ubuntu CRON[2353]: pam_unix(cron:session): session closed for user root
+Mar  4 08:39:01 ubuntu CRON[2412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 08:39:01 ubuntu CRON[2412]: pam_unix(cron:session): session closed for user root
+Mar  4 09:09:01 ubuntu CRON[2532]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 09:09:01 ubuntu CRON[2532]: pam_unix(cron:session): session closed for user root
+Mar  4 09:17:01 ubuntu CRON[2585]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 09:17:01 ubuntu CRON[2585]: pam_unix(cron:session): session closed for user root
+Mar  4 09:39:01 ubuntu CRON[2643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 09:39:01 ubuntu CRON[2643]: pam_unix(cron:session): session closed for user root
+Mar  4 10:09:01 ubuntu CRON[2763]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 10:09:02 ubuntu CRON[2763]: pam_unix(cron:session): session closed for user root
+Mar  4 10:17:01 ubuntu CRON[2816]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 10:17:01 ubuntu CRON[2816]: pam_unix(cron:session): session closed for user root
+Mar  4 10:39:01 ubuntu CRON[2874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 10:39:01 ubuntu CRON[2874]: pam_unix(cron:session): session closed for user root
+Mar  4 15:06:26 ubuntu systemd-logind[790]: New seat seat0.
+Mar  4 15:06:26 ubuntu systemd-logind[790]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  4 15:06:26 ubuntu systemd-logind[790]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  4 15:06:26 ubuntu systemd-logind[790]: Watching system buttons on /dev/input/event3 (Video Bus)
+Mar  4 15:06:27 ubuntu sshd[1018]: Server listening on 0.0.0.0 port 22.
+Mar  4 15:06:27 ubuntu sshd[1018]: Server listening on :: port 22.
+Mar  4 15:09:01 ubuntu CRON[1168]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 15:09:01 ubuntu CRON[1168]: pam_unix(cron:session): session closed for user root
+Mar  4 15:09:13 ubuntu sshd[1210]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.7  user=tech
+Mar  4 15:09:15 ubuntu sshd[1210]: Failed password for tech from 10.0.2.7 port 58226 ssh2
+Mar  4 15:09:29 ubuntu sshd[1210]: message repeated 2 times: [ Failed password for tech from 10.0.2.7 port 58226 ssh2]
+Mar  4 15:09:29 ubuntu sshd[1210]: Connection closed by 10.0.2.7 port 58226 [preauth]
+Mar  4 15:09:29 ubuntu sshd[1210]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.7  user=tech
+Mar  4 15:09:38 ubuntu sshd[1212]: Accepted password for tech from 10.0.2.7 port 42244 ssh2
+Mar  4 15:09:38 ubuntu sshd[1212]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Mar  4 15:09:38 ubuntu systemd: pam_unix(systemd-user:session): session opened for user tech by (uid=0)
+Mar  4 15:09:38 ubuntu systemd-logind[790]: New session 2 of user tech.
+Mar  4 15:09:47 ubuntu su[1296]: Successful su for root by tech
+Mar  4 15:09:47 ubuntu su[1296]: + /dev/pts/0 tech:root
+Mar  4 15:09:47 ubuntu su[1296]: pam_unix(su:session): session opened for user root by tech(uid=1002)
+Mar  4 15:09:47 ubuntu su[1296]: pam_systemd(su:session): Cannot create session: Already running in a session
+Mar  4 15:17:01 ubuntu CRON[1328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 15:17:01 ubuntu CRON[1328]: pam_unix(cron:session): session closed for user root
+Mar  4 15:25:38 ubuntu sshd[1356]: Accepted password for tech from 10.0.2.7 port 50986 ssh2
+Mar  4 15:25:38 ubuntu sshd[1356]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Mar  4 15:25:38 ubuntu systemd-logind[790]: New session 4 of user tech.
+Mar  4 15:26:10 ubuntu sshd[1412]: Accepted password for tech from 10.0.2.7 port 41926 ssh2
+Mar  4 15:26:10 ubuntu sshd[1412]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Mar  4 15:26:10 ubuntu systemd-logind[790]: New session 5 of user tech.
+Mar  4 15:26:10 ubuntu sshd[1452]: Received disconnect from 10.0.2.7 port 41926:11: disconnected by user
+Mar  4 15:26:10 ubuntu sshd[1452]: Disconnected from 10.0.2.7 port 41926
+Mar  4 15:26:10 ubuntu sshd[1412]: pam_unix(sshd:session): session closed for user tech
+Mar  4 15:26:10 ubuntu systemd-logind[790]: Removed session 5.
+Mar  4 15:26:21 ubuntu sshd[1456]: Accepted password for tech from 10.0.2.7 port 34990 ssh2
+Mar  4 15:26:21 ubuntu sshd[1456]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Mar  4 15:26:21 ubuntu systemd-logind[790]: New session 6 of user tech.
+Mar  4 15:26:21 ubuntu sshd[1496]: Received disconnect from 10.0.2.7 port 34990:11: disconnected by user
+Mar  4 15:26:21 ubuntu sshd[1496]: Disconnected from 10.0.2.7 port 34990
+Mar  4 15:26:21 ubuntu sshd[1456]: pam_unix(sshd:session): session closed for user tech
+Mar  4 15:26:21 ubuntu systemd-logind[790]: Removed session 6.
+Mar  4 15:26:44 ubuntu sshd[1503]: Accepted password for tech from 10.0.2.7 port 46764 ssh2
+Mar  4 15:26:44 ubuntu sshd[1503]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Mar  4 15:26:44 ubuntu systemd-logind[790]: New session 7 of user tech.
+Mar  4 15:26:44 ubuntu sshd[1543]: Received disconnect from 10.0.2.7 port 46764:11: disconnected by user
+Mar  4 15:26:44 ubuntu sshd[1543]: Disconnected from 10.0.2.7 port 46764
+Mar  4 15:26:44 ubuntu sshd[1503]: pam_unix(sshd:session): session closed for user tech
+Mar  4 15:26:44 ubuntu systemd-logind[790]: Removed session 7.
+Mar  4 15:27:05 ubuntu sshd[1547]: Accepted password for tech from 10.0.2.7 port 52964 ssh2
+Mar  4 15:27:05 ubuntu sshd[1547]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Mar  4 15:27:05 ubuntu systemd-logind[790]: New session 8 of user tech.
+Mar  4 15:27:06 ubuntu sshd[1587]: Received disconnect from 10.0.2.7 port 52964:11: disconnected by user
+Mar  4 15:27:06 ubuntu sshd[1587]: Disconnected from 10.0.2.7 port 52964
+Mar  4 15:27:06 ubuntu sshd[1547]: pam_unix(sshd:session): session closed for user tech
+Mar  4 15:27:06 ubuntu systemd-logind[790]: Removed session 8.
+Mar  4 15:27:27 ubuntu sudo:     tech : command not allowed ; TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt install zip
+Mar  4 15:27:31 ubuntu su[1605]: Successful su for root by tech
+Mar  4 15:27:31 ubuntu su[1605]: + /dev/pts/1 tech:root
+Mar  4 15:27:31 ubuntu su[1605]: pam_unix(su:session): session opened for user root by tech(uid=1002)
+Mar  4 15:27:31 ubuntu su[1605]: pam_systemd(su:session): Cannot create session: Already running in a session
+Mar  4 15:28:21 ubuntu sshd[1631]: Accepted password for tech from 10.0.2.7 port 54988 ssh2
+Mar  4 15:28:21 ubuntu sshd[1631]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Mar  4 15:28:21 ubuntu systemd-logind[790]: New session 9 of user tech.
+Mar  4 15:28:22 ubuntu sshd[1671]: Received disconnect from 10.0.2.7 port 54988:11: disconnected by user
+Mar  4 15:28:22 ubuntu sshd[1671]: Disconnected from 10.0.2.7 port 54988
+Mar  4 15:28:22 ubuntu sshd[1631]: pam_unix(sshd:session): session closed for user tech
+Mar  4 15:28:22 ubuntu systemd-logind[790]: Removed session 9.
+Mar  4 15:33:01 ubuntu sudo:     root : TTY=pts/1 ; PWD=/root/Node ; USER=root ; COMMAND=/usr/bin/apt install npm
+Mar  4 15:33:01 ubuntu sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar  4 15:33:03 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  4 15:39:01 ubuntu CRON[1896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  4 15:39:01 ubuntu CRON[1896]: pam_unix(cron:session): session closed for user root
+Mar  4 15:42:01 ubuntu su[1605]: pam_unix(su:session): session closed for user root
+Mar  4 15:42:02 ubuntu sshd[1396]: Received disconnect from 10.0.2.7 port 50986:11: disconnected by user
+Mar  4 15:42:02 ubuntu sshd[1396]: Disconnected from 10.0.2.7 port 50986
+Mar  4 15:42:02 ubuntu sshd[1356]: pam_unix(sshd:session): session closed for user tech
+Mar  4 15:42:02 ubuntu systemd-logind[790]: Removed session 4.
+Mar  4 15:51:50 ubuntu sshd[1976]: Accepted password for tech from 10.0.2.7 port 35442 ssh2
+Mar  4 15:51:50 ubuntu sshd[1976]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Mar  4 15:51:50 ubuntu systemd-logind[790]: New session 11 of user tech.
+Mar  4 15:51:54 ubuntu su[2021]: Successful su for root by tech
+Mar  4 15:51:54 ubuntu su[2021]: + /dev/pts/1 tech:root
+Mar  4 15:51:54 ubuntu su[2021]: pam_unix(su:session): session opened for user root by tech(uid=1002)
+Mar  4 15:51:54 ubuntu su[2021]: pam_systemd(su:session): Cannot create session: Already running in a session
+Mar  4 15:53:51 ubuntu sudo:     root : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/dpkg-reconfigure tzdata
+Mar  4 15:53:51 ubuntu sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar  4 15:54:06 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Mar  4 15:54:16 ubuntu su[2062]: Successful su for tech by root
+Mar  4 15:54:16 ubuntu su[2062]: + /dev/pts/1 root:tech
+Mar  4 15:54:16 ubuntu su[2062]: pam_unix(su:session): session opened for user tech by tech(uid=0)
+Mar  4 15:54:16 ubuntu su[2062]: pam_systemd(su:session): Cannot create session: Already running in a session
+Mar  4 15:54:27 ubuntu su[2075]: Successful su for root by tech
+Mar  4 15:54:27 ubuntu su[2075]: + /dev/pts/1 tech:root
+Mar  4 15:54:27 ubuntu su[2075]: pam_unix(su:session): session opened for user root by tech(uid=1002)
+Mar  4 15:54:27 ubuntu su[2075]: pam_systemd(su:session): Cannot create session: Already running in a session

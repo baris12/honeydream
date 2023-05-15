@@ -1,0 +1,54 @@
+2021-08-16 07:29:38,978 - ua_update_messaging.py:(347) [DEBUG]: Updating UA messages for APT and MOTD.
+2021-08-16 07:29:38,978 - util.py:(419) [DEBUG]: Reading file: /etc/os-release
+2021-08-16 07:29:39,000 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2021-08-16 07:29:39,000 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2021-08-16 07:29:39,009 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2021-08-16 07:29:39,009 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2021-08-16 19:59:00,795 - ua_update_messaging.py:(347) [DEBUG]: Updating UA messages for APT and MOTD.
+2021-08-16 19:59:00,796 - util.py:(419) [DEBUG]: Reading file: /etc/os-release
+2021-08-16 19:59:00,862 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2021-08-16 19:59:00,862 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2021-08-16 19:59:00,968 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2021-08-16 19:59:00,969 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2021-10-14 09:27:02,530 - ua_update_messaging.py:(347) [DEBUG]: Updating UA messages for APT and MOTD.
+2021-10-14 09:27:02,531 - util.py:(419) [DEBUG]: Reading file: /etc/os-release
+2021-10-14 09:27:02,558 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2021-10-14 09:27:02,558 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2021-10-14 09:27:02,567 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2021-10-14 09:27:02,567 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 14:02:29,490 - ua_update_messaging.py:(347) [DEBUG]: Updating UA messages for APT and MOTD.
+2023-03-26 14:02:29,490 - util.py:(419) [DEBUG]: Reading file: /etc/os-release
+2023-03-26 14:02:29,571 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 14:02:29,573 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 14:02:29,601 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 14:02:29,601 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 14:14:34,455 - ua_update_messaging.py:(347) [DEBUG]: Updating UA messages for APT and MOTD.
+2023-03-26 14:14:34,455 - util.py:(419) [DEBUG]: Reading file: /etc/os-release
+2023-03-26 14:14:34,461 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 14:14:34,461 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 14:14:34,466 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 14:14:34,466 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 21:46:51,195 - ua_update_messaging.py:(347) [DEBUG]: Updating UA messages for APT and MOTD.
+2023-03-26 21:46:51,199 - util.py:(419) [DEBUG]: Reading file: /etc/os-release
+2023-03-26 21:46:51,318 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 21:46:51,355 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 21:46:51,381 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 21:46:51,381 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 21:58:54,172 - ua_update_messaging.py:(347) [DEBUG]: Updating UA messages for APT and MOTD.
+2023-03-26 21:58:54,172 - util.py:(419) [DEBUG]: Reading file: /etc/os-release
+2023-03-26 21:58:54,188 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 21:58:54,189 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 21:58:54,198 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-03-26 21:58:54,198 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-04-16 10:29:38,898 - ua_update_messaging.py:(347) [DEBUG]: Updating UA messages for APT and MOTD.
+2023-04-16 10:29:38,967 - util.py:(419) [DEBUG]: Reading file: /etc/os-release
+2023-04-16 10:29:38,997 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-04-16 10:29:38,997 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-04-16 10:29:39,059 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-04-16 10:29:39,059 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-04-16 15:02:25,478 - ua_update_messaging.py:(347) [DEBUG]: Updating UA messages for APT and MOTD.
+2023-04-16 15:02:25,479 - util.py:(419) [DEBUG]: Reading file: /etc/os-release
+2023-04-16 15:02:25,493 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-04-16 15:02:25,493 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-04-16 15:02:25,498 - util.py:(419) [DEBUG]: Reading file: /var/lib/ubuntu-advantage/private/machine-token.json
+2023-04-16 15:02:25,498 - config.py:(442) [DEBUG]: File does not exist: /var/lib/ubuntu-advantage/private/machine-token.json

@@ -1,0 +1,169 @@
+[Wed Nov 25 16:10:49.396633 2020] [mpm_event:notice] [pid 14795:tid 140342705072000] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 25 16:10:49.396691 2020] [core:notice] [pid 14795:tid 140342705072000] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 16:20:57.808695 2020] [core:error] [pid 14798:tid 140342477154048] [client 10.0.0.4:53890] AH00135: Invalid method in request CBLT / HTTP/1.1
+[Wed Nov 25 16:28:12.680914 2020] [core:error] [pid 14798:tid 140342544295680] [client 10.0.0.4:55966] AH00135: Invalid method in request NZXC / HTTP/1.1
+[Wed Nov 25 16:36:56.023086 2020] [core:error] [pid 14799:tid 140342401619712] [client 10.0.0.4:58110] AH00135: Invalid method in request CNFL / HTTP/1.1
+[Wed Nov 25 16:43:56.745371 2020] [core:error] [pid 14798:tid 140342544295680] [client 10.0.0.4:60202] AH00135: Invalid method in request IFZJ / HTTP/1.1
+[Wed Nov 25 16:54:47.690586 2020] [mpm_event:notice] [pid 14795:tid 140342705072000] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 16:55:07.503210 2020] [mpm_event:notice] [pid 1121:tid 139983507978112] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 25 16:55:07.521796 2020] [core:notice] [pid 1121:tid 139983507978112] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 16:55:21.105860 2020] [core:error] [pid 1124:tid 139983285368576] [client 10.0.0.4:34034] AH00135: Invalid method in request IVVL / HTTP/1.1
+[Wed Nov 25 16:55:41.233749 2020] [core:error] [pid 1125:tid 139983417865984] [client 10.0.0.4:36100] AH00135: Invalid method in request ZRCT / HTTP/1.1
+[Wed Nov 25 16:58:45.342502 2020] [core:error] [pid 1124:tid 139983251797760] [client 10.0.0.4:38164] AH00135: Invalid method in request NMIR / HTTP/1.1
+[Wed Nov 25 16:59:23.324454 2020] [core:error] [pid 1124:tid 139983417865984] [client 10.0.0.4:40238] AH00135: Invalid method in request EFJR / HTTP/1.1
+[Wed Nov 25 17:05:33.961674 2020] [core:error] [pid 1124:tid 139983235012352] [client 10.0.0.4:42326] AH00135: Invalid method in request BDWX / HTTP/1.1
+[Wed Nov 25 17:06:15.830587 2020] [core:error] [pid 1125:tid 139983268583168] [client 10.0.0.4:44398] AH00135: Invalid method in request GGRN / HTTP/1.1
+[Wed Nov 25 17:28:23.157306 2020] [mpm_event:notice] [pid 1121:tid 139983507978112] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 17:28:48.444248 2020] [mpm_event:notice] [pid 1093:tid 140353605482368] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 25 17:28:48.476657 2020] [core:notice] [pid 1093:tid 140353605482368] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 17:30:09.992282 2020] [core:error] [pid 1096:tid 140353365575424] [client 10.0.0.4:46476] AH00135: Invalid method in request ERNA / HTTP/1.1
+[Wed Nov 25 17:31:13.139974 2020] [mpm_event:notice] [pid 1093:tid 140353605482368] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 17:31:39.587546 2020] [mpm_event:notice] [pid 1104:tid 139670643292032] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 25 17:31:39.623523 2020] [core:notice] [pid 1104:tid 139670643292032] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 17:31:51.975636 2020] [core:error] [pid 1108:tid 139670297954048] [client 10.0.0.4:48556] AH00135: Invalid method in request XHFN / HTTP/1.1
+[Wed Nov 25 17:32:22.791841 2020] [mpm_event:notice] [pid 1104:tid 139670643292032] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 17:32:48.119270 2020] [mpm_event:notice] [pid 1098:tid 139766349682560] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 25 17:32:48.129864 2020] [core:notice] [pid 1098:tid 139766349682560] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 17:33:01.406673 2020] [core:error] [pid 1102:tid 139766112691968] [client 10.0.0.4:50618] AH00135: Invalid method in request LSIM / HTTP/1.1
+[Wed Nov 25 17:34:23.805264 2020] [mpm_event:notice] [pid 1098:tid 139766349682560] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 17:34:49.871001 2020] [mpm_event:notice] [pid 1090:tid 140495608948608] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 25 17:34:49.937920 2020] [core:notice] [pid 1090:tid 140495608948608] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 17:34:56.132495 2020] [core:error] [pid 1094:tid 140495393109760] [client 10.0.0.4:56722] AH00135: Invalid method in request XPEK / HTTP/1.1
+[Wed Nov 25 17:35:57.960492 2020] [mpm_event:notice] [pid 1090:tid 140495608948608] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 17:36:23.690308 2020] [mpm_event:notice] [pid 1130:tid 140055344404352] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 25 17:36:23.732266 2020] [core:notice] [pid 1130:tid 140055344404352] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 17:39:02.405580 2020] [mpm_event:notice] [pid 1130:tid 140055344404352] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 17:39:28.252357 2020] [mpm_event:notice] [pid 1078:tid 140241464289152] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 25 17:39:28.283441 2020] [core:notice] [pid 1078:tid 140241464289152] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 17:40:41.384348 2020] [mpm_event:notice] [pid 1078:tid 140241464289152] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 17:41:07.519211 2020] [mpm_event:notice] [pid 1096:tid 139927246923648] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 25 17:41:07.549828 2020] [core:notice] [pid 1096:tid 139927246923648] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 17:41:28.057026 2020] [core:error] [pid 1103:tid 139926980998912] [client 10.0.0.4:58872] AH00135: Invalid method in request FFLT / HTTP/1.1
+[Wed Nov 25 17:45:57.499141 2020] [mpm_event:notice] [pid 1096:tid 139927246923648] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 17:46:23.855120 2020] [mpm_event:notice] [pid 1075:tid 140222201329536] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 25 17:46:23.900174 2020] [core:notice] [pid 1075:tid 140222201329536] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 17:47:41.585220 2020] [mpm_event:notice] [pid 1075:tid 140222201329536] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 17:48:07.689089 2020] [mpm_event:notice] [pid 1090:tid 139951939307392] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Nov 25 17:48:07.705750 2020] [core:notice] [pid 1090:tid 139951939307392] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 17:48:25.758772 2020] [core:error] [pid 1094:tid 139951677060864] [client 10.0.0.4:60960] AH00135: Invalid method in request LFOK / HTTP/1.1
+[Wed Nov 25 17:48:55.539729 2020] [mpm_event:notice] [pid 1090:tid 139951939307392] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 11:17:55.294537 2020] [mpm_event:notice] [pid 1113:tid 140435352598400] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 11:17:55.321855 2020] [core:notice] [pid 1113:tid 140435352598400] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 11:21:13.137255 2020] [core:error] [pid 1116:tid 140435137742592] [client 10.0.0.4:39566] AH00135: Invalid method in request PJGQ / HTTP/1.1
+[Thu Nov 26 11:36:09.240699 2020] [mpm_event:notice] [pid 1113:tid 140435352598400] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 11:36:37.178027 2020] [mpm_event:notice] [pid 1074:tid 140216459184000] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 11:36:37.276230 2020] [core:notice] [pid 1074:tid 140216459184000] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 11:50:48.994279 2020] [mpm_event:notice] [pid 1074:tid 140216459184000] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 11:51:19.298422 2020] [mpm_event:notice] [pid 1075:tid 139753403316096] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 11:51:19.384440 2020] [core:notice] [pid 1075:tid 139753403316096] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 12:25:35.067249 2020] [mpm_event:notice] [pid 1075:tid 139753403316096] AH00493: SIGUSR1 received.  Doing graceful restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 26 12:25:35.072726 2020] [mpm_event:notice] [pid 1075:tid 139753403316096] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 12:25:35.072731 2020] [core:notice] [pid 1075:tid 139753403316096] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 12:26:32.150847 2020] [mpm_event:notice] [pid 1075:tid 139753403316096] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 12:30:10.233659 2020] [mpm_event:notice] [pid 1888:tid 139886399760256] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 12:30:10.234072 2020] [core:notice] [pid 1888:tid 139886399760256] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 12:30:36.845347 2020] [mpm_event:notice] [pid 1888:tid 139886399760256] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 12:31:05.479331 2020] [mpm_event:notice] [pid 1058:tid 139900173965184] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 12:31:05.532696 2020] [core:notice] [pid 1058:tid 139900173965184] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 12:35:19.785044 2020] [mpm_event:notice] [pid 1058:tid 139900173965184] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 12:35:20.865867 2020] [mpm_event:notice] [pid 1400:tid 139865280243584] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 12:35:20.865917 2020] [core:notice] [pid 1400:tid 139865280243584] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 12:36:17.415946 2020] [mpm_event:notice] [pid 1400:tid 139865280243584] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 12:36:18.492279 2020] [mpm_event:notice] [pid 1549:tid 140360645941120] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 12:36:18.492323 2020] [core:notice] [pid 1549:tid 140360645941120] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 12:36:52.126585 2020] [mpm_event:notice] [pid 1549:tid 140360645941120] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 12:36:53.205552 2020] [mpm_event:notice] [pid 1672:tid 139680303245184] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 12:36:53.205592 2020] [core:notice] [pid 1672:tid 139680303245184] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 12:37:13.227667 2020] [proxy_fcgi:error] [pid 1676:tid 139680104306432] [client 10.0.0.4:39858] AH01071: Got error 'PHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\nPHP message: PHP Warning:  fsockopen(): unable to connect to 10.0.0.4:1234 (Connection refused) in /var/www/html/files/php-reverse-shell.php on line 100\nPHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\n', referer: http://10.0.0.6/files/
+[Thu Nov 26 12:41:02.361769 2020] [proxy_fcgi:error] [pid 1676:tid 139680095913728] [client 10.0.0.4:39862] AH01071: Got error 'PHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\nPHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\nPHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\n', referer: http://10.0.0.6/files/
+[Thu Nov 26 13:22:30.237120 2020] [mpm_event:notice] [pid 1069:tid 139714350167936] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 13:22:30.288972 2020] [core:notice] [pid 1069:tid 139714350167936] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 13:45:23.843558 2020] [core:error] [pid 1072:tid 139714136893184] [client 10.0.0.4:41984] AH00135: Invalid method in request UGXV / HTTP/1.1
+[Thu Nov 26 14:24:31.064359 2020] [mpm_event:notice] [pid 1069:tid 139714350167936] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 14:25:01.255713 2020] [mpm_event:notice] [pid 1076:tid 139782310291328] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 14:25:01.319021 2020] [core:notice] [pid 1076:tid 139782310291328] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 14:25:28.218197 2020] [core:error] [pid 1079:tid 139782109779712] [client 10.0.0.4:48234] AH00135: Invalid method in request GQGG / HTTP/1.1
+[Thu Nov 26 14:35:27.050268 2020] [mpm_event:notice] [pid 1076:tid 139782310291328] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 15:35:11.397710 2020] [mpm_event:notice] [pid 1082:tid 140680582309760] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 15:35:11.757066 2020] [core:notice] [pid 1082:tid 140680582309760] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 15:41:24.453316 2020] [core:error] [pid 1086:tid 140680336746240] [client 10.0.0.4:35340] AH00135: Invalid method in request SATA / HTTP/1.1
+[Thu Nov 26 15:41:31.588510 2020] [mpm_event:notice] [pid 1082:tid 140680582309760] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 16:55:49.443265 2020] [mpm_event:notice] [pid 1092:tid 140204413720448] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 26 16:55:49.479447 2020] [core:notice] [pid 1092:tid 140204413720448] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 16:58:25.031458 2020] [mpm_event:notice] [pid 1092:tid 140204413720448] AH00491: caught SIGTERM, shutting down
+[Tue Jun 15 13:04:06.137261 2021] [mpm_event:notice] [pid 1138:tid 139800196646784] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Jun 15 13:04:06.177654 2021] [core:notice] [pid 1138:tid 139800196646784] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Jun 15 13:41:39.583625 2021] [mpm_event:notice] [pid 1138:tid 139800196646784] AH00491: caught SIGTERM, shutting down
+[Tue Jun 15 15:58:32.029852 2021] [mpm_event:notice] [pid 1092:tid 140679362516864] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Jun 15 15:58:32.052850 2021] [core:notice] [pid 1092:tid 140679362516864] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Jun 15 16:01:09.239944 2021] [mpm_event:notice] [pid 1092:tid 140679362516864] AH00491: caught SIGTERM, shutting down
+[Sun Feb 26 08:53:02.394083 2023] [mpm_event:notice] [pid 1060:tid 139817476843392] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Feb 26 08:53:02.398664 2023] [core:notice] [pid 1060:tid 139817476843392] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Feb 26 09:01:52.963582 2023] [mpm_event:notice] [pid 1079:tid 140275902429056] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Feb 26 09:01:53.045552 2023] [core:notice] [pid 1079:tid 140275902429056] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Feb 26 09:13:14.876454 2023] [mpm_event:notice] [pid 1051:tid 140473540523904] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Feb 26 09:13:14.945680 2023] [core:notice] [pid 1051:tid 140473540523904] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Feb 26 09:18:42.714981 2023] [authz_core:error] [pid 1055:tid 140473255544576] [client 10.0.2.7:47194] AH01630: client denied by server configuration: /var/www/html/.hta
+[Sun Feb 26 09:18:42.718430 2023] [authz_core:error] [pid 1055:tid 140473196795648] [client 10.0.2.7:47162] AH01630: client denied by server configuration: /var/www/html/.htpasswd
+[Sun Feb 26 09:18:42.736890 2023] [authz_core:error] [pid 1055:tid 140473347864320] [client 10.0.2.7:47142] AH01630: client denied by server configuration: /var/www/html/.htaccess
+[Sun Feb 26 09:18:42.904628 2023] [proxy_fcgi:error] [pid 1055:tid 140473180010240] [client 10.0.2.7:47146] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 09:18:43.945941 2023] [proxy_fcgi:error] [pid 1055:tid 140473339471616] [client 10.0.2.7:47296] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 09:18:43.951679 2023] [proxy_fcgi:error] [pid 1055:tid 140473196795648] [client 10.0.2.7:47284] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 09:18:44.475786 2023] [proxy_fcgi:error] [pid 1054:tid 140473280722688] [client 10.0.2.7:47400] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 09:18:44.859404 2023] [authz_core:error] [pid 1054:tid 140473180010240] [client 10.0.2.7:47454] AH01630: client denied by server configuration: /var/www/html/server-status
+[Sun Feb 26 09:18:45.427367 2023] [proxy_fcgi:error] [pid 1055:tid 140473230366464] [client 10.0.2.7:47488] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 09:18:45.430284 2023] [proxy_fcgi:error] [pid 1055:tid 140473289115392] [client 10.0.2.7:47488] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 09:29:25.472417 2023] [proxy_fcgi:error] [pid 1054:tid 140473196795648] (70007)The timeout specified has expired: [client 10.0.2.7:48026] AH01075: Error dispatching request to : (polling), referer: http://10.0.2.15/files/
+[Sun Feb 26 09:31:46.268934 2023] [proxy_fcgi:error] [pid 1055:tid 140473437685504] [client 10.0.2.7:34468] AH01071: Got error 'PHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\nPHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\nPHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\n', referer: http://10.0.2.15/files/
+[Sun Feb 26 09:37:52.286713 2023] [proxy_fcgi:error] [pid 1054:tid 140473205188352] (70007)The timeout specified has expired: [client 10.0.2.7:47004] AH01075: Error dispatching request to : (polling), referer: http://10.0.2.15/files/
+[Sun Feb 26 09:39:17.503651 2023] [proxy_fcgi:error] [pid 1055:tid 140473263937280] [client 10.0.2.7:51572] AH01071: Got error 'PHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\nPHP message: PHP Warning:  fsockopen(): unable to connect to 10.0.2.7:4444 (Connection refused) in /var/www/html/files/php-reverse-shell.php on line 100\nPHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\n'
+[Sun Feb 26 09:41:05.480518 2023] [proxy_fcgi:error] [pid 1055:tid 140473255544576] [client 10.0.2.7:38204] AH01071: Got error 'PHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\nPHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\nPHP message: PHP Notice:  Undefined variable: daemon in /var/www/html/files/php-reverse-shell.php on line 184\n'
+[Sun Feb 26 09:46:10.408927 2023] [proxy_fcgi:error] [pid 1055:tid 140473213581056] (70007)The timeout specified has expired: [client 10.0.2.7:38204] AH01075: Error dispatching request to : (polling)
+[Sun Feb 26 12:42:11.757291 2023] [authz_core:error] [pid 1055:tid 140473446078208] [client 10.0.2.7:33088] AH01630: client denied by server configuration: /var/www/html/.htaccess
+[Sun Feb 26 12:42:11.758506 2023] [authz_core:error] [pid 1055:tid 140473230366464] [client 10.0.2.7:33082] AH01630: client denied by server configuration: /var/www/html/.hta
+[Sun Feb 26 12:42:11.760360 2023] [authz_core:error] [pid 1055:tid 140473454470912] [client 10.0.2.7:33088] AH01630: client denied by server configuration: /var/www/html/.htpasswd
+[Sun Feb 26 12:42:12.025137 2023] [proxy_fcgi:error] [pid 1055:tid 140473213581056] [client 10.0.2.7:33066] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 12:42:13.317531 2023] [proxy_fcgi:error] [pid 1055:tid 140473255544576] [client 10.0.2.7:33200] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 12:42:13.377309 2023] [proxy_fcgi:error] [pid 1055:tid 140473238759168] [client 10.0.2.7:33102] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 12:42:14.309422 2023] [proxy_fcgi:error] [pid 1054:tid 140473205188352] [client 10.0.2.7:33282] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 12:42:15.089183 2023] [authz_core:error] [pid 1054:tid 140473188402944] [client 10.0.2.7:33366] AH01630: client denied by server configuration: /var/www/html/server-status
+[Sun Feb 26 12:42:15.953267 2023] [proxy_fcgi:error] [pid 1055:tid 140473305900800] [client 10.0.2.7:33462] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 12:42:15.963943 2023] [proxy_fcgi:error] [pid 1054:tid 140473314293504] [client 10.0.2.7:33432] AH01071: Got error 'Primary script unknown\n'
+[Sun Feb 26 12:51:27.001940 2023] [proxy_fcgi:error] [pid 1055:tid 140473289115392] (70007)The timeout specified has expired: [client 10.0.2.7:42704] AH01075: Error dispatching request to : (polling), referer: http://10.0.2.15/files/
+[Sat Mar 04 05:57:59.486658 2023] [mpm_event:notice] [pid 1090:tid 139841713325952] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Mar 04 05:57:59.600892 2023] [core:notice] [pid 1090:tid 139841713325952] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Mar 04 15:06:28.049527 2023] [mpm_event:notice] [pid 1051:tid 140364982015872] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Mar 04 15:06:28.128782 2023] [core:notice] [pid 1051:tid 140364982015872] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Mar 04 15:58:26.694714 2023] [mpm_event:notice] [pid 1051:tid 140364982015872] AH00491: caught SIGTERM, shutting down
+[Sat Mar 04 21:58:50.998813 2023] [mpm_event:notice] [pid 1083:tid 139777707517824] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Mar 04 21:58:51.017315 2023] [core:notice] [pid 1083:tid 139777707517824] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Mar 04 23:19:44.278450 2023] [mpm_event:notice] [pid 1047:tid 140085673514880] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Mar 04 23:19:44.410000 2023] [core:notice] [pid 1047:tid 140085673514880] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Mar 05 01:22:27.742969 2023] [mpm_event:notice] [pid 1088:tid 139711620110208] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 05 01:22:27.773066 2023] [core:notice] [pid 1088:tid 139711620110208] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Mar 05 02:13:48.492122 2023] [authz_core:error] [pid 1098:tid 139711427360512] [client 10.0.2.7:34114] AH01630: client denied by server configuration: /var/www/html/.htaccess
+[Mon Mar 06 14:01:43.025748 2023] [mpm_event:notice] [pid 1072:tid 139952616384384] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Mon Mar 06 14:01:43.121715 2023] [core:notice] [pid 1072:tid 139952616384384] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Mar 21 14:32:54.290259 2023] [mpm_event:notice] [pid 1056:tid 140712352561024] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Mar 21 14:32:54.445039 2023] [core:notice] [pid 1056:tid 140712352561024] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Mar 21 14:39:41.260302 2023] [proxy_fcgi:error] [pid 1060:tid 140712154740480] [client 10.0.2.7:42320] AH01071: Got error 'Primary script unknown\n'
+[Sun Mar 26 11:43:20.407742 2023] [mpm_event:notice] [pid 1071:tid 139801957160832] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 26 11:43:20.421669 2023] [core:notice] [pid 1071:tid 139801957160832] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Mar 26 12:03:35.398383 2023] [mpm_event:notice] [pid 1076:tid 140331191543680] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 26 12:03:35.401108 2023] [core:notice] [pid 1076:tid 140331191543680] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Mar 26 12:10:55.325975 2023] [mpm_event:notice] [pid 1110:tid 139701349009280] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 26 12:10:55.376967 2023] [core:notice] [pid 1110:tid 139701349009280] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Mar 26 16:15:54.770886 2023] [mpm_event:notice] [pid 1124:tid 140370774488960] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 26 16:15:54.772123 2023] [core:notice] [pid 1124:tid 140370774488960] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Mar 27 00:46:45.807839 2023] [mpm_event:notice] [pid 1113:tid 139792873990016] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Mon Mar 27 00:46:45.920272 2023] [core:notice] [pid 1113:tid 139792873990016] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Mar 31 16:52:41.143351 2023] [mpm_event:notice] [pid 1118:tid 140230773643136] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Mar 31 16:52:41.246687 2023] [core:notice] [pid 1118:tid 140230773643136] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Mar 31 18:01:24.192072 2023] [mpm_event:notice] [pid 1118:tid 140230773643136] AH00491: caught SIGTERM, shutting down
+[Fri Mar 31 18:01:45.129711 2023] [mpm_event:notice] [pid 1087:tid 140031148664704] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Mar 31 18:01:45.221017 2023] [core:notice] [pid 1087:tid 140031148664704] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 12 14:26:47.837009 2023] [mpm_event:notice] [pid 1091:tid 140111435929472] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Apr 12 14:26:47.895959 2023] [core:notice] [pid 1091:tid 140111435929472] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 12 14:44:21.449389 2023] [mpm_event:notice] [pid 1085:tid 139870738675584] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Apr 12 14:44:21.485975 2023] [core:notice] [pid 1085:tid 139870738675584] AH00094: Command line: '/usr/sbin/apache2'

@@ -1,0 +1,1068 @@
+
+Start-Date: 2020-08-06  22:37:20
+Commandline: apt-get --yes -oDebug::pkgDepCache::AutoInstall=yes install ubuntu-keyring
+Upgrade: ubuntu-keyring:amd64 (2018.02.28, 2018.09.18.1~18.04.0)
+End-Date: 2020-08-06  22:37:20
+
+Start-Date: 2020-08-06  22:37:30
+Commandline: apt-get --yes -oDebug::pkgDepCache::AutoInstall=yes --force-yes upgrade
+Upgrade: libpam0g:amd64 (1.1.8-3.6ubuntu2, 1.1.8-3.6ubuntu2.18.04.1), debconf:amd64 (1.5.66, 1.5.66ubuntu1), fdisk:amd64 (2.31.1-0.4ubuntu3, 2.31.1-0.4ubuntu3.6), perl-base:amd64 (5.26.1-6, 5.26.1-6ubuntu0.3), libdevmapper1.02.1:amd64 (2:1.02.145-4.1ubuntu3, 2:1.02.145-4.1ubuntu3.18.04.3), dmsetup:amd64 (2:1.02.145-4.1ubuntu3, 2:1.02.145-4.1ubuntu3.18.04.3), libpython3.6-minimal:amd64 (3.6.5-3, 3.6.9-1~18.04ubuntu1.1), libseccomp2:amd64 (2.3.1-2.1ubuntu4, 2.4.3-1ubuntu3.18.04.3), libcom-err2:amd64 (1.44.1-1, 1.44.1-1ubuntu1.3), libdbus-1-3:amd64 (1.12.2-1ubuntu1, 1.12.2-1ubuntu1.2), networkd-dispatcher:amd64 (1.7-0ubuntu3, 1.7-0ubuntu3.3), libfdisk1:amd64 (2.31.1-0.4ubuntu3, 2.31.1-0.4ubuntu3.6), vim-common:amd64 (2:8.0.1453-1ubuntu1, 2:8.0.1453-1ubuntu1.3), libapt-inst2.0:amd64 (1.6.1, 1.6.12ubuntu0.1), libpam-modules:amd64 (1.1.8-3.6ubuntu2, 1.1.8-3.6ubuntu2.18.04.1), openssl:amd64 (1.1.0g-2ubuntu4, 1.1.1-1ubuntu2.1~18.04.6), libsystemd0:amd64 (237-3ubuntu10, 237-3ubuntu10.42), apt:amd64 (1.6.1, 1.6.12ubuntu0.1), dbus:amd64 (1.12.2-1ubuntu1, 1.12.2-1ubuntu1.2), libkmod2:amd64 (24-1ubuntu3, 24-1ubuntu3.5), debconf-i18n:amd64 (1.5.66, 1.5.66ubuntu1), libmount1:amd64 (2.31.1-0.4ubuntu3, 2.31.1-0.4ubuntu3.6), gcc-8-base:amd64 (8-20180414-1ubuntu2, 8.4.0-1ubuntu1~18.04), libsqlite3-0:amd64 (3.22.0-1, 3.22.0-1ubuntu0.4), libpython3.6-stdlib:amd64 (3.6.5-3, 3.6.9-1~18.04ubuntu1.1), libbz2-1.0:amd64 (1.0.6-8.1, 1.0.6-8.1ubuntu0.2), libicu60:amd64 (60.2-3ubuntu3, 60.2-3ubuntu3.1), libelf1:amd64 (0.170-0.4, 0.170-0.4ubuntu0.1), libbsd0:amd64 (0.8.7-1, 0.8.7-1ubuntu0.1), e2fsprogs:amd64 (1.44.1-1, 1.44.1-1ubuntu1.3), sudo:amd64 (1.8.21p2-3ubuntu1, 1.8.21p2-3ubuntu1.2), libncurses5:amd64 (6.1-1ubuntu1, 6.1-1ubuntu1.18.04), libc6:amd64 (2.27-3ubuntu1, 2.27-3ubuntu1.2), console-setup-linux:amd64 (1.178ubuntu2, 1.178ubuntu2.9), linux-base:amd64 (4.5ubuntu1, 4.5ubuntu1.2), util-linux:amd64 (2.31.1-0.4ubuntu3, 2.31.1-0.4ubuntu3.6), python3.6:amd64 (3.6.5-3, 3.6.9-1~18.04ubuntu1.1), python3:amd64 (3.6.5-3, 3.6.7-1~18.04), udev:amd64 (237-3ubuntu10, 237-3ubuntu10.42), locales:amd64 (2.27-3ubuntu1, 2.27-3ubuntu1.2), console-setup:amd64 (1.178ubuntu2, 1.178ubuntu2.9), passwd:amd64 (1:4.5-1ubuntu1, 1:4.5-1ubuntu2), procps:amd64 (2:3.3.12-3ubuntu1, 2:3.3.12-3ubuntu1.2), libpam-runtime:amd64 (1.1.8-3.6ubuntu2, 1.1.8-3.6ubuntu2.18.04.1), isc-dhcp-common:amd64 (4.3.5-3ubuntu7, 4.3.5-3ubuntu7.1), libmagic1:amd64 (1:5.32-2, 1:5.32-2ubuntu0.4), xkb-data:amd64 (2.23.1-1ubuntu1, 2.23.1-1ubuntu1.18.04.1), libapt-pkg5.0:amd64 (1.6.1, 1.6.12ubuntu0.1), libncursesw5:amd64 (6.1-1ubuntu1, 6.1-1ubuntu1.18.04), libprocps6:amd64 (2:3.3.12-3ubuntu1, 2:3.3.12-3ubuntu1.2), libexpat1:amd64 (2.2.5-3, 2.2.5-3ubuntu0.2), kmod:amd64 (24-1ubuntu3, 24-1ubuntu3.5), libudev1:amd64 (237-3ubuntu10, 237-3ubuntu10.42), libapparmor1:amd64 (2.12-4ubuntu5, 2.12-4ubuntu5.1), libgcc1:amd64 (1:8-20180414-1ubuntu2, 1:8.4.0-1ubuntu1~18.04), nplan:amd64 (0.36.1, 0.99-0ubuntu3~18.04.3), libss2:amd64 (1.44.1-1, 1.44.1-1ubuntu1.3), mount:amd64 (2.31.1-0.4ubuntu3, 2.31.1-0.4ubuntu3.6), python3.6-minimal:amd64 (3.6.5-3, 3.6.9-1~18.04ubuntu1.1), libext2fs2:amd64 (1.44.1-1, 1.44.1-1ubuntu1.3), ubuntu-minimal:amd64 (1.417, 1.417.4), libblkid1:amd64 (2.31.1-0.4ubuntu3, 2.31.1-0.4ubuntu3.6), dpkg:amd64 (1.19.0.5ubuntu2, 1.19.0.5ubuntu2.3), python3-minimal:amd64 (3.6.5-3, 3.6.7-1~18.04), libisc-export169:amd64 (1:9.11.3+dfsg-1ubuntu1, 1:9.11.3+dfsg-1ubuntu1.12), libc-bin:amd64 (2.27-3ubuntu1, 2.27-3ubuntu1.2), libmagic-mgc:amd64 (1:5.32-2, 1:5.32-2ubuntu0.4), libtinfo5:amd64 (6.1-1ubuntu1, 6.1-1ubuntu1.18.04), libpython3-stdlib:amd64 (3.6.5-3, 3.6.7-1~18.04), tar:amd64 (1.29b-2, 1.29b-2ubuntu0.1), systemd-sysv:amd64 (237-3ubuntu10, 237-3ubuntu10.42), libuuid1:amd64 (2.31.1-0.4ubuntu3, 2.31.1-0.4ubuntu3.6), libgcrypt20:amd64 (1.8.1-4ubuntu1, 1.8.1-4ubuntu1.2), gpgv:amd64 (2.2.4-1ubuntu1, 2.2.4-1ubuntu1.2), libpam-systemd:amd64 (237-3ubuntu10, 237-3ubuntu10.42), distro-info-data:amd64 (0.37, 0.37ubuntu0.7), systemd:amd64 (237-3ubuntu10, 237-3ubuntu10.42), libsmartcols1:amd64 (2.31.1-0.4ubuntu3, 2.31.1-0.4ubuntu3.6), grep:amd64 (3.1-2, 3.1-2build1), login:amd64 (1:4.5-1ubuntu1, 1:4.5-1ubuntu2), xxd:amd64 (2:8.0.1453-1ubuntu1, 2:8.0.1453-1ubuntu1.3), ncurses-bin:amd64 (6.1-1ubuntu1, 6.1-1ubuntu1.18.04), libpam-modules-bin:amd64 (1.1.8-3.6ubuntu2, 1.1.8-3.6ubuntu2.18.04.1), apt-utils:amd64 (1.6.1, 1.6.12ubuntu0.1), iproute2:amd64 (4.15.0-2ubuntu1, 4.15.0-2ubuntu1.2), libdb5.3:amd64 (5.3.28-13.1ubuntu1, 5.3.28-13.1ubuntu1.1), libdns-export1100:amd64 (1:9.11.3+dfsg-1ubuntu1, 1:9.11.3+dfsg-1ubuntu1.12), iputils-ping:amd64 (3:20161105-1ubuntu2, 3:20161105-1ubuntu3), libnss-systemd:amd64 (237-3ubuntu10, 237-3ubuntu10.42), bzip2:amd64 (1.0.6-8.1, 1.0.6-8.1ubuntu0.2), keyboard-configuration:amd64 (1.178ubuntu2, 1.178ubuntu2.9), bsdutils:amd64 (1:2.31.1-0.4ubuntu3, 1:2.31.1-0.4ubuntu3.6), libglib2.0-data:amd64 (2.56.1-2ubuntu1, 2.56.4-0ubuntu0.18.04.6), ncurses-base:amd64 (6.1-1ubuntu1, 6.1-1ubuntu1.18.04), bash:amd64 (4.4.18-2ubuntu1, 4.4.18-2ubuntu1.2), libxml2:amd64 (2.9.4+dfsg1-6.1ubuntu1, 2.9.4+dfsg1-6.1ubuntu1.3), file:amd64 (1:5.32-2, 1:5.32-2ubuntu0.4), python3-gi:amd64 (3.26.1-2, 3.26.1-2ubuntu1), libidn11:amd64 (1.33-2.1ubuntu1, 1.33-2.1ubuntu1.2), cpio:amd64 (2.12+dfsg-6, 2.12+dfsg-6ubuntu0.18.04.1), libgnutls30:amd64 (3.5.18-1ubuntu1, 3.5.18-1ubuntu1.4), ca-certificates:amd64 (20180409, 20190110~18.04.1), vim-tiny:amd64 (2:8.0.1453-1ubuntu1, 2:8.0.1453-1ubuntu1.3), libunistring2:amd64 (0.9.9-0ubuntu1, 0.9.9-0ubuntu2), libzstd1:amd64 (1.3.3+dfsg-2ubuntu1, 1.3.3+dfsg-2ubuntu1.1), libcryptsetup12:amd64 (2:2.0.2-1ubuntu1, 2:2.0.2-1ubuntu1.1), libssl1.1:amd64 (1.1.0g-2ubuntu4, 1.1.1-1ubuntu2.1~18.04.6), libjson-c3:amd64 (0.12.1-1.3, 0.12.1-1.3ubuntu0.3), netcat-openbsd:amd64 (1.187-1, 1.187-1ubuntu0.1), libstdc++6:amd64 (8-20180414-1ubuntu2, 8.4.0-1ubuntu1~18.04), isc-dhcp-client:amd64 (4.3.5-3ubuntu7, 4.3.5-3ubuntu7.1), libglib2.0-0:amd64 (2.56.1-2ubuntu1, 2.56.4-0ubuntu0.18.04.6), libidn2-0:amd64 (2.0.4-1.1build2, 2.0.4-1.1ubuntu0.2), base-files:amd64 (10.1ubuntu2, 10.1ubuntu2.9), tzdata:amd64 (2018d-1, 2020a-0ubuntu0.18.04), busybox-initramfs:amd64 (1:1.27.2-2ubuntu3, 1:1.27.2-2ubuntu3.2)
+End-Date: 2020-08-06  22:37:59
+
+Start-Date: 2020-08-06  22:37:59
+Commandline: apt-get --yes -oDebug::pkgDepCache::AutoInstall=yes --force-yes dist-upgrade
+Install: python3-netifaces:amd64 (0.10.4-0.1build4, automatic), libnetplan0:amd64 (0.99-0ubuntu3~18.04.3, automatic)
+Upgrade: netplan.io:amd64 (0.36.1, 0.99-0ubuntu3~18.04.3), initramfs-tools-bin:amd64 (0.130ubuntu3, 0.130ubuntu3.9), initramfs-tools-core:amd64 (0.130ubuntu3, 0.130ubuntu3.9), initramfs-tools:amd64 (0.130ubuntu3, 0.130ubuntu3.9)
+End-Date: 2020-08-06  22:37:59
+
+Start-Date: 2020-08-06  22:38:04
+Commandline: apt-get --yes -oDebug::pkgDepCache::AutoInstall=yes install adduser base-passwd coreutils cron dash debianutils diffutils eject findutils gir1.2-glib-2.0 gzip hostname init init-system-helpers kbd klibc-utils less libacl1 libargon2-0 libatm1 libattr1 libaudit-common libaudit1 libcap-ng0 libcap2 libcap2-bin libdebconfclient0 libestr0 libfastjson4 libffi6 libfribidi0 libgirepository-1.0-1 libgmp10 libgpg-error0 libhogweed4 libip4tc0 libklibc liblocale-gettext-perl liblz4-1 liblzma5 libmnl0 libmpdec2 libnettle6 libnewt0.52 libp11-kit0 libpam-cap libpcre3 libpopt0 libreadline7 libselinux1 libsemanage-common libsemanage1 libsepol1 libslang2 libtasn1-6 libtext-charwidth-perl libtext-iconv-perl libtext-wrapi18n-perl libxtables12 libyaml-0-2 logrotate lsb-base lsb-release mawk mime-support netbase python3-dbus python3-yaml readline-common rsyslog sed sensible-utils shared-mime-info sysvinit-utils ubuntu-advantage-tools ucf whiptail xdg-user-dirs xz-utils zlib1g apt apt-utils busybox-initramfs bzip2 ca-certificates cpio dbus e2fsprogs file gcc-8-base gpgv isc-dhcp-client isc-dhcp-common libapparmor1 libapt-inst2.0 libapt-pkg5.0 libbsd0 libbz2-1.0 libc-bin libc6 libcom-err2 libdb5.3 libdbus-1-3 libdns-export1100 libelf1 libexpat1 libext2fs2 libgcc1 libgcrypt20 libglib2.0-0 libglib2.0-data libicu60 libidn2-0 libisc-export169 libjson-c3 libmagic-mgc libmagic1 libpython3.6-minimal libpython3.6-stdlib libseccomp2 libsqlite3-0 libss2 libssl1.1 libstdc++6 libxml2 libzstd1 linux-base locales openssl perl-base python3.6 python3.6-minimal sudo tzdata vim-common vim-tiny xxd base-files bash bsdutils console-setup console-setup-linux debconf debconf-i18n distro-info-data dmsetup dpkg fdisk grep initramfs-tools initramfs-tools-bin initramfs-tools-core iproute2 iputils-ping keyboard-configuration kmod libblkid1 libcryptsetup12 libdevmapper1.02.1 libfdisk1 libgnutls30 libidn11 libkmod2 libmount1 libncurses5 libncursesw5 libnss-systemd libpam-modules libpam-modules-bin libpam-runtime libpam-systemd libpam0g libprocps6 libpython3-stdlib libsmartcols1 libsystemd0 libtinfo5 libudev1 libunistring2 libuuid1 login mount ncurses-base ncurses-bin netcat-openbsd netplan.io networkd-dispatcher nplan passwd procps python3 python3-gi python3-minimal systemd systemd-sysv tar ubuntu-keyring ubuntu-minimal udev util-linux xkb-data accountsservice bash-completion bsdmainutils dosfstools ed ftp fuse geoip-database groff-base hdparm info install-info iptables iso-codes libaccountsservice0 libedit2 libfuse2 libgdbm5 libgeoip1 libip6tc0 libiptc0 libkeyutils1 libnetfilter-conntrack3 libnfnetlink0 libnih1 libpipeline1 libpsl5 libunwind8 libusb-1.0-0 libxdmcp6 libxext6 libxmuu1 lsof ltrace manpages mlocate mtr-tiny nano popularity-contest powermgmt-base publicsuffix strace telnet time usbutils xauth apparmor bind9-host busybox-static dnsutils gettext-base krb5-locales libbind9-160 libdns1100 libgssapi-krb5-2 libirs160 libisc169 libisccc160 libisccfg160 libk5crypto3 libkrb5-3 libkrb5support0 liblwres160 libntfs-3g88 libpcap0.8 libpng16-16 libpolkit-gobject-1-0 libssl1.0.0 multiarch-support ntfs-3g openssh-client python3-distro-info rsync tcpdump wget command-not-found command-not-found-data dmidecode friendly-recovery iputils-tracepath irqbalance language-selector-common libdrm-common libdrm2 libnuma1 libparted2 libpci3 libplymouth4 libx11-6 libx11-data libxau6 libxcb1 lshw man-db parted pciutils plymouth plymouth-theme-ubuntu-text psmisc python-apt-common python3-apt python3-commandnotfound python3-distupgrade python3-gdbm python3-update-manager ubuntu-release-upgrader-core ubuntu-standard ufw update-manager-core ureadahead uuid-runtime acl acpid apport-symptoms at bc bcache-tools btrfs-progs btrfs-tools byobu cloud-guest-utils dns-root-data dnsmasq-base ethtool fonts-ubuntu-console gawk grub-legacy-ec2 htop libasn1-8-heimdal libassuan0 libdumbnet1 liberror-perl libevent-2.1-6 libgdbm-compat4 libgpm2 libgssapi3-heimdal libhcrypto4-heimdal libheimbase1-heimdal libheimntlm0-heimdal libhx509-5-heimdal libisns0 libkrb5-26-heimdal libksba8 liblzo2-2 libmpfr6 libnghttp2-14 libnpth0 libreadline5 libroken18-heimdal librtmp1 libsigsegv2 libutempter0 libwind0-heimdal libxmlsec1 libxmlsec1-openssl net-tools pastebinit pinentry-curses python3-asn1crypto python3-attr python3-automat python3-certifi python3-cffi-backend python3-chardet python3-click python3-colorama python3-configobj python3-constantly python3-debian python3-hyperlink python3-idna python3-incremental python3-newt python3-openssl python3-pam python3-pkg-resources python3-pyasn1 python3-pyasn1-modules python3-requests-unixsocket python3-serial python3-service-identity python3-six python3-systemd python3-zope.interface run-one xdelta3 xfsprogs zerofree apport curl dirmngr git git-man gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm libcurl3-gnutls libcurl4 libmspack0 libperl5.26 libpolkit-agent-1-0 libpolkit-backend-1-0 libpython3.6 libsasl2-2 libsasl2-modules libsasl2-modules-db libxslt1.1 patch perl perl-modules-5.26 policykit-1 python3-apport python3-cryptography python3-httplib2 python3-problem-report python3-requests python3-twisted python3-twisted-bin python3-urllib3 snapd vim vim-runtime cloud-initramfs-copymods cloud-initramfs-dyn-netconf cryptsetup cryptsetup-bin dmeventd ebtables landscape-common libdevmapper-event1.02.1 libldap-2.4-2 libldap-common liblvm2app2.2 liblvm2cmd2.02 liblxc-common liblxc1 lvm2 lxcfs lxd lxd-client mdadm open-iscsi open-vm-tools overlayroot pollinate python3-debconf python3-software-properties screen software-properties-common sosreport squashfs-tools tmux ubuntu-server uidmap unattended-upgrades update-notifier-common cloud-init
+Install: libgssapi3-heimdal:amd64 (7.5.0+dfsg-1), cryptsetup-bin:amd64 (2:2.0.2-1ubuntu1.1), libxdmcp6:amd64 (1:1.1.2-3), info:amd64 (6.5.0.dfsg.1-2), manpages:amd64 (4.15-1), libpolkit-gobject-1-0:amd64 (0.105-20ubuntu0.18.04.5), python3-distro-info:amd64 (0.18ubuntu0.18.04.1), iso-codes:amd64 (3.79-1), screen:amd64 (4.6.2-1ubuntu1), acpid:amd64 (1:2.0.28-1ubuntu1), liblvm2cmd2.02:amd64 (2.02.176-4.1ubuntu3.18.04.3), libusb-1.0-0:amd64 (2:1.0.21-2), python3-json-pointer:amd64 (1.10-1, automatic), fuse:amd64 (2.9.7-1ubuntu1), libkrb5-3:amd64 (1.16-2ubuntu0.1), dosfstools:amd64 (4.1-1), libgssapi-krb5-2:amd64 (1.16-2ubuntu0.1), cloud-init:amd64 (20.2-45-g5f7825e2-0ubuntu1~18.04.1), libnghttp2-14:amd64 (1.30.0-1ubuntu1), libeatmydata1:amd64 (105-6, automatic), landscape-common:amd64 (18.01-0ubuntu3.5), mtr-tiny:amd64 (0.92-1), libisccfg160:amd64 (1:9.11.3+dfsg-1ubuntu1.12), pollinate:amd64 (4.33-0ubuntu1~18.04.1), irqbalance:amd64 (1.3.0-0.1ubuntu0.18.04.1), libwind0-heimdal:amd64 (7.5.0+dfsg-1), update-manager-core:amd64 (1:18.04.11.13), uuid-runtime:amd64 (2.31.1-0.4ubuntu3.6), python3-zope.interface:amd64 (4.3.2-1build2), publicsuffix:amd64 (20180223.1310-1), ureadahead:amd64 (0.100.0-21), iptables:amd64 (1.6.1-2ubuntu2), gnupg-utils:amd64 (2.2.4-1ubuntu1.2), at:amd64 (3.1.20-3.1ubuntu2), bc:amd64 (1.07.1-2), ed:amd64 (1.10-2.1), friendly-recovery:amd64 (0.2.38ubuntu1.1), libsasl2-modules-db:amd64 (2.1.27~101-g0780600+dfsg-3ubuntu2.1), libcurl4:amd64 (7.58.0-2ubuntu3.9), gpg-wks-client:amd64 (2.2.4-1ubuntu1.2), libldap-2.4-2:amd64 (2.4.45+dfsg-1ubuntu1.6), libmpfr6:amd64 (4.0.1-1), python3-software-properties:amd64 (0.96.24.32.13), cloud-initramfs-dyn-netconf:amd64 (0.40ubuntu1.1), strace:amd64 (4.21-1ubuntu1), byobu:amd64 (5.125-0ubuntu1), gnupg-l10n:amd64 (2.2.4-1ubuntu1.2), update-notifier-common:amd64 (3.192.1.7), ntfs-3g:amd64 (1:2017.3.23-2ubuntu0.18.04.2), git-man:amd64 (1:2.17.1-1ubuntu0.7), python3-jwt:amd64 (1.5.3+ds1-1, automatic), acl:amd64 (2.2.52-3build1), libheimntlm0-heimdal:amd64 (7.5.0+dfsg-1), libparted2:amd64 (3.2-20ubuntu0.2), libksba8:amd64 (1.3.5-2), run-one:amd64 (1.17-0ubuntu1), mdadm:amd64 (4.1~rc1-3~ubuntu18.04.4), python3-systemd:amd64 (234-1build1), libpsl5:amd64 (0.19.1-5build1), tcpdump:amd64 (4.9.3-0ubuntu0.18.04.1), snapd:amd64 (2.45.1+18.04.2), pastebinit:amd64 (1.5-2), python3-asn1crypto:amd64 (0.24.0-1), python3-urllib3:amd64 (1.22-1ubuntu0.18.04.1), libirs160:amd64 (1:9.11.3+dfsg-1ubuntu1.12), squashfs-tools:amd64 (1:4.3-6ubuntu0.18.04.1), bsdmainutils:amd64 (11.1.2ubuntu1), bind9-host:amd64 (1:9.11.3+dfsg-1ubuntu1.12), language-selector-common:amd64 (0.188.3), python3-jsonpatch:amd64 (1.19+really1.16-1fakesync1, automatic), libdevmapper-event1.02.1:amd64 (2:1.02.145-4.1ubuntu3.18.04.3), lshw:amd64 (02.18-0.1ubuntu6.18.04.1), lsof:amd64 (4.89+dfsg-0.1), fonts-ubuntu-console:amd64 (0.83-2), open-iscsi:amd64 (2.0.874-5ubuntu2.10), powermgmt-base:amd64 (1.33), dnsutils:amd64 (1:9.11.3+dfsg-1ubuntu1.12), geoip-database:amd64 (20180315-1), perl-modules-5.26:amd64 (5.26.1-6ubuntu0.3), python3-pam:amd64 (0.4.2-13.2ubuntu4), dnsmasq-base:amd64 (2.79-1), ubuntu-standard:amd64 (1.417.4), xdelta3:amd64 (3.0.11-dfsg-1ubuntu1), libheimbase1-heimdal:amd64 (7.5.0+dfsg-1), nano:amd64 (2.9.3-2), gpg-wks-server:amd64 (2.2.4-1ubuntu1.2), ftp:amd64 (0.17-34), libnuma1:amd64 (2.0.11-2.1ubuntu0.1), libpython3.6:amd64 (3.6.9-1~18.04ubuntu1.1), python-apt-common:amd64 (1.6.5ubuntu0.3), open-vm-tools:amd64 (2:11.0.5-4ubuntu0.18.04.1), dmeventd:amd64 (2:1.02.145-4.1ubuntu3.18.04.3), git:amd64 (1:2.17.1-1ubuntu0.7), gpg:amd64 (2.2.4-1ubuntu1.2), gawk:amd64 (1:4.1.4+dfsg-1build1), lvm2:amd64 (2.02.176-4.1ubuntu3.18.04.3), libpolkit-agent-1-0:amd64 (0.105-20ubuntu0.18.04.5), libk5crypto3:amd64 (1.16-2ubuntu0.1), python3-service-identity:amd64 (16.0.0-2), iputils-tracepath:amd64 (3:20161105-1ubuntu3), libisc169:amd64 (1:9.11.3+dfsg-1ubuntu1.12), python3-idna:amd64 (2.6-1), ebtables:amd64 (2.0.10.4-3.5ubuntu2.18.04.3), zerofree:amd64 (1.0.4-1), libip6tc0:amd64 (1.6.1-2ubuntu2), popularity-contest:amd64 (1.66ubuntu1), plymouth-theme-ubuntu-text:amd64 (0.9.3-1ubuntu7.18.04.2), python3-six:amd64 (1.11.0-2), libsasl2-2:amd64 (2.1.27~101-g0780600+dfsg-3ubuntu2.1), ubuntu-server:amd64 (1.417.4), python3-jsonschema:amd64 (2.6.0-2, automatic), eatmydata:amd64 (105-6, automatic), libpipeline1:amd64 (1.5.0-1), grub-legacy-ec2:amd64 (1:1), command-not-found-data:amd64 (18.04.5), libassuan0:amd64 (2.5.1-2), libx11-6:amd64 (2:1.6.4-3ubuntu0.2), python3-requests:amd64 (2.18.4-2ubuntu0.1), python3-httplib2:amd64 (0.9.2+dfsg-1ubuntu0.2), net-tools:amd64 (1.60+git20161116.90da8a0-1ubuntu1), lxd:amd64 (3.0.3-0ubuntu1~18.04.1), htop:amd64 (2.1.0-3), libplymouth4:amd64 (0.9.3-1ubuntu7.18.04.2), krb5-locales:amd64 (1.16-2ubuntu0.1), dirmngr:amd64 (2.2.4-1ubuntu1.2), python3-twisted:amd64 (17.9.0-2ubuntu0.1), liblxc1:amd64 (3.0.3-0ubuntu1~18.04.1), libperl5.26:amd64 (5.26.1-6ubuntu0.3), apport:amd64 (2.20.9-0ubuntu7.16), libiptc0:amd64 (1.6.1-2ubuntu2), gdisk:amd64 (1.0.3-1, automatic), python3-twisted-bin:amd64 (17.9.0-2ubuntu0.1), libnfnetlink0:amd64 (1.0.1-3), libisns0:amd64 (0.97-2build1), libuv1:amd64 (1.18.0-3, automatic), groff-base:amd64 (1.22.3-10), libxau6:amd64 (1:1.0.8-1ubuntu1), librtmp1:amd64 (2.4+20151223.gitfa8646d.1-1), python3-cryptography:amd64 (2.1.4-1ubuntu1.3), busybox-static:amd64 (1:1.27.2-2ubuntu3.2), python3-distupgrade:amd64 (1:18.04.38), man-db:amd64 (2.8.3-2ubuntu0.1), libsasl2-modules:amd64 (2.1.27~101-g0780600+dfsg-3ubuntu2.1), libgeoip1:amd64 (1.6.12-1), python3-debconf:amd64 (1.5.66ubuntu1), python3-commandnotfound:amd64 (18.04.5), psmisc:amd64 (23.1-1ubuntu0.1), xfsprogs:amd64 (4.9.0+nmu1ubuntu2), python3-update-manager:amd64 (1:18.04.11.13), libxcb1:amd64 (1.13-2~ubuntu18.04), ubuntu-release-upgrader-core:amd64 (1:18.04.38), python3-apport:amd64 (2.20.9-0ubuntu7.16), libkrb5support0:amd64 (1.16-2ubuntu0.1), libxmlsec1-openssl:amd64 (1.2.25-1build1), libnih1:amd64 (1.0.3-6ubuntu2), python3-constantly:amd64 (15.1.0-1), python3-cffi-backend:amd64 (1.11.5-1), libfuse2:amd64 (2.9.7-1ubuntu1), liblvm2app2.2:amd64 (2.02.176-4.1ubuntu3.18.04.3), dmidecode:amd64 (3.1-1ubuntu0.1), python3-click:amd64 (6.7-3), libmspack0:amd64 (0.6-3ubuntu0.3), libldap-common:amd64 (2.4.45+dfsg-1ubuntu1.6), python3-incremental:amd64 (16.10.1-3), libgdbm5:amd64 (1.14.1-6), liblwres160:amd64 (1:9.11.3+dfsg-1ubuntu1.12), python3-markupsafe:amd64 (1.0-1build1, automatic), libntfs-3g88:amd64 (1:2017.3.23-2ubuntu0.18.04.2), libhcrypto4-heimdal:amd64 (7.5.0+dfsg-1), ufw:amd64 (0.36-0ubuntu0.18.04.1), libkeyutils1:amd64 (1.5.9-9.2ubuntu2), libxmuu1:amd64 (2:1.1.2-2), vim-runtime:amd64 (2:8.0.1453-1ubuntu1.3), python3-configobj:amd64 (5.0.6-2), libnetfilter-conntrack3:amd64 (1.0.6-2), python3-blinker:amd64 (1.4+dfsg1-0.1, automatic), vim:amd64 (2:8.0.1453-1ubuntu1.3), parted:amd64 (3.2-20ubuntu0.2), libdrm2:amd64 (2.4.101-2~18.04.1), python3-pkg-resources:amd64 (39.0.1-2), python3-openssl:amd64 (17.5.0-1ubuntu1), python3-hyperlink:amd64 (17.3.1-2), libutempter0:amd64 (1.1.6-3), mlocate:amd64 (0.26-2ubuntu3.1), libpolkit-backend-1-0:amd64 (0.105-20ubuntu0.18.04.5), libx11-data:amd64 (2:1.6.4-3ubuntu0.2), libreadline5:amd64 (5.2+dfsg-3build1), bcache-tools:amd64 (1.0.8-2build1), openssh-client:amd64 (1:7.6p1-4ubuntu0.3), sosreport:amd64 (3.9.1-1ubuntu0.18.04.2), time:amd64 (1.7-25.1build1), usbutils:amd64 (1:007-4build1), libunwind8:amd64 (1.2.1-8), libgpm2:amd64 (1.20.7-5), plymouth:amd64 (0.9.3-1ubuntu7.18.04.2), ltrace:amd64 (0.7.3-6ubuntu1), policykit-1:amd64 (0.105-20ubuntu0.18.04.5), libevent-2.1-6:amd64 (2.1.8-stable-4build1), pciutils:amd64 (1:3.5.2-1ubuntu1.1), ethtool:amd64 (1:4.15-0ubuntu1), multiarch-support:amd64 (2.27-3ubuntu1.2), unattended-upgrades:amd64 (1.1ubuntu1.18.04.14), libedit2:amd64 (3.1-20170329-1), libroken18-heimdal:amd64 (7.5.0+dfsg-1), btrfs-tools:amd64 (4.15.1-1build1), python3-automat:amd64 (0.6.0-1), libpcap0.8:amd64 (1.8.1-6ubuntu1.18.04.1), python3-oauthlib:amd64 (2.0.6-1, automatic), perl:amd64 (5.26.1-6ubuntu0.3), rsync:amd64 (3.1.2-2.1ubuntu1.1), xauth:amd64 (1:1.0.10-1), apparmor:amd64 (2.12-4ubuntu5.1), command-not-found:amd64 (18.04.5), dns-root-data:amd64 (2018013001), libasn1-8-heimdal:amd64 (7.5.0+dfsg-1), libisccc160:amd64 (1:9.11.3+dfsg-1ubuntu1.12), libkrb5-26-heimdal:amd64 (7.5.0+dfsg-1), wget:amd64 (1.19.4-1ubuntu2.2), telnet:amd64 (0.17-41), tmux:amd64 (2.6-3ubuntu0.2), python3-requests-unixsocket:amd64 (0.1.5-3), libbind9-160:amd64 (1:9.11.3+dfsg-1ubuntu1.12), python3-jinja2:amd64 (2.10-1ubuntu0.18.04.1, automatic), overlayroot:amd64 (0.40ubuntu1.1), accountsservice:amd64 (0.6.45-1ubuntu1), gnupg:amd64 (2.2.4-1ubuntu1.2), cloud-initramfs-copymods:amd64 (0.40ubuntu1.1), libpci3:amd64 (1:3.5.2-1ubuntu1.1), libdns1100:amd64 (1:9.11.3+dfsg-1ubuntu1.12), libgdbm-compat4:amd64 (1.14.1-6), gettext-base:amd64 (0.19.8.1-6ubuntu0.3), apport-symptoms:amd64 (0.20), pinentry-curses:amd64 (1.1.0-1), python3-debian:amd64 (0.1.32), liblxc-common:amd64 (3.0.3-0ubuntu1~18.04.1), libnpth0:amd64 (1.5-3), python3-gdbm:amd64 (3.6.9-1~18.04), curl:amd64 (7.58.0-2ubuntu3.9), libhx509-5-heimdal:amd64 (7.5.0+dfsg-1), python3-newt:amd64 (0.52.20-1ubuntu1), python3-certifi:amd64 (2018.1.18-2), cloud-guest-utils:amd64 (0.30-0ubuntu5), cryptsetup:amd64 (2:2.0.2-1ubuntu1.1), patch:amd64 (2.7.6-2ubuntu1.1), gpg-agent:amd64 (2.2.4-1ubuntu1.2), python3-chardet:amd64 (3.0.4-1), python3-problem-report:amd64 (2.20.9-0ubuntu7.16), lxd-client:amd64 (3.0.3-0ubuntu1~18.04.1), python3-colorama:amd64 (0.3.7-1), install-info:amd64 (6.5.0.dfsg.1-2), libxmlsec1:amd64 (1.2.25-1build1), uidmap:amd64 (1:4.5-1ubuntu2), libdumbnet1:amd64 (1.12-7build1), libcurl3-gnutls:amd64 (7.58.0-2ubuntu3.9), gpgconf:amd64 (2.2.4-1ubuntu1.2), python3-serial:amd64 (3.4-2), python3-pyasn1-modules:amd64 (0.2.1-0.2), python3-apt:amd64 (1.6.5ubuntu0.3), libaccountsservice0:amd64 (0.6.45-1ubuntu1), hdparm:amd64 (9.54+ds-1), libxslt1.1:amd64 (1.1.29-5ubuntu0.2), libssl1.0.0:amd64 (1.0.2n-1ubuntu5.3), gpgsm:amd64 (2.2.4-1ubuntu1.2), bash-completion:amd64 (1:2.8-1ubuntu1), python3-attr:amd64 (17.4.0-2), libxext6:amd64 (2:1.3.3-1), libsigsegv2:amd64 (2.12-1), python3-pyasn1:amd64 (0.4.2-3), lxcfs:amd64 (3.0.3-0ubuntu1~18.04.2), libdrm-common:amd64 (2.4.101-2~18.04.1), liblzo2-2:amd64 (2.08-1.2), btrfs-progs:amd64 (4.15.1-1build1), software-properties-common:amd64 (0.96.24.32.13), liberror-perl:amd64 (0.17025-1), libpng16-16:amd64 (1.6.34-1ubuntu0.18.04.2)
+End-Date: 2020-08-06  22:40:20
+
+Start-Date: 2020-08-06  22:40:26
+End-Date: 2020-08-06  22:40:26
+
+Start-Date: 2021-08-15  16:42:50
+Commandline: /usr/bin/apt-get --quiet --assume-yes --option=Dpkg::options::=--force-unsafe-io --option=Dpkg::Options::=--force-confold install linux-generic
+Install: intel-microcode:amd64 (3.20210608.0ubuntu0.18.04.1, automatic), linux-headers-generic:amd64 (4.15.0.153.142, automatic), os-prober:amd64 (1.74ubuntu1, automatic), iw:amd64 (4.14-0.1, automatic), libnl-genl-3-200:amd64 (3.2.29-0ubuntu3, automatic), grub-common:amd64 (2.02-2ubuntu8.23, automatic), linux-image-generic:amd64 (4.15.0.153.142, automatic), iucode-tool:amd64 (2.3.1-1, automatic), grub2-common:amd64 (2.02-2ubuntu8.23, automatic), linux-headers-4.15.0-153-generic:amd64 (4.15.0-153.160, automatic), amd64-microcode:amd64 (3.20191021.1+really3.20181128.1~ubuntu0.18.04.1, automatic), grub-pc:amd64 (2.02-2ubuntu8.23, automatic), linux-image-4.15.0-153-generic:amd64 (4.15.0-153.160, automatic), grub-pc-bin:amd64 (2.02-2ubuntu8.23, automatic), grub-gfxpayload-lists:amd64 (0.7, automatic), linux-modules-4.15.0-153-generic:amd64 (4.15.0-153.160, automatic), libnl-3-200:amd64 (3.2.29-0ubuntu3, automatic), linux-modules-extra-4.15.0-153-generic:amd64 (4.15.0-153.160, automatic), libdbus-glib-1-2:amd64 (0.110-2, automatic), thermald:amd64 (1.7.0-5ubuntu5, automatic), libfreetype6:amd64 (2.8.1-2ubuntu2.1, automatic), linux-headers-4.15.0-153:amd64 (4.15.0-153.160, automatic), crda:amd64 (3.18-1build1, automatic), linux-firmware:amd64 (1.173.20, automatic), linux-generic:amd64 (4.15.0.153.142), wireless-regdb:amd64 (2021.07.14-0ubuntu1~18.04.1, automatic)
+End-Date: 2021-08-15  16:43:13
+
+Start-Date: 2021-08-15  16:43:46
+Commandline: /usr/bin/apt-get --quiet --assume-yes --option=Dpkg::options::=--force-unsafe-io --option=Dpkg::Options::=--force-confold install openssh-server
+Install: libwrap0:amd64 (7.6.q-27, automatic), openssh-sftp-server:amd64 (1:7.6p1-4ubuntu0.5, automatic), ncurses-term:amd64 (6.1-1ubuntu1.18.04, automatic), openssh-server:amd64 (1:7.6p1-4ubuntu0.5), ssh-import-id:amd64 (5.7-0ubuntu1.1, automatic)
+Upgrade: openssh-client:amd64 (1:7.6p1-4ubuntu0.3, 1:7.6p1-4ubuntu0.5)
+End-Date: 2021-08-15  16:43:48
+
+Start-Date: 2021-08-15  16:49:37
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: bsdutils:amd64 (1:2.31.1-0.4ubuntu3.6, 1:2.31.1-0.4ubuntu3.7)
+End-Date: 2021-08-15  16:49:37
+
+Start-Date: 2021-08-15  16:49:40
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: busybox-initramfs:amd64 (1:1.27.2-2ubuntu3.2, 1:1.27.2-2ubuntu3.3)
+End-Date: 2021-08-15  16:49:40
+
+Start-Date: 2021-08-15  16:49:43
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: busybox-static:amd64 (1:1.27.2-2ubuntu3.2, 1:1.27.2-2ubuntu3.3)
+End-Date: 2021-08-15  16:50:00
+
+Start-Date: 2021-08-15  16:50:03
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: ca-certificates:amd64 (20190110~18.04.1, 20210119~18.04.1)
+End-Date: 2021-08-15  16:50:06
+
+Start-Date: 2021-08-15  16:50:09
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: distro-info-data:amd64 (0.37ubuntu0.7, 0.37ubuntu0.10)
+End-Date: 2021-08-15  16:50:09
+
+Start-Date: 2021-08-15  16:50:12
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: dnsmasq-base:amd64 (2.79-1, 2.79-1ubuntu0.4)
+End-Date: 2021-08-15  16:50:12
+
+Start-Date: 2021-08-15  16:50:15
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: fdisk:amd64 (2.31.1-0.4ubuntu3.6, 2.31.1-0.4ubuntu3.7)
+End-Date: 2021-08-15  16:50:15
+
+Start-Date: 2021-08-15  16:50:18
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: git:amd64 (1:2.17.1-1ubuntu0.7, 1:2.17.1-1ubuntu0.8)
+End-Date: 2021-08-15  16:50:20
+
+Start-Date: 2021-08-15  16:50:23
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: git-man:amd64 (1:2.17.1-1ubuntu0.7, 1:2.17.1-1ubuntu0.8)
+End-Date: 2021-08-15  16:50:26
+
+Start-Date: 2021-08-15  16:50:28
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: isc-dhcp-client:amd64 (4.3.5-3ubuntu7.1, 4.3.5-3ubuntu7.3)
+End-Date: 2021-08-15  16:50:29
+
+Start-Date: 2021-08-15  16:50:31
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: isc-dhcp-common:amd64 (4.3.5-3ubuntu7.1, 4.3.5-3ubuntu7.3)
+End-Date: 2021-08-15  16:50:32
+
+Start-Date: 2021-08-15  16:50:34
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: krb5-locales:amd64 (1.16-2ubuntu0.1, 1.16-2ubuntu0.2)
+End-Date: 2021-08-15  16:50:35
+
+Start-Date: 2021-08-15  16:50:37
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libapt-inst2.0:amd64 (1.6.12ubuntu0.1, 1.6.12ubuntu0.2)
+End-Date: 2021-08-15  16:50:38
+
+Start-Date: 2021-08-15  16:50:40
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libblkid1:amd64 (2.31.1-0.4ubuntu3.6, 2.31.1-0.4ubuntu3.7)
+End-Date: 2021-08-15  16:50:41
+
+Start-Date: 2021-08-15  16:50:43
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libcurl3-gnutls:amd64 (7.58.0-2ubuntu3.9, 7.58.0-2ubuntu3.14)
+End-Date: 2021-08-15  16:50:44
+
+Start-Date: 2021-08-15  16:50:46
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libdns-export1100:amd64 (1:9.11.3+dfsg-1ubuntu1.12, 1:9.11.3+dfsg-1ubuntu1.15)
+End-Date: 2021-08-15  16:50:47
+
+Start-Date: 2021-08-15  16:50:49
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libfdisk1:amd64 (2.31.1-0.4ubuntu3.6, 2.31.1-0.4ubuntu3.7)
+End-Date: 2021-08-15  16:50:50
+
+Start-Date: 2021-08-15  16:50:52
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libglib2.0-0:amd64 (2.56.4-0ubuntu0.18.04.6, 2.56.4-0ubuntu0.18.04.8)
+End-Date: 2021-08-15  16:50:53
+
+Start-Date: 2021-08-15  16:50:55
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libglib2.0-data:amd64 (2.56.4-0ubuntu0.18.04.6, 2.56.4-0ubuntu0.18.04.8)
+End-Date: 2021-08-15  16:50:55
+
+Start-Date: 2021-08-15  16:50:58
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libisc-export169:amd64 (1:9.11.3+dfsg-1ubuntu1.12, 1:9.11.3+dfsg-1ubuntu1.15)
+End-Date: 2021-08-15  16:50:58
+
+Start-Date: 2021-08-15  16:51:01
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libk5crypto3:amd64 (1.16-2ubuntu0.1, 1.16-2ubuntu0.2)
+End-Date: 2021-08-15  16:51:01
+
+Start-Date: 2021-08-15  16:51:04
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libldap-common:amd64 (2.4.45+dfsg-1ubuntu1.6, 2.4.45+dfsg-1ubuntu1.10)
+End-Date: 2021-08-15  16:51:04
+
+Start-Date: 2021-08-15  16:51:07
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: liblz4-1:amd64 (0.0~r131-2ubuntu3, 0.0~r131-2ubuntu3.1)
+End-Date: 2021-08-15  16:51:07
+
+Start-Date: 2021-08-15  16:51:10
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libmount1:amd64 (2.31.1-0.4ubuntu3.6, 2.31.1-0.4ubuntu3.7)
+End-Date: 2021-08-15  16:51:10
+
+Start-Date: 2021-08-15  16:51:13
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libp11-kit0:amd64 (0.23.9-2, 0.23.9-2ubuntu0.1)
+End-Date: 2021-08-15  16:51:13
+
+Start-Date: 2021-08-15  16:51:16
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libsasl2-modules:amd64 (2.1.27~101-g0780600+dfsg-3ubuntu2.1, 2.1.27~101-g0780600+dfsg-3ubuntu2.3)
+End-Date: 2021-08-15  16:51:16
+
+Start-Date: 2021-08-15  16:51:18
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libsasl2-modules-db:amd64 (2.1.27~101-g0780600+dfsg-3ubuntu2.1, 2.1.27~101-g0780600+dfsg-3ubuntu2.3)
+End-Date: 2021-08-15  16:51:19
+
+Start-Date: 2021-08-15  16:51:21
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libsmartcols1:amd64 (2.31.1-0.4ubuntu3.6, 2.31.1-0.4ubuntu3.7)
+End-Date: 2021-08-15  16:51:22
+
+Start-Date: 2021-08-15  16:51:24
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libssl1.0.0:amd64 (1.0.2n-1ubuntu5.3, 1.0.2n-1ubuntu5.6)
+End-Date: 2021-08-15  16:51:25
+
+Start-Date: 2021-08-15  16:51:27
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libssl1.1:amd64 (1.1.1-1ubuntu2.1~18.04.6, 1.1.1-1ubuntu2.1~18.04.9)
+End-Date: 2021-08-15  16:51:28
+
+Start-Date: 2021-08-15  16:51:31
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libuuid1:amd64 (2.31.1-0.4ubuntu3.6, 2.31.1-0.4ubuntu3.7)
+End-Date: 2021-08-15  16:51:31
+
+Start-Date: 2021-08-15  16:51:34
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libx11-6:amd64 (2:1.6.4-3ubuntu0.2, 2:1.6.4-3ubuntu0.4)
+End-Date: 2021-08-15  16:51:34
+
+Start-Date: 2021-08-15  16:51:37
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libx11-data:amd64 (2:1.6.4-3ubuntu0.2, 2:1.6.4-3ubuntu0.4)
+End-Date: 2021-08-15  16:51:38
+
+Start-Date: 2021-08-15  16:51:40
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libxml2:amd64 (2.9.4+dfsg1-6.1ubuntu1.3, 2.9.4+dfsg1-6.1ubuntu1.4)
+End-Date: 2021-08-15  16:51:41
+
+Start-Date: 2021-08-15  16:51:43
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libzstd1:amd64 (1.3.3+dfsg-2ubuntu1.1, 1.3.3+dfsg-2ubuntu1.2)
+End-Date: 2021-08-15  16:51:44
+
+Start-Date: 2021-08-15  16:51:46
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: mount:amd64 (2.31.1-0.4ubuntu3.6, 2.31.1-0.4ubuntu3.7)
+End-Date: 2021-08-15  16:51:47
+
+Start-Date: 2021-08-15  16:51:49
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: openssl:amd64 (1.1.1-1ubuntu2.1~18.04.6, 1.1.1-1ubuntu2.1~18.04.9)
+End-Date: 2021-08-15  16:51:51
+
+Start-Date: 2021-08-15  16:51:53
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: perl-modules-5.26:amd64 (5.26.1-6ubuntu0.3, 5.26.1-6ubuntu0.5)
+End-Date: 2021-08-15  16:51:58
+
+Start-Date: 2021-08-15  16:52:00
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: python-apt-common:amd64 (1.6.5ubuntu0.3, 1.6.5ubuntu0.5)
+End-Date: 2021-08-15  16:52:01
+
+Start-Date: 2021-08-15  16:52:03
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: python3-apport:amd64 (2.20.9-0ubuntu7.16, 2.20.9-0ubuntu7.24)
+End-Date: 2021-08-15  16:52:04
+
+Start-Date: 2021-08-15  16:52:06
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: python3-apt:amd64 (1.6.5ubuntu0.3, 1.6.5ubuntu0.5)
+End-Date: 2021-08-15  16:52:07
+
+Start-Date: 2021-08-15  16:52:09
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: python3-cryptography:amd64 (2.1.4-1ubuntu1.3, 2.1.4-1ubuntu1.4)
+End-Date: 2021-08-15  16:52:10
+
+Start-Date: 2021-08-15  16:52:13
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: python3-problem-report:amd64 (2.20.9-0ubuntu7.16, 2.20.9-0ubuntu7.24)
+End-Date: 2021-08-15  16:52:13
+
+Start-Date: 2021-08-15  16:52:16
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: python3-urllib3:amd64 (1.22-1ubuntu0.18.04.1, 1.22-1ubuntu0.18.04.2)
+End-Date: 2021-08-15  16:52:16
+
+Start-Date: 2021-08-15  16:52:19
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: screen:amd64 (4.6.2-1ubuntu1, 4.6.2-1ubuntu1.1)
+End-Date: 2021-08-15  16:52:20
+
+Start-Date: 2021-08-15  16:52:23
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: snapd:amd64 (2.45.1+18.04.2, 2.48.3+18.04)
+End-Date: 2021-08-15  16:52:27
+
+Start-Date: 2021-08-15  16:52:29
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: sudo:amd64 (1.8.21p2-3ubuntu1.2, 1.8.21p2-3ubuntu1.4)
+End-Date: 2021-08-15  16:52:30
+
+Start-Date: 2021-08-15  16:52:33
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: systemd-sysv:amd64 (237-3ubuntu10.42, 237-3ubuntu10.50)
+End-Date: 2021-08-15  16:52:33
+
+Start-Date: 2021-08-15  16:52:36
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: tar:amd64 (1.29b-2ubuntu0.1, 1.29b-2ubuntu0.2)
+End-Date: 2021-08-15  16:52:37
+
+Start-Date: 2021-08-15  16:52:39
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: tzdata:amd64 (2020a-0ubuntu0.18.04, 2021a-0ubuntu0.18.04)
+End-Date: 2021-08-15  16:52:43
+
+Start-Date: 2021-08-15  16:52:46
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: util-linux:amd64 (2.31.1-0.4ubuntu3.6, 2.31.1-0.4ubuntu3.7)
+End-Date: 2021-08-15  16:52:49
+
+Start-Date: 2021-08-15  16:52:51
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: uuid-runtime:amd64 (2.31.1-0.4ubuntu3.6, 2.31.1-0.4ubuntu3.7)
+End-Date: 2021-08-15  16:52:52
+
+Start-Date: 2021-08-15  16:52:55
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: xxd:amd64 (2:8.0.1453-1ubuntu1.3, 2:8.0.1453-1ubuntu1.4)
+End-Date: 2021-08-15  16:52:56
+
+Start-Date: 2021-08-15  16:52:58
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: accountsservice:amd64 (0.6.45-1ubuntu1, 0.6.45-1ubuntu1.3), libaccountsservice0:amd64 (0.6.45-1ubuntu1, 0.6.45-1ubuntu1.3)
+End-Date: 2021-08-15  16:52:59
+
+Start-Date: 2021-08-15  16:53:02
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: apport:amd64 (2.20.9-0ubuntu7.16, 2.20.9-0ubuntu7.24)
+End-Date: 2021-08-15  16:53:03
+
+Start-Date: 2021-08-15  16:53:05
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libcurl4:amd64 (7.58.0-2ubuntu3.9, 7.58.0-2ubuntu3.14), curl:amd64 (7.58.0-2ubuntu3.9, 7.58.0-2ubuntu3.14)
+End-Date: 2021-08-15  16:53:06
+
+Start-Date: 2021-08-15  16:53:09
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libhogweed4:amd64 (3.4-1, 3.4.1-0ubuntu0.18.04.1), libnettle6:amd64 (3.4-1, 3.4.1-0ubuntu0.18.04.1)
+End-Date: 2021-08-15  16:53:10
+
+Start-Date: 2021-08-15  16:53:12
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libldap-2.4-2:amd64 (2.4.45+dfsg-1ubuntu1.6, 2.4.45+dfsg-1ubuntu1.10)
+End-Date: 2021-08-15  16:53:13
+
+Start-Date: 2021-08-15  16:53:15
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: udev:amd64 (237-3ubuntu10.42, 237-3ubuntu10.50), libudev1:amd64 (237-3ubuntu10.42, 237-3ubuntu10.50)
+End-Date: 2021-08-15  16:53:30
+
+Start-Date: 2021-08-15  16:53:33
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: python3-software-properties:amd64 (0.96.24.32.13, 0.96.24.32.14), software-properties-common:amd64 (0.96.24.32.13, 0.96.24.32.14)
+End-Date: 2021-08-15  16:53:35
+
+Start-Date: 2021-08-15  16:53:37
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: apt:amd64 (1.6.12ubuntu0.1, 1.6.12ubuntu0.2), libapt-pkg5.0:amd64 (1.6.12ubuntu0.1, 1.6.12ubuntu0.2), apt-utils:amd64 (1.6.12ubuntu0.1, 1.6.12ubuntu0.2)
+End-Date: 2021-08-15  16:53:41
+
+Start-Date: 2021-08-15  16:53:44
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libkrb5-3:amd64 (1.16-2ubuntu0.1, 1.16-2ubuntu0.2), libgssapi-krb5-2:amd64 (1.16-2ubuntu0.1, 1.16-2ubuntu0.2), libkrb5support0:amd64 (1.16-2ubuntu0.1, 1.16-2ubuntu0.2)
+End-Date: 2021-08-15  16:53:45
+
+Start-Date: 2021-08-15  16:53:47
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libsasl2-2:amd64 (2.1.27~101-g0780600+dfsg-3ubuntu2.1, 2.1.27~101-g0780600+dfsg-3ubuntu2.3)
+End-Date: 2021-08-15  16:53:48
+
+Start-Date: 2021-08-15  16:53:50
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libsystemd0:amd64 (237-3ubuntu10.42, 237-3ubuntu10.50), libpam-systemd:amd64 (237-3ubuntu10.42, 237-3ubuntu10.50), systemd:amd64 (237-3ubuntu10.42, 237-3ubuntu10.50), libnss-systemd:amd64 (237-3ubuntu10.42, 237-3ubuntu10.50)
+End-Date: 2021-08-15  16:53:56
+
+Start-Date: 2021-08-15  16:53:58
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: perl-base:amd64 (5.26.1-6ubuntu0.3, 5.26.1-6ubuntu0.5), libperl5.26:amd64 (5.26.1-6ubuntu0.3, 5.26.1-6ubuntu0.5), perl:amd64 (5.26.1-6ubuntu0.3, 5.26.1-6ubuntu0.5)
+End-Date: 2021-08-15  16:54:03
+
+Start-Date: 2021-08-15  16:54:06
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: vim-common:amd64 (2:8.0.1453-1ubuntu1.3, 2:8.0.1453-1ubuntu1.4), vim-runtime:amd64 (2:8.0.1453-1ubuntu1.3, 2:8.0.1453-1ubuntu1.4), vim:amd64 (2:8.0.1453-1ubuntu1.3, 2:8.0.1453-1ubuntu1.4), vim-tiny:amd64 (2:8.0.1453-1ubuntu1.3, 2:8.0.1453-1ubuntu1.4)
+End-Date: 2021-08-15  16:54:14
+
+Start-Date: 2021-08-15  16:54:16
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libpython3.6-minimal:amd64 (3.6.9-1~18.04ubuntu1.1, 3.6.9-1~18.04ubuntu1.4), libpython3.6-stdlib:amd64 (3.6.9-1~18.04ubuntu1.1, 3.6.9-1~18.04ubuntu1.4), libpython3.6:amd64 (3.6.9-1~18.04ubuntu1.1, 3.6.9-1~18.04ubuntu1.4), python3.6:amd64 (3.6.9-1~18.04ubuntu1.1, 3.6.9-1~18.04ubuntu1.4), python3.6-minimal:amd64 (3.6.9-1~18.04ubuntu1.1, 3.6.9-1~18.04ubuntu1.4)
+End-Date: 2021-08-15  16:54:21
+
+Start-Date: 2021-08-15  16:54:24
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: libisccfg160:amd64 (1:9.11.3+dfsg-1ubuntu1.12, 1:9.11.3+dfsg-1ubuntu1.15), libirs160:amd64 (1:9.11.3+dfsg-1ubuntu1.12, 1:9.11.3+dfsg-1ubuntu1.15), bind9-host:amd64 (1:9.11.3+dfsg-1ubuntu1.12, 1:9.11.3+dfsg-1ubuntu1.15), dnsutils:amd64 (1:9.11.3+dfsg-1ubuntu1.12, 1:9.11.3+dfsg-1ubuntu1.15), libisc169:amd64 (1:9.11.3+dfsg-1ubuntu1.12, 1:9.11.3+dfsg-1ubuntu1.15), liblwres160:amd64 (1:9.11.3+dfsg-1ubuntu1.12, 1:9.11.3+dfsg-1ubuntu1.15), libisccc160:amd64 (1:9.11.3+dfsg-1ubuntu1.12, 1:9.11.3+dfsg-1ubuntu1.15), libbind9-160:amd64 (1:9.11.3+dfsg-1ubuntu1.12, 1:9.11.3+dfsg-1ubuntu1.15), libdns1100:amd64 (1:9.11.3+dfsg-1ubuntu1.12, 1:9.11.3+dfsg-1ubuntu1.15)
+End-Date: 2021-08-15  16:54:27
+
+Start-Date: 2021-08-15  16:54:29
+Commandline: /usr/bin/unattended-upgrades -v
+Upgrade: gnupg-utils:amd64 (2.2.4-1ubuntu1.2, 2.2.4-1ubuntu1.3), gpg-wks-client:amd64 (2.2.4-1ubuntu1.2, 2.2.4-1ubuntu1.3), gnupg-l10n:amd64 (2.2.4-1ubuntu1.2, 2.2.4-1ubuntu1.3), gpg-wks-server:amd64 (2.2.4-1ubuntu1.2, 2.2.4-1ubuntu1.3), gpg:amd64 (2.2.4-1ubuntu1.2, 2.2.4-1ubuntu1.3), dirmngr:amd64 (2.2.4-1ubuntu1.2, 2.2.4-1ubuntu1.3), gpgv:amd64 (2.2.4-1ubuntu1.2, 2.2.4-1ubuntu1.3), gnupg:amd64 (2.2.4-1ubuntu1.2, 2.2.4-1ubuntu1.3), gpg-agent:amd64 (2.2.4-1ubuntu1.2, 2.2.4-1ubuntu1.3), gpgconf:amd64 (2.2.4-1ubuntu1.2, 2.2.4-1ubuntu1.3), gpgsm:amd64 (2.2.4-1ubuntu1.2, 2.2.4-1ubuntu1.3)
+End-Date: 2021-08-15  16:54:33
+
+Start-Date: 2021-08-15  17:02:20
+Commandline: apt upgrade
+Requested-By: thales (1000)
+Install: python3-pexpect:amd64 (4.2.1-1, automatic), motd-news-config:amd64 (10.1ubuntu2.10, automatic), distro-info:amd64 (0.18ubuntu0.18.04.1, automatic), python3-ptyprocess:amd64 (0.5.2-1, automatic)
+Upgrade: libpam0g:amd64 (1.1.8-3.6ubuntu2.18.04.1, 1.1.8-3.6ubuntu2.18.04.3), cryptsetup-bin:amd64 (2:2.0.2-1ubuntu1.1, 2:2.0.2-1ubuntu1.2), netplan.io:amd64 (0.99-0ubuntu3~18.04.3, 0.99-0ubuntu3~18.04.4), cloud-init:amd64 (20.2-45-g5f7825e2-0ubuntu1~18.04.1, 21.2-3-g899bfaa9-0ubuntu2~18.04.1), ubuntu-keyring:amd64 (2018.09.18.1~18.04.0, 2018.09.18.1~18.04.2), libseccomp2:amd64 (2.4.3-1ubuntu3.18.04.3, 2.5.1-1ubuntu1~18.04.1), libaudit-common:amd64 (1:2.8.2-1ubuntu1, 1:2.8.2-1ubuntu1.1), pollinate:amd64 (4.33-0ubuntu1~18.04.1, 4.33-0ubuntu1~18.04.2), gnupg-utils:amd64 (2.2.4-1ubuntu1.3, 2.2.4-1ubuntu1.4), friendly-recovery:amd64 (0.2.38ubuntu1.1, 0.2.38ubuntu1.2), libapt-inst2.0:amd64 (1.6.12ubuntu0.2, 1.6.14), gpg-wks-client:amd64 (2.2.4-1ubuntu1.3, 2.2.4-1ubuntu1.4), libpam-modules:amd64 (1.1.8-3.6ubuntu2.18.04.1, 1.1.8-3.6ubuntu2.18.04.3), openssl:amd64 (1.1.1-1ubuntu2.1~18.04.9, 1.1.1-1ubuntu2.1~18.04.10), gnupg-l10n:amd64 (2.2.4-1ubuntu1.3, 2.2.4-1ubuntu1.4), update-notifier-common:amd64 (3.192.1.7, 3.192.1.11), apt:amd64 (1.6.12ubuntu0.2, 1.6.14), snapd:amd64 (2.48.3+18.04, 2.49.2+18.04), ubuntu-advantage-tools:amd64 (17, 27.2.2~18.04.1), squashfs-tools:amd64 (1:4.3-6ubuntu0.18.04.1, 1:4.3-6ubuntu0.18.04.2), lshw:amd64 (02.18-0.1ubuntu6.18.04.1, 02.18-0.1ubuntu6.18.04.2), ubuntu-standard:amd64 (1.417.4, 1.417.5), libc6:amd64 (2.27-3ubuntu1.2, 2.27-3ubuntu1.4), linux-base:amd64 (4.5ubuntu1.2, 4.5ubuntu1.6), gpg-wks-server:amd64 (2.2.4-1ubuntu1.3, 2.2.4-1ubuntu1.4), python-apt-common:amd64 (1.6.5ubuntu0.5, 1.6.5ubuntu0.6), gpg:amd64 (2.2.4-1ubuntu1.3, 2.2.4-1ubuntu1.4), locales:amd64 (2.27-3ubuntu1.2, 2.27-3ubuntu1.4), ubuntu-server:amd64 (1.417.4, 1.417.5), libpam-runtime:amd64 (1.1.8-3.6ubuntu2.18.04.1, 1.1.8-3.6ubuntu2.18.04.3), libapt-pkg5.0:amd64 (1.6.12ubuntu0.2, 1.6.14), initramfs-tools-bin:amd64 (0.130ubuntu3.9, 0.130ubuntu3.13), python3-httplib2:amd64 (0.9.2+dfsg-1ubuntu0.2, 0.9.2+dfsg-1ubuntu0.3), nplan:amd64 (0.99-0ubuntu3~18.04.3, 0.99-0ubuntu3~18.04.4), dirmngr:amd64 (2.2.4-1ubuntu1.3, 2.2.4-1ubuntu1.4), ubuntu-minimal:amd64 (1.417.4, 1.417.5), python3-distupgrade:amd64 (1:18.04.38, 1:18.04.44), libc-bin:amd64 (2.27-3ubuntu1.2, 2.27-3ubuntu1.4), ubuntu-release-upgrader-core:amd64 (1:18.04.38, 1:18.04.44), gpgv:amd64 (2.2.4-1ubuntu1.3, 2.2.4-1ubuntu1.4), libpam-modules-bin:amd64 (1.1.8-3.6ubuntu2.18.04.1, 1.1.8-3.6ubuntu2.18.04.3), apt-utils:amd64 (1.6.12ubuntu0.2, 1.6.14), iproute2:amd64 (4.15.0-2ubuntu1.2, 4.15.0-2ubuntu1.3), bcache-tools:amd64 (1.0.8-2build1, 1.0.8-2ubuntu0.18.04.1), sosreport:amd64 (3.9.1-1ubuntu0.18.04.2, 4.1-1ubuntu0.18.04.3), libnetplan0:amd64 (0.99-0ubuntu3~18.04.3, 0.99-0ubuntu3~18.04.4), multiarch-support:amd64 (2.27-3ubuntu1.2, 2.27-3ubuntu1.4), libpcap0.8:amd64 (1.8.1-6ubuntu1.18.04.1, 1.8.1-6ubuntu1.18.04.2), libcryptsetup12:amd64 (2:2.0.2-1ubuntu1.1, 2:2.0.2-1ubuntu1.2), libssl1.1:amd64 (1.1.1-1ubuntu2.1~18.04.9, 1.1.1-1ubuntu2.1~18.04.10), gzip:amd64 (1.6-5ubuntu1, 1.6-5ubuntu1.1), gnupg:amd64 (2.2.4-1ubuntu1.3, 2.2.4-1ubuntu1.4), cryptsetup:amd64 (2:2.0.2-1ubuntu1.1, 2:2.0.2-1ubuntu1.2), gpg-agent:amd64 (2.2.4-1ubuntu1.3, 2.2.4-1ubuntu1.4), libaudit1:amd64 (1:2.8.2-1ubuntu1, 1:2.8.2-1ubuntu1.1), initramfs-tools-core:amd64 (0.130ubuntu3.9, 0.130ubuntu3.13), gpgconf:amd64 (2.2.4-1ubuntu1.3, 2.2.4-1ubuntu1.4), initramfs-tools:amd64 (0.130ubuntu3.9, 0.130ubuntu3.13), python3-apt:amd64 (1.6.5ubuntu0.5, 1.6.5ubuntu0.6), base-files:amd64 (10.1ubuntu2.9, 10.1ubuntu2.10), gpgsm:amd64 (2.2.4-1ubuntu1.3, 2.2.4-1ubuntu1.4)
+End-Date: 2021-08-15  17:03:30
+
+Start-Date: 2021-08-15  17:21:59
+Commandline: apt install default-jdk
+Requested-By: thales (1000)
+Install: ca-certificates-java:amd64 (20180516ubuntu1~18.04.1, automatic), libpthread-stubs0-dev:amd64 (0.3-4, automatic), default-jre-headless:amd64 (2:1.11-68ubuntu1~18.04.1, automatic), default-jdk:amd64 (2:1.11-68ubuntu1~18.04.1), default-jre:amd64 (2:1.11-68ubuntu1~18.04.1, automatic), libfontenc1:amd64 (1:1.1.3-1, automatic), libcups2:amd64 (2.2.7-1ubuntu2.8, automatic), libdrm-nouveau2:amd64 (2.4.101-2~18.04.1, automatic), libice-dev:amd64 (2:1.0.9-2, automatic), libpcsclite1:amd64 (1.8.23-1, automatic), liblcms2-2:amd64 (2.9-1ubuntu0.1, automatic), libatk-wrapper-java:amd64 (0.33.3-20ubuntu0.1, automatic), libpciaccess0:amd64 (0.14-1, automatic), libxcb-present0:amd64 (1.13-2~ubuntu18.04, automatic), libgl1:amd64 (1.0.0-2ubuntu2.3, automatic), libxt-dev:amd64 (1:1.1.5-1, automatic), libglapi-mesa:amd64 (20.0.8-0ubuntu1~18.04.1, automatic), libasound2-data:amd64 (1.1.3-5ubuntu0.6, automatic), libxrender1:amd64 (1:0.9.10-1, automatic), libavahi-common-data:amd64 (0.7-3.1ubuntu1.3, automatic), libsm-dev:amd64 (2:1.2.2-1, automatic), at-spi2-core:amd64 (2.28.0-1, automatic), libavahi-common3:amd64 (0.7-3.1ubuntu1.3, automatic), xtrans-dev:amd64 (1.3.5-1, automatic), libxcb1-dev:amd64 (1.13-2~ubuntu18.04, automatic), fontconfig-config:amd64 (2.12.6-0ubuntu2, automatic), openjdk-11-jre-headless:amd64 (11.0.11+9-0ubuntu2~18.04, automatic), libxshmfence1:amd64 (1.3-1, automatic), libatk-wrapper-java-jni:amd64 (0.33.3-20ubuntu0.1, automatic), libsm6:amd64 (2:1.2.2-1, automatic), x11proto-core-dev:amd64 (2018.4-4, automatic), libdrm-amdgpu1:amd64 (2.4.101-2~18.04.1, automatic), libllvm10:amd64 (1:10.0.0-4ubuntu1~18.04.2, automatic), libxau-dev:amd64 (1:1.0.8-1ubuntu1, automatic), libxaw7:amd64 (2:1.0.13-1, automatic), libatk1.0-0:amd64 (2.28.1-1, automatic), libxcomposite1:amd64 (1:0.4.4-2, automatic), libxtst6:amd64 (2:1.2.3-1, automatic), libatspi2.0-0:amd64 (2.28.0-1, automatic), libxi6:amd64 (2:1.7.9-1, automatic), libxt6:amd64 (1:1.1.5-1, automatic), libxv1:amd64 (2:1.0.11-1, automatic), openjdk-11-jdk:amd64 (11.0.11+9-0ubuntu2~18.04, automatic), libgif7:amd64 (5.1.4-2ubuntu0.1, automatic), libxinerama1:amd64 (2:1.1.3-1, automatic), openjdk-11-jre:amd64 (11.0.11+9-0ubuntu2~18.04, automatic), libxdmcp-dev:amd64 (1:1.1.2-3, automatic), fonts-dejavu-core:amd64 (2.37-1, automatic), libxft2:amd64 (2.3.2-1, automatic), fonts-dejavu-extra:amd64 (2.37-1, automatic), libxrandr2:amd64 (2:1.5.1-1, automatic), libjpeg8:amd64 (8c-2ubuntu8, automatic), libxcb-shape0:amd64 (1.13-2~ubuntu18.04, automatic), libglx0:amd64 (1.0.0-2ubuntu2.3, automatic), libxfixes3:amd64 (1:5.0.3-1, automatic), libxxf86dga1:amd64 (2:1.1.4-1, automatic), libfontconfig1:amd64 (2.12.6-0ubuntu2, automatic), libgl1-mesa-dri:amd64 (20.0.8-0ubuntu1~18.04.1, automatic), libasound2:amd64 (1.1.3-5ubuntu0.6, automatic), default-jdk-headless:amd64 (2:1.11-68ubuntu1~18.04.1, automatic), libgraphite2-3:amd64 (1.3.11-2, automatic), libxxf86vm1:amd64 (1:1.1.4-1, automatic), libx11-dev:amd64 (2:1.6.4-3ubuntu0.4, automatic), libjpeg-turbo8:amd64 (1.5.2-0ubuntu5.18.04.4, automatic), libx11-doc:amd64 (2:1.6.4-3ubuntu0.4, automatic), libxdamage1:amd64 (1:1.1.4-3, automatic), libatk-bridge2.0-0:amd64 (2.26.2-1, automatic), libxmu6:amd64 (2:1.1.2-2, automatic), libnss3:amd64 (2:3.35-2ubuntu2.12, automatic), libdrm-intel1:amd64 (2.4.101-2~18.04.1, automatic), xorg-sgml-doctools:amd64 (1:1.11-1, automatic), x11-common:amd64 (1:7.7+19ubuntu7.1, automatic), libdrm-radeon1:amd64 (2.4.101-2~18.04.1, automatic), libxpm4:amd64 (1:3.5.12-1, automatic), x11-utils:amd64 (7.7+3build1, automatic), libatk1.0-data:amd64 (2.28.1-1, automatic), libharfbuzz0b:amd64 (1.7.2-1ubuntu1, automatic), libice6:amd64 (2:1.0.9-2, automatic), x11proto-dev:amd64 (2018.4-4, automatic), libavahi-client3:amd64 (0.7-3.1ubuntu1.3, automatic), libxcb-glx0:amd64 (1.13-2~ubuntu18.04, automatic), libxcb-dri2-0:amd64 (1.13-2~ubuntu18.04, automatic), libsensors4:amd64 (1:3.4.0-4, automatic), openjdk-11-jdk-headless:amd64 (11.0.11+9-0ubuntu2~18.04, automatic), libxcb-dri3-0:amd64 (1.13-2~ubuntu18.04, automatic), java-common:amd64 (0.68ubuntu1~18.04.1, automatic), libnspr4:amd64 (2:4.18-1ubuntu1, automatic), libx11-xcb1:amd64 (2:1.6.4-3ubuntu0.4, automatic), libxcb-sync1:amd64 (1.13-2~ubuntu18.04, automatic), libglx-mesa0:amd64 (20.0.8-0ubuntu1~18.04.1, automatic), libglvnd0:amd64 (1.0.0-2ubuntu2.3, automatic)
+End-Date: 2021-08-15  17:22:44
+
+Start-Date: 2021-08-15  17:49:18
+Commandline: apt purge cloud-*
+Requested-By: thales (1000)
+Purge: cloud-init:amd64 (21.2-3-g899bfaa9-0ubuntu2~18.04.1), cloud-initramfs-dyn-netconf:amd64 (0.40ubuntu1.1), ubuntu-server:amd64 (1.417.5), cloud-initramfs-copymods:amd64 (0.40ubuntu1.1), cloud-guest-utils:amd64 (0.30-0ubuntu5)
+End-Date: 2021-08-15  17:49:52
+
+Start-Date: 2021-08-15  17:51:00
+Commandline: apt purge lxd
+Requested-By: thales (1000)
+Purge: lxd:amd64 (3.0.3-0ubuntu1~18.04.1)
+End-Date: 2021-08-15  17:51:02
+
+Start-Date: 2021-10-14  09:37:58
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: ca-certificates:amd64 (20210119~18.04.1, 20210119~18.04.2)
+End-Date: 2021-10-14  09:38:01
+
+Start-Date: 2021-10-14  09:38:03
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: cpio:amd64 (2.12+dfsg-6ubuntu0.18.04.1, 2.12+dfsg-6ubuntu0.18.04.4)
+End-Date: 2021-10-14  09:38:03
+
+Start-Date: 2021-10-14  09:38:05
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: distro-info-data:amd64 (0.37ubuntu0.10, 0.37ubuntu0.12)
+End-Date: 2021-10-14  09:38:06
+
+Start-Date: 2021-10-14  09:38:07
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git:amd64 (1:2.17.1-1ubuntu0.8, 1:2.17.1-1ubuntu0.9)
+End-Date: 2021-10-14  09:38:08
+
+Start-Date: 2021-10-14  09:38:11
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git-man:amd64 (1:2.17.1-1ubuntu0.8, 1:2.17.1-1ubuntu0.9)
+End-Date: 2021-10-14  09:38:14
+
+Start-Date: 2021-10-14  09:38:16
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libcurl3-gnutls:amd64 (7.58.0-2ubuntu3.14, 7.58.0-2ubuntu3.16)
+End-Date: 2021-10-14  09:38:16
+
+Start-Date: 2021-10-14  09:38:21
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libgcrypt20:amd64 (1.8.1-4ubuntu1.2, 1.8.1-4ubuntu1.3)
+End-Date: 2021-10-14  09:38:21
+
+Start-Date: 2021-10-14  09:38:23
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libssl1.0.0:amd64 (1.0.2n-1ubuntu5.6, 1.0.2n-1ubuntu5.7)
+End-Date: 2021-10-14  09:38:24
+
+Start-Date: 2021-10-14  09:38:25
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libssl1.1:amd64 (1.1.1-1ubuntu2.1~18.04.10, 1.1.1-1ubuntu2.1~18.04.13)
+End-Date: 2021-10-14  09:38:26
+
+Start-Date: 2021-10-14  09:38:28
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: openssl:amd64 (1.1.1-1ubuntu2.1~18.04.10, 1.1.1-1ubuntu2.1~18.04.13)
+End-Date: 2021-10-14  09:38:29
+
+Start-Date: 2021-10-14  09:38:31
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-apport:amd64 (2.20.9-0ubuntu7.24, 2.20.9-0ubuntu7.26)
+End-Date: 2021-10-14  09:38:32
+
+Start-Date: 2021-10-14  09:38:34
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-problem-report:amd64 (2.20.9-0ubuntu7.24, 2.20.9-0ubuntu7.26)
+End-Date: 2021-10-14  09:38:34
+
+Start-Date: 2021-10-14  09:38:36
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: squashfs-tools:amd64 (1:4.3-6ubuntu0.18.04.2, 1:4.3-6ubuntu0.18.04.4)
+End-Date: 2021-10-14  09:38:37
+
+Start-Date: 2021-10-14  09:38:38
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: tzdata:amd64 (2021a-0ubuntu0.18.04, 2021a-2ubuntu0.18.04)
+End-Date: 2021-10-14  09:38:39
+
+Start-Date: 2021-10-14  09:38:41
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: wireless-regdb:amd64 (2021.07.14-0ubuntu1~18.04.1, 2021.08.28-0ubuntu1~18.04.1)
+End-Date: 2021-10-14  09:38:41
+
+Start-Date: 2021-10-14  09:38:43
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: xxd:amd64 (2:8.0.1453-1ubuntu1.4, 2:8.0.1453-1ubuntu1.6)
+End-Date: 2021-10-14  09:38:43
+
+Start-Date: 2021-10-14  09:38:45
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: apport:amd64 (2.20.9-0ubuntu7.24, 2.20.9-0ubuntu7.26)
+End-Date: 2021-10-14  09:38:47
+
+Start-Date: 2021-10-14  09:38:48
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libcurl4:amd64 (7.58.0-2ubuntu3.14, 7.58.0-2ubuntu3.16), curl:amd64 (7.58.0-2ubuntu3.14, 7.58.0-2ubuntu3.16)
+End-Date: 2021-10-14  09:38:49
+
+Start-Date: 2021-10-14  09:38:51
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: ntfs-3g:amd64 (1:2017.3.23-2ubuntu0.18.04.2, 1:2017.3.23-2ubuntu0.18.04.3), libntfs-3g88:amd64 (1:2017.3.23-2ubuntu0.18.04.2, 1:2017.3.23-2ubuntu0.18.04.3)
+End-Date: 2021-10-14  09:39:05
+
+Start-Date: 2021-10-14  09:39:06
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: vim-common:amd64 (2:8.0.1453-1ubuntu1.4, 2:8.0.1453-1ubuntu1.6), vim-runtime:amd64 (2:8.0.1453-1ubuntu1.4, 2:8.0.1453-1ubuntu1.6), vim:amd64 (2:8.0.1453-1ubuntu1.4, 2:8.0.1453-1ubuntu1.6), vim-tiny:amd64 (2:8.0.1453-1ubuntu1.4, 2:8.0.1453-1ubuntu1.6)
+End-Date: 2021-10-14  09:39:09
+
+Start-Date: 2021-10-14  09:39:11
+Commandline: /usr/bin/unattended-upgrade
+Install: linux-headers-4.15.0-159-generic:amd64 (4.15.0-159.167, automatic), linux-image-4.15.0-159-generic:amd64 (4.15.0-159.167, automatic), linux-headers-4.15.0-159:amd64 (4.15.0-159.167, automatic), linux-modules-4.15.0-159-generic:amd64 (4.15.0-159.167, automatic), linux-modules-extra-4.15.0-159-generic:amd64 (4.15.0-159.167, automatic)
+Upgrade: linux-headers-generic:amd64 (4.15.0.153.142, 4.15.0.159.148), linux-image-generic:amd64 (4.15.0.153.142, 4.15.0.159.148), linux-generic:amd64 (4.15.0.153.142, 4.15.0.159.148)
+End-Date: 2021-10-14  09:39:41
+
+Start-Date: 2023-04-16  10:38:14
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: bash:amd64 (4.4.18-2ubuntu1.2, 4.4.18-2ubuntu1.3)
+End-Date: 2023-04-16  10:38:48
+
+Start-Date: 2023-04-16  10:38:51
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: busybox-initramfs:amd64 (1:1.27.2-2ubuntu3.3, 1:1.27.2-2ubuntu3.4)
+End-Date: 2023-04-16  10:38:51
+
+Start-Date: 2023-04-16  10:38:54
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: busybox-static:amd64 (1:1.27.2-2ubuntu3.3, 1:1.27.2-2ubuntu3.4)
+End-Date: 2023-04-16  10:39:16
+
+Start-Date: 2023-04-16  10:39:19
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: ca-certificates:amd64 (20210119~18.04.2, 20211016ubuntu0.18.04.1)
+End-Date: 2023-04-16  10:39:24
+
+Start-Date: 2023-04-16  10:39:27
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: cron:amd64 (3.0pl1-128.1ubuntu1, 3.0pl1-128.1ubuntu1.2)
+End-Date: 2023-04-16  10:39:28
+
+Start-Date: 2023-04-16  10:39:31
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: distro-info-data:amd64 (0.37ubuntu0.12, 0.37ubuntu0.14)
+End-Date: 2023-04-16  10:39:32
+
+Start-Date: 2023-04-16  10:39:34
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: dnsmasq-base:amd64 (2.79-1ubuntu0.4, 2.79-1ubuntu0.6)
+End-Date: 2023-04-16  10:39:35
+
+Start-Date: 2023-04-16  10:39:38
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: dpkg:amd64 (1.19.0.5ubuntu2.3, 1.19.0.5ubuntu2.4)
+End-Date: 2023-04-16  10:39:40
+
+Start-Date: 2023-04-16  10:39:43
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git:amd64 (1:2.17.1-1ubuntu0.9, 1:2.17.1-1ubuntu0.17)
+End-Date: 2023-04-16  10:39:44
+
+Start-Date: 2023-04-16  10:39:47
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git-man:amd64 (1:2.17.1-1ubuntu0.9, 1:2.17.1-1ubuntu0.17)
+End-Date: 2023-04-16  10:39:50
+
+Start-Date: 2023-04-16  10:39:53
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: gzip:amd64 (1.6-5ubuntu1.1, 1.6-5ubuntu1.2)
+End-Date: 2023-04-16  10:39:54
+
+Start-Date: 2023-04-16  10:39:58
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: intel-microcode:amd64 (3.20210608.0ubuntu0.18.04.1, 3.20230214.0ubuntu0.18.04.1)
+End-Date: 2023-04-16  10:40:16
+
+Start-Date: 2023-04-16  10:40:19
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: isc-dhcp-client:amd64 (4.3.5-3ubuntu7.3, 4.3.5-3ubuntu7.4)
+End-Date: 2023-04-16  10:40:20
+
+Start-Date: 2023-04-16  10:40:23
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: isc-dhcp-common:amd64 (4.3.5-3ubuntu7.3, 4.3.5-3ubuntu7.4)
+End-Date: 2023-04-16  10:40:23
+
+Start-Date: 2023-04-16  10:40:27
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: krb5-locales:amd64 (1.16-2ubuntu0.2, 1.16-2ubuntu0.4)
+End-Date: 2023-04-16  10:40:27
+
+Start-Date: 2023-04-16  10:40:30
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libasn1-8-heimdal:amd64 (7.5.0+dfsg-1, 7.5.0+dfsg-1ubuntu0.4)
+End-Date: 2023-04-16  10:40:31
+
+Start-Date: 2023-04-16  10:40:34
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libc-bin:amd64 (2.27-3ubuntu1.4, 2.27-3ubuntu1.5)
+End-Date: 2023-04-16  10:40:35
+
+Start-Date: 2023-04-16  10:40:39
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libc6:amd64 (2.27-3ubuntu1.4, 2.27-3ubuntu1.5)
+End-Date: 2023-04-16  10:40:41
+
+Start-Date: 2023-04-16  10:40:45
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libcom-err2:amd64 (1.44.1-1ubuntu1.3, 1.44.1-1ubuntu1.4)
+End-Date: 2023-04-16  10:40:46
+
+Start-Date: 2023-04-16  10:40:50
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libcups2:amd64 (2.2.7-1ubuntu2.8, 2.2.7-1ubuntu2.9)
+End-Date: 2023-04-16  10:40:50
+
+Start-Date: 2023-04-16  10:40:54
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libcurl3-gnutls:amd64 (7.58.0-2ubuntu3.16, 7.58.0-2ubuntu3.24)
+End-Date: 2023-04-16  10:40:54
+
+Start-Date: 2023-04-16  10:40:58
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libdns-export1100:amd64 (1:9.11.3+dfsg-1ubuntu1.15, 1:9.11.3+dfsg-1ubuntu1.18)
+End-Date: 2023-04-16  10:40:58
+
+Start-Date: 2023-04-16  10:41:01
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libexpat1:amd64 (2.2.5-3ubuntu0.2, 2.2.5-3ubuntu0.9)
+End-Date: 2023-04-16  10:41:02
+
+Start-Date: 2023-04-16  10:41:07
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libfreetype6:amd64 (2.8.1-2ubuntu2.1, 2.8.1-2ubuntu2.2)
+End-Date: 2023-04-16  10:41:07
+
+Start-Date: 2023-04-16  10:41:11
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libfribidi0:amd64 (0.19.7-2, 0.19.7-2ubuntu0.1)
+End-Date: 2023-04-16  10:41:11
+
+Start-Date: 2023-04-16  10:41:14
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libglib2.0-0:amd64 (2.56.4-0ubuntu0.18.04.8, 2.56.4-0ubuntu0.18.04.9)
+End-Date: 2023-04-16  10:41:14
+
+Start-Date: 2023-04-16  10:41:17
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libglib2.0-data:amd64 (2.56.4-0ubuntu0.18.04.8, 2.56.4-0ubuntu0.18.04.9)
+End-Date: 2023-04-16  10:41:18
+
+Start-Date: 2023-04-16  10:41:21
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libgmp10:amd64 (2:6.1.2+dfsg-2, 2:6.1.2+dfsg-2ubuntu0.1)
+End-Date: 2023-04-16  10:41:21
+
+Start-Date: 2023-04-16  10:41:24
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libgnutls30:amd64 (3.5.18-1ubuntu1.4, 3.5.18-1ubuntu1.6)
+End-Date: 2023-04-16  10:41:25
+
+Start-Date: 2023-04-16  10:41:28
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libgssapi3-heimdal:amd64 (7.5.0+dfsg-1, 7.5.0+dfsg-1ubuntu0.4)
+End-Date: 2023-04-16  10:41:28
+
+Start-Date: 2023-04-16  10:41:32
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libhcrypto4-heimdal:amd64 (7.5.0+dfsg-1, 7.5.0+dfsg-1ubuntu0.4)
+End-Date: 2023-04-16  10:41:32
+
+Start-Date: 2023-04-16  10:41:35
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libheimbase1-heimdal:amd64 (7.5.0+dfsg-1, 7.5.0+dfsg-1ubuntu0.4)
+End-Date: 2023-04-16  10:41:35
+
+Start-Date: 2023-04-16  10:41:38
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libheimntlm0-heimdal:amd64 (7.5.0+dfsg-1, 7.5.0+dfsg-1ubuntu0.4)
+End-Date: 2023-04-16  10:41:39
+
+Start-Date: 2023-04-16  10:41:42
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libhx509-5-heimdal:amd64 (7.5.0+dfsg-1, 7.5.0+dfsg-1ubuntu0.4)
+End-Date: 2023-04-16  10:41:42
+
+Start-Date: 2023-04-16  10:41:45
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libicu60:amd64 (60.2-3ubuntu3.1, 60.2-3ubuntu3.2)
+End-Date: 2023-04-16  10:41:46
+
+Start-Date: 2023-04-16  10:41:49
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libisc-export169:amd64 (1:9.11.3+dfsg-1ubuntu1.15, 1:9.11.3+dfsg-1ubuntu1.18)
+End-Date: 2023-04-16  10:41:50
+
+Start-Date: 2023-04-16  10:41:53
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libjpeg-turbo8:amd64 (1.5.2-0ubuntu5.18.04.4, 1.5.2-0ubuntu5.18.04.6)
+End-Date: 2023-04-16  10:41:53
+
+Start-Date: 2023-04-16  10:41:56
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libk5crypto3:amd64 (1.16-2ubuntu0.2, 1.16-2ubuntu0.4)
+End-Date: 2023-04-16  10:41:56
+
+Start-Date: 2023-04-16  10:41:59
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libkrb5-26-heimdal:amd64 (7.5.0+dfsg-1, 7.5.0+dfsg-1ubuntu0.4)
+End-Date: 2023-04-16  10:41:59
+
+Start-Date: 2023-04-16  10:42:02
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libksba8:amd64 (1.3.5-2, 1.3.5-2ubuntu0.18.04.2)
+End-Date: 2023-04-16  10:42:03
+
+Start-Date: 2023-04-16  10:42:06
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libldap-common:amd64 (2.4.45+dfsg-1ubuntu1.10, 2.4.45+dfsg-1ubuntu1.11)
+End-Date: 2023-04-16  10:42:06
+
+Start-Date: 2023-04-16  10:42:09
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: liblzma5:amd64 (5.2.2-1.3, 5.2.2-1.3ubuntu0.1)
+End-Date: 2023-04-16  10:42:10
+
+Start-Date: 2023-04-16  10:42:13
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libnss3:amd64 (2:3.35-2ubuntu2.12, 2:3.35-2ubuntu2.16)
+End-Date: 2023-04-16  10:42:13
+
+Start-Date: 2023-04-16  10:42:16
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libpam-runtime:amd64 (1.1.8-3.6ubuntu2.18.04.3, 1.1.8-3.6ubuntu2.18.04.6)
+End-Date: 2023-04-16  10:42:17
+
+Start-Date: 2023-04-16  10:42:20
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libpam0g:amd64 (1.1.8-3.6ubuntu2.18.04.3, 1.1.8-3.6ubuntu2.18.04.6)
+End-Date: 2023-04-16  10:42:20
+
+Start-Date: 2023-04-16  10:42:23
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libpcre3:amd64 (2:8.39-9, 2:8.39-9ubuntu0.1)
+End-Date: 2023-04-16  10:42:24
+
+Start-Date: 2023-04-16  10:42:27
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libroken18-heimdal:amd64 (7.5.0+dfsg-1, 7.5.0+dfsg-1ubuntu0.4)
+End-Date: 2023-04-16  10:42:27
+
+Start-Date: 2023-04-16  10:42:30
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libsasl2-modules:amd64 (2.1.27~101-g0780600+dfsg-3ubuntu2.3, 2.1.27~101-g0780600+dfsg-3ubuntu2.4)
+End-Date: 2023-04-16  10:42:31
+
+Start-Date: 2023-04-16  10:42:35
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libsasl2-modules-db:amd64 (2.1.27~101-g0780600+dfsg-3ubuntu2.3, 2.1.27~101-g0780600+dfsg-3ubuntu2.4)
+End-Date: 2023-04-16  10:42:36
+
+Start-Date: 2023-04-16  10:42:39
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libseccomp2:amd64 (2.5.1-1ubuntu1~18.04.1, 2.5.1-1ubuntu1~18.04.2)
+End-Date: 2023-04-16  10:42:39
+
+Start-Date: 2023-04-16  10:42:42
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libsepol1:amd64 (2.7-1, 2.7-1ubuntu0.1)
+End-Date: 2023-04-16  10:42:43
+
+Start-Date: 2023-04-16  10:42:46
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libsqlite3-0:amd64 (3.22.0-1ubuntu0.4, 3.22.0-1ubuntu0.7)
+End-Date: 2023-04-16  10:42:47
+
+Start-Date: 2023-04-16  10:42:50
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libss2:amd64 (1.44.1-1ubuntu1.3, 1.44.1-1ubuntu1.4)
+End-Date: 2023-04-16  10:42:50
+
+Start-Date: 2023-04-16  10:42:53
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libssl1.0.0:amd64 (1.0.2n-1ubuntu5.7, 1.0.2n-1ubuntu5.11)
+End-Date: 2023-04-16  10:42:54
+
+Start-Date: 2023-04-16  10:42:57
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libssl1.1:amd64 (1.1.1-1ubuntu2.1~18.04.13, 1.1.1-1ubuntu2.1~18.04.21)
+End-Date: 2023-04-16  10:42:57
+
+Start-Date: 2023-04-16  10:43:00
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libwind0-heimdal:amd64 (7.5.0+dfsg-1, 7.5.0+dfsg-1ubuntu0.4)
+End-Date: 2023-04-16  10:43:01
+
+Start-Date: 2023-04-16  10:43:04
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libxml2:amd64 (2.9.4+dfsg1-6.1ubuntu1.4, 2.9.4+dfsg1-6.1ubuntu1.8)
+End-Date: 2023-04-16  10:43:04
+
+Start-Date: 2023-04-16  10:43:07
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libxpm4:amd64 (1:3.5.12-1, 1:3.5.12-1ubuntu0.18.04.2)
+End-Date: 2023-04-16  10:43:08
+
+Start-Date: 2023-04-16  10:43:11
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libxslt1.1:amd64 (1.1.29-5ubuntu0.2, 1.1.29-5ubuntu0.3)
+End-Date: 2023-04-16  10:43:11
+
+Start-Date: 2023-04-16  10:43:14
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: locales:amd64 (2.27-3ubuntu1.4, 2.27-3ubuntu1.5)
+End-Date: 2023-04-16  10:43:17
+
+Start-Date: 2023-04-16  10:43:20
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: login:amd64 (1:4.5-1ubuntu2, 1:4.5-1ubuntu2.5)
+End-Date: 2023-04-16  10:43:22
+
+Start-Date: 2023-04-16  10:43:25
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: multiarch-support:amd64 (2.27-3ubuntu1.4, 2.27-3ubuntu1.5)
+End-Date: 2023-04-16  10:43:25
+
+Start-Date: 2023-04-16  10:43:28
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: networkd-dispatcher:amd64 (1.7-0ubuntu3.3, 1.7-0ubuntu3.5)
+End-Date: 2023-04-16  10:43:30
+
+Start-Date: 2023-04-16  10:43:33
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: open-vm-tools:amd64 (2:11.0.5-4ubuntu0.18.04.1, 2:11.0.5-4ubuntu0.18.04.2)
+End-Date: 2023-04-16  10:43:36
+
+Start-Date: 2023-04-16  10:43:39
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: openssl:amd64 (1.1.1-1ubuntu2.1~18.04.13, 1.1.1-1ubuntu2.1~18.04.21)
+End-Date: 2023-04-16  10:43:41
+
+Start-Date: 2023-04-16  10:43:45
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: passwd:amd64 (1:4.5-1ubuntu2, 1:4.5-1ubuntu2.5)
+End-Date: 2023-04-16  10:43:50
+
+Start-Date: 2023-04-16  10:43:53
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: perl-modules-5.26:amd64 (5.26.1-6ubuntu0.5, 5.26.1-6ubuntu0.6)
+End-Date: 2023-04-16  10:43:55
+
+Start-Date: 2023-04-16  10:43:58
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-apport:amd64 (2.20.9-0ubuntu7.26, 2.20.9-0ubuntu7.29)
+End-Date: 2023-04-16  10:43:59
+
+Start-Date: 2023-04-16  10:44:02
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-jwt:amd64 (1.5.3+ds1-1, 1.5.3+ds1-1ubuntu0.1)
+End-Date: 2023-04-16  10:44:03
+
+Start-Date: 2023-04-16  10:44:06
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-pkg-resources:amd64 (39.0.1-2, 39.0.1-2ubuntu0.1)
+End-Date: 2023-04-16  10:44:06
+
+Start-Date: 2023-04-16  10:44:09
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-problem-report:amd64 (2.20.9-0ubuntu7.26, 2.20.9-0ubuntu7.29)
+End-Date: 2023-04-16  10:44:10
+
+Start-Date: 2023-04-16  10:44:13
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-twisted-bin:amd64 (17.9.0-2ubuntu0.1, 17.9.0-2ubuntu0.3)
+End-Date: 2023-04-16  10:44:13
+
+Start-Date: 2023-04-16  10:44:16
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: rsync:amd64 (3.1.2-2.1ubuntu1.1, 3.1.2-2.1ubuntu1.6)
+End-Date: 2023-04-16  10:44:18
+
+Start-Date: 2023-04-16  10:44:21
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: rsyslog:amd64 (8.32.0-1ubuntu4, 8.32.0-1ubuntu4.2)
+End-Date: 2023-04-16  10:44:23
+
+Start-Date: 2023-04-16  10:44:26
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: sosreport:amd64 (4.1-1ubuntu0.18.04.3, 4.3-1ubuntu0.18.04.2)
+End-Date: 2023-04-16  10:44:28
+
+Start-Date: 2023-04-16  10:44:31
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: sudo:amd64 (1.8.21p2-3ubuntu1.4, 1.8.21p2-3ubuntu1.6)
+End-Date: 2023-04-16  10:44:31
+
+Start-Date: 2023-04-16  10:44:34
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: systemd-sysv:amd64 (237-3ubuntu10.50, 237-3ubuntu10.57)
+End-Date: 2023-04-16  10:44:35
+
+Start-Date: 2023-04-16  10:44:38
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: tar:amd64 (1.29b-2ubuntu0.2, 1.29b-2ubuntu0.4)
+End-Date: 2023-04-16  10:44:39
+
+Start-Date: 2023-04-16  10:44:42
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: tcpdump:amd64 (4.9.3-0ubuntu0.18.04.1, 4.9.3-0ubuntu0.18.04.2)
+End-Date: 2023-04-16  10:44:42
+
+Start-Date: 2023-04-16  10:44:46
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: tmux:amd64 (2.6-3ubuntu0.2, 2.6-3ubuntu0.3)
+End-Date: 2023-04-16  10:44:46
+
+Start-Date: 2023-04-16  10:44:49
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: tzdata:amd64 (2021a-2ubuntu0.18.04, 2023c-0ubuntu0.18.04)
+End-Date: 2023-04-16  10:44:51
+
+Start-Date: 2023-04-16  10:44:54
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: uidmap:amd64 (1:4.5-1ubuntu2, 1:4.5-1ubuntu2.5)
+End-Date: 2023-04-16  10:44:55
+
+Start-Date: 2023-04-16  10:44:58
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: wireless-regdb:amd64 (2021.08.28-0ubuntu1~18.04.1, 2022.06.06-0ubuntu1~18.04.1)
+End-Date: 2023-04-16  10:44:59
+
+Start-Date: 2023-04-16  10:45:02
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: xxd:amd64 (2:8.0.1453-1ubuntu1.6, 2:8.0.1453-1ubuntu1.12)
+End-Date: 2023-04-16  10:45:03
+
+Start-Date: 2023-04-16  10:45:06
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: xz-utils:amd64 (5.2.2-1.3, 5.2.2-1.3ubuntu0.1)
+End-Date: 2023-04-16  10:45:07
+
+Start-Date: 2023-04-16  10:45:10
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: zlib1g:amd64 (1:1.2.11.dfsg-0ubuntu2, 1:1.2.11.dfsg-0ubuntu2.2)
+End-Date: 2023-04-16  10:45:10
+
+Start-Date: 2023-04-16  10:45:13
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: apport:amd64 (2.20.9-0ubuntu7.26, 2.20.9-0ubuntu7.29)
+End-Date: 2023-04-16  10:45:16
+
+Start-Date: 2023-04-16  10:45:19
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libcurl4:amd64 (7.58.0-2ubuntu3.16, 7.58.0-2ubuntu3.24), curl:amd64 (7.58.0-2ubuntu3.16, 7.58.0-2ubuntu3.24)
+End-Date: 2023-04-16  10:45:20
+
+Start-Date: 2023-04-16  10:45:23
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libdbus-1-3:amd64 (1.12.2-1ubuntu1.2, 1.12.2-1ubuntu1.4), dbus:amd64 (1.12.2-1ubuntu1.2, 1.12.2-1ubuntu1.4)
+End-Date: 2023-04-16  10:45:25
+
+Start-Date: 2023-04-16  10:45:28
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: e2fsprogs:amd64 (1.44.1-1ubuntu1.3, 1.44.1-1ubuntu1.4), libext2fs2:amd64 (1.44.1-1ubuntu1.3, 1.44.1-1ubuntu1.4)
+End-Date: 2023-04-16  10:45:49
+
+Start-Date: 2023-04-16  10:45:53
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libklibc:amd64 (2.0.4-9ubuntu2, 2.0.4-9ubuntu2.1), klibc-utils:amd64 (2.0.4-9ubuntu2, 2.0.4-9ubuntu2.1)
+End-Date: 2023-04-16  10:45:53
+
+Start-Date: 2023-04-16  10:45:57
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libice-dev:amd64 (2:1.0.9-2, 2:1.0.9-2ubuntu0.18.04.1), libice6:amd64 (2:1.0.9-2, 2:1.0.9-2ubuntu0.18.04.1)
+End-Date: 2023-04-16  10:45:58
+
+Start-Date: 2023-04-16  10:46:01
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libldap-2.4-2:amd64 (2.4.45+dfsg-1ubuntu1.10, 2.4.45+dfsg-1ubuntu1.11)
+End-Date: 2023-04-16  10:46:01
+
+Start-Date: 2023-04-16  10:46:05
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: ntfs-3g:amd64 (1:2017.3.23-2ubuntu0.18.04.3, 1:2017.3.23-2ubuntu0.18.04.5), libntfs-3g88:amd64 (1:2017.3.23-2ubuntu0.18.04.3, 1:2017.3.23-2ubuntu0.18.04.5)
+End-Date: 2023-04-16  10:46:21
+
+Start-Date: 2023-04-16  10:46:24
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libpam-modules:amd64 (1.1.8-3.6ubuntu2.18.04.3, 1.1.8-3.6ubuntu2.18.04.6), libpam-modules-bin:amd64 (1.1.8-3.6ubuntu2.18.04.3, 1.1.8-3.6ubuntu2.18.04.6)
+End-Date: 2023-04-16  10:46:26
+
+Start-Date: 2023-04-16  10:46:29
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: udev:amd64 (237-3ubuntu10.50, 237-3ubuntu10.57), libudev1:amd64 (237-3ubuntu10.50, 237-3ubuntu10.57)
+End-Date: 2023-04-16  10:46:47
+
+Start-Date: 2023-04-16  10:46:50
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-twisted:amd64 (17.9.0-2ubuntu0.1, 17.9.0-2ubuntu0.3)
+End-Date: 2023-04-16  10:46:54
+
+Start-Date: 2023-04-16  10:46:57
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libkrb5-3:amd64 (1.16-2ubuntu0.2, 1.16-2ubuntu0.4), libgssapi-krb5-2:amd64 (1.16-2ubuntu0.2, 1.16-2ubuntu0.4), libkrb5support0:amd64 (1.16-2ubuntu0.2, 1.16-2ubuntu0.4)
+End-Date: 2023-04-16  10:46:58
+
+Start-Date: 2023-04-16  10:47:02
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libsasl2-2:amd64 (2.1.27~101-g0780600+dfsg-3ubuntu2.3, 2.1.27~101-g0780600+dfsg-3ubuntu2.4)
+End-Date: 2023-04-16  10:47:02
+
+Start-Date: 2023-04-16  10:47:06
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: grub-common:amd64 (2.02-2ubuntu8.23, 2.02-2ubuntu8.25), grub2-common:amd64 (2.02-2ubuntu8.23, 2.02-2ubuntu8.25), grub-pc:amd64 (2.02-2ubuntu8.23, 2.02-2ubuntu8.25), grub-pc-bin:amd64 (2.02-2ubuntu8.23, 2.02-2ubuntu8.25)
+End-Date: 2023-04-16  10:47:13
+
+Start-Date: 2023-04-16  10:47:16
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libsystemd0:amd64 (237-3ubuntu10.50, 237-3ubuntu10.57), libpam-systemd:amd64 (237-3ubuntu10.50, 237-3ubuntu10.57), systemd:amd64 (237-3ubuntu10.50, 237-3ubuntu10.57), libnss-systemd:amd64 (237-3ubuntu10.50, 237-3ubuntu10.57)
+End-Date: 2023-04-16  10:47:21
+
+Start-Date: 2023-04-16  10:47:24
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: perl-base:amd64 (5.26.1-6ubuntu0.5, 5.26.1-6ubuntu0.6), libperl5.26:amd64 (5.26.1-6ubuntu0.5, 5.26.1-6ubuntu0.6), perl:amd64 (5.26.1-6ubuntu0.5, 5.26.1-6ubuntu0.6)
+End-Date: 2023-04-16  10:47:27
+
+Start-Date: 2023-04-16  10:47:31
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libpolkit-gobject-1-0:amd64 (0.105-20ubuntu0.18.04.5, 0.105-20ubuntu0.18.04.6), libpolkit-agent-1-0:amd64 (0.105-20ubuntu0.18.04.5, 0.105-20ubuntu0.18.04.6), libpolkit-backend-1-0:amd64 (0.105-20ubuntu0.18.04.5, 0.105-20ubuntu0.18.04.6), policykit-1:amd64 (0.105-20ubuntu0.18.04.5, 0.105-20ubuntu0.18.04.6)
+End-Date: 2023-04-16  10:47:34
+
+Start-Date: 2023-04-16  10:47:37
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: openjdk-11-jre-headless:amd64 (11.0.11+9-0ubuntu2~18.04, 11.0.18+10-0ubuntu1~18.04.1), openjdk-11-jdk:amd64 (11.0.11+9-0ubuntu2~18.04, 11.0.18+10-0ubuntu1~18.04.1), openjdk-11-jre:amd64 (11.0.11+9-0ubuntu2~18.04, 11.0.18+10-0ubuntu1~18.04.1), openjdk-11-jdk-headless:amd64 (11.0.11+9-0ubuntu2~18.04, 11.0.18+10-0ubuntu1~18.04.1)
+End-Date: 2023-04-16  10:47:54
+
+Start-Date: 2023-04-16  10:47:58
+Commandline: /usr/bin/unattended-upgrade
+Install: dbus-user-session:amd64 (1.12.2-1ubuntu1.4, automatic)
+Upgrade: snapd:amd64 (2.49.2+18.04, 2.57.5+18.04ubuntu0.1)
+End-Date: 2023-04-16  10:48:07
+
+Start-Date: 2023-04-16  10:48:11
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: vim-common:amd64 (2:8.0.1453-1ubuntu1.6, 2:8.0.1453-1ubuntu1.12), vim-runtime:amd64 (2:8.0.1453-1ubuntu1.6, 2:8.0.1453-1ubuntu1.12), vim:amd64 (2:8.0.1453-1ubuntu1.6, 2:8.0.1453-1ubuntu1.12), vim-tiny:amd64 (2:8.0.1453-1ubuntu1.6, 2:8.0.1453-1ubuntu1.12)
+End-Date: 2023-04-16  10:48:16
+
+Start-Date: 2023-04-16  10:48:19
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libpython3.6-minimal:amd64 (3.6.9-1~18.04ubuntu1.4, 3.6.9-1~18.04ubuntu1.12), libpython3.6-stdlib:amd64 (3.6.9-1~18.04ubuntu1.4, 3.6.9-1~18.04ubuntu1.12), libpython3.6:amd64 (3.6.9-1~18.04ubuntu1.4, 3.6.9-1~18.04ubuntu1.12), python3.6:amd64 (3.6.9-1~18.04ubuntu1.4, 3.6.9-1~18.04ubuntu1.12), python3.6-minimal:amd64 (3.6.9-1~18.04ubuntu1.4, 3.6.9-1~18.04ubuntu1.12)
+End-Date: 2023-04-16  10:48:23
+
+Start-Date: 2023-04-16  10:48:26
+Commandline: /usr/bin/unattended-upgrade
+Install: linux-headers-4.15.0-208-generic:amd64 (4.15.0-208.220, automatic), linux-image-4.15.0-208-generic:amd64 (4.15.0-208.220, automatic), linux-modules-4.15.0-208-generic:amd64 (4.15.0-208.220, automatic), linux-modules-extra-4.15.0-208-generic:amd64 (4.15.0-208.220, automatic), linux-headers-4.15.0-208:amd64 (4.15.0-208.220, automatic)
+Upgrade: linux-headers-generic:amd64 (4.15.0.159.148, 4.15.0.208.191), linux-image-generic:amd64 (4.15.0.159.148, 4.15.0.208.191), linux-generic:amd64 (4.15.0.159.148, 4.15.0.208.191)
+End-Date: 2023-04-16  10:49:38
+
+Start-Date: 2023-04-16  10:49:41
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libisccfg160:amd64 (1:9.11.3+dfsg-1ubuntu1.15, 1:9.11.3+dfsg-1ubuntu1.18), libirs160:amd64 (1:9.11.3+dfsg-1ubuntu1.15, 1:9.11.3+dfsg-1ubuntu1.18), bind9-host:amd64 (1:9.11.3+dfsg-1ubuntu1.15, 1:9.11.3+dfsg-1ubuntu1.18), dnsutils:amd64 (1:9.11.3+dfsg-1ubuntu1.15, 1:9.11.3+dfsg-1ubuntu1.18), libisc169:amd64 (1:9.11.3+dfsg-1ubuntu1.15, 1:9.11.3+dfsg-1ubuntu1.18), liblwres160:amd64 (1:9.11.3+dfsg-1ubuntu1.15, 1:9.11.3+dfsg-1ubuntu1.18), libisccc160:amd64 (1:9.11.3+dfsg-1ubuntu1.15, 1:9.11.3+dfsg-1ubuntu1.18), libbind9-160:amd64 (1:9.11.3+dfsg-1ubuntu1.15, 1:9.11.3+dfsg-1ubuntu1.18), libdns1100:amd64 (1:9.11.3+dfsg-1ubuntu1.15, 1:9.11.3+dfsg-1ubuntu1.18)
+End-Date: 2023-04-16  10:49:44
+
+Start-Date: 2023-04-16  10:49:48
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: gnupg-utils:amd64 (2.2.4-1ubuntu1.4, 2.2.4-1ubuntu1.6), gpg-wks-client:amd64 (2.2.4-1ubuntu1.4, 2.2.4-1ubuntu1.6), gnupg-l10n:amd64 (2.2.4-1ubuntu1.4, 2.2.4-1ubuntu1.6), gpg-wks-server:amd64 (2.2.4-1ubuntu1.4, 2.2.4-1ubuntu1.6), gpg:amd64 (2.2.4-1ubuntu1.4, 2.2.4-1ubuntu1.6), dirmngr:amd64 (2.2.4-1ubuntu1.4, 2.2.4-1ubuntu1.6), gpgv:amd64 (2.2.4-1ubuntu1.4, 2.2.4-1ubuntu1.6), gnupg:amd64 (2.2.4-1ubuntu1.4, 2.2.4-1ubuntu1.6), gpg-agent:amd64 (2.2.4-1ubuntu1.4, 2.2.4-1ubuntu1.6), gpgconf:amd64 (2.2.4-1ubuntu1.4, 2.2.4-1ubuntu1.6), gpgsm:amd64 (2.2.4-1ubuntu1.4, 2.2.4-1ubuntu1.6)
+End-Date: 2023-04-16  10:49:51
+
+Start-Date: 2023-04-16  14:11:14
+Commandline: apt-get install apache2
+Install: libaprutil1:amd64 (1.6.1-2ubuntu0.1, automatic), libaprutil1-dbd-sqlite3:amd64 (1.6.1-2ubuntu0.1, automatic), ssl-cert:amd64 (1.0.39, automatic), apache2-data:amd64 (2.4.29-1ubuntu4.27, automatic), libapr1:amd64 (1.6.3-2, automatic), libaprutil1-ldap:amd64 (1.6.1-2ubuntu0.1, automatic), liblua5.2-0:amd64 (5.2.4-1.1build1, automatic), apache2-bin:amd64 (2.4.29-1ubuntu4.27, automatic), apache2:amd64 (2.4.29-1ubuntu4.27), apache2-utils:amd64 (2.4.29-1ubuntu4.27, automatic)
+End-Date: 2023-04-16  14:11:24

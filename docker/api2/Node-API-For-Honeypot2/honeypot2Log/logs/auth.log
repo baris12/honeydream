@@ -1,0 +1,1311 @@
+Aug 15 16:56:31 miletus useradd[933]: new group: name=thales, GID=1000
+Aug 15 16:56:31 miletus useradd[933]: new user: name=thales, UID=1000, GID=1000, home=/home/thales, shell=/bin/bash
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to group 'adm'
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to group 'cdrom'
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to group 'sudo'
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to group 'dip'
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to group 'plugdev'
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to group 'lxd'
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to shadow group 'adm'
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to shadow group 'cdrom'
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to shadow group 'sudo'
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to shadow group 'dip'
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to shadow group 'plugdev'
+Aug 15 16:56:31 miletus useradd[933]: add 'thales' to shadow group 'lxd'
+Aug 15 16:56:31 miletus systemd-logind[962]: New seat seat0.
+Aug 15 16:56:31 miletus systemd-logind[962]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 15 16:56:31 miletus systemd-logind[962]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Aug 15 16:56:31 miletus systemd-logind[962]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Aug 15 16:56:32 miletus sshd[1275]: Server listening on 0.0.0.0 port 22.
+Aug 15 16:56:32 miletus sshd[1275]: Server listening on :: port 22.
+Aug 15 16:56:37 miletus sshd[1275]: Received signal 15; terminating.
+Aug 15 16:56:37 miletus sshd[1381]: Server listening on 0.0.0.0 port 22.
+Aug 15 16:56:37 miletus sshd[1381]: Server listening on :: port 22.
+Aug 15 16:58:00 miletus login[1083]: pam_unix(login:session): session opened for user thales by LOGIN(uid=0)
+Aug 15 16:58:00 miletus systemd: pam_unix(systemd-user:session): session opened for user thales by (uid=0)
+Aug 15 16:58:00 miletus systemd-logind[962]: New session 1 of user thales.
+Aug 15 16:58:14 miletus sudo:   thales : TTY=tty1 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/su
+Aug 15 16:58:14 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 16:58:14 miletus su[1626]: Successful su for root by root
+Aug 15 16:58:14 miletus su[1626]: + /dev/tty1 root:root
+Aug 15 16:58:14 miletus su[1626]: pam_unix(su:session): session opened for user root by thales(uid=0)
+Aug 15 16:58:14 miletus su[1626]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 15 16:58:32 miletus passwd[1637]: pam_unix(passwd:chauthtok): password changed for root
+Aug 15 17:03:42 miletus su[1626]: pam_unix(su:session): session closed for user root
+Aug 15 17:03:42 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:04:40 miletus sshd[16226]: Accepted password for thales from 192.168.1.25 port 50466 ssh2
+Aug 15 17:04:40 miletus sshd[16226]: pam_unix(sshd:session): session opened for user thales by (uid=0)
+Aug 15 17:04:40 miletus systemd-logind[962]: New session 3 of user thales.
+Aug 15 17:05:23 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/usr/bin/apt install default-jdk
+Aug 15 17:05:23 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:17:01 miletus CRON[16384]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 17:17:01 miletus CRON[16384]: pam_unix(cron:session): session closed for user root
+Aug 15 17:22:47 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:30:08 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/usr/sbin/useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat
+Aug 15 17:30:08 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:30:08 miletus useradd[21150]: new group: name=tomcat, GID=999
+Aug 15 17:30:08 miletus useradd[21150]: new user: name=tomcat, UID=999, GID=999, home=/opt/tomcat, shell=/bin/false
+Aug 15 17:30:08 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:32:27 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/tar xf /tmp/apache-tomcat-9.0.52.tar.gz -C /opt/tomcat
+Aug 15 17:32:27 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:32:27 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:32:50 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/ln -s /opt/tomcat/apache-tomcat-9.0.52/ /opt/tomcat/latest
+Aug 15 17:32:50 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:32:50 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:32:59 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/chown -RH tomcat: /opt/tomcat/latest
+Aug 15 17:32:59 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:32:59 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:33:11 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/nano /etc/systemd/system/tomcat.service
+Aug 15 17:33:11 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:33:36 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:34:12 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl daemon-reload
+Aug 15 17:34:12 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:34:12 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:34:23 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl start tomcat
+Aug 15 17:34:23 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:34:23 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:34:27 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl statustomcat
+Aug 15 17:34:27 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:34:27 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:34:29 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl status tomcat
+Aug 15 17:34:29 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:34:36 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:34:47 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl enable tomcat
+Aug 15 17:34:47 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:34:47 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:34:54 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/usr/sbin/ufw allow 8080/tcp
+Aug 15 17:34:54 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:34:54 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:35:03 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/nano /opt/tomcat/latest/conf/tomcat-users.xml
+Aug 15 17:35:03 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:37:26 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:37:42 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl restart tomcat
+Aug 15 17:37:42 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:37:44 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:38:41 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/nano /opt/tomcat/latest/webapps/host-manager/META-INF/context.xml
+Aug 15 17:38:41 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:39:24 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:39:26 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl restart tomcat
+Aug 15 17:39:26 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:39:27 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:40:46 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/nano /opt/tomcat/latest/conf/tomcat-users.xml
+Aug 15 17:40:46 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:41:31 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:41:33 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl restart tomcat
+Aug 15 17:41:33 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:41:34 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:41:43 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/nano /opt/tomcat/latest/conf/tomcat-users.xml
+Aug 15 17:41:43 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:41:55 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:42:10 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/nano /opt/tomcat/latest/conf/tomcat-users.xml
+Aug 15 17:42:10 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:42:48 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:42:50 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl restart tomcat
+Aug 15 17:42:50 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:42:52 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:43:38 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/nano /opt/tomcat/latest/conf/tomcat-users.xml
+Aug 15 17:43:38 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:43:56 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:43:58 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl restart tomcat
+Aug 15 17:43:58 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:44:00 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:44:15 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/nano /opt/tomcat/latest/webapps/manager/META-INF/context.xml
+Aug 15 17:44:15 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:44:36 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:44:39 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/nano /opt/tomcat/latest/conf/tomcat-users.xml
+Aug 15 17:44:39 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:44:48 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:44:49 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl restart tomcat
+Aug 15 17:44:49 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:44:51 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:45:24 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/su
+Aug 15 17:45:24 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:45:24 miletus su[21811]: Successful su for root by root
+Aug 15 17:45:24 miletus su[21811]: + /dev/pts/0 root:root
+Aug 15 17:45:24 miletus su[21811]: pam_unix(su:session): session opened for user root by thales(uid=0)
+Aug 15 17:45:24 miletus su[21811]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 15 17:49:04 miletus su[21811]: pam_unix(su:session): session closed for user root
+Aug 15 17:49:04 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:49:17 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/usr/bin/apt purge cloud-*
+Aug 15 17:49:17 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:49:53 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:50:01 miletus CRON[6636]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 17:50:01 miletus CRON[6636]: pam_unix(cron:session): session closed for user root
+Aug 15 17:50:17 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/usr/bin/crontab -e
+Aug 15 17:50:17 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:50:24 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:50:58 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/usr/bin/apt purge lxd
+Aug 15 17:50:58 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 17:51:03 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 17:52:54 miletus sshd[16305]: Received disconnect from 192.168.1.25 port 50466:11: disconnected by user
+Aug 15 17:52:54 miletus sshd[16305]: Disconnected from user thales 192.168.1.25 port 50466
+Aug 15 17:52:54 miletus systemd-logind[962]: Removed session 3.
+Aug 15 17:52:54 miletus sshd[16226]: pam_unix(sshd:session): session closed for user thales
+Aug 15 17:53:00 miletus sshd[7211]: Accepted password for thales from 192.168.1.25 port 54656 ssh2
+Aug 15 17:53:00 miletus sshd[7211]: pam_unix(sshd:session): session opened for user thales by (uid=0)
+Aug 15 17:53:00 miletus systemd-logind[962]: New session 6 of user thales.
+Aug 15 17:53:33 miletus sshd[7283]: Received disconnect from 192.168.1.25 port 54656:11: disconnected by user
+Aug 15 17:53:33 miletus sshd[7283]: Disconnected from user thales 192.168.1.25 port 54656
+Aug 15 17:53:33 miletus sshd[7211]: pam_unix(sshd:session): session closed for user thales
+Aug 15 17:53:33 miletus systemd-logind[962]: Removed session 6.
+Aug 15 17:53:49 miletus sshd[7301]: Connection closed by authenticating user thales 192.168.1.25 port 54658 [preauth]
+Aug 15 17:53:57 miletus sshd[7303]: Connection closed by authenticating user thales 192.168.1.25 port 54660 [preauth]
+Aug 15 17:54:04 miletus sshd[7305]: Connection closed by authenticating user thales 192.168.1.25 port 54662 [preauth]
+Aug 15 17:54:13 miletus sshd[7309]: Connection closed by authenticating user thales 192.168.1.25 port 54664 [preauth]
+Aug 15 17:54:29 miletus sshd[7312]: Connection closed by authenticating user thales 192.168.1.25 port 54666 [preauth]
+Aug 15 17:54:42 miletus sshd[7314]: Connection closed by authenticating user thales 192.168.1.25 port 54668 [preauth]
+Aug 15 17:54:58 miletus sshd[7316]: Connection closed by authenticating user thales 192.168.1.25 port 54670 [preauth]
+Aug 15 17:55:01 miletus CRON[7318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 17:55:01 miletus CRON[7318]: pam_unix(cron:session): session closed for user root
+Aug 15 17:55:44 miletus sshd[7328]: Connection closed by authenticating user thales 192.168.1.25 port 54726 [preauth]
+Aug 15 17:56:37 miletus sshd[7330]: Accepted password for thales from 192.168.1.25 port 54728 ssh2
+Aug 15 17:56:37 miletus sshd[7330]: pam_unix(sshd:session): session opened for user thales by (uid=0)
+Aug 15 17:56:37 miletus systemd-logind[962]: New session 8 of user thales.
+Aug 15 17:56:39 miletus sshd[7397]: Received disconnect from 192.168.1.25 port 54728:11: disconnected by user
+Aug 15 17:56:39 miletus sshd[7397]: Disconnected from user thales 192.168.1.25 port 54728
+Aug 15 17:56:39 miletus sshd[7330]: pam_unix(sshd:session): session closed for user thales
+Aug 15 17:56:39 miletus systemd-logind[962]: Removed session 8.
+Aug 15 17:56:41 miletus sshd[7409]: Connection closed by authenticating user thales 192.168.1.25 port 54730 [preauth]
+Aug 15 17:58:49 miletus sshd[7411]: Connection closed by authenticating user thales 192.168.1.25 port 54774 [preauth]
+Aug 15 18:00:01 miletus CRON[7415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:00:01 miletus CRON[7415]: pam_unix(cron:session): session closed for user root
+Aug 15 18:00:08 miletus sshd[7425]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.25  user=thales
+Aug 15 18:00:09 miletus sshd[7425]: Failed password for thales from 192.168.1.25 port 54870 ssh2
+Aug 15 18:00:13 miletus sshd[7425]: Accepted password for thales from 192.168.1.25 port 54870 ssh2
+Aug 15 18:00:13 miletus sshd[7425]: pam_unix(sshd:session): session opened for user thales by (uid=0)
+Aug 15 18:00:13 miletus systemd-logind[962]: New session 10 of user thales.
+Aug 15 18:00:36 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/nano /etc/ssh/sshd_config
+Aug 15 18:00:36 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 18:01:03 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 18:02:15 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/systemctl restart sshd
+Aug 15 18:02:15 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 18:02:15 miletus sshd[1381]: Received signal 15; terminating.
+Aug 15 18:02:16 miletus sshd[7610]: Server listening on 0.0.0.0 port 22.
+Aug 15 18:02:16 miletus sshd[7610]: Server listening on :: port 22.
+Aug 15 18:02:16 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 18:02:18 miletus sshd[7533]: Received disconnect from 192.168.1.25 port 54870:11: disconnected by user
+Aug 15 18:02:18 miletus sshd[7533]: Disconnected from user thales 192.168.1.25 port 54870
+Aug 15 18:02:18 miletus sshd[7425]: pam_unix(sshd:session): session closed for user thales
+Aug 15 18:02:18 miletus systemd-logind[962]: Removed session 10.
+Aug 15 18:02:25 miletus sshd[7613]: Accepted password for thales from 192.168.1.25 port 54872 ssh2
+Aug 15 18:02:25 miletus sshd[7613]: pam_unix(sshd:session): session opened for user thales by (uid=0)
+Aug 15 18:02:25 miletus systemd-logind[962]: New session 11 of user thales.
+Aug 15 18:03:49 miletus sshd[7687]: Received disconnect from 192.168.1.25 port 54872:11: disconnected by user
+Aug 15 18:03:49 miletus sshd[7687]: Disconnected from user thales 192.168.1.25 port 54872
+Aug 15 18:03:49 miletus sshd[7613]: pam_unix(sshd:session): session closed for user thales
+Aug 15 18:03:49 miletus systemd-logind[962]: Removed session 11.
+Aug 15 18:03:50 miletus sshd[7707]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 15 18:03:50 miletus sshd[7707]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 15 18:03:59 miletus sshd[7707]: Connection closed by authenticating user thales 192.168.1.25 port 54874 [preauth]
+Aug 15 18:04:06 miletus sshd[7710]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 15 18:04:08 miletus sshd[7710]: Connection closed by authenticating user thales 192.168.1.25 port 54876 [preauth]
+Aug 15 18:04:21 miletus sshd[7712]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 15 18:04:23 miletus sshd[7712]: Connection closed by authenticating user thales 192.168.1.25 port 54878 [preauth]
+Aug 15 18:05:01 miletus CRON[7714]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:05:01 miletus CRON[7714]: pam_unix(cron:session): session closed for user root
+Aug 15 18:05:51 miletus sshd[7727]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 15 18:05:57 miletus sshd[7727]: Accepted password for thales from 192.168.1.25 port 54910 ssh2
+Aug 15 18:05:57 miletus sshd[7727]: pam_unix(sshd:session): session opened for user thales by (uid=0)
+Aug 15 18:05:57 miletus systemd-logind[962]: New session 13 of user thales.
+Aug 15 18:06:24 miletus sshd[7794]: Received disconnect from 192.168.1.25 port 54910:11: disconnected by user
+Aug 15 18:06:24 miletus sshd[7794]: Disconnected from user thales 192.168.1.25 port 54910
+Aug 15 18:06:24 miletus sshd[7727]: pam_unix(sshd:session): session closed for user thales
+Aug 15 18:06:24 miletus systemd-logind[962]: Removed session 13.
+Aug 15 18:06:32 miletus sshd[7816]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 15 18:07:52 miletus sshd[7816]: Accepted password for thales from 192.168.1.25 port 54912 ssh2
+Aug 15 18:07:52 miletus sshd[7816]: pam_unix(sshd:session): session opened for user thales by (uid=0)
+Aug 15 18:07:52 miletus systemd-logind[962]: New session 14 of user thales.
+Aug 15 18:08:11 miletus sudo:   thales : TTY=pts/0 ; PWD=/home/thales ; USER=root ; COMMAND=/usr/bin/crontab -e
+Aug 15 18:08:11 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 18:09:24 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 18:10:01 miletus CRON[7931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:10:01 miletus CRON[7931]: pam_unix(cron:session): session closed for user root
+Aug 15 18:10:40 miletus sudo:   thales : TTY=pts/0 ; PWD=/var ; USER=root ; COMMAND=/bin/nano /usr/local/bin/backup.sh
+Aug 15 18:10:40 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 18:10:56 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 18:11:21 miletus sudo:   thales : TTY=pts/0 ; PWD=/var/backups ; USER=root ; COMMAND=list
+Aug 15 18:11:25 miletus sudo:   thales : TTY=pts/0 ; PWD=/var/backups ; USER=root ; COMMAND=/bin/su
+Aug 15 18:11:25 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 15 18:11:25 miletus su[7963]: Successful su for root by root
+Aug 15 18:11:25 miletus su[7963]: + /dev/pts/0 root:root
+Aug 15 18:11:25 miletus su[7963]: pam_unix(su:session): session opened for user root by thales(uid=0)
+Aug 15 18:11:25 miletus su[7963]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 15 18:11:29 miletus su[7963]: pam_unix(su:session): session closed for user root
+Aug 15 18:11:29 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 18:15:01 miletus CRON[7988]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:15:02 miletus CRON[7988]: pam_unix(cron:session): session closed for user root
+Aug 15 18:17:01 miletus CRON[8000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:17:01 miletus CRON[8000]: pam_unix(cron:session): session closed for user root
+Aug 15 18:18:12 miletus su[8006]: Successful su for root by thales
+Aug 15 18:18:12 miletus su[8006]: + /dev/pts/0 thales:root
+Aug 15 18:18:12 miletus su[8006]: pam_unix(su:session): session opened for user root by thales(uid=1000)
+Aug 15 18:18:12 miletus su[8006]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 15 18:18:28 miletus su[8006]: pam_unix(su:session): session closed for user root
+Aug 15 18:19:27 miletus su[8032]: Successful su for root by thales
+Aug 15 18:19:27 miletus su[8032]: + /dev/pts/0 thales:root
+Aug 15 18:19:27 miletus su[8032]: pam_unix(su:session): session opened for user root by thales(uid=1000)
+Aug 15 18:19:27 miletus su[8032]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 15 18:20:01 miletus CRON[8044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:20:01 miletus CRON[8044]: pam_unix(cron:session): session closed for user root
+                                                                                                                                                                                                                                                                                                                                                                                                                                                      Aug 16 07:29:37 miletus systemd-logind[754]: New seat seat0.
+Aug 16 07:29:37 miletus systemd-logind[754]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 16 07:29:37 miletus systemd-logind[754]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Aug 16 07:29:37 miletus systemd-logind[754]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Aug 16 07:29:38 miletus sshd[1007]: Server listening on 0.0.0.0 port 22.
+Aug 16 07:29:38 miletus sshd[1007]: Server listening on :: port 22.
+Aug 16 07:30:01 miletus CRON[1583]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 07:30:01 miletus CRON[1583]: pam_unix(cron:session): session closed for user root
+Aug 15 18:35:01 miletus CRON[1613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:35:02 miletus CRON[1613]: pam_unix(cron:session): session closed for user root
+Aug 15 18:40:01 miletus CRON[1648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:40:01 miletus CRON[1648]: pam_unix(cron:session): session closed for user root
+Aug 15 18:44:49 miletus sudo: pam_unix(sudo:auth): authentication failure; logname= uid=999 euid=0 tty=/dev/pts/1 ruser=tomcat rhost=  user=tomcat
+Aug 15 18:44:56 miletus sudo:   tomcat : command not allowed ; TTY=pts/1 ; PWD=/home/thales ; USER=root ; COMMAND=list
+Aug 15 18:45:01 miletus CRON[1757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:45:02 miletus CRON[1757]: pam_unix(cron:session): session closed for user root
+Aug 15 18:46:15 miletus su[1772]: Successful su for thales by tomcat
+Aug 15 18:46:15 miletus su[1772]: + /dev/pts/1 tomcat:thales
+Aug 15 18:46:15 miletus su[1772]: pam_unix(su:session): session opened for user thales by (uid=999)
+Aug 15 18:46:15 miletus systemd-logind[754]: New session c1 of user thales.
+Aug 15 18:46:15 miletus systemd: pam_unix(systemd-user:session): session opened for user thales by (uid=0)
+Aug 15 18:46:50 miletus su[1772]: pam_unix(su:session): session closed for user thales
+Aug 15 18:46:50 miletus systemd-logind[754]: Removed session c1.
+Aug 15 18:47:40 miletus sshd[1812]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 15 18:47:40 miletus sshd[1812]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 15 18:47:45 miletus sshd[1812]: Connection closed by authenticating user thales 192.168.1.25 port 41392 [preauth]
+Aug 15 18:50:01 miletus CRON[1819]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:50:01 miletus CRON[1819]: pam_unix(cron:session): session closed for user root
+Aug 15 18:55:01 miletus CRON[1833]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:55:02 miletus CRON[1833]: pam_unix(cron:session): session closed for user root
+Aug 16 19:58:59 miletus systemd-logind[778]: New seat seat0.
+Aug 16 19:58:59 miletus systemd-logind[778]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 16 19:58:59 miletus systemd-logind[778]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Aug 16 19:58:59 miletus systemd-logind[778]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Aug 16 19:59:00 miletus sshd[976]: Server listening on 0.0.0.0 port 22.
+Aug 16 19:59:00 miletus sshd[976]: Server listening on :: port 22.
+Aug 16 20:00:01 miletus CRON[1255]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 20:00:02 miletus CRON[1255]: pam_unix(cron:session): session closed for user root
+Aug 16 20:00:50 miletus sshd[1273]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 16 20:00:54 miletus sshd[1273]: Accepted password for thales from 192.168.1.25 port 37456 ssh2
+Aug 16 20:00:54 miletus sshd[1273]: pam_unix(sshd:session): session opened for user thales by (uid=0)
+Aug 16 20:00:54 miletus systemd: pam_unix(systemd-user:session): session opened for user thales by (uid=0)
+Aug 16 20:00:54 miletus systemd-logind[778]: New session 2 of user thales.
+Aug 16 20:05:01 miletus CRON[1519]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 20:05:02 miletus CRON[1519]: pam_unix(cron:session): session closed for user root
+Aug 16 20:06:05 miletus sshd[1535]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 16 20:06:10 miletus sshd[1535]: Connection closed by authenticating user thales 192.168.1.25 port 37500 [preauth]
+Aug 16 20:06:21 miletus sshd[1537]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 16 20:06:21 miletus sshd[1537]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 16 20:06:25 miletus sshd[1537]: Connection closed by authenticating user thales 192.168.1.25 port 37502 [preauth]
+Aug 16 20:07:58 miletus su[1541]: Successful su for thales by tomcat
+Aug 16 20:07:58 miletus su[1541]: + /dev/pts/1 tomcat:thales
+Aug 16 20:07:58 miletus su[1541]: pam_unix(su:session): session opened for user thales by (uid=999)
+Aug 16 20:07:58 miletus systemd-logind[778]: New session c1 of user thales.
+Aug 16 20:08:50 miletus su[1541]: pam_unix(su:session): session closed for user thales
+Aug 16 20:08:50 miletus systemd-logind[778]: Removed session c1.
+Aug 16 20:10:01 miletus CRON[1557]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 20:10:01 miletus CRON[1557]: pam_unix(cron:session): session closed for user root
+Aug 16 20:10:25 miletus sshd[1569]: Authentication refused: bad ownership or modes for file /home/thales/.ssh/authorized_keys
+Aug 16 20:10:33 miletus sshd[1569]: Connection closed by authenticating user thales 192.168.1.25 port 37522 [preauth]
+Aug 16 20:11:04 miletus sshd[1571]: Authentication refused: bad ownership or modes for file /home/thales/.ssh/authorized_keys
+Aug 16 20:11:06 miletus sshd[1571]: Connection closed by authenticating user thales 192.168.1.25 port 37524 [preauth]
+Aug 16 20:12:10 miletus login[959]: pam_unix(login:session): session opened for user thales by LOGIN(uid=0)
+Aug 16 20:12:10 miletus systemd-logind[778]: New session 6 of user thales.
+Aug 16 20:13:00 miletus sudo:   thales : TTY=tty1 ; PWD=/etc ; USER=root ; COMMAND=/bin/nano ssh/sshd_config
+Aug 16 20:13:00 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 16 20:13:17 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 16 20:13:29 miletus sudo:   thales : TTY=tty1 ; PWD=/etc ; USER=root ; COMMAND=/usr/sbin/service ssh restart
+Aug 16 20:13:29 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 16 20:13:29 miletus sshd[976]: Received signal 15; terminating.
+Aug 16 20:13:29 miletus sshd[1696]: Server listening on 0.0.0.0 port 22.
+Aug 16 20:13:29 miletus sshd[1696]: Server listening on :: port 22.
+Aug 16 20:13:29 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 16 20:13:43 miletus sshd[1709]: Authentication refused: bad ownership or modes for file /home/thales/.ssh/authorized_keys
+Aug 16 20:13:43 miletus sshd[1709]: Connection closed by authenticating user thales 192.168.1.25 port 37528 [preauth]
+Aug 16 20:14:37 miletus sshd[1740]: Authentication refused: bad ownership or modes for file /home/thales/.ssh/authorized_keys
+Aug 16 20:14:37 miletus sshd[1740]: Connection closed by authenticating user thales 192.168.1.25 port 37530 [preauth]
+Aug 16 20:15:01 miletus CRON[1744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 20:15:02 miletus CRON[1744]: pam_unix(cron:session): session closed for user root
+Aug 16 20:15:17 miletus sshd[1756]: Authentication refused: bad ownership or modes for file /home/thales/.ssh/authorized_keys
+Aug 16 20:15:17 miletus sshd[1756]: Connection closed by authenticating user thales 192.168.1.25 port 37532 [preauth]
+Aug 16 20:15:29 miletus sshd[1758]: Authentication refused: bad ownership or modes for file /home/thales/.ssh/authorized_keys
+Aug 16 20:15:29 miletus sshd[1758]: Authentication refused: bad ownership or modes for file /home/thales/.ssh/authorized_keys
+Aug 16 20:15:29 miletus sshd[1758]: Connection closed by authenticating user thales 192.168.1.25 port 37534 [preauth]
+Aug 16 20:15:52 miletus sshd[1760]: Authentication refused: bad ownership or modes for file /home/thales/.ssh/authorized_keys
+Aug 16 20:15:52 miletus sshd[1760]: Connection closed by authenticating user thales 192.168.1.25 port 37536 [preauth]
+Aug 16 20:16:39 miletus sshd[1762]: Authentication refused: bad ownership or modes for file /home/thales/.ssh/authorized_keys
+Aug 16 20:16:39 miletus sshd[1762]: Connection closed by authenticating user thales 192.168.1.25 port 37538 [preauth]
+Aug 16 20:17:01 miletus CRON[1764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 20:17:01 miletus CRON[1764]: pam_unix(cron:session): session closed for user root
+Aug 16 20:18:40 miletus sshd[1776]: Authentication refused: bad ownership or modes for file /home/thales/.ssh/authorized_keys
+Aug 16 20:18:40 miletus sshd[1776]: Connection closed by authenticating user thales 192.168.1.25 port 37544 [preauth]
+Aug 16 20:19:01 miletus sshd[1783]: Authentication refused: bad ownership or modes for file /home/thales/.ssh/authorized_keys
+Aug 16 20:19:01 miletus sshd[1783]: Connection closed by authenticating user thales 192.168.1.25 port 37546 [preauth]
+Aug 16 20:19:24 miletus sshd[1790]: Authentication refused: bad ownership or modes for directory /home/thales/.ssh
+Aug 16 20:19:24 miletus sshd[1790]: Connection closed by authenticating user thales 192.168.1.25 port 37548 [preauth]
+Aug 16 20:19:56 miletus sshd[1798]: Accepted publickey for thales from 192.168.1.25 port 37550 ssh2: RSA SHA256:3vyvD2UNMxdoPLm5CgXlaZ8MwKv01sAO6E1wIQVRc5w
+Aug 16 20:19:56 miletus sshd[1798]: pam_unix(sshd:session): session opened for user thales by (uid=0)
+Aug 16 20:19:56 miletus systemd-logind[778]: New session 9 of user thales.
+Aug 16 20:20:01 miletus CRON[1876]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 20:20:01 miletus CRON[1876]: pam_unix(cron:session): session closed for user root
+Aug 16 20:20:21 miletus sshd[1865]: Received disconnect from 192.168.1.25 port 37550:11: disconnected by user
+Aug 16 20:20:21 miletus sshd[1865]: Disconnected from user thales 192.168.1.25 port 37550
+Aug 16 20:20:21 miletus systemd-logind[778]: Removed session 9.
+Aug 16 20:20:21 miletus sshd[1798]: pam_unix(sshd:session): session closed for user thales
+Aug 16 20:20:22 miletus sshd[1891]: Accepted publickey for thales from 192.168.1.25 port 37552 ssh2: RSA SHA256:3vyvD2UNMxdoPLm5CgXlaZ8MwKv01sAO6E1wIQVRc5w
+Aug 16 20:20:22 miletus sshd[1891]: pam_unix(sshd:session): session opened for user thales by (uid=0)
+Aug 16 20:20:22 miletus systemd-logind[778]: New session 11 of user thales.
+Aug 16 20:20:27 miletus sshd[1957]: Received disconnect from 192.168.1.25 port 37552:11: disconnected by user
+Aug 16 20:20:27 miletus sshd[1957]: Disconnected from user thales 192.168.1.25 port 37552
+Aug 16 20:20:27 miletus sshd[1891]: pam_unix(sshd:session): session closed for user thales
+Aug 16 20:20:27 miletus systemd-logind[778]: Removed session 11.
+Aug 16 20:20:49 miletus sshd[1971]: Accepted publickey for thales from 192.168.1.25 port 37554 ssh2: RSA SHA256:3vyvD2UNMxdoPLm5CgXlaZ8MwKv01sAO6E1wIQVRc5w
+Aug 16 20:20:49 miletus sshd[1971]: pam_unix(sshd:session): session opened for user thales by (uid=0)
+Aug 16 20:20:49 miletus systemd-logind[778]: New session 12 of user thales.
+Aug 16 20:20:54 miletus sshd[2037]: Received disconnect from 192.168.1.25 port 37554:11: disconnected by user
+Aug 16 20:20:54 miletus sshd[2037]: Disconnected from user thales 192.168.1.25 port 37554
+Aug 16 20:20:54 miletus sshd[1971]: pam_unix(sshd:session): session closed for user thales
+Aug 16 20:20:54 miletus systemd-logind[778]: Removed session 12.
+Aug 16 20:21:13 miletus sudo:   thales : TTY=tty1 ; PWD=/home/thales/.ssh ; USER=root ; COMMAND=/usr/sbin/service ssh restart
+Aug 16 20:21:13 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 16 20:21:13 miletus sshd[1696]: Received signal 15; terminating.
+Aug 16 20:21:13 miletus sshd[2077]: Server listening on 0.0.0.0 port 22.
+Aug 16 20:21:13 miletus sshd[2077]: Server listening on :: port 22.
+Aug 16 20:21:13 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 16 20:22:35 miletus sshd[2088]: Connection closed by authenticating user thales 192.168.1.25 port 37556 [preauth]
+Aug 16 20:23:25 miletus sshd[2104]: Connection closed by authenticating user thales 192.168.1.25 port 37558 [preauth]
+Aug 16 20:23:29 miletus sudo:   thales : TTY=tty1 ; PWD=/home/thales ; USER=root ; COMMAND=/usr/sbin/service ssh restart
+Aug 16 20:23:29 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 16 20:23:29 miletus sshd[2077]: Received signal 15; terminating.
+Aug 16 20:23:29 miletus sshd[2123]: Server listening on 0.0.0.0 port 22.
+Aug 16 20:23:29 miletus sshd[2123]: Server listening on :: port 22.
+Aug 16 20:23:29 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 16 20:23:31 miletus sshd[2124]: Connection closed by authenticating user thales 192.168.1.25 port 37560 [preauth]
+Aug 16 20:23:44 miletus sshd[2141]: Connection closed by authenticating user thales 192.168.1.25 port 37562 [preauth]
+Aug 16 20:23:52 miletus sshd[2144]: Connection closed by authenticating user thales 192.168.1.25 port 37564 [preauth]
+Aug 16 20:23:56 miletus sudo:   thales : TTY=tty1 ; PWD=/home/thales/.ssh ; USER=root ; COMMAND=/usr/sbin/service ssh restart
+Aug 16 20:23:56 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 16 20:23:56 miletus sshd[2123]: Received signal 15; terminating.
+Aug 16 20:23:56 miletus sshd[2163]: Server listening on 0.0.0.0 port 22.
+Aug 16 20:23:56 miletus sshd[2163]: Server listening on :: port 22.
+Aug 16 20:23:56 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 16 20:23:58 miletus sshd[2174]: Connection closed by authenticating user thales 192.168.1.25 port 37566 [preauth]
+Aug 16 20:24:27 miletus sshd[2187]: Connection closed by authenticating user thales 192.168.1.25 port 37568 [preauth]
+Aug 16 20:25:01 miletus CRON[2194]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 20:25:02 miletus CRON[2194]: pam_unix(cron:session): session closed for user root
+Aug 16 20:29:47 miletus sudo:   thales : TTY=tty1 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/chown -R thales:tomcat .ssh/
+Aug 16 20:29:47 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 16 20:29:47 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 16 20:30:01 miletus CRON[2234]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 20:30:02 miletus CRON[2234]: pam_unix(cron:session): session closed for user root
+Aug 16 20:30:10 miletus sudo:   thales : TTY=tty1 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/chown -R tomca:tomcat .ssh/
+Aug 16 20:30:10 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 16 20:30:10 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 16 20:30:14 miletus sudo:   thales : TTY=tty1 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/chown -R tomcat:tomcat .ssh/
+Aug 16 20:30:14 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 16 20:30:14 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 16 20:30:53 miletus sshd[2251]: Connection closed by authenticating user thales 192.168.1.25 port 37574 [preauth]
+Aug 16 20:31:00 miletus sshd[2253]: Connection closed by authenticating user thales 192.168.1.25 port 37576 [preauth]
+Aug 16 20:31:30 miletus sshd[2256]: Connection closed by authenticating user thales 192.168.1.25 port 37580 [preauth]
+Aug 16 20:31:37 miletus sshd[2258]: Connection closed by authenticating user thales 192.168.1.25 port 37582 [preauth]
+Aug 16 20:31:41 miletus sshd[2260]: Connection closed by authenticating user thales 192.168.1.25 port 37584 [preauth]
+Aug 16 20:32:26 miletus sudo:   thales : TTY=tty1 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/rm -rf .ssh/
+Aug 16 20:32:26 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 16 20:32:26 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 16 20:35:01 miletus CRON[2278]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 20:35:01 miletus CRON[2278]: pam_unix(cron:session): session closed for user root
+Aug 16 20:37:17 miletus passwd[2304]: pam_unix(passwd:chauthtok): password changed for thales
+Aug 16 20:40:01 miletus CRON[2306]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 20:40:02 miletus CRON[2306]: pam_unix(cron:session): session closed for user root
+Aug 16 20:40:28 miletus sshd[2317]: Connection closed by authenticating user thales 192.168.1.25 port 37632 [preauth]
+Aug 16 20:40:37 miletus sshd[2319]: Connection closed by authenticating user thales 192.168.1.25 port 37634 [preauth]
+Aug 16 20:40:59 miletus sudo:   thales : TTY=tty1 ; PWD=/home/thales/.ssh ; USER=root ; COMMAND=/bin/nano /etc/ssh/sshd_config
+Aug 16 20:40:59 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 16 20:41:07 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 16 20:41:39 miletus su[2332]: Successful su for thales by tomcat
+Aug 16 20:41:39 miletus su[2332]: + /dev/pts/1 tomcat:thales
+Aug 16 20:41:39 miletus su[2332]: pam_unix(su:session): session opened for user thales by (uid=999)
+Aug 16 20:41:39 miletus systemd-logind[778]: New session c2 of user thales.
+Aug 16 20:43:39 miletus sudo:   thales : TTY=tty1 ; PWD=/opt/tomcat/apache-tomcat-9.0.52 ; USER=root ; COMMAND=/bin/su
+Aug 16 20:43:39 miletus sudo: pam_unix(sudo:session): session opened for user root by thales(uid=0)
+Aug 16 20:43:39 miletus su[2356]: Successful su for root by root
+Aug 16 20:43:39 miletus su[2356]: + /dev/tty1 root:root
+Aug 16 20:43:39 miletus su[2356]: pam_unix(su:session): session opened for user root by thales(uid=0)
+Aug 16 20:43:39 miletus su[2356]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 16 20:44:21 miletus su[2356]: pam_unix(su:session): session closed for user root
+Aug 16 20:44:21 miletus sudo: pam_unix(sudo:session): session closed for user root
+Aug 16 20:44:49 miletus systemd-logind[778]: System is powering down.
+Aug 16 20:44:49 miletus su[2332]: pam_unix(su:session): session closed for user thales
+Aug 16 20:44:49 miletus sshd[1273]: pam_unix(sshd:session): session closed for user thales
+Aug 16 20:44:49 miletus sshd[1273]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Oct 14 09:26:56 miletus systemd-logind[745]: New seat seat0.
+Oct 14 09:26:56 miletus systemd-logind[745]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 14 09:26:56 miletus systemd-logind[745]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 14 09:26:56 miletus systemd-logind[745]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct 14 09:27:01 miletus sshd[965]: Server listening on 0.0.0.0 port 22.
+Oct 14 09:27:01 miletus sshd[965]: Server listening on :: port 22.
+Oct 14 09:27:32 miletus login[960]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Oct 14 09:27:32 miletus systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Oct 14 09:27:32 miletus systemd-logind[745]: New session 1 of user root.
+Oct 14 09:27:32 miletus login[1484]: ROOT LOGIN  on '/dev/tty1'
+Oct 14 09:30:01 miletus CRON[1582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 09:30:01 miletus CRON[1582]: pam_unix(cron:session): session closed for user root
+Oct 14 09:35:03 miletus CRON[1603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 09:35:03 miletus CRON[1603]: pam_unix(cron:session): session closed for user root
+Oct 14 09:36:48 miletus login[960]: pam_unix(login:session): session closed for user root
+Oct 14 09:36:48 miletus systemd-logind[745]: Removed session 1.
+Oct 14 09:40:01 miletus CRON[30544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 09:40:01 miletus CRON[30544]: pam_unix(cron:session): session closed for user root
+Oct 14 09:45:01 miletus CRON[30585]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 09:45:02 miletus CRON[30585]: pam_unix(cron:session): session closed for user root
+Oct 14 09:49:24 miletus sshd[30608]: Connection closed by authenticating user thales 192.168.43.55 port 42488 [preauth]
+Oct 14 09:50:01 miletus CRON[30614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 09:50:01 miletus CRON[30614]: pam_unix(cron:session): session closed for user root
+Oct 14 09:50:06 miletus sshd[30625]: Connection closed by authenticating user thales 192.168.43.55 port 42490 [preauth]
+Oct 14 09:50:41 miletus sshd[30627]: Connection closed by authenticating user thales 192.168.43.55 port 42492 [preauth]
+Oct 14 09:50:43 miletus sshd[30630]: Connection closed by authenticating user thales 192.168.43.55 port 42494 [preauth]
+Oct 14 09:50:48 miletus sshd[30632]: Connection closed by authenticating user thales 192.168.43.55 port 42496 [preauth]
+Oct 14 09:54:20 miletus su[30655]: Successful su for thales by tomcat
+Oct 14 09:54:20 miletus su[30655]: + /dev/pts/0 tomcat:thales
+Oct 14 09:54:20 miletus su[30655]: pam_unix(su:session): session opened for user thales by (uid=999)
+Oct 14 09:54:20 miletus systemd-logind[745]: New session c1 of user thales.
+Oct 14 09:54:20 miletus systemd: pam_unix(systemd-user:session): session opened for user thales by (uid=0)
+Oct 14 09:55:01 miletus CRON[30686]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 09:55:02 miletus CRON[30686]: pam_unix(cron:session): session closed for user root
+Oct 14 10:00:01 miletus CRON[30698]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:00:01 miletus CRON[30698]: pam_unix(cron:session): session closed for user root
+Oct 14 10:05:01 miletus CRON[30711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:05:02 miletus CRON[30711]: pam_unix(cron:session): session closed for user root
+Oct 14 10:10:01 miletus CRON[30723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:10:01 miletus CRON[30723]: pam_unix(cron:session): session closed for user root
+Oct 14 10:15:01 miletus CRON[30736]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:15:02 miletus CRON[30736]: pam_unix(cron:session): session closed for user root
+Oct 14 10:17:01 miletus CRON[30748]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:17:01 miletus CRON[30748]: pam_unix(cron:session): session closed for user root
+Oct 14 10:20:01 miletus CRON[30754]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:20:01 miletus CRON[30754]: pam_unix(cron:session): session closed for user root
+Oct 14 10:20:53 miletus login[1684]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Oct 14 10:20:53 miletus systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Oct 14 10:20:53 miletus systemd-logind[745]: New session 16 of user root.
+Oct 14 10:20:53 miletus login[30848]: ROOT LOGIN  on '/dev/tty1'
+Oct 14 10:25:01 miletus CRON[30883]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:25:01 miletus CRON[30883]: pam_unix(cron:session): session closed for user root
+Oct 14 10:30:01 miletus CRON[30924]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:30:01 miletus CRON[30924]: pam_unix(cron:session): session closed for user root
+Oct 14 10:35:01 miletus CRON[30929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:35:01 miletus CRON[30929]: pam_unix(cron:session): session closed for user root
+Oct 14 10:40:01 miletus CRON[30934]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:40:01 miletus CRON[30934]: pam_unix(cron:session): session closed for user root
+Oct 14 10:41:55 miletus su[30939]: Successful su for root by thales
+Oct 14 10:41:55 miletus su[30939]: + /dev/pts/0 thales:root
+Oct 14 10:41:55 miletus su[30939]: pam_unix(su:session): session opened for user root by (uid=1000)
+Oct 14 10:41:55 miletus su[30939]: pam_systemd(su:session): Cannot create session: Already running in a session
+Oct 14 10:43:11 miletus su[30939]: pam_unix(su:session): session closed for user root
+Oct 14 10:45:01 miletus CRON[30963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:45:01 miletus CRON[30963]: pam_unix(cron:session): session closed for user root
+Oct 14 10:45:11 miletus su[30979]: Successful su for thales by tomcat
+Oct 14 10:45:11 miletus su[30979]: + /dev/pts/1 tomcat:thales
+Oct 14 10:45:11 miletus su[30979]: pam_unix(su:session): session opened for user thales by (uid=999)
+Oct 14 10:45:11 miletus systemd-logind[745]: New session c2 of user thales.
+Oct 14 10:45:25 miletus sudo:   thales : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/bin/su
+Oct 14 10:45:25 miletus sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 14 10:45:25 miletus su[30992]: Successful su for root by root
+Oct 14 10:45:25 miletus su[30992]: + /dev/pts/1 root:root
+Oct 14 10:45:25 miletus su[30992]: pam_unix(su:session): session opened for user root by (uid=0)
+Oct 14 10:45:25 miletus su[30992]: pam_systemd(su:session): Cannot create session: Already running in a session
+Oct 14 10:45:47 miletus su[30992]: pam_unix(su:session): session closed for user root
+Oct 14 10:45:47 miletus sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 10:45:50 miletus sudo:   thales : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/bin/su
+Oct 14 10:45:50 miletus sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 14 10:45:50 miletus su[31004]: Successful su for root by root
+Oct 14 10:45:50 miletus su[31004]: + /dev/pts/1 root:root
+Oct 14 10:45:50 miletus su[31004]: pam_unix(su:session): session opened for user root by (uid=0)
+Oct 14 10:45:50 miletus su[31004]: pam_systemd(su:session): Cannot create session: Already running in a session
+Oct 14 10:47:48 miletus su[31004]: pam_unix(su:session): session closed for user root
+Oct 14 10:47:48 miletus sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 10:47:50 miletus sudo:   thales : user NOT in sudoers ; TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/bin/su
+Oct 14 10:50:01 miletus CRON[31019]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:50:37 miletus CRON[31019]: pam_unix(cron:session): session closed for user root
+Oct 14 10:55:01 miletus CRON[31032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 10:56:20 miletus CRON[31032]: pam_unix(cron:session): session closed for user root
+Oct 14 10:57:53 miletus su[31064]: Successful su for root by thales
+Oct 14 10:57:53 miletus su[31064]: + /dev/pts/1 thales:root
+Oct 14 10:57:53 miletus su[31064]: pam_unix(su:session): session opened for user root by (uid=1000)
+Oct 14 10:57:53 miletus su[31064]: pam_systemd(su:session): Cannot create session: Already running in a session
+Oct 14 11:00:01 miletus CRON[31100]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 11:00:01 miletus CRON[31100]: pam_unix(cron:session): session closed for user root
+Oct 14 11:04:29 miletus login[1684]: pam_unix(login:session): session closed for user root
+Oct 14 11:04:29 miletus systemd-logind[745]: Removed session 16.
+Oct 14 11:05:01 miletus CRON[31142]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 11:05:01 miletus CRON[31142]: pam_unix(cron:session): session closed for user root
+Oct 14 11:08:07 miletus su[31064]: pam_unix(su:session): session closed for user root
+Oct 14 11:10:01 miletus CRON[31158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 11:10:02 miletus CRON[31158]: pam_unix(cron:session): session closed for user root
+Oct 14 11:12:48 miletus login[31140]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Oct 14 11:12:48 miletus systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Oct 14 11:12:48 miletus systemd-logind[745]: New session 28 of user root.
+Oct 14 11:12:48 miletus login[31293]: ROOT LOGIN  on '/dev/tty1'
+Oct 14 11:14:14 miletus su[31318]: Successful su for thales by tomcat
+Oct 14 11:14:14 miletus su[31318]: + /dev/pts/2 tomcat:thales
+Oct 14 11:14:14 miletus su[31318]: pam_unix(su:session): session opened for user thales by (uid=999)
+Oct 14 11:14:14 miletus systemd-logind[745]: New session c3 of user thales.
+Oct 14 11:15:01 miletus CRON[31328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 11:15:01 miletus CRON[31328]: pam_unix(cron:session): session closed for user root
+Oct 14 11:17:01 miletus CRON[31340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 11:17:01 miletus CRON[31340]: pam_unix(cron:session): session closed for user root
+Oct 14 11:20:01 miletus CRON[31345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 11:20:02 miletus CRON[31345]: pam_unix(cron:session): session closed for user root
+Oct 14 11:25:01 miletus CRON[31394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 11:25:51 miletus CRON[31394]: pam_unix(cron:session): session closed for user root
+Oct 14 11:27:34 miletus su[31424]: Successful su for thales by root
+Oct 14 11:27:34 miletus su[31424]: + /dev/tty1 root:thales
+Oct 14 11:27:34 miletus su[31424]: pam_unix(su:session): session opened for user thales by root(uid=0)
+Oct 14 11:27:34 miletus su[31424]: pam_systemd(su:session): Cannot create session: Already running in a session
+Oct 14 11:28:04 miletus su[31424]: pam_unix(su:session): session closed for user thales
+Oct 14 11:29:54 miletus su[31440]: Successful su for thales by root
+Oct 14 11:29:54 miletus su[31440]: + /dev/tty1 root:thales
+Oct 14 11:29:54 miletus su[31440]: pam_unix(su:session): session opened for user thales by root(uid=0)
+Oct 14 11:29:54 miletus su[31440]: pam_systemd(su:session): Cannot create session: Already running in a session
+Oct 14 11:29:59 miletus sudo:   thales : user NOT in sudoers ; TTY=tty1 ; PWD=/home/thales ; USER=root ; COMMAND=/bin/su
+Oct 14 11:30:01 miletus CRON[31451]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 14 11:30:02 miletus CRON[31451]: pam_unix(cron:session): session closed for user root
+Oct 14 11:30:05 miletus su[31440]: pam_unix(su:session): session closed for user thales
+Oct 14 11:30:45 miletus su[31318]: pam_unix(su:session): session closed for user thales
+Mar 26 14:02:27 miletus systemd-logind[741]: New seat seat0.
+Mar 26 14:02:27 miletus systemd-logind[741]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 26 14:02:27 miletus systemd-logind[741]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 26 14:02:27 miletus systemd-logind[741]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 26 14:02:28 miletus sshd[883]: Server listening on 0.0.0.0 port 22.
+Mar 26 14:02:28 miletus sshd[883]: Server listening on :: port 22.
+Mar 26 14:05:01 miletus CRON[1032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:05:02 miletus CRON[1032]: pam_unix(cron:session): session closed for user root
+Mar 26 14:06:06 miletus sshd[1053]: Connection closed by authenticating user thales 10.0.2.7 port 54276 [preauth]
+Mar 26 14:06:18 miletus login[876]: pam_unix(login:auth): check pass; user unknown
+Mar 26 14:06:18 miletus login[876]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Mar 26 14:06:20 miletus login[876]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Mar 26 14:06:49 miletus login[876]: pam_unix(login:auth): check pass; user unknown
+Mar 26 14:06:49 miletus login[876]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Mar 26 14:06:53 miletus login[876]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Mar 26 14:07:01 miletus login[876]: pam_unix(login:session): session opened for user thales by LOGIN(uid=0)
+Mar 26 14:07:01 miletus systemd: pam_unix(systemd-user:session): session opened for user thales by (uid=0)
+Mar 26 14:07:01 miletus systemd-logind[741]: New session 2 of user thales.
+Mar 26 14:07:04 miletus login[876]: pam_unix(login:session): session closed for user thales
+Mar 26 14:07:04 miletus systemd-logind[741]: Removed session 2.
+Mar 26 14:07:14 miletus sshd[1214]: Connection closed by authenticating user thales 10.0.2.7 port 36304 [preauth]
+Mar 26 14:07:34 miletus login[1212]: pam_unix(login:session): session opened for user thales by LOGIN(uid=0)
+Mar 26 14:07:34 miletus systemd: pam_unix(systemd-user:session): session opened for user thales by (uid=0)
+Mar 26 14:07:34 miletus systemd-logind[741]: New session 4 of user thales.
+Mar 26 14:09:08 miletus sshd[1310]: Connection closed by authenticating user thales 10.0.2.7 port 52106 [preauth]
+Mar 26 14:09:26 miletus sshd[1312]: Connection closed by authenticating user thales 10.0.2.7 port 42800 [preauth]
+Mar 26 14:10:01 miletus CRON[1315]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:10:01 miletus CRON[1315]: pam_unix(cron:session): session closed for user root
+Mar 26 14:10:24 miletus sudo:   thales : command not allowed ; TTY=tty1 ; PWD=/home/thales ; USER=root ; COMMAND=list
+Mar 26 14:10:44 miletus su[1327]: Successful su for thales by thales
+Mar 26 14:10:44 miletus su[1327]: + /dev/tty1 thales:thales
+Mar 26 14:10:44 miletus su[1327]: pam_unix(su:session): session opened for user thales by thales(uid=1000)
+Mar 26 14:10:44 miletus su[1327]: pam_systemd(su:session): Cannot create session: Already running in a session
+Mar 26 14:15:01 miletus CRON[1400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:15:40 miletus passwd[1440]: pam_unix(passwd:chauthtok): password changed for root
+Mar 26 14:15:58 miletus su[1442]: Successful su for root by thales
+Mar 26 14:15:59 miletus su[1442]: + /dev/tty1 thales:root
+Mar 26 14:15:59 miletus su[1442]: pam_unix(su:session): session opened for user root by thales(uid=1000)
+Mar 26 14:15:59 miletus su[1442]: pam_systemd(su:session): Cannot create session: Already running in a session
+Mar 26 14:17:01 miletus CRON[1455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:17:02 miletus CRON[1455]: pam_unix(cron:session): session closed for user root
+Mar 26 14:19:03 miletus CRON[1400]: pam_unix(cron:session): session closed for user root
+Mar 26 14:20:01 miletus CRON[1483]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:20:02 miletus CRON[1483]: pam_unix(cron:session): session closed for user root
+Mar 26 14:20:11 miletus sshd[1499]: Connection closed by authenticating user thales 10.0.2.7 port 36372 [preauth]
+Mar 26 14:20:18 miletus su[1501]: Successful su for root by root
+Mar 26 14:20:18 miletus su[1501]: + /dev/tty1 root:root
+Mar 26 14:20:18 miletus su[1501]: pam_unix(su:session): session opened for user root by thales(uid=0)
+Mar 26 14:20:18 miletus su[1501]: pam_systemd(su:session): Cannot create session: Already running in a session
+Mar 26 14:25:01 miletus CRON[1515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:25:02 miletus CRON[1515]: pam_unix(cron:session): session closed for user root
+Mar 26 14:30:01 miletus CRON[1545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:30:02 miletus CRON[1545]: pam_unix(cron:session): session closed for user root
+Mar 26 14:30:06 miletus su[1501]: pam_unix(su:session): session closed for user root
+Mar 26 14:30:06 miletus su[1442]: pam_unix(su:session): session closed for user root
+Mar 26 14:30:22 miletus systemd-logind[739]: New seat seat0.
+Mar 26 14:30:22 miletus systemd-logind[739]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 26 14:30:22 miletus systemd-logind[739]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 26 14:30:22 miletus systemd-logind[739]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 26 14:30:24 miletus sshd[954]: Server listening on 0.0.0.0 port 22.
+Mar 26 14:30:24 miletus sshd[954]: Server listening on :: port 22.
+Mar 26 14:30:31 miletus login[960]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Mar 26 14:30:31 miletus systemd-logind[739]: New session 1 of user root.
+Mar 26 14:30:31 miletus systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Mar 26 14:30:31 miletus login[1128]: ROOT LOGIN  on '/dev/tty1'
+Mar 26 14:32:35 kadir systemd-logind[722]: New seat seat0.
+Mar 26 14:32:35 kadir systemd-logind[722]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 26 14:32:35 kadir systemd-logind[722]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 26 14:32:35 kadir systemd-logind[722]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 26 14:32:36 kadir sshd[898]: Server listening on 0.0.0.0 port 22.
+Mar 26 14:32:36 kadir sshd[898]: Server listening on :: port 22.
+Mar 26 14:32:41 kadir login[889]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Mar 26 14:32:41 kadir systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Mar 26 14:32:41 kadir systemd-logind[722]: New session 1 of user root.
+Mar 26 14:32:42 kadir login[1125]: ROOT LOGIN  on '/dev/tty1'
+Mar 26 21:46:47 kadir systemd-logind[722]: New seat seat0.
+Mar 26 21:46:47 kadir systemd-logind[722]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 26 21:46:47 kadir systemd-logind[722]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 26 21:46:47 kadir systemd-logind[722]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar 26 21:46:49 kadir sshd[850]: Server listening on 0.0.0.0 port 22.
+Mar 26 21:46:49 kadir sshd[850]: Server listening on :: port 22.
+Mar 26 21:50:01 kadir CRON[971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 21:50:03 kadir CRON[971]: pam_unix(cron:session): session closed for user root
+Mar 26 21:55:01 kadir CRON[999]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 21:55:01 kadir CRON[999]: pam_unix(cron:session): session closed for user root
+Mar 26 22:00:01 kadir CRON[1056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 22:00:02 kadir CRON[1056]: pam_unix(cron:session): session closed for user root
+Mar 26 22:05:01 kadir CRON[1090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 22:05:02 kadir CRON[1090]: pam_unix(cron:session): session closed for user root
+Mar 26 22:10:01 kadir CRON[1109]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 22:10:02 kadir CRON[1109]: pam_unix(cron:session): session closed for user root
+Apr 16 10:29:35 kadir systemd-logind[790]: New seat seat0.
+Apr 16 10:29:35 kadir systemd-logind[790]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 16 10:29:35 kadir systemd-logind[790]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 16 10:29:35 kadir systemd-logind[790]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 16 10:29:36 kadir sshd[1059]: Server listening on 0.0.0.0 port 22.
+Apr 16 10:29:36 kadir sshd[1059]: Server listening on :: port 22.
+Apr 16 10:30:01 kadir CRON[1579]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 10:30:06 kadir CRON[1579]: pam_unix(cron:session): session closed for user root
+Apr 16 10:35:01 kadir CRON[1613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 10:35:01 kadir CRON[1613]: pam_unix(cron:session): session closed for user root
+Apr 16 10:38:52 kadir sshd[15244]: Invalid user vodka06 from 10.0.2.7 port 58462
+Apr 16 10:38:52 kadir sshd[15244]: Connection closed by invalid user vodka06 10.0.2.7 port 58462 [preauth]
+Apr 16 10:39:04 kadir sshd[20299]: Invalid user vodka06 from 10.0.2.7 port 60906
+Apr 16 10:39:04 kadir sshd[20299]: Connection closed by invalid user vodka06 10.0.2.7 port 60906 [preauth]
+Apr 16 10:39:24 kadir sshd[29436]: Invalid user vodka06 from 10.0.2.7 port 48522
+Apr 16 10:39:24 kadir sshd[29436]: Connection closed by invalid user vodka06 10.0.2.7 port 48522 [preauth]
+Apr 16 10:39:46 kadir sshd[31225]: Invalid user vodka06 from 10.0.2.7 port 35762
+Apr 16 10:39:46 kadir sshd[31225]: Connection closed by invalid user vodka06 10.0.2.7 port 35762 [preauth]
+Apr 16 10:40:01 kadir CRON[1971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 10:40:02 kadir CRON[1971]: pam_unix(cron:session): session closed for user root
+Apr 16 10:40:24 kadir sshd[8739]: Invalid user vodka06 from 10.0.2.7 port 45280
+Apr 16 10:40:24 kadir sshd[8739]: Connection closed by invalid user vodka06 10.0.2.7 port 45280 [preauth]
+Apr 16 10:42:14 kadir login[1028]: pam_unix(login:auth): check pass; user unknown
+Apr 16 10:42:14 kadir login[1028]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Apr 16 10:42:17 kadir login[1028]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Apr 16 10:42:24 kadir login[1028]: pam_unix(login:auth): check pass; user unknown
+Apr 16 10:42:27 kadir login[1028]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Apr 16 10:42:32 kadir login[1028]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Apr 16 10:42:32 kadir systemd-logind[790]: New session 4 of user root.
+Apr 16 10:42:32 kadir systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Apr 16 10:42:32 kadir login[12063]: ROOT LOGIN  on '/dev/tty1'
+Apr 16 10:43:34 kadir systemd-logind[790]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 16 10:43:34 kadir systemd-logind[790]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 16 10:43:34 kadir systemd-logind[790]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 16 10:45:01 kadir CRON[19044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 10:45:03 kadir CRON[19044]: pam_unix(cron:session): session closed for user root
+Apr 16 10:46:15 kadir su[5074]: No passwd entry for user 'vodka'
+Apr 16 10:46:15 kadir su[5074]: FAILED su for vodka by root
+Apr 16 10:46:15 kadir su[5074]: - /dev/tty1 root:vodka
+Apr 16 10:46:18 kadir su[5075]: No passwd entry for user 'vodka06'
+Apr 16 10:46:18 kadir su[5075]: FAILED su for vodka06 by root
+Apr 16 10:46:18 kadir su[5075]: - /dev/tty1 root:vodka06
+Apr 16 10:47:15 kadir sshd[16143]: Connection closed by authenticating user thales 10.0.2.7 port 41356 [preauth]
+Apr 16 10:47:44 kadir sshd[17809]: Connection closed by authenticating user thales 10.0.2.7 port 46354 [preauth]
+Apr 16 10:48:36 kadir sshd[19111]: Connection closed by authenticating user thales 10.0.2.7 port 36096 [preauth]
+Apr 16 10:49:14 kadir sshd[19150]: Connection closed by authenticating user thales 10.0.2.7 port 35160 [preauth]
+Apr 16 10:49:14 kadir sshd[19152]: Connection closed by authenticating user thales 10.0.2.7 port 35166 [preauth]
+Apr 16 10:49:14 kadir sshd[19160]: Connection closed by authenticating user thales 10.0.2.7 port 35176 [preauth]
+Apr 16 10:50:01 kadir CRON[30160]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 10:50:02 kadir CRON[30160]: pam_unix(cron:session): session closed for user root
+Apr 16 10:55:01 kadir CRON[30227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 10:55:01 kadir CRON[30227]: pam_unix(cron:session): session closed for user root
+Apr 16 10:58:41 kadir su[30319]: Successful su for thales by root
+Apr 16 10:58:41 kadir su[30319]: + /dev/tty1 root:thales
+Apr 16 10:58:41 kadir su[30319]: pam_unix(su:session): session opened for user thales by root(uid=0)
+Apr 16 10:58:41 kadir su[30319]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 10:58:58 kadir su[30331]: Successful su for root by thales
+Apr 16 10:58:58 kadir su[30331]: + /dev/tty1 thales:root
+Apr 16 10:58:58 kadir su[30331]: pam_unix(su:session): session opened for user root by root(uid=1000)
+Apr 16 10:58:58 kadir su[30331]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 10:59:33 kadir su[30344]: Successful su for thales by root
+Apr 16 10:59:33 kadir su[30344]: + /dev/tty1 root:thales
+Apr 16 10:59:33 kadir su[30344]: pam_unix(su:session): session opened for user thales by root(uid=0)
+Apr 16 10:59:33 kadir su[30344]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 10:59:46 kadir su[30357]: Successful su for root by thales
+Apr 16 10:59:46 kadir su[30357]: + /dev/tty1 thales:root
+Apr 16 10:59:46 kadir su[30357]: pam_unix(su:session): session opened for user root by root(uid=1000)
+Apr 16 10:59:46 kadir su[30357]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:00:01 kadir CRON[30369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:00:02 kadir CRON[30369]: pam_unix(cron:session): session closed for user root
+Apr 16 11:05:01 kadir CRON[30431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:05:01 kadir CRON[30431]: pam_unix(cron:session): session closed for user root
+Apr 16 11:07:54 kadir sshd[30473]: Connection closed by authenticating user thales 10.0.2.7 port 57960 [preauth]
+Apr 16 11:10:01 kadir CRON[30490]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:10:02 kadir CRON[30490]: pam_unix(cron:session): session closed for user root
+Apr 16 11:11:17 kadir groupadd[30660]: group added to /etc/group: name=ssl-cert, GID=113
+Apr 16 11:11:17 kadir groupadd[30660]: group added to /etc/gshadow: name=ssl-cert
+Apr 16 11:11:17 kadir groupadd[30660]: new group: name=ssl-cert, GID=113
+Apr 16 11:15:01 kadir CRON[31340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:15:01 kadir CRON[31340]: pam_unix(cron:session): session closed for user root
+Apr 16 11:17:01 kadir CRON[31357]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:17:01 kadir CRON[31357]: pam_unix(cron:session): session closed for user root
+Apr 16 11:20:01 kadir CRON[31372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:20:02 kadir CRON[31372]: pam_unix(cron:session): session closed for user root
+Apr 16 11:21:04 kadir su[30357]: pam_unix(su:session): session closed for user root
+Apr 16 11:21:11 kadir su[31389]: Successful su for root by thales
+Apr 16 11:21:11 kadir su[31389]: + /dev/tty1 thales:root
+Apr 16 11:21:11 kadir su[31389]: pam_unix(su:session): session opened for user root by root(uid=1000)
+Apr 16 11:21:11 kadir su[31389]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:21:18 kadir useradd[31400]: new group: name=test, GID=1001
+Apr 16 11:21:18 kadir useradd[31400]: new user: name=test, UID=1001, GID=1001, home=/home/test, shell=/bin/sh
+Apr 16 11:21:22 kadir su[31406]: Successful su for test by root
+Apr 16 11:21:22 kadir su[31406]: + /dev/tty1 root:test
+Apr 16 11:21:22 kadir su[31406]: pam_unix(su:session): session opened for user test by root(uid=0)
+Apr 16 11:21:22 kadir su[31406]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:21:31 kadir passwd[31408]: pam_unix(passwd:chauthtok): authentication failure; logname=root uid=1001 euid=0 tty= ruser= rhost=  user=test
+Apr 16 11:21:39 kadir passwd[31409]: pam_unix(passwd:chauthtok): authentication failure; logname=root uid=1001 euid=0 tty= ruser= rhost=  user=test
+Apr 16 11:21:56 kadir passwd[31413]: pam_unix(passwd:chauthtok): authentication failure; logname=root uid=1001 euid=0 tty= ruser= rhost=  user=test
+Apr 16 11:22:00 kadir passwd[31414]: pam_unix(passwd:chauthtok): authentication failure; logname=root uid=1001 euid=0 tty= ruser= rhost=  user=test
+Apr 16 11:22:06 kadir su[31415]: Successful su for root by test
+Apr 16 11:22:06 kadir su[31415]: + /dev/tty1 test:root
+Apr 16 11:22:06 kadir su[31415]: pam_unix(su:session): session opened for user root by root(uid=1001)
+Apr 16 11:22:06 kadir su[31415]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:22:44 kadir userdel[31429]: delete user 'test'
+Apr 16 11:22:44 kadir userdel[31429]: removed group 'test' owned by 'test'
+Apr 16 11:22:44 kadir userdel[31429]: removed shadow group 'test' owned by 'test'
+Apr 16 11:23:31 kadir useradd[31435]: new group: name=test, GID=1001
+Apr 16 11:23:31 kadir useradd[31435]: new user: name=test, UID=1001, GID=1001, home=/home/test, shell=/bin/sh
+Apr 16 11:23:36 kadir su[31441]: Successful su for test by root
+Apr 16 11:23:36 kadir su[31441]: + /dev/tty1 root:test
+Apr 16 11:23:36 kadir su[31441]: pam_unix(su:session): session opened for user test by root(uid=0)
+Apr 16 11:23:36 kadir su[31441]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:23:45 kadir passwd[31446]: pam_unix(passwd:chauthtok): authentication failure; logname=root uid=1001 euid=0 tty= ruser= rhost=  user=test
+Apr 16 11:23:51 kadir su[31447]: Successful su for root by test
+Apr 16 11:23:51 kadir su[31447]: + /dev/tty1 test:root
+Apr 16 11:23:51 kadir su[31447]: pam_unix(su:session): session opened for user root by root(uid=1001)
+Apr 16 11:23:51 kadir su[31447]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:24:15 kadir userdel[31460]: delete user 'test'
+Apr 16 11:24:15 kadir userdel[31460]: removed group 'test' owned by 'test'
+Apr 16 11:24:15 kadir userdel[31460]: removed shadow group 'test' owned by 'test'
+Apr 16 11:25:01 kadir CRON[31468]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:25:02 kadir CRON[31468]: pam_unix(cron:session): session closed for user root
+Apr 16 11:25:32 kadir useradd[31487]: new group: name=fantakafa, GID=1001
+Apr 16 11:25:32 kadir useradd[31487]: new user: name=fantakafa, UID=1001, GID=1001, home=/home/fantakafa, shell=/bin/sh
+Apr 16 11:25:37 kadir su[31493]: Successful su for fantakafa by root
+Apr 16 11:25:37 kadir su[31493]: + /dev/tty1 root:fantakafa
+Apr 16 11:25:37 kadir su[31493]: pam_unix(su:session): session opened for user fantakafa by root(uid=0)
+Apr 16 11:25:37 kadir su[31493]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:25:48 kadir passwd[31498]: pam_unix(passwd:chauthtok): authentication failure; logname=root uid=1001 euid=0 tty= ruser= rhost=  user=fantakafa
+Apr 16 11:25:58 kadir passwd[31499]: pam_unix(passwd:chauthtok): authentication failure; logname=root uid=1001 euid=0 tty= ruser= rhost=  user=fantakafa
+Apr 16 11:26:11 kadir su[31500]: Successful su for root by fantakafa
+Apr 16 11:26:11 kadir su[31500]: + /dev/tty1 fantakafa:root
+Apr 16 11:26:11 kadir su[31500]: pam_unix(su:session): session opened for user root by root(uid=1001)
+Apr 16 11:26:11 kadir su[31500]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:26:20 kadir passwd[31511]: pam_unix(passwd:chauthtok): password changed for fantakafa
+Apr 16 11:26:43 kadir sshd[31512]: Connection closed by authenticating user fantakafa 10.0.2.7 port 38096 [preauth]
+Apr 16 11:27:07 kadir sshd[31514]: Connection closed by authenticating user fantakafa 10.0.2.7 port 52958 [preauth]
+Apr 16 11:27:15 kadir su[31516]: Successful su for root by root
+Apr 16 11:27:15 kadir su[31516]: + /dev/tty1 root:root
+Apr 16 11:27:15 kadir su[31516]: pam_unix(su:session): session opened for user root by root(uid=0)
+Apr 16 11:27:15 kadir su[31516]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:27:18 kadir su[31527]: Successful su for fantakafa by root
+Apr 16 11:27:18 kadir su[31527]: + /dev/tty1 root:fantakafa
+Apr 16 11:27:18 kadir su[31527]: pam_unix(su:session): session opened for user fantakafa by root(uid=0)
+Apr 16 11:27:18 kadir su[31527]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:27:31 kadir passwd[31530]: pam_unix(passwd:chauthtok): new password not acceptable
+Apr 16 11:27:39 kadir su[31532]: Successful su for root by fantakafa
+Apr 16 11:27:39 kadir su[31532]: + /dev/tty1 fantakafa:root
+Apr 16 11:27:39 kadir su[31532]: pam_unix(su:session): session opened for user root by root(uid=1001)
+Apr 16 11:27:39 kadir su[31532]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:28:02 kadir useradd[31544]: failed adding user 'fantakafa', data deleted
+Apr 16 11:28:18 kadir userdel[31546]: delete user 'fantakafa'
+Apr 16 11:28:18 kadir userdel[31546]: removed group 'fantakafa' owned by 'fantakafa'
+Apr 16 11:28:18 kadir userdel[31546]: removed shadow group 'fantakafa' owned by 'fantakafa'
+Apr 16 11:28:25 kadir su[31551]: No passwd entry for user 'fantakafa'
+Apr 16 11:28:25 kadir su[31551]: FAILED su for fantakafa by root
+Apr 16 11:28:25 kadir su[31551]: - /dev/tty1 root:fantakafa
+Apr 16 11:28:32 kadir useradd[31552]: new group: name=fantakafa, GID=1001
+Apr 16 11:28:32 kadir useradd[31552]: new user: name=fantakafa, UID=1001, GID=1001, home=/home/fantakafa, shell=/bin/sh
+Apr 16 11:28:37 kadir passwd[31558]: pam_unix(passwd:chauthtok): password changed for fantakafa
+Apr 16 11:28:39 kadir su[31559]: Successful su for root by root
+Apr 16 11:28:39 kadir su[31559]: + /dev/tty1 root:root
+Apr 16 11:28:39 kadir su[31559]: pam_unix(su:session): session opened for user root by root(uid=0)
+Apr 16 11:28:39 kadir su[31559]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:28:43 kadir su[31570]: Successful su for fantakafa by root
+Apr 16 11:28:43 kadir su[31570]: + /dev/tty1 root:fantakafa
+Apr 16 11:28:43 kadir su[31570]: pam_unix(su:session): session opened for user fantakafa by root(uid=0)
+Apr 16 11:28:43 kadir su[31570]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:29:05 kadir sshd[31583]: Connection closed by authenticating user fantakafa 10.0.2.7 port 48504 [preauth]
+Apr 16 11:29:24 kadir sshd[31585]: Connection closed by authenticating user fantakafa 10.0.2.7 port 36550 [preauth]
+Apr 16 11:29:37 kadir sshd[31589]: Connection closed by authenticating user fantakafa 10.0.2.7 port 35752 [preauth]
+Apr 16 11:30:01 kadir CRON[31591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:30:01 kadir CRON[31591]: pam_unix(cron:session): session closed for user root
+Apr 16 11:31:39 kadir sshd[31609]: Connection closed by authenticating user fantakafa 10.0.2.7 port 36040 [preauth]
+Apr 16 11:31:39 kadir sshd[31611]: Connection closed by authenticating user fantakafa 10.0.2.7 port 36048 [preauth]
+Apr 16 11:31:39 kadir sshd[31613]: Connection closed by authenticating user fantakafa 10.0.2.7 port 36054 [preauth]
+Apr 16 11:32:01 kadir su[31616]: Successful su for root by fantakafa
+Apr 16 11:32:01 kadir su[31616]: + /dev/tty1 fantakafa:root
+Apr 16 11:32:01 kadir su[31616]: pam_unix(su:session): session opened for user root by root(uid=1001)
+Apr 16 11:32:01 kadir su[31616]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:32:05 kadir userdel[31627]: delete user 'fantakafa'
+Apr 16 11:32:05 kadir userdel[31627]: removed group 'fantakafa' owned by 'fantakafa'
+Apr 16 11:32:05 kadir userdel[31627]: removed shadow group 'fantakafa' owned by 'fantakafa'
+Apr 16 11:32:23 kadir useradd[31634]: new group: name=jack, GID=1001
+Apr 16 11:32:23 kadir useradd[31634]: new user: name=jack, UID=1001, GID=1001, home=/home/jack, shell=/bin/sh
+Apr 16 11:32:33 kadir passwd[31640]: pam_unix(passwd:chauthtok): password changed for jack
+Apr 16 11:33:11 kadir sshd[31645]: Connection closed by authenticating user jack 10.0.2.7 port 53816 [preauth]
+Apr 16 11:33:23 kadir sshd[31647]: Connection closed by authenticating user jack 10.0.2.7 port 37958 [preauth]
+Apr 16 11:35:01 kadir CRON[31653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:35:02 kadir CRON[31653]: pam_unix(cron:session): session closed for user root
+Apr 16 11:35:11 kadir sshd[31670]: Connection closed by authenticating user thales 10.0.2.7 port 34852 [preauth]
+Apr 16 11:35:30 kadir su[31672]: Successful su for thales by root
+Apr 16 11:35:30 kadir su[31672]: + /dev/tty1 root:thales
+Apr 16 11:35:30 kadir su[31672]: pam_unix(su:session): session opened for user thales by root(uid=0)
+Apr 16 11:35:30 kadir su[31672]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:36:22 kadir su[31700]: Successful su for jack by thales
+Apr 16 11:36:22 kadir su[31700]: + /dev/tty1 thales:jack
+Apr 16 11:36:22 kadir su[31700]: pam_unix(su:session): session opened for user jack by root(uid=1000)
+Apr 16 11:36:22 kadir su[31700]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:39:43 kadir sshd[31728]: Connection closed by authenticating user jack 10.0.2.7 port 52470 [preauth]
+Apr 16 11:40:01 kadir CRON[31730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:40:01 kadir CRON[31730]: pam_unix(cron:session): session closed for user root
+Apr 16 11:40:12 kadir sshd[31746]: Connection closed by authenticating user jack 10.0.2.7 port 57208 [preauth]
+Apr 16 11:40:57 kadir su[31751]: Successful su for root by jack
+Apr 16 11:40:57 kadir su[31751]: + /dev/tty1 jack:root
+Apr 16 11:40:57 kadir su[31751]: pam_unix(su:session): session opened for user root by root(uid=1001)
+Apr 16 11:40:57 kadir su[31751]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:43:13 kadir sshd[1059]: Received signal 15; terminating.
+Apr 16 11:43:13 kadir sshd[31780]: Server listening on 0.0.0.0 port 22.
+Apr 16 11:43:13 kadir sshd[31780]: Server listening on :: port 22.
+Apr 16 11:43:20 kadir sshd[31797]: Accepted password for jack from 10.0.2.7 port 49756 ssh2
+Apr 16 11:43:20 kadir sshd[31797]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 11:43:20 kadir systemd: pam_unix(systemd-user:session): session opened for user jack by (uid=0)
+Apr 16 11:43:20 kadir systemd-logind[790]: New session 19 of user jack.
+Apr 16 11:45:01 kadir CRON[31941]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:45:02 kadir CRON[31941]: pam_unix(cron:session): session closed for user root
+Apr 16 11:50:01 kadir CRON[31961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:50:01 kadir CRON[31961]: pam_unix(cron:session): session closed for user root
+Apr 16 11:53:08 kadir su[31992]: Successful su for root by jack
+Apr 16 11:53:08 kadir su[31992]: + /dev/pts/0 jack:root
+Apr 16 11:53:08 kadir su[31992]: pam_unix(su:session): session opened for user root by jack(uid=1001)
+Apr 16 11:53:08 kadir su[31992]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 11:55:01 kadir CRON[32005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 11:55:02 kadir CRON[32005]: pam_unix(cron:session): session closed for user root
+Apr 16 12:00:01 kadir CRON[32025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 12:00:01 kadir CRON[32025]: pam_unix(cron:session): session closed for user root
+Apr 16 12:02:30 kadir su[32076]: Successful su for jack by root
+Apr 16 12:02:30 kadir su[32076]: + /dev/pts/0 root:jack
+Apr 16 12:02:30 kadir su[32076]: pam_unix(su:session): session opened for user jack by jack(uid=0)
+Apr 16 12:02:30 kadir su[32076]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:02:42 kadir su[32089]: Successful su for root by jack
+Apr 16 12:02:42 kadir su[32089]: + /dev/pts/0 jack:root
+Apr 16 12:02:42 kadir su[32089]: pam_unix(su:session): session opened for user root by jack(uid=1001)
+Apr 16 12:02:42 kadir su[32089]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:02:49 kadir su[32100]: Successful su for thales by root
+Apr 16 12:02:49 kadir su[32100]: + /dev/pts/0 root:thales
+Apr 16 12:02:49 kadir su[32100]: pam_unix(su:session): session opened for user thales by jack(uid=0)
+Apr 16 12:02:49 kadir su[32100]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:02:57 kadir su[32110]: Successful su for root by thales
+Apr 16 12:02:57 kadir su[32110]: + /dev/pts/0 thales:root
+Apr 16 12:02:57 kadir su[32110]: pam_unix(su:session): session opened for user root by jack(uid=1000)
+Apr 16 12:02:57 kadir su[32110]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:03:50 kadir groupadd[32122]: group added to /etc/group: name=priv, GID=1002
+Apr 16 12:03:50 kadir groupadd[32122]: group added to /etc/gshadow: name=priv
+Apr 16 12:03:50 kadir groupadd[32122]: new group: name=priv, GID=1002
+Apr 16 12:04:34 kadir su[32126]: Successful su for thales by root
+Apr 16 12:04:34 kadir su[32126]: + /dev/pts/0 root:thales
+Apr 16 12:04:34 kadir su[32126]: pam_unix(su:session): session opened for user thales by jack(uid=0)
+Apr 16 12:04:34 kadir su[32126]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:04:46 kadir su[32135]: Successful su for jack by thales
+Apr 16 12:04:46 kadir su[32135]: + /dev/pts/0 thales:jack
+Apr 16 12:04:46 kadir su[32135]: pam_unix(su:session): session opened for user jack by jack(uid=1000)
+Apr 16 12:04:46 kadir su[32135]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:04:58 kadir sshd[32148]: Invalid user jackh from 10.0.2.7 port 43604
+Apr 16 12:04:58 kadir sshd[32148]: Failed none for invalid user jackh from 10.0.2.7 port 43604 ssh2
+Apr 16 12:04:58 kadir sshd[32148]: Failed password for invalid user jackh from 10.0.2.7 port 43604 ssh2
+Apr 16 12:04:58 kadir sshd[32148]: Failed password for invalid user jackh from 10.0.2.7 port 43604 ssh2
+Apr 16 12:04:58 kadir sshd[32148]: Connection closed by invalid user jackh 10.0.2.7 port 43604 [preauth]
+Apr 16 12:04:58 kadir sshd[32151]: Failed password for jack from 10.0.2.7 port 43618 ssh2
+Apr 16 12:04:58 kadir sshd[32151]: Failed password for jack from 10.0.2.7 port 43618 ssh2
+Apr 16 12:04:58 kadir sshd[32151]: Connection closed by authenticating user jack 10.0.2.7 port 43618 [preauth]
+Apr 16 12:05:01 kadir CRON[32156]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 12:05:02 kadir CRON[32156]: pam_unix(cron:session): session closed for user root
+Apr 16 12:06:14 kadir sshd[32175]: Connection closed by authenticating user jack 10.0.2.7 port 56010 [preauth]
+Apr 16 12:06:14 kadir sshd[32177]: Connection closed by authenticating user jack 10.0.2.7 port 56022 [preauth]
+Apr 16 12:06:16 kadir sshd[32179]: Accepted password for jack from 10.0.2.7 port 56034 ssh2
+Apr 16 12:06:16 kadir sshd[32179]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 12:06:16 kadir systemd-logind[790]: New session 26 of user jack.
+Apr 16 12:06:16 kadir sshd[32246]: Received disconnect from 10.0.2.7 port 56034:11: disconnected by user
+Apr 16 12:06:16 kadir sshd[32246]: Disconnected from user jack 10.0.2.7 port 56034
+Apr 16 12:06:16 kadir sshd[32179]: pam_unix(sshd:session): session closed for user jack
+Apr 16 12:06:16 kadir systemd-logind[790]: Removed session 26.
+Apr 16 12:06:31 kadir su[32251]: Successful su for root by jack
+Apr 16 12:06:31 kadir su[32251]: + /dev/pts/0 jack:root
+Apr 16 12:06:31 kadir su[32251]: pam_unix(su:session): session opened for user root by jack(uid=1001)
+Apr 16 12:06:31 kadir su[32251]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:07:10 kadir su[32265]: Successful su for jack by root
+Apr 16 12:07:10 kadir su[32265]: + /dev/pts/0 root:jack
+Apr 16 12:07:10 kadir su[32265]: pam_unix(su:session): session opened for user jack by jack(uid=0)
+Apr 16 12:07:10 kadir su[32265]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:07:42 kadir su[32271]: Successful su for root by jack
+Apr 16 12:07:42 kadir su[32271]: + /dev/pts/0 jack:root
+Apr 16 12:07:42 kadir su[32271]: pam_unix(su:session): session opened for user root by jack(uid=1001)
+Apr 16 12:07:42 kadir su[32271]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:08:04 kadir su[32283]: Successful su for jack by root
+Apr 16 12:08:04 kadir su[32283]: + /dev/pts/0 root:jack
+Apr 16 12:08:04 kadir su[32283]: pam_unix(su:session): session opened for user jack by jack(uid=0)
+Apr 16 12:08:04 kadir su[32283]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:08:22 kadir su[32283]: pam_unix(su:session): session closed for user jack
+Apr 16 12:09:54 kadir su[32271]: pam_unix(su:session): session closed for user root
+Apr 16 12:09:54 kadir su[32265]: pam_unix(su:session): session closed for user jack
+Apr 16 12:09:55 kadir su[32251]: pam_unix(su:session): session closed for user root
+Apr 16 12:09:58 kadir sshd[32288]: Invalid user jackh from 10.0.2.7 port 54122
+Apr 16 12:09:58 kadir sshd[32288]: Excess permission or bad ownership on file /var/log/btmp
+Apr 16 12:09:58 kadir sshd[32288]: Failed none for invalid user jackh from 10.0.2.7 port 54122 ssh2
+Apr 16 12:09:58 kadir sshd[32288]: Failed password for invalid user jackh from 10.0.2.7 port 54122 ssh2
+Apr 16 12:09:58 kadir sshd[32288]: Excess permission or bad ownership on file /var/log/btmp
+Apr 16 12:09:58 kadir sshd[32288]: Failed password for invalid user jackh from 10.0.2.7 port 54122 ssh2
+Apr 16 12:09:58 kadir sshd[32288]: Excess permission or bad ownership on file /var/log/btmp
+Apr 16 12:09:58 kadir sshd[32288]: Connection closed by invalid user jackh 10.0.2.7 port 54122 [preauth]
+Apr 16 12:09:58 kadir sshd[32290]: Accepted publickey for jack from 10.0.2.7 port 54130 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 12:09:58 kadir sshd[32290]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 12:09:58 kadir systemd-logind[790]: New session 27 of user jack.
+Apr 16 12:09:58 kadir sshd[32357]: Received disconnect from 10.0.2.7 port 54130:11: disconnected by user
+Apr 16 12:09:58 kadir sshd[32357]: Disconnected from user jack 10.0.2.7 port 54130
+Apr 16 12:09:58 kadir sshd[32290]: pam_unix(sshd:session): session closed for user jack
+Apr 16 12:09:58 kadir systemd-logind[790]: Removed session 27.
+Apr 16 12:09:58 kadir su[32135]: pam_unix(su:session): session closed for user jack
+Apr 16 12:09:59 kadir su[32126]: pam_unix(su:session): session closed for user thales
+Apr 16 12:10:01 kadir CRON[32360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 12:10:01 kadir CRON[32360]: pam_unix(cron:session): session closed for user root
+Apr 16 12:11:08 kadir sshd[32379]: Invalid user jackh from 10.0.2.7 port 35554
+Apr 16 12:11:08 kadir sshd[32379]: Excess permission or bad ownership on file /var/log/btmp
+Apr 16 12:11:11 kadir sshd[32379]: pam_unix(sshd:auth): check pass; user unknown
+Apr 16 12:11:11 kadir sshd[32379]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.7
+Apr 16 12:11:13 kadir sshd[32379]: Failed password for invalid user jackh from 10.0.2.7 port 35554 ssh2
+Apr 16 12:11:13 kadir sshd[32379]: Excess permission or bad ownership on file /var/log/btmp
+Apr 16 12:11:20 kadir sshd[32379]: Failed password for invalid user jackh from 10.0.2.7 port 35554 ssh2
+Apr 16 12:11:20 kadir sshd[32379]: Excess permission or bad ownership on file /var/log/btmp
+Apr 16 12:11:21 kadir sshd[32379]: pam_unix(sshd:auth): check pass; user unknown
+Apr 16 12:11:23 kadir sshd[32379]: Failed password for invalid user jackh from 10.0.2.7 port 35554 ssh2
+Apr 16 12:11:23 kadir sshd[32379]: Excess permission or bad ownership on file /var/log/btmp
+Apr 16 12:11:23 kadir sshd[32379]: Connection closed by invalid user jackh 10.0.2.7 port 35554 [preauth]
+Apr 16 12:11:23 kadir sshd[32379]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.7
+Apr 16 12:11:23 kadir sshd[32381]: Accepted publickey for jack from 10.0.2.7 port 57462 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 12:11:23 kadir sshd[32381]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 12:11:23 kadir systemd-logind[790]: New session 29 of user jack.
+Apr 16 12:11:23 kadir sshd[32448]: Received disconnect from 10.0.2.7 port 57462:11: disconnected by user
+Apr 16 12:11:23 kadir sshd[32448]: Disconnected from user jack 10.0.2.7 port 57462
+Apr 16 12:11:23 kadir sshd[32381]: pam_unix(sshd:session): session closed for user jack
+Apr 16 12:11:23 kadir systemd-logind[790]: Removed session 29.
+Apr 16 12:11:39 kadir sshd[32451]: Accepted publickey for jack from 10.0.2.7 port 57022 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 12:11:39 kadir sshd[32451]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 12:11:39 kadir systemd-logind[790]: New session 30 of user jack.
+Apr 16 12:11:39 kadir sshd[32518]: Received disconnect from 10.0.2.7 port 57022:11: disconnected by user
+Apr 16 12:11:39 kadir sshd[32518]: Disconnected from user jack 10.0.2.7 port 57022
+Apr 16 12:11:39 kadir sshd[32451]: pam_unix(sshd:session): session closed for user jack
+Apr 16 12:11:39 kadir systemd-logind[790]: Removed session 30.
+Apr 16 12:11:39 kadir sshd[32521]: Accepted publickey for jack from 10.0.2.7 port 57032 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 12:11:39 kadir sshd[32521]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 12:11:39 kadir systemd-logind[790]: New session 31 of user jack.
+Apr 16 12:11:39 kadir sshd[32588]: Received disconnect from 10.0.2.7 port 57032:11: disconnected by user
+Apr 16 12:11:39 kadir sshd[32588]: Disconnected from user jack 10.0.2.7 port 57032
+Apr 16 12:11:39 kadir sshd[32521]: pam_unix(sshd:session): session closed for user jack
+Apr 16 12:11:39 kadir systemd-logind[790]: Removed session 31.
+Apr 16 12:13:57 kadir sshd[32593]: Accepted publickey for jack from 10.0.2.7 port 38976 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 12:13:57 kadir sshd[32593]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 12:13:57 kadir systemd-logind[790]: New session 32 of user jack.
+Apr 16 12:13:58 kadir sshd[32660]: Received disconnect from 10.0.2.7 port 38976:11: disconnected by user
+Apr 16 12:13:58 kadir sshd[32660]: Disconnected from user jack 10.0.2.7 port 38976
+Apr 16 12:13:58 kadir sshd[32593]: pam_unix(sshd:session): session closed for user jack
+Apr 16 12:13:58 kadir systemd-logind[790]: Removed session 32.
+Apr 16 12:13:58 kadir sshd[32663]: Accepted publickey for jack from 10.0.2.7 port 59028 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 12:13:58 kadir sshd[32663]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 12:13:58 kadir systemd-logind[790]: New session 33 of user jack.
+Apr 16 12:13:58 kadir sshd[32730]: Received disconnect from 10.0.2.7 port 59028:11: disconnected by user
+Apr 16 12:13:58 kadir sshd[32730]: Disconnected from user jack 10.0.2.7 port 59028
+Apr 16 12:13:58 kadir sshd[32663]: pam_unix(sshd:session): session closed for user jack
+Apr 16 12:13:58 kadir systemd-logind[790]: Removed session 33.
+Apr 16 12:14:58 kadir sshd[32736]: Accepted publickey for jack from 10.0.2.7 port 36362 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 12:14:58 kadir sshd[32736]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 12:14:58 kadir systemd-logind[790]: New session 34 of user jack.
+Apr 16 12:14:58 kadir sshd[336]: Received disconnect from 10.0.2.7 port 36362:11: disconnected by user
+Apr 16 12:14:58 kadir sshd[336]: Disconnected from user jack 10.0.2.7 port 36362
+Apr 16 12:14:58 kadir sshd[32736]: pam_unix(sshd:session): session closed for user jack
+Apr 16 12:14:58 kadir systemd-logind[790]: Removed session 34.
+Apr 16 12:14:58 kadir sshd[339]: Accepted publickey for jack from 10.0.2.7 port 36372 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 12:14:58 kadir sshd[339]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 12:14:58 kadir systemd-logind[790]: New session 35 of user jack.
+Apr 16 12:14:59 kadir sshd[408]: Received disconnect from 10.0.2.7 port 36372:11: disconnected by user
+Apr 16 12:14:59 kadir sshd[408]: Disconnected from user jack 10.0.2.7 port 36372
+Apr 16 12:14:59 kadir sshd[339]: pam_unix(sshd:session): session closed for user jack
+Apr 16 12:14:59 kadir systemd-logind[790]: Removed session 35.
+Apr 16 12:15:01 kadir CRON[413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 12:15:02 kadir CRON[413]: pam_unix(cron:session): session closed for user root
+Apr 16 12:15:16 kadir su[429]: Successful su for jack by root
+Apr 16 12:15:16 kadir su[429]: + /dev/pts/0 root:jack
+Apr 16 12:15:16 kadir su[429]: pam_unix(su:session): session opened for user jack by jack(uid=0)
+Apr 16 12:15:16 kadir su[429]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:15:57 kadir sshd[480]: Accepted publickey for jack from 10.0.2.7 port 51988 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 12:15:57 kadir sshd[480]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 12:15:57 kadir systemd-logind[790]: New session 37 of user jack.
+Apr 16 12:15:57 kadir sshd[547]: Received disconnect from 10.0.2.7 port 51988:11: disconnected by user
+Apr 16 12:15:57 kadir sshd[547]: Disconnected from user jack 10.0.2.7 port 51988
+Apr 16 12:15:57 kadir sshd[480]: pam_unix(sshd:session): session closed for user jack
+Apr 16 12:15:57 kadir systemd-logind[790]: Removed session 37.
+Apr 16 12:15:57 kadir sshd[550]: Accepted publickey for jack from 10.0.2.7 port 59782 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 12:15:57 kadir sshd[550]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 12:15:57 kadir systemd-logind[790]: New session 38 of user jack.
+Apr 16 12:15:58 kadir sshd[619]: Received disconnect from 10.0.2.7 port 59782:11: disconnected by user
+Apr 16 12:15:58 kadir sshd[619]: Disconnected from user jack 10.0.2.7 port 59782
+Apr 16 12:15:58 kadir sshd[550]: pam_unix(sshd:session): session closed for user jack
+Apr 16 12:15:58 kadir systemd-logind[790]: Removed session 38.
+Apr 16 12:16:24 kadir su[630]: Successful su for root by jack
+Apr 16 12:16:24 kadir su[630]: + /dev/pts/0 jack:root
+Apr 16 12:16:24 kadir su[630]: pam_unix(su:session): session opened for user root by jack(uid=1001)
+Apr 16 12:16:24 kadir su[630]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 12:16:25 kadir su[31751]: pam_unix(su:session): session closed for user root
+Apr 16 12:16:25 kadir su[31700]: pam_unix(su:session): session closed for user jack
+Apr 16 15:16:48 kadir systemd-logind[790]: New seat seat0.
+Apr 16 15:16:48 kadir systemd-logind[790]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 16 15:16:48 kadir systemd-logind[790]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 16 15:16:48 kadir systemd-logind[790]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 16 15:16:49 kadir sshd[1034]: Server listening on 0.0.0.0 port 22.
+Apr 16 15:16:49 kadir sshd[1034]: Server listening on :: port 22.
+Apr 16 15:17:01 kadir CRON[1230]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 15:17:01 kadir CRON[1230]: pam_unix(cron:session): session closed for user root
+Apr 16 15:17:02 kadir sshd[1240]: Accepted password for jack from 10.0.2.7 port 57618 ssh2
+Apr 16 15:17:02 kadir sshd[1240]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:17:02 kadir systemd: pam_unix(systemd-user:session): session opened for user jack by (uid=0)
+Apr 16 15:17:02 kadir systemd-logind[790]: New session 2 of user jack.
+Apr 16 15:17:09 kadir sshd[1385]: Accepted publickey for jack from 10.0.2.7 port 40422 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:17:09 kadir sshd[1385]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:17:09 kadir systemd-logind[790]: New session 4 of user jack.
+Apr 16 15:17:09 kadir sshd[1451]: Received disconnect from 10.0.2.7 port 40422:11: disconnected by user
+Apr 16 15:17:09 kadir sshd[1451]: Disconnected from user jack 10.0.2.7 port 40422
+Apr 16 15:17:09 kadir sshd[1385]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:17:09 kadir systemd-logind[790]: Removed session 4.
+Apr 16 15:17:09 kadir sshd[1454]: Accepted publickey for jack from 10.0.2.7 port 40432 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:17:09 kadir sshd[1454]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:17:09 kadir systemd-logind[790]: New session 5 of user jack.
+Apr 16 15:17:10 kadir sshd[1520]: Received disconnect from 10.0.2.7 port 40432:11: disconnected by user
+Apr 16 15:17:10 kadir sshd[1520]: Disconnected from user jack 10.0.2.7 port 40432
+Apr 16 15:17:10 kadir sshd[1454]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:17:10 kadir systemd-logind[790]: Removed session 5.
+Apr 16 15:18:08 kadir sshd[1584]: Accepted publickey for jack from 10.0.2.7 port 54730 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:18:08 kadir sshd[1584]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:18:08 kadir systemd-logind[790]: New session 6 of user jack.
+Apr 16 15:18:08 kadir sshd[1650]: Received disconnect from 10.0.2.7 port 54730:11: disconnected by user
+Apr 16 15:18:08 kadir sshd[1650]: Disconnected from user jack 10.0.2.7 port 54730
+Apr 16 15:18:08 kadir sshd[1584]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:18:08 kadir systemd-logind[790]: Removed session 6.
+Apr 16 15:18:08 kadir sshd[1653]: Accepted publickey for jack from 10.0.2.7 port 54734 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:18:08 kadir sshd[1653]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:18:08 kadir systemd-logind[790]: New session 7 of user jack.
+Apr 16 15:18:09 kadir sshd[1719]: Received disconnect from 10.0.2.7 port 54734:11: disconnected by user
+Apr 16 15:18:09 kadir sshd[1719]: Disconnected from user jack 10.0.2.7 port 54734
+Apr 16 15:18:09 kadir sshd[1653]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:18:09 kadir systemd-logind[790]: Removed session 7.
+Apr 16 15:19:57 kadir sshd[1724]: Accepted publickey for jack from 10.0.2.7 port 47582 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:19:57 kadir sshd[1724]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:19:57 kadir systemd-logind[790]: New session 8 of user jack.
+Apr 16 15:19:57 kadir sshd[1790]: Received disconnect from 10.0.2.7 port 47582:11: disconnected by user
+Apr 16 15:19:57 kadir sshd[1790]: Disconnected from user jack 10.0.2.7 port 47582
+Apr 16 15:19:57 kadir sshd[1724]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:19:57 kadir systemd-logind[790]: Removed session 8.
+Apr 16 15:19:57 kadir sshd[1793]: Accepted publickey for jack from 10.0.2.7 port 48346 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:19:57 kadir sshd[1793]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:19:57 kadir systemd-logind[790]: New session 9 of user jack.
+Apr 16 15:19:58 kadir sshd[1859]: Received disconnect from 10.0.2.7 port 48346:11: disconnected by user
+Apr 16 15:19:58 kadir sshd[1859]: Disconnected from user jack 10.0.2.7 port 48346
+Apr 16 15:19:58 kadir sshd[1793]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:19:58 kadir systemd-logind[790]: Removed session 9.
+Apr 16 15:20:01 kadir CRON[1862]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 15:20:02 kadir CRON[1862]: pam_unix(cron:session): session closed for user root
+Apr 16 15:20:19 kadir sshd[1881]: Accepted password for jack from 10.0.2.7 port 51294 ssh2
+Apr 16 15:20:19 kadir sshd[1881]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:20:19 kadir systemd-logind[790]: New session 11 of user jack.
+Apr 16 15:20:20 kadir sshd[1947]: Received disconnect from 10.0.2.7 port 51294:11: disconnected by user
+Apr 16 15:20:20 kadir sshd[1947]: Disconnected from user jack 10.0.2.7 port 51294
+Apr 16 15:20:20 kadir sshd[1881]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:20:20 kadir systemd-logind[790]: Removed session 11.
+Apr 16 15:21:33 kadir sshd[1950]: Accepted password for jack from 10.0.2.7 port 50022 ssh2
+Apr 16 15:21:33 kadir sshd[1950]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:21:33 kadir systemd-logind[790]: New session 12 of user jack.
+Apr 16 15:21:33 kadir sshd[2016]: Received disconnect from 10.0.2.7 port 50022:11: disconnected by user
+Apr 16 15:21:33 kadir sshd[2016]: Disconnected from user jack 10.0.2.7 port 50022
+Apr 16 15:21:33 kadir sshd[1950]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:21:33 kadir systemd-logind[790]: Removed session 12.
+Apr 16 15:22:24 kadir sshd[2022]: Accepted publickey for jack from 10.0.2.7 port 39668 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:22:24 kadir sshd[2022]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:22:24 kadir systemd-logind[790]: New session 13 of user jack.
+Apr 16 15:22:25 kadir sshd[2088]: Received disconnect from 10.0.2.7 port 39668:11: disconnected by user
+Apr 16 15:22:25 kadir sshd[2088]: Disconnected from user jack 10.0.2.7 port 39668
+Apr 16 15:22:25 kadir sshd[2022]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:22:25 kadir systemd-logind[790]: Removed session 13.
+Apr 16 15:22:25 kadir sshd[2091]: Accepted publickey for jack from 10.0.2.7 port 39684 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:22:25 kadir sshd[2091]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:22:25 kadir systemd-logind[790]: New session 14 of user jack.
+Apr 16 15:22:25 kadir sshd[2157]: Received disconnect from 10.0.2.7 port 39684:11: disconnected by user
+Apr 16 15:22:25 kadir sshd[2157]: Disconnected from user jack 10.0.2.7 port 39684
+Apr 16 15:22:25 kadir sshd[2091]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:22:25 kadir systemd-logind[790]: Removed session 14.
+Apr 16 15:22:59 kadir sshd[2160]: Accepted password for jack from 10.0.2.7 port 58202 ssh2
+Apr 16 15:22:59 kadir sshd[2160]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:22:59 kadir systemd-logind[790]: New session 15 of user jack.
+Apr 16 15:23:00 kadir sshd[2226]: Received disconnect from 10.0.2.7 port 58202:11: disconnected by user
+Apr 16 15:23:00 kadir sshd[2226]: Disconnected from user jack 10.0.2.7 port 58202
+Apr 16 15:23:00 kadir sshd[2160]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:23:00 kadir systemd-logind[790]: Removed session 15.
+Apr 16 15:23:03 kadir sshd[2229]: Accepted password for jack from 10.0.2.7 port 35104 ssh2
+Apr 16 15:23:03 kadir sshd[2229]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:23:03 kadir systemd-logind[790]: New session 16 of user jack.
+Apr 16 15:23:03 kadir sshd[2295]: Received disconnect from 10.0.2.7 port 35104:11: disconnected by user
+Apr 16 15:23:03 kadir sshd[2295]: Disconnected from user jack 10.0.2.7 port 35104
+Apr 16 15:23:03 kadir sshd[2229]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:23:03 kadir systemd-logind[790]: Removed session 16.
+Apr 16 15:24:57 kadir sshd[2495]: Failed password for jack from 10.0.2.7 port 54422 ssh2
+Apr 16 15:24:57 kadir sshd[2495]: Failed password for jack from 10.0.2.7 port 54422 ssh2
+Apr 16 15:24:57 kadir sshd[2495]: Connection closed by authenticating user jack 10.0.2.7 port 54422 [preauth]
+Apr 16 15:24:57 kadir sshd[2497]: Failed password for jack from 10.0.2.7 port 54428 ssh2
+Apr 16 15:24:57 kadir sshd[2497]: Failed password for jack from 10.0.2.7 port 54428 ssh2
+Apr 16 15:24:57 kadir sshd[2497]: Connection closed by authenticating user jack 10.0.2.7 port 54428 [preauth]
+Apr 16 15:25:01 kadir CRON[2499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 15:25:02 kadir CRON[2499]: pam_unix(cron:session): session closed for user root
+Apr 16 15:25:10 kadir sshd[2515]: Accepted password for jack from 10.0.2.7 port 58742 ssh2
+Apr 16 15:25:10 kadir sshd[2515]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:25:10 kadir systemd-logind[790]: New session 18 of user jack.
+Apr 16 15:25:11 kadir sshd[2581]: Received disconnect from 10.0.2.7 port 58742:11: disconnected by user
+Apr 16 15:25:11 kadir sshd[2581]: Disconnected from user jack 10.0.2.7 port 58742
+Apr 16 15:25:11 kadir sshd[2515]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:25:11 kadir systemd-logind[790]: Removed session 18.
+Apr 16 15:25:13 kadir sshd[2584]: Accepted password for jack from 10.0.2.7 port 58752 ssh2
+Apr 16 15:25:13 kadir sshd[2584]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:25:13 kadir systemd-logind[790]: New session 19 of user jack.
+Apr 16 15:25:14 kadir sshd[2650]: Received disconnect from 10.0.2.7 port 58752:11: disconnected by user
+Apr 16 15:25:14 kadir sshd[2650]: Disconnected from user jack 10.0.2.7 port 58752
+Apr 16 15:25:14 kadir sshd[2584]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:25:14 kadir systemd-logind[790]: Removed session 19.
+Apr 16 15:26:28 kadir sshd[2653]: Accepted publickey for jack from 10.0.2.7 port 57276 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:26:28 kadir sshd[2653]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:26:28 kadir systemd-logind[790]: New session 20 of user jack.
+Apr 16 15:26:29 kadir sshd[2719]: Received disconnect from 10.0.2.7 port 57276:11: disconnected by user
+Apr 16 15:26:29 kadir sshd[2719]: Disconnected from user jack 10.0.2.7 port 57276
+Apr 16 15:26:29 kadir sshd[2653]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:26:29 kadir systemd-logind[790]: Removed session 20.
+Apr 16 15:27:09 kadir sshd[2731]: Accepted publickey for jack from 10.0.2.7 port 51952 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:27:09 kadir sshd[2731]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:27:09 kadir systemd-logind[790]: New session 21 of user jack.
+Apr 16 15:27:09 kadir sshd[2797]: Received disconnect from 10.0.2.7 port 51952:11: disconnected by user
+Apr 16 15:27:09 kadir sshd[2797]: Disconnected from user jack 10.0.2.7 port 51952
+Apr 16 15:27:09 kadir sshd[2731]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:27:09 kadir systemd-logind[790]: Removed session 21.
+Apr 16 15:29:57 kadir sshd[2808]: Accepted publickey for jack from 10.0.2.7 port 50536 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:29:57 kadir sshd[2808]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:29:57 kadir systemd-logind[790]: New session 22 of user jack.
+Apr 16 15:29:58 kadir sshd[2874]: Received disconnect from 10.0.2.7 port 50536:11: disconnected by user
+Apr 16 15:29:58 kadir sshd[2874]: Disconnected from user jack 10.0.2.7 port 50536
+Apr 16 15:29:58 kadir sshd[2808]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:29:58 kadir systemd-logind[790]: Removed session 22.
+Apr 16 15:29:58 kadir sshd[2877]: Accepted publickey for jack from 10.0.2.7 port 34492 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:29:58 kadir sshd[2877]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:29:58 kadir systemd-logind[790]: New session 23 of user jack.
+Apr 16 15:29:58 kadir sshd[2943]: Received disconnect from 10.0.2.7 port 34492:11: disconnected by user
+Apr 16 15:29:58 kadir sshd[2943]: Disconnected from user jack 10.0.2.7 port 34492
+Apr 16 15:29:58 kadir sshd[2877]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:29:58 kadir systemd-logind[790]: Removed session 23.
+Apr 16 15:30:01 kadir CRON[2946]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 15:30:01 kadir CRON[2946]: pam_unix(cron:session): session closed for user root
+Apr 16 15:30:03 kadir sshd[2962]: Accepted publickey for jack from 10.0.2.7 port 34506 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:30:03 kadir sshd[2962]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:30:03 kadir systemd-logind[790]: New session 25 of user jack.
+Apr 16 15:30:04 kadir sshd[3028]: Received disconnect from 10.0.2.7 port 34506:11: disconnected by user
+Apr 16 15:30:04 kadir sshd[3028]: Disconnected from user jack 10.0.2.7 port 34506
+Apr 16 15:30:04 kadir sshd[2962]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:30:04 kadir systemd-logind[790]: Removed session 25.
+Apr 16 15:31:42 kadir sshd[3041]: Accepted publickey for jack from 10.0.2.7 port 36418 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:31:42 kadir sshd[3041]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:31:42 kadir systemd-logind[790]: New session 26 of user jack.
+Apr 16 15:31:42 kadir sshd[3128]: Received disconnect from 10.0.2.7 port 36418:11: disconnected by user
+Apr 16 15:31:42 kadir sshd[3128]: Disconnected from user jack 10.0.2.7 port 36418
+Apr 16 15:31:42 kadir sshd[3041]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:31:42 kadir systemd-logind[790]: Removed session 26.
+Apr 16 15:31:42 kadir sshd[3131]: Accepted publickey for jack from 10.0.2.7 port 36422 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:31:42 kadir sshd[3131]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:31:42 kadir systemd-logind[790]: New session 27 of user jack.
+Apr 16 15:31:43 kadir sshd[3197]: Received disconnect from 10.0.2.7 port 36422:11: disconnected by user
+Apr 16 15:31:43 kadir sshd[3197]: Disconnected from user jack 10.0.2.7 port 36422
+Apr 16 15:31:43 kadir sshd[3131]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:31:43 kadir systemd-logind[790]: Removed session 27.
+Apr 16 15:32:33 kadir sshd[3203]: Accepted publickey for jack from 10.0.2.7 port 55294 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:32:33 kadir sshd[3203]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:32:33 kadir systemd-logind[790]: New session 28 of user jack.
+Apr 16 15:32:34 kadir sshd[3269]: Received disconnect from 10.0.2.7 port 55294:11: disconnected by user
+Apr 16 15:32:34 kadir sshd[3269]: Disconnected from user jack 10.0.2.7 port 55294
+Apr 16 15:32:34 kadir systemd-logind[790]: Removed session 28.
+Apr 16 15:32:34 kadir sshd[3203]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:32:34 kadir sshd[3272]: Accepted publickey for jack from 10.0.2.7 port 55300 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:32:34 kadir sshd[3272]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:32:34 kadir systemd-logind[790]: New session 29 of user jack.
+Apr 16 15:32:35 kadir sshd[3338]: Received disconnect from 10.0.2.7 port 55300:11: disconnected by user
+Apr 16 15:32:35 kadir sshd[3338]: Disconnected from user jack 10.0.2.7 port 55300
+Apr 16 15:32:35 kadir sshd[3272]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:32:35 kadir systemd-logind[790]: Removed session 29.
+Apr 16 15:34:57 kadir sshd[3341]: Accepted publickey for jack from 10.0.2.7 port 58508 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:34:57 kadir sshd[3341]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:34:57 kadir systemd-logind[790]: New session 30 of user jack.
+Apr 16 15:34:59 kadir sshd[3407]: Received disconnect from 10.0.2.7 port 58508:11: disconnected by user
+Apr 16 15:34:59 kadir sshd[3407]: Disconnected from user jack 10.0.2.7 port 58508
+Apr 16 15:34:59 kadir sshd[3341]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:34:59 kadir systemd-logind[790]: Removed session 30.
+Apr 16 15:34:59 kadir sshd[3410]: Accepted publickey for jack from 10.0.2.7 port 52298 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:34:59 kadir sshd[3410]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:34:59 kadir systemd-logind[790]: New session 31 of user jack.
+Apr 16 15:34:59 kadir sshd[3476]: Received disconnect from 10.0.2.7 port 52298:11: disconnected by user
+Apr 16 15:34:59 kadir sshd[3476]: Disconnected from user jack 10.0.2.7 port 52298
+Apr 16 15:34:59 kadir sshd[3410]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:34:59 kadir systemd-logind[790]: Removed session 31.
+Apr 16 15:35:01 kadir CRON[3479]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 15:35:02 kadir CRON[3479]: pam_unix(cron:session): session closed for user root
+Apr 16 15:37:19 kadir sshd[3498]: Accepted publickey for jack from 10.0.2.7 port 42718 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:37:19 kadir sshd[3498]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:37:19 kadir systemd-logind[790]: New session 33 of user jack.
+Apr 16 15:37:20 kadir sshd[3564]: Received disconnect from 10.0.2.7 port 42718:11: disconnected by user
+Apr 16 15:37:20 kadir sshd[3564]: Disconnected from user jack 10.0.2.7 port 42718
+Apr 16 15:37:20 kadir sshd[3498]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:37:20 kadir systemd-logind[790]: Removed session 33.
+Apr 16 15:37:20 kadir sshd[3567]: Accepted publickey for jack from 10.0.2.7 port 42730 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:37:20 kadir sshd[3567]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:37:20 kadir systemd-logind[790]: New session 34 of user jack.
+Apr 16 15:37:20 kadir sshd[3633]: Received disconnect from 10.0.2.7 port 42730:11: disconnected by user
+Apr 16 15:37:20 kadir sshd[3633]: Disconnected from user jack 10.0.2.7 port 42730
+Apr 16 15:37:20 kadir sshd[3567]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:37:20 kadir systemd-logind[790]: Removed session 34.
+Apr 16 15:39:57 kadir sshd[3637]: Accepted publickey for jack from 10.0.2.7 port 44998 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:39:57 kadir sshd[3637]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:39:57 kadir systemd-logind[790]: New session 35 of user jack.
+Apr 16 15:39:58 kadir sshd[3703]: Received disconnect from 10.0.2.7 port 44998:11: disconnected by user
+Apr 16 15:39:58 kadir sshd[3703]: Disconnected from user jack 10.0.2.7 port 44998
+Apr 16 15:39:58 kadir sshd[3637]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:39:58 kadir systemd-logind[790]: Removed session 35.
+Apr 16 15:39:59 kadir sshd[3706]: Accepted publickey for jack from 10.0.2.7 port 45010 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:39:59 kadir sshd[3706]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:39:59 kadir systemd-logind[790]: New session 36 of user jack.
+Apr 16 15:39:59 kadir sshd[3772]: Received disconnect from 10.0.2.7 port 45010:11: disconnected by user
+Apr 16 15:39:59 kadir sshd[3772]: Disconnected from user jack 10.0.2.7 port 45010
+Apr 16 15:39:59 kadir sshd[3706]: pam_unix(sshd:session): session closed for user jack
+Apr 16 15:39:59 kadir systemd-logind[790]: Removed session 36.
+Apr 16 15:40:01 kadir CRON[3775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 16 15:40:01 kadir CRON[3775]: pam_unix(cron:session): session closed for user root
+Apr 16 15:45:22 kadir systemd-logind[786]: New seat seat0.
+Apr 16 15:45:22 kadir systemd-logind[786]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 16 15:45:22 kadir systemd-logind[786]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 16 15:45:22 kadir systemd-logind[786]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 16 15:45:23 kadir sshd[958]: Server listening on 0.0.0.0 port 22.
+Apr 16 15:45:23 kadir sshd[958]: Server listening on :: port 22.
+Apr 16 15:45:26 kadir sshd[1176]: Accepted password for jack from 10.0.2.7 port 33176 ssh2
+Apr 16 15:45:26 kadir sshd[1176]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:45:26 kadir systemd: pam_unix(systemd-user:session): session opened for user jack by (uid=0)
+Apr 16 15:45:26 kadir systemd-logind[786]: New session 1 of user jack.
+Apr 16 15:45:34 kadir su[1325]: Successful su for root by jack
+Apr 16 15:45:34 kadir su[1325]: + /dev/pts/0 jack:root
+Apr 16 15:45:34 kadir su[1325]: pam_unix(su:session): session opened for user root by jack(uid=1001)
+Apr 16 15:45:34 kadir su[1325]: pam_systemd(su:session): Cannot create session: Already running in a session
+Apr 16 15:49:58 kadir sshd[1351]: Accepted publickey for jack from 10.0.2.7 port 38008 ssh2: RSA SHA256:7wjfnV3C2HtLcZUmNfWr7hXNsYqwysMRbWi/ob06m80
+Apr 16 15:49:58 kadir sshd[1351]: pam_unix(sshd:session): session opened for user jack by (uid=0)
+Apr 16 15:49:58 kadir systemd-logind[786]: New session 3 of user jack.

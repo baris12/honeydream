@@ -1,0 +1,42 @@
+2021-08-16 05:31:31,700 INFO subiquity:135 Starting Subiquity revision 1966
+2021-08-16 05:31:31,700 INFO subiquity:136 Arguments passed: ['/snap/subiquity/1966/usr/bin/subiquity']
+2021-08-16 05:31:32,836 INFO root:39 start: subiquity/Welcome: starting UI
+2021-08-16 05:31:32,866 ERROR root:39 finish: subiquity/Refresh/check_for_update: FAIL: cancelled
+2021-08-16 05:31:33,096 ERROR probert.multipath:38 Failed to run cmd: ['multipathd', 'show', 'maps', 'raw', 'format', '%w,%d,%N']
+2021-08-16 05:31:33,098 ERROR probert.multipath:38 Failed to run cmd: ['multipathd', 'show', 'paths', 'raw', 'format', '%d,%z,%m,%N,%n,%R,%r,%a']
+2021-08-16 05:31:33,153 INFO curtin:1324 Validating extracted storage config components
+2021-08-16 05:31:36,494 INFO root:39 finish: subiquity/Welcome: SUCCESS: completed
+2021-08-16 05:31:36,494 INFO root:39 start: subiquity/Refresh: starting UI
+2021-08-16 05:31:39,443 INFO root:39 finish: subiquity/Refresh: SUCCESS: completed
+2021-08-16 05:31:39,444 INFO root:39 start: subiquity/Keyboard: starting UI
+2021-08-15 16:32:06,248 INFO root:39 finish: subiquity/Keyboard: SUCCESS: completed
+2021-08-15 16:32:06,248 INFO root:39 start: subiquity/Network: starting UI
+2021-08-15 16:32:06,252 INFO root:39 start: subiquity/Network/apply_config: silent=True
+2021-08-15 16:32:06,686 INFO root:39 finish: subiquity/Network/apply_config: SUCCESS: silent=True
+2021-08-15 16:32:08,147 INFO root:39 finish: subiquity/Network: SUCCESS: completed
+2021-08-15 16:32:08,147 INFO root:39 start: subiquity/Proxy: starting UI
+2021-08-15 16:32:09,067 INFO root:39 finish: subiquity/Proxy: SUCCESS: completed
+2021-08-15 16:32:09,067 INFO root:39 start: subiquity/Mirror: starting UI
+2021-08-15 16:32:09,766 INFO root:39 finish: subiquity/Mirror: SUCCESS: completed
+2021-08-15 16:32:09,766 INFO root:39 start: subiquity/Refresh: starting UI
+2021-08-15 16:32:09,766 INFO root:39 finish: subiquity/Refresh: SUCCESS: (skipped)
+2021-08-15 16:32:09,767 INFO root:39 start: subiquity/Filesystem: starting UI
+2021-08-15 16:32:14,974 INFO root:39 finish: subiquity/Filesystem: SUCCESS: completed
+2021-08-15 16:32:14,975 INFO root:39 start: subiquity/Identity: starting UI
+2021-08-15 16:32:14,985 INFO root:39 start: subiquity/InstallProgress/install/curtin_install: installing system
+2021-08-15 16:37:18,612 INFO root:39 finish: subiquity/Identity: SUCCESS: completed
+2021-08-15 16:37:18,613 INFO root:39 start: subiquity/SSH: starting UI
+2021-08-15 16:37:24,102 INFO root:39 finish: subiquity/SSH: SUCCESS: completed
+2021-08-15 16:37:24,102 INFO root:39 start: subiquity/SnapList: starting UI
+2021-08-15 16:37:24,103 ERROR subiquity.views.snaplist:434 could not find source at '/media/filesystem/var/lib/snapd/seed/seed.yaml'
+Traceback (most recent call last):
+  File "/snap/subiquity/1966/lib/python3.6/site-packages/subiquity/ui/views/snaplist.py", line 431, in get_seed_yaml
+    with open(seed_location, encoding='utf-8', errors='replace') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/media/filesystem/var/lib/snapd/seed/seed.yaml'
+2021-08-15 16:37:41,176 INFO root:39 finish: subiquity/SnapList: SUCCESS: completed
+2021-08-15 16:37:41,176 INFO root:39 start: subiquity/InstallProgress: starting UI
+2021-08-15 16:43:40,999 INFO root:39 finish: subiquity/InstallProgress/install/curtin_install: SUCCESS: installing system
+2021-08-15 16:43:41,202 INFO root:39 start: subiquity/InstallProgress/install/postinstall: final system configuration
+2021-08-15 16:44:15,229 INFO root:39 finish: subiquity/InstallProgress/install/postinstall: SUCCESS: final system configuration
+2021-08-15 16:54:35,360 INFO root:39 finish: subiquity/InstallProgress: SUCCESS: completed
+2021-08-15 16:54:35,360 INFO root:39 start: subiquity/Reboot: starting UI

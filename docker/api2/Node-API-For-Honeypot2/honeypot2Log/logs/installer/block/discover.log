@@ -1,0 +1,26 @@
+2021-08-16 05:31:32,732 curtin:89 Running command ['dpkg', '--print-architecture'] with allowed return codes [0] (capture=True)
+2021-08-16 05:31:33,031 probert.dasd:116 Probing DASD devies
+2021-08-16 05:31:33,032 probert.dasd:119 DASD devices only present on s390x, arch=x86_64
+2021-08-16 05:31:33,096 probert.multipath:38 Failed to run cmd: ['multipathd', 'show', 'maps', 'raw', 'format', '%w,%d,%N']
+2021-08-16 05:31:33,098 probert.multipath:38 Failed to run cmd: ['multipathd', 'show', 'paths', 'raw', 'format', '%d,%z,%m,%N,%n,%R,%r,%a']
+2021-08-16 05:31:33,141 curtin:1298 Extracting storage config from probe data
+2021-08-16 05:31:33,152 curtin:1305 Sorting extracted configurations
+2021-08-16 05:31:33,153 curtin:1324 Validating extracted storage config components
+2021-08-16 05:31:33,161 curtin:1343 Extracted (unmerged) storage config:
+storage:
+-   id: disk-sda
+    path: /dev/sda
+    serial: VBOX_HARDDISK_VBf24e065c-18e213b1
+    type: disk
+
+2021-08-16 05:31:33,162 curtin:1345 Generating storage config dependencies
+2021-08-16 05:31:33,162 curtin:1351 Merging storage config dependencies
+2021-08-16 05:31:33,162 curtin:1358 Merged storage config:
+storage:
+    config:
+    -   id: disk-sda
+        path: /dev/sda
+        serial: VBOX_HARDDISK_VBf24e065c-18e213b1
+        type: disk
+    version: 1
+

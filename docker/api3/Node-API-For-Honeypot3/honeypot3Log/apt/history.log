@@ -1,0 +1,5 @@
+
+Start-Date: 2021-07-18  08:26:01
+Commandline: apt remove samba
+Remove: samba:amd64 (2:4.3.11+dfsg-0ubuntu0.16.04.34), winbind:amd64 (2:4.3.11+dfsg-0ubuntu0.16.04.34)
+End-Date: 2021-07-18  08:26:07

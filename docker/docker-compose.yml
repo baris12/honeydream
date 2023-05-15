@@ -1,0 +1,121 @@
+version: '3.9'
+
+services:
+  honeypot1_service:
+    container_name: honeydream_honeypot1_c
+    # build: honeypot1/
+    image: barisakbas/honeydream:honeypot_1
+    networks:
+      honeynet:
+        ipv4_address: 172.28.5.1
+    ports:
+      - "21:21"
+      - "8081:80"
+    tty: true
+    stdin_open: true
+
+  honeypot2_service: 
+    container_name: honeydream_honeypot2_c
+    # build: honeypot2/
+    image: barisakbas/honeydream:honeypot_2
+    networks:
+      honeynet:
+        ipv4_address: 172.28.5.2
+    ports:
+      - "8080:8080"
+    tty: true
+    stdin_open: true
+  
+  honeypot3_service:
+     container_name: honeydream_honeypot3_c
+    #  build: honeypot3/
+     image: barisakbas/honeydream:honeypot_3
+     networks:
+       honeynet:
+         ipv4_address: 172.28.5.3
+     ports:
+       - "4444:4444"
+       - "80:80"
+     tty: true
+     stdin_open: true
+
+  api1:
+    container_name: api1_c
+    image: "barisakbas/honeydream:api1"
+    environment:
+      - NODE_ENV=production
+    command: "npm start"
+    volumes:
+      - honeydream_honeypot1_logs:/app/honeypot1Log:rw
+    networks:
+      honeynet:
+        ipv4_address: 172.28.5.4
+    ports:
+      - "3000:3000"
+    tty: true
+    stdin_open: true
+  
+  api2:
+    container_name: api2_c
+    image: "barisakbas/honeydream:api2"
+    environment:
+      - NODE_ENV=production
+    command: "npm start"
+    volumes:
+      - honeydream_honeypot2_logs:/app/honeypot2Log/logs:rw
+      - honeydream_honeypot2_tomcatlogs:/app/honeypot2Log/tomcatlogs:rw
+    networks:
+      honeynet:
+        ipv4_address: 172.28.5.5
+    ports:
+      - "3001:3000"
+    tty: true
+    stdin_open: true
+
+  api3:
+    container_name: api3_c
+    image: "barisakbas/honeydream:api3"
+    environment:
+      - NODE_ENV=production
+    command: "npm start"
+    volumes:
+      - honeydream_honeypot3_logs:/app/honeypot3Log:rw
+    networks:
+      honeynet:
+        ipv4_address: 172.28.5.6
+    ports:
+      - "3002:3000"
+    tty: true
+    stdin_open: true
+  
+  center_machine:
+    container_name: center_machine_c
+    image: barisakbas/honeydream:center
+    command: "bin/bash"
+    volumes:
+      - honeydream_honeypot1_logs:/tmp/logs:rw
+      - honeydream_honeypot2_logs:/tmp/honeypot2/logs/:rw
+      - honeydream_honeypot2_tomcatlogs:/tmp/honeypot2/tomcatlogs/
+      - honeydream_honeypot3_logs:/tmp/honeypot3/:rw
+    networks:
+      honeynet:
+        ipv4_address: 172.28.5.7
+    ports:
+      - "3003:3000"
+    tty: true
+    stdin_open: true
+
+
+networks:
+  honeynet:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.28.0.0/16
+
+volumes:
+  honeydream_honeypot1_logs:
+  honeydream_honeypot2_logs:
+  honeydream_honeypot2_tomcatlogs:
+  honeydream_honeypot3_logs:
+
