@@ -26,7 +26,7 @@ const listData = async (ip,date,method,path,status,index)=>{
 }
 
 const allTrafficController = ()=>{
-        let data = fs.readFileSync("./honeypot2Log/tomcatlogs/localhost_access_log.2023-04-16.txt","utf-8").split("\n")
+        let data = fs.readFileSync("./honeypot2Log/tomcatlogs/localhost_access_log.2023-06-20.txt","utf-8").split("\n")
         data.forEach((log,index)=>{
             //console.log(index)
             const rawLog = log?.split(" ")
@@ -44,7 +44,7 @@ const allTrafficController = ()=>{
         
 }
 
-fs.watchFile("./honeypot2Log/tomcatlogs/localhost_access_log.2023-04-16.txt", (curr, prev)=> {        // file'da bir değişiklik olduğunda tetiklenir
+fs.watchFile("./honeypot2Log/tomcatlogs/localhost_access_log.2023-06-20.txt", (curr, prev)=> {        // file'da bir değişiklik olduğunda tetiklenir
   console.log("File was modified.");
   allTrafficController()
      //console.log(data);

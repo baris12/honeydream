@@ -1,22 +1,22 @@
 version: '3.9'
 
 services:
-  honeypot1_service:
-    container_name: honeydream_honeypot1_c
-    # build: honeypot1/
-    image: barisakbas/honeydream:honeypot_1
+  honeypot1_service: # ftp anonymous vulnerability
+    container_name: honeydream_honeypot1_c # the container name is shown in docker system while runtime
+    build: honeypot1/ # build path as optional way to get image 
+    image: barisakbas/honeydream:honeypot_1 # pre-built image path in the docker hub
     networks:
-      honeynet:
-        ipv4_address: 172.28.5.1
-    ports:
-      - "21:21"
+      honeynet: # 
+        ipv4_address: 172.28.5.1 # ip address of the container
+    ports: # ports which are to used
+      - "21:21" 
       - "8081:80"
     tty: true
     stdin_open: true
 
-  honeypot2_service: 
+  honeypot2_service: # tomcat 9.0.52 version vulnerability
     container_name: honeydream_honeypot2_c
-    # build: honeypot2/
+    build: honeypot2/
     image: barisakbas/honeydream:honeypot_2
     networks:
       honeynet:
@@ -26,10 +26,10 @@ services:
     tty: true
     stdin_open: true
   
-  honeypot3_service:
+  honeypot3_service: # oscommerce service vulnerability
      container_name: honeydream_honeypot3_c
-    #  build: honeypot3/
-     image: barisakbas/honeydream:honeypot_3
+     build: honeypot3/
+     image: barisakbas/honeydream:honeypot_3 # image repository
      networks:
        honeynet:
          ipv4_address: 172.28.5.3
@@ -39,12 +39,15 @@ services:
      tty: true
      stdin_open: true
 
-  api1:
+  api1: # this service is for updating database with the logs of the honeypot 1
     container_name: api1_c
+    build: api1/
     image: "barisakbas/honeydream:api1"
     environment:
       - NODE_ENV=production
     command: "npm start"
+    depends_on:
+      - center_machine    
     volumes:
       - honeydream_honeypot1_logs:/app/honeypot1Log:rw
     networks:
@@ -55,13 +58,16 @@ services:
     tty: true
     stdin_open: true
   
-  api2:
+  api2: # this service is for updating database with the logs of the honeypot 2
     container_name: api2_c
+    build: api2/
     image: "barisakbas/honeydream:api2"
     environment:
       - NODE_ENV=production
     command: "npm start"
-    volumes:
+    depends_on:
+      - center_machine    
+    volumes: # these volumes is used for creating common storage between this service and the center_machine service
       - honeydream_honeypot2_logs:/app/honeypot2Log/logs:rw
       - honeydream_honeypot2_tomcatlogs:/app/honeypot2Log/tomcatlogs:rw
     networks:
@@ -72,12 +78,15 @@ services:
     tty: true
     stdin_open: true
 
-  api3:
+  api3: # this service is for updating database with the logs of the honeypot 3
     container_name: api3_c
+    build: api3/
     image: "barisakbas/honeydream:api3"
     environment:
       - NODE_ENV=production
     command: "npm start"
+    depends_on:
+      - center_machine
     volumes:
       - honeydream_honeypot3_logs:/app/honeypot3Log:rw
     networks:
@@ -88,12 +97,17 @@ services:
     tty: true
     stdin_open: true
   
-  center_machine:
+  center_machine: # this service operates the log aggregation process
     container_name: center_machine_c
+    build: center_machine/
     image: barisakbas/honeydream:center
     command: "bin/bash"
+    depends_on:
+      - honeypot1_service
+      - honeypot2_service
+      - honeypot3_service
     volumes:
-      - honeydream_honeypot1_logs:/tmp/logs:rw
+      - honeydream_honeypot1_logs:/tmp/honeypot1/:rw
       - honeydream_honeypot2_logs:/tmp/honeypot2/logs/:rw
       - honeydream_honeypot2_tomcatlogs:/tmp/honeypot2/tomcatlogs/
       - honeydream_honeypot3_logs:/tmp/honeypot3/:rw
@@ -107,13 +121,13 @@ services:
 
 
 networks:
-  honeynet:
+  honeynet: # the network which is used by all the containers in this document
     ipam:
       driver: default
       config:
         - subnet: 172.28.0.0/16
 
-volumes:
+volumes: # all volumes
   honeydream_honeypot1_logs:
   honeydream_honeypot2_logs:
   honeydream_honeypot2_tomcatlogs:

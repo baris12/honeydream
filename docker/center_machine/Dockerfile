@@ -1,5 +1,8 @@
 FROM ubuntu:18.04
 
+ENV DEBIAN_FRONTEND=noninteractive
+ENV SSH_PASSWORD onion
+
 RUN apt-get update
 RUN apt-get install -y \
     cron \
@@ -8,7 +11,9 @@ RUN apt-get install -y \
     sudo \
     wget \
     nano \
-    zip
+    zip \
+    sshpass \
+    ftp
 
 # copying the scripts for cron job
 COPY xx.sh /usr/bin/xx.sh
@@ -20,10 +25,9 @@ RUN chmod +x /usr/bin/xx2.sh
 COPY xx3.sh /usr/bin/xx3.sh
 RUN chmod +x /usr/bin/xx3.sh
 
-# creating cron jobs
-COPY cronfile /etc/cron.d/cronfile
 #
 COPY start.sh /
 RUN chmod +x start.sh
+
 
 ENTRYPOINT /start.sh

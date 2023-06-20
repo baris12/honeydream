@@ -27,7 +27,7 @@ const alertLogData = async (alertIp)=>{
 }
 
 const controller =async ()=>{
-    let data = fs.readFileSync("./honeypot2Log/tomcatlogs/localhost_access_log.2023-04-16.txt","utf-8").split("\n")
+    let data = fs.readFileSync("./honeypot2Log/tomcatlogs/localhost_access_log.2023-06-20.txt","utf-8").split("\n")
     await data.forEach((log,index)=>{
         //console.log(index)
         const rawLog = log?.split(" ")
@@ -85,7 +85,7 @@ const filter = async ()=>{
             //const PathlistCheck = alertIp.find(data => data.alertDescription == "The Honeypot path is found!! The attacker is here")
             //const list1 = alertIp.find(data => data.alertDescription == "The attack this attack may be a dictionary attack")
             alertIp.push({pid:i+1,ip:filter1[i].ip,date:filter1[i].date,method:filter1[i].method,path:filter1[i].path,status:filter1[i].status,alertLevel:"Very High",alertDescription:"Attacker is in!!"})
-    }
+        }
 
 
         beforeDate = splitDate
@@ -100,7 +100,7 @@ const filter = async ()=>{
 
 }
 
-fs.watchFile("./honeypot2Log/tomcatlogs/localhost_access_log.2023-04-16.txt", async (curr, prev)=> {        // file'da bir değişiklik olduğunda tetiklenir
+fs.watchFile("./honeypot2Log/tomcatlogs/localhost_access_log.2023-06-20.txt", async (curr, prev)=> {        // file'da bir değişiklik olduğunda tetiklenir
     console.log("File was modified.");
     filter1=[]
     await controller()

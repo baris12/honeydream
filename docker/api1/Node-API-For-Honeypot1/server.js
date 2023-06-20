@@ -4,7 +4,6 @@ const mongoose = require ("mongoose")
 const {controller,filter} = require("./filter_process")
 const {run,xferlogFilter} = require("./xferlog")
 const {allTrafficController} = require("./file_process")
-const {bashRun,bashLogFilter} = require("./bash_process")
 
 const DB_URL ="mongodb+srv://fantakafa:123456Ankara@cluster0.4zz9kcx.mongodb.net/?retryWrites=true&w=majority"
 

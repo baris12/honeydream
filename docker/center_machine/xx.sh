@@ -1,2 +1,2 @@
 #!/bin/bash
-scp -i /home/kali/.ssh/id_rsa -r tech@172.28.5.1:/var/log/* /tmp/logs/
+scp -i /root/.ssh/id_rsa -r susan@172.28.5.1:/var/log/* /tmp/honeypot1/

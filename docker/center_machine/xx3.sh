@@ -1,3 +1,3 @@
 #!/bin/bash
-scp -i /home/kali/.ssh/id_rsa -r susan@172.28.5.3:/var/log/* /tmp/honeypot3/
+scp -i /root/.ssh/id_rsa -r cagatay@172.28.5.3:/var/log/* /tmp/honeypot3/
 

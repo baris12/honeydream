@@ -25,8 +25,8 @@ RUN apt install rsyslog -y
 RUN echo "auth,authpriv.* /var/log/auth.log" | sudo tee -a /etc/rsyslog.conf
 
 # user operations
-RUN adduser thales --disabled-password
-RUN echo 'thales:vodka06' | chpasswd
+RUN adduser baris --disabled-password
+RUN echo 'baris:onion' | chpasswd
 RUN echo 'root:toor' | chpasswd
 
 # copying configuration files
@@ -41,6 +41,10 @@ COPY web_template.zip /opt/tomcat/apache-tomcat-9.0.52/webapps/ROOT/
 RUN unzip web_template.zip
 RUN rm web_template.zip
 WORKDIR /
+
+# file permissions
+RUN chmod 755 /var/log/*
+RUN chmod 755 /opt/tomcat/apache-tomcat-9.0.52/logs/*
 
 COPY start.sh /
 RUN chmod +x start.sh

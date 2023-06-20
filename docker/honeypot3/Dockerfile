@@ -17,16 +17,19 @@ RUN apt-get update -y
 RUN apt-get install php7.0 -y
 
 # user operations
-RUN adduser susan --disabled-password
-RUN echo 'susan:onion' | chpasswd
+RUN adduser cagatay --disabled-password
+RUN echo 'cagatay:onion' | chpasswd
 RUN echo 'root:toor' | chpasswd
 
 # copying configuration files
 COPY file.zip /
+RUN rm /var/www/html/index.html
 RUN unzip -o file.zip -d /var/www/html/
 RUN rm file.zip
 
-
+# file permissions
+RUN chmod 755 /var/log/*
+RUN chmod 755 /var/log/apache2/*
 
 COPY start.sh /
 RUN chmod +x start.sh
